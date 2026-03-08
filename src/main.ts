@@ -3,6 +3,7 @@ import { BootScene }               from './scenes/BootScene';
 import { PreloadScene }            from './scenes/PreloadScene';
 import { CharacterCreationScene }  from './scenes/CharacterCreationScene';
 import { LocationScene }           from './scenes/LocationScene';
+import { DialogueScene }           from './scenes/DialogueScene';
 import { GAME_WIDTH, GAME_HEIGHT } from './utils/constants';
 
 const config: Phaser.Types.Core.GameConfig = {
@@ -13,7 +14,8 @@ const config: Phaser.Types.Core.GameConfig = {
   parent:          document.body,
   // Scene order: Phaser starts the first scene automatically (BootScene).
   // Each scene transitions to the next via this.scene.start().
-  scene: [BootScene, PreloadScene, CharacterCreationScene, LocationScene],
+  // DialogueScene is an overlay launched on top of LocationScene as needed.
+  scene: [BootScene, PreloadScene, CharacterCreationScene, LocationScene, DialogueScene],
   scale: {
     mode:       Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,

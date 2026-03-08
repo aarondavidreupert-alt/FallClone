@@ -1,0 +1,83 @@
+{
+  "npc_id": "overseer",
+  "npc_name": "The Overseer",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Vault Dweller. Good — I was hoping to speak with you. I'll be blunt: our water chip has failed. The recyclers will run dry in 150 days. Without a replacement chip, every one of the 1,000 people in this vault dies. I need you to go outside and find one.",
+      "responses": [
+        { "text": "Where should I look for a water chip?",   "next": "where_to_look", "skill_check": null },
+        { "text": "150 days? That's not much time.",         "next": "time_pressure",  "skill_check": null },
+        { "text": "Why are you sending me?",                 "next": "why_me",          "skill_check": null },
+        { "text": "I understand. I'll leave immediately.",   "next": "farewell",        "skill_check": null }
+      ]
+    },
+    {
+      "id": "where_to_look",
+      "text": "Our records show Vault 15, roughly 100 miles to the northeast, was built at the same time as ours with compatible systems. They're the most likely source. The Hub trading post, due south, is another option — the water merchants there deal in old vault salvage.",
+      "responses": [
+        { "text": "Tell me more about Vault 15.",           "next": "vault15_info",   "skill_check": null },
+        { "text": "Tell me about The Hub.",                 "next": "hub_info",        "skill_check": null },
+        { "text": "What dangers should I expect outside?",  "next": "dangers",         "skill_check": null },
+        { "text": "I have everything I need. I'll go.",     "next": "farewell",        "skill_check": null }
+      ]
+    },
+    {
+      "id": "vault15_info",
+      "text": "It's beyond the mountains to the northeast — we lost contact years ago. The entrance should still be intact, assuming scavengers haven't stripped it bare. If anyone there survived, tread carefully. If it's abandoned, search the lower levels for the chip storage.",
+      "responses": [
+        { "text": "What about The Hub?",             "next": "hub_info",    "skill_check": null },
+        { "text": "Any other leads?",                "next": "where_to_look", "skill_check": null },
+        { "text": "I'll head for Vault 15 now.",    "next": "farewell",    "skill_check": null }
+      ]
+    },
+    {
+      "id": "hub_info",
+      "text": "The Hub is a major trading settlement, a few days south along the old highway. Find the water merchants in the marketplace — they salvage old vault components. It's a longer shot than Vault 15, but worth checking if the other vault is a dead end.",
+      "responses": [
+        { "text": "Tell me about Vault 15.",         "next": "vault15_info", "skill_check": null },
+        { "text": "What dangers are out there?",     "next": "dangers",      "skill_check": null },
+        { "text": "I'll check The Hub.",             "next": "farewell",     "skill_check": null }
+      ]
+    },
+    {
+      "id": "dangers",
+      "text": "Raiders. Radscorpions. Feral dogs. Communities that shoot first and don't ask questions. The wasteland is not forgiving. Take whatever equipment you need from the armory on your way out — the access terminal is down the hall. Don't be reckless. A dead courier brings back nothing.",
+      "responses": [
+        { "text": "Where exactly should I look?",   "next": "where_to_look", "skill_check": null },
+        { "text": "I'm prepared. I'll leave now.",  "next": "farewell",      "skill_check": null }
+      ]
+    },
+    {
+      "id": "time_pressure",
+      "text": "150 days is the hard limit before the recyclers seize completely. In practice, rationing will cause unrest long before that. Every day you spend inside this vault is one day less before the end. There's no time for hesitation.",
+      "responses": [
+        { "text": "Where should I look for the chip?", "next": "where_to_look", "skill_check": null },
+        { "text": "I'll leave immediately.",            "next": "farewell",      "skill_check": null }
+      ]
+    },
+    {
+      "id": "why_me",
+      "text": "The genetic lottery selected you as the best physical and mental specimen this vault has produced. And frankly, because someone has to go, and you're the one standing in my office. Does it matter? The vault needs that chip, and you're the only one who can get it.",
+      "responses": [
+        { "text": "Where do I look for the chip?",   "next": "where_to_look", "skill_check": null },
+        { "text": "Fair enough. I'll go.",            "next": "farewell",      "skill_check": null }
+      ]
+    },
+    {
+      "id": "farewell",
+      "text": "Good luck, Vault Dweller. The lives of 1,000 people rest on your shoulders. The armory access code is on the terminal down the hall — take whatever you need. Don't come back without that chip. We're all counting on you.",
+      "responses": [
+        { "text": "I won't fail you. Farewell.",    "next": "end",         "skill_check": null },
+        { "text": "One last question first.",       "next": "last_advice", "skill_check": null }
+      ]
+    },
+    {
+      "id": "last_advice",
+      "text": "Trust no one completely. The wasteland has a way of corrupting even good people. Keep moving, stay alert, and remember what you're fighting for — everyone back here is depending on you. Now go. The clock is already ticking.",
+      "responses": [
+        { "text": "Understood. Farewell, Overseer.", "next": "end", "skill_check": null }
+      ]
+    }
+  ]
+}
