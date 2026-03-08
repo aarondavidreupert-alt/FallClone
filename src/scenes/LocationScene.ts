@@ -95,6 +95,13 @@ export class LocationScene extends Phaser.Scene {
   private hudCoord!: Phaser.GameObjects.Text;
   private hudTile!:  Phaser.GameObjects.Text;
 
+  // ── Cameras ───────────────────────────────────────────────────────────────
+  // uiCam is a permanent overlay camera: zoom=1, scroll=(0,0) forever.
+  // It renders only HUD objects; all world tiles are excluded from it.
+  // The main camera renders only world tiles; all HUD objects are excluded.
+  // This means HUD elements are never affected by main-camera zoom changes.
+  private uiCam!: Phaser.Cameras.Scene2D.Camera;
+
   constructor() {
     super({ key: 'LocationScene' });
   }
@@ -105,9 +112,22 @@ export class LocationScene extends Phaser.Scene {
     this.mapData = this.registry.get('mapData') as VaultMapData;
 
     this._setupInput();
+    this._setupUiCamera();   // must be created before any tiles or HUD objects
     this._renderLevel(0);
     this._buildHud();
     this._setupMouseWheel();
+  }
+
+  // ── Camera setup ──────────────────────────────────────────────────────────
+
+  private _setupUiCamera(): void {
+    const { width, height } = this.scale;
+    // Add a second camera that covers the full viewport.
+    // makeMain=false keeps cameras.main pointing at the world camera.
+    this.uiCam = this.cameras.add(0, 0, width, height, false, 'hud');
+    // Lock zoom and scroll permanently — HUD world-coords equal screen-coords.
+    this.uiCam.setZoom(1);
+    this.uiCam.setScroll(0, 0);
   }
 
   // ── Input setup ───────────────────────────────────────────────────────────
@@ -196,6 +216,8 @@ export class LocationScene extends Phaser.Scene {
 
         if (isRoof) img.setAlpha(0.55);
 
+        // World tiles are visible to the main (zoomable) camera only.
+        this.uiCam.ignore(img);
         this.tiles.push(img);
       }
     }
@@ -211,33 +233,30 @@ export class LocationScene extends Phaser.Scene {
       backgroundColor: '#00000099',
       padding: { x: 6, y: 4 },
     };
+    const { width, height } = this.scale;
 
-    // Level name — top-left
-    this.hudLevel = this.add.text(10, 10, '', style)
-      .setScrollFactor(0)
+    // HUD objects live at screen-space coordinates (0–800, 0–600).
+    // uiCam has zoom=1 / scroll=(0,0) so world coords == screen coords here.
+    // No setScrollFactor needed — the main camera never sees these objects.
+
+    this.hudLevel = this.add.text(10, 10, '', style).setDepth(200_000);
+
+    this.hudCoord = this.add.text(width - 10, 10, '', { ...style, align: 'right' })
+      .setOrigin(1, 0)
       .setDepth(200_000);
 
-    // Camera world position — top-right
-    this.hudCoord = this.add.text(this.scale.width - 10, 10, '', {
-      ...style, align: 'right',
-    }).setOrigin(1, 0)
-      .setScrollFactor(0)
-      .setDepth(200_000);
-
-    // Tile under cursor — bottom-left
-    this.hudTile = this.add.text(10, this.scale.height - 10, '', style)
+    this.hudTile = this.add.text(10, height - 10, '', style)
       .setOrigin(0, 1)
-      .setScrollFactor(0)
       .setDepth(200_000);
 
-    // Controls hint — bottom-right (no field ref needed; fire-and-forget)
-    this.add.text(
-      this.scale.width - 10, this.scale.height - 10,
+    const hint = this.add.text(
+      width - 10, height - 10,
       'WASD/↑↓←→ pan  |  1 2 3 levels  |  +/- / wheel zoom',
       { ...style, color: '#607030' },
-    ).setOrigin(1, 1)
-      .setScrollFactor(0)
-      .setDepth(200_000);
+    ).setOrigin(1, 1).setDepth(200_000);
+
+    // Exclude all HUD elements from the main (world) camera in one call.
+    this.cameras.main.ignore([this.hudLevel, this.hudCoord, this.hudTile, hint]);
 
     this._updateHud();
   }
@@ -285,9 +304,11 @@ export class LocationScene extends Phaser.Scene {
         padding: { x: 18, y: 10 },
       },
     ).setOrigin(0.5)
-      .setScrollFactor(0)
       .setDepth(200_001)
       .setAlpha(0);
+
+    // Banner is a HUD element — exclude from the world camera.
+    this.cameras.main.ignore(banner);
 
     this.tweens.add({
       targets:  banner,
