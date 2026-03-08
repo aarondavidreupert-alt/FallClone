@@ -47,6 +47,7 @@ import {
 } from '../utils/constants';
 import { tileToWorld, tileDepth, mapWorldBounds, worldToTile } from '../systems/IsoRenderer';
 import type { VaultMapData, LevelData } from '../data/vaultMap';
+import type { CharacterData } from '../utils/types';
 import { findPath } from '../systems/Pathfinder';
 import { Player } from '../entities/Player';
 
@@ -94,9 +95,11 @@ export class LocationScene extends Phaser.Scene {
   private keyZoomOut!: Phaser.Input.Keyboard.Key;
 
   // ── HUD ───────────────────────────────────────────────────────────────────
-  private hudLevel!: Phaser.GameObjects.Text;
-  private hudCoord!: Phaser.GameObjects.Text;
-  private hudTile!:  Phaser.GameObjects.Text;
+  private hudLevel!:  Phaser.GameObjects.Text;
+  private hudCoord!:  Phaser.GameObjects.Text;
+  private hudTile!:   Phaser.GameObjects.Text;
+  private hudChar!:   Phaser.GameObjects.Text;  // character name + HP/AP panel
+  private _charData:  CharacterData | null = null;
 
   // ── Cameras ───────────────────────────────────────────────────────────────
   // uiCam is a permanent overlay camera: zoom=1, scroll=(0,0) forever.
@@ -112,7 +115,8 @@ export class LocationScene extends Phaser.Scene {
   // ────────────────────────────────────────────────────────────────────────────
 
   create(): void {
-    this.mapData = this.registry.get('mapData') as VaultMapData;
+    this.mapData   = this.registry.get('mapData') as VaultMapData;
+    this._charData = this.registry.get('characterData') as CharacterData | null ?? null;
 
     this._setupInput();
     this._setupUiCamera();   // must be created before any tiles or HUD objects
@@ -295,14 +299,19 @@ export class LocationScene extends Phaser.Scene {
       .setOrigin(0, 1)
       .setDepth(200_000);
 
+    // Character stats panel (bottom-right)
+    this.hudChar = this.add.text(width - 10, height - 10, '', {
+      ...style, align: 'right', color: '#c8a000',
+    }).setOrigin(1, 1).setDepth(200_000);
+
     const hint = this.add.text(
-      width - 10, height - 10,
-      'WASD/↑↓←→ pan  |  1 2 3 levels  |  +/- / wheel zoom',
+      width / 2, height - 10,
+      'WASD pan  |  [1][2][3] levels  |  +/- / wheel zoom  |  click to move',
       { ...style, color: '#607030' },
-    ).setOrigin(1, 1).setDepth(200_000);
+    ).setOrigin(0.5, 1).setDepth(200_000);
 
     // Exclude all HUD elements from the main (world) camera in one call.
-    this.cameras.main.ignore([this.hudLevel, this.hudCoord, this.hudTile, hint]);
+    this.cameras.main.ignore([this.hudLevel, this.hudCoord, this.hudTile, this.hudChar, hint]);
 
     this._updateHud();
   }
@@ -314,8 +323,7 @@ export class LocationScene extends Phaser.Scene {
     this.hudLevel.setText(`${this.mapData.name}  —  ${level.name}`);
 
     this.hudCoord.setText(
-      `cam (${Math.round(cam.scrollX)}, ${Math.round(cam.scrollY)})` +
-      `  zoom ×${cam.zoom.toFixed(2)}`,
+      `zoom ×${cam.zoom.toFixed(2)}  (${Math.round(cam.scrollX)}, ${Math.round(cam.scrollY)})`,
     );
 
     // Mouse world position → tile under cursor
@@ -325,15 +333,18 @@ export class LocationScene extends Phaser.Scene {
     const { col, row } = worldToTile(wx, wy);
 
     const inMap = col >= 0 && col < MAP_W && row >= 0 && row < MAP_H;
-    if (inMap) {
-      const floorT  = level.floor[row][col];
-      const objectT = level.object[row][col];
-      const roofT   = level.roof[row][col];
-      this.hudTile.setText(
-        `tile (${col}, ${row})  floor:${floorT}  obj:${objectT}  roof:${roofT}`,
+    this.hudTile.setText(inMap
+      ? `(${col},${row})  f:${level.floor[row][col]} o:${level.object[row][col]} r:${level.roof[row][col]}`
+      : `(${col},${row})  —`,
+    );
+
+    // Character stats panel
+    if (this._charData) {
+      const c = this._charData;
+      this.hudChar.setText(
+        `${c.name}  LV${c.level}\n` +
+        `HP ${c.hp}/${c.max_hp}  AP ${c.ap}/${c.max_ap}`,
       );
-    } else {
-      this.hudTile.setText(`tile (${col}, ${row})  [out of bounds]`);
     }
   }
 

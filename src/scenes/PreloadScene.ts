@@ -102,7 +102,7 @@ export class PreloadScene extends Phaser.Scene {
     const runNext = (): void => {
       if (step >= steps.length) {
         label.setText('VAULT 13 LOADED');
-        this.time.delayedCall(400, () => this.scene.start('LocationScene'));
+        this.time.delayedCall(400, () => this.scene.start('CharacterCreationScene'));
         return;
       }
       const [name, fn] = steps[step++];
