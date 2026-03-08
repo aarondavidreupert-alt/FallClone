@@ -3,3 +3,6 @@ dist/
 .DS_Store
 *.local
 raw_assets/
+tools/__pycache__/
+**/__pycache__/
+*.pyc
