@@ -45,6 +45,14 @@ export class BootScene extends Phaser.Scene {
       repeat: -1,
     });
 
+    // Transition to PreloadScene after the intro splash
+    this.time.delayedCall(2200, () => {
+      this.cameras.main.fadeOut(300, 0, 0, 0);
+      this.cameras.main.once('camerafadeoutcomplete', () => {
+        this.scene.start('PreloadScene');
+      });
+    });
+
     const version = this.add.text(width - 8, height - 8, 'v0.1.0', {
       fontFamily: 'monospace',
       fontSize: '11px',
