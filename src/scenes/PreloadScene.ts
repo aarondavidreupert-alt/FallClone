@@ -24,7 +24,7 @@
 import Phaser from 'phaser';
 import {
   TILE_W, TILE_H, HALF_W, HALF_H, WALL_H,
-  TX_FLOOR, TX_FLOOR2, TX_FLOOR3, TX_WALL, TX_DOOR, TX_ROOF,
+  TX_FLOOR, TX_FLOOR2, TX_FLOOR3, TX_WALL, TX_DOOR, TX_ROOF, TX_PLAYER,
 } from '../utils/constants';
 import { DIAMOND_POINTS, wallBoxPoints } from '../systems/IsoRenderer';
 import { buildVaultMap } from '../data/vaultMap';
@@ -89,11 +89,12 @@ export class PreloadScene extends Phaser.Scene {
 
     // ── Generate textures (synchronous) ───────────────────────────────────────
     const steps: Array<[string, () => void]> = [
-      ['Floor tiles',    () => this._genFloor()  ],
-      ['Wall blocks',    () => this._genWall()   ],
-      ['Door tiles',     () => this._genDoor()   ],
-      ['Roof tiles',     () => this._genRoof()   ],
-      ['Building map',   () => this._storeMap()  ],
+      ['Floor tiles',    () => this._genFloor()   ],
+      ['Wall blocks',    () => this._genWall()    ],
+      ['Door tiles',     () => this._genDoor()    ],
+      ['Roof tiles',     () => this._genRoof()    ],
+      ['Player sprite',  () => this._genPlayer()  ],
+      ['Building map',   () => this._storeMap()   ],
     ];
 
     // Use a short deferred loop so the browser paints the overlay first
@@ -187,6 +188,38 @@ export class PreloadScene extends Phaser.Scene {
 
   private _genDoor(): void {
     this._genDiamond(TX_DOOR, C.door_fill, C.door_shade, C.door_outline);
+  }
+
+  /**
+   * Player sprite — amber circle with a darker outline.
+   * Sprite canvas: 28×36px.  The circle centre sits at (14, 14) so the
+   * bottom 8px act as a "shadow/feet" area and the origin(0.5,1) anchor
+   * places the character visually above the tile centre.
+   */
+  private _genPlayer(): void {
+    if (this.textures.exists(TX_PLAYER)) return;
+
+    const W = 28, H = 36;
+    const g = this.add.graphics();
+
+    // Drop shadow (ellipse at bottom)
+    g.fillStyle(0x000000, 0.35);
+    g.fillEllipse(W / 2, H - 6, W * 0.8, 8);
+
+    // Body — amber/gold fill
+    g.fillStyle(0xc8a000, 1);
+    g.fillCircle(W / 2, 14, 12);
+
+    // Darker outline
+    g.lineStyle(2, 0x7a6000, 1);
+    g.strokeCircle(W / 2, 14, 12);
+
+    // Bright highlight (top-left)
+    g.fillStyle(0xffe066, 0.5);
+    g.fillCircle(W / 2 - 4, 9, 5);
+
+    g.generateTexture(TX_PLAYER, W, H);
+    g.destroy();
   }
 
   private _genRoof(): void {
