@@ -47,6 +47,8 @@ import {
 } from '../utils/constants';
 import { tileToWorld, tileDepth, mapWorldBounds, worldToTile } from '../systems/IsoRenderer';
 import type { VaultMapData, LevelData } from '../data/vaultMap';
+import { findPath } from '../systems/Pathfinder';
+import { Player } from '../entities/Player';
 
 // ── Camera pan speed (world pixels per second) ────────────────────────────────
 const PAN_SPEED  = 420;
@@ -75,6 +77,7 @@ export class LocationScene extends Phaser.Scene {
   private mapData!:    VaultMapData;
   private levelIndex = 0;
   private tiles:       Phaser.GameObjects.Image[] = [];
+  private player!:     Player;
 
   // ── Input ─────────────────────────────────────────────────────────────────
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
@@ -114,8 +117,10 @@ export class LocationScene extends Phaser.Scene {
     this._setupInput();
     this._setupUiCamera();   // must be created before any tiles or HUD objects
     this._renderLevel(0);
+    this._spawnPlayer(0);
     this._buildHud();
     this._setupMouseWheel();
+    this._setupClickMove();
   }
 
   // ── Camera setup ──────────────────────────────────────────────────────────
@@ -153,6 +158,47 @@ export class LocationScene extends Phaser.Scene {
       const cam  = this.cameras.main;
       const zoom = Phaser.Math.Clamp(cam.zoom - dy * 0.001, ZOOM_MIN, ZOOM_MAX);
       cam.setZoom(zoom);
+    });
+  }
+
+  // ── Player ────────────────────────────────────────────────────────────────
+
+  private _spawnPlayer(levelIndex: number): void {
+    if (this.player) this.player.destroy();
+
+    const level = this.mapData.levels[levelIndex];
+    this.player = new Player(this, level.playerStart.col, level.playerStart.row);
+
+    // Exclude player sprite from uiCam (same as world tiles).
+    this.uiCam.ignore(this.player.sprite);
+
+    // Camera follows the player sprite.
+    this.cameras.main.startFollow(this.player.sprite, true, 0.1, 0.1);
+  }
+
+  private _setupClickMove(): void {
+    this.input.on('pointerdown', (ptr: Phaser.Input.Pointer) => {
+      // Only respond to left-click and only when not in pan-key mode.
+      if (ptr.button !== 0) return;
+      if (this.player.isMoving) return;
+
+      const cam = this.cameras.main;
+      const wx  = cam.scrollX + ptr.x / cam.zoom;
+      const wy  = cam.scrollY + ptr.y / cam.zoom;
+      const { col, row } = worldToTile(wx, wy);
+
+      if (col < 0 || col >= MAP_W || row < 0 || row >= MAP_H) return;
+
+      const level = this.mapData.levels[this.levelIndex];
+      if (level.object[row][col] === OBJ_WALL) return;   // can't walk into walls
+
+      const path = findPath(
+        level.object,
+        this.player.col, this.player.row,
+        col, row,
+      );
+
+      this.player.walkPath(path);
     });
   }
 
@@ -356,6 +402,7 @@ export class LocationScene extends Phaser.Scene {
     if (target >= this.mapData.levels.length) return;
 
     this._renderLevel(target);
+    this._spawnPlayer(target);
     const level = this.mapData.levels[target];
     this._flashLevelBanner(level.name);
   }
