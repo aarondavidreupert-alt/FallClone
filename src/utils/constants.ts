@@ -44,3 +44,4 @@ export const TX_WALL   = 'tx_wall';
 export const TX_DOOR   = 'tx_door';
 export const TX_ROOF   = 'tx_roof';
 export const TX_PLAYER = 'tx_player';
+export const TX_NPC    = 'tx_npc';

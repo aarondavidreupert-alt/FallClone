@@ -24,7 +24,7 @@
 import Phaser from 'phaser';
 import {
   TILE_W, TILE_H, HALF_W, HALF_H, WALL_H,
-  TX_FLOOR, TX_FLOOR2, TX_FLOOR3, TX_WALL, TX_DOOR, TX_ROOF, TX_PLAYER,
+  TX_FLOOR, TX_FLOOR2, TX_FLOOR3, TX_WALL, TX_DOOR, TX_ROOF, TX_PLAYER, TX_NPC,
 } from '../utils/constants';
 import { DIAMOND_POINTS, wallBoxPoints } from '../systems/IsoRenderer';
 import { buildVaultMap } from '../data/vaultMap';
@@ -94,6 +94,7 @@ export class PreloadScene extends Phaser.Scene {
       ['Door tiles',     () => this._genDoor()    ],
       ['Roof tiles',     () => this._genRoof()    ],
       ['Player sprite',  () => this._genPlayer()  ],
+      ['NPC sprites',    () => this._genNpc()     ],
       ['Building map',   () => this._storeMap()   ],
     ];
 
@@ -219,6 +220,37 @@ export class PreloadScene extends Phaser.Scene {
     g.fillCircle(W / 2 - 4, 9, 5);
 
     g.generateTexture(TX_PLAYER, W, H);
+    g.destroy();
+  }
+
+  /**
+   * NPC sprite — slate-blue vault-suit figure.
+   * Same 28×36 canvas as tx_player; different colour scheme so NPCs are
+   * visually distinct from the player's amber circle.
+   */
+  private _genNpc(): void {
+    if (this.textures.exists(TX_NPC)) return;
+
+    const W = 28, H = 36;
+    const g = this.add.graphics();
+
+    // Drop shadow
+    g.fillStyle(0x000000, 0.35);
+    g.fillEllipse(W / 2, H - 6, W * 0.8, 8);
+
+    // Body — vault-suit slate blue
+    g.fillStyle(0x2a5080, 1);
+    g.fillCircle(W / 2, 14, 12);
+
+    // Darker outline
+    g.lineStyle(2, 0x163050, 1);
+    g.strokeCircle(W / 2, 14, 12);
+
+    // Bright highlight (top-left)
+    g.fillStyle(0x66aadd, 0.5);
+    g.fillCircle(W / 2 - 4, 9, 5);
+
+    g.generateTexture(TX_NPC, W, H);
     g.destroy();
   }
 

@@ -58,3 +58,28 @@ export interface ItemInstance {
   id: string;
   quantity: number;
 }
+
+// ── Dialogue types ────────────────────────────────────────────────────────────
+
+export interface DialogueSkillCheck {
+  skill:      string;
+  difficulty: number;
+}
+
+export interface DialogueResponse {
+  text:        string;
+  next:        string;           // node id, or "end" to close dialogue
+  skill_check: DialogueSkillCheck | null;
+}
+
+export interface DialogueNode {
+  id:        string;
+  text:      string;
+  responses: DialogueResponse[];
+}
+
+export interface DialogueFile {
+  npc_id:   string;
+  npc_name: string;
+  nodes:    DialogueNode[];
+}

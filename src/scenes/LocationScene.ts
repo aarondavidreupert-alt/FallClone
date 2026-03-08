@@ -50,6 +50,7 @@ import type { VaultMapData, LevelData } from '../data/vaultMap';
 import type { CharacterData } from '../utils/types';
 import { findPath } from '../systems/Pathfinder';
 import { Player } from '../entities/Player';
+import { NPC, type NpcDef } from '../entities/NPC';
 
 // ── Camera pan speed (world pixels per second) ────────────────────────────────
 const PAN_SPEED  = 420;
@@ -73,12 +74,27 @@ const ROOF_TEX: Record<number, string> = {
   [ROOF_STD]: TX_ROOF,
 };
 
+// ── NPC placement data per level ──────────────────────────────────────────────
+// Keyed by levelIndex.  Add more NPCs here as the game grows.
+const LEVEL_NPCS: Partial<Record<number, NpcDef[]>> = {
+  0: [
+    {
+      npcId:      'overseer',
+      name:       'The Overseer',
+      dialogueId: 'overseer',
+      col:        37,
+      row:        17,
+    },
+  ],
+};
+
 export class LocationScene extends Phaser.Scene {
   // ── State ─────────────────────────────────────────────────────────────────
   private mapData!:    VaultMapData;
   private levelIndex = 0;
   private tiles:       Phaser.GameObjects.Image[] = [];
   private player!:     Player;
+  private _npcs:       NPC[] = [];
 
   // ── Input ─────────────────────────────────────────────────────────────────
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
@@ -180,8 +196,35 @@ export class LocationScene extends Phaser.Scene {
     this.cameras.main.startFollow(this.player.sprite, true, 0.1, 0.1);
   }
 
+  // ── NPCs ──────────────────────────────────────────────────────────────────
+
+  private _spawnNpcs(levelIndex: number): void {
+    const defs = LEVEL_NPCS[levelIndex] ?? [];
+    for (const def of defs) {
+      const npc = new NPC(this, def, (n) => this._openDialogue(n));
+      // Exclude NPC sprite and label from the static uiCam so they pan/zoom
+      // with the world camera, matching tiles and the player sprite.
+      this.uiCam.ignore(npc.sprite);
+      this.uiCam.ignore(npc.label);
+      this._npcs.push(npc);
+    }
+  }
+
+  private _openDialogue(npc: NPC): void {
+    // Prevent re-opening if dialogue is already running.
+    if (this.scene.isActive('DialogueScene')) return;
+
+    this.scene.launch('DialogueScene', {
+      npcId:   npc.dialogueId,
+      npcName: npc.name,
+    });
+  }
+
   private _setupClickMove(): void {
     this.input.on('pointerdown', (ptr: Phaser.Input.Pointer) => {
+      // Don't process map clicks while a dialogue is open.
+      if (this.scene.isActive('DialogueScene')) return;
+
       // Only respond to left-click and only when not in pan-key mode.
       if (ptr.button !== 0) return;
       if (this.player.isMoving) return;
@@ -213,9 +256,13 @@ export class LocationScene extends Phaser.Scene {
    * Clamps the camera to the world bounds and centres it on playerStart.
    */
   private _renderLevel(index: number): void {
-    // Destroy previous sprites
+    // Destroy previous tiles
     for (const img of this.tiles) img.destroy();
     this.tiles = [];
+
+    // Destroy previous NPCs
+    for (const npc of this._npcs) npc.destroy();
+    this._npcs = [];
 
     this.levelIndex = index;
     const level = this.mapData.levels[index];
@@ -223,6 +270,9 @@ export class LocationScene extends Phaser.Scene {
     this._renderLayer(level, 0);   // floor
     this._renderLayer(level, 1);   // objects (walls / doors)
     this._renderLayer(level, 2);   // roof
+
+    // Spawn NPCs for this level (must be after uiCam exists)
+    this._spawnNpcs(index);
 
     // ── Camera ────────────────────────────────────────────────────────────
     const bounds = mapWorldBounds();
