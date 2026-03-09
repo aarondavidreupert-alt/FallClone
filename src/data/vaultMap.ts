@@ -33,12 +33,20 @@ import {
 
 export type TileGrid = number[][];   // grid[row][col]
 
+export interface GroundItemSpawn {
+  readonly itemId:   string;
+  readonly quantity: number;
+  readonly col:      number;
+  readonly row:      number;
+}
+
 export interface LevelData {
   readonly name:   string;
   readonly floor:  TileGrid;   // ground layer
   readonly object: TileGrid;   // walls / doors
   readonly roof:   TileGrid;   // ceiling
   readonly playerStart: { col: number; row: number };
+  readonly items:  readonly GroundItemSpawn[];   // items on the ground
 }
 
 export interface VaultMapData {
@@ -158,7 +166,25 @@ function buildLevel0(): LevelData {
     carveDoor(floor, object, T_FLOOR, { row: r, col: 25 });
   }
 
-  return { name: 'Level 0 — Entrance', floor, object, roof, playerStart: { col: 25, row: 13 } };
+  return {
+    name: 'Level 0 — Entrance', floor, object, roof,
+    playerStart: { col: 25, row: 13 },
+    items: [
+      // Medical bay: stimpaks and radaway
+      { itemId: 'stimpak',       quantity: 3,  col: 10, row: 14 },
+      { itemId: 'stimpak',       quantity: 2,  col: 11, row: 18 },
+      { itemId: 'rad_away',      quantity: 1,  col: 10, row: 20 },
+      // Armory: weapons and ammo
+      { itemId: 'pistol_10mm',   quantity: 1,  col: 24, row: 33 },
+      { itemId: 'ammo_10mm',     quantity: 24, col: 24, row: 35 },
+      { itemId: 'shotgun',       quantity: 1,  col: 26, row: 33 },
+      { itemId: 'ammo_shotgun',  quantity: 12, col: 26, row: 35 },
+      { itemId: 'combat_knife',  quantity: 1,  col: 25, row: 36 },
+      // Overseer's suite: misc items
+      { itemId: 'caps',          quantity: 150, col: 34, row: 14 },
+      { itemId: 'rope',          quantity: 1,   col: 42, row: 14 },
+    ],
+  };
 }
 
 /** Level 1 — Residential */
@@ -206,7 +232,19 @@ function buildLevel1(): LevelData {
     carveDoor(floor, object, T_FLOOR2, { row: 32, col: c });
   }
 
-  return { name: 'Level 1 — Residential', floor, object, roof, playerStart: { col: 25, row: 10 } };
+  return {
+    name: 'Level 1 — Residential', floor, object, roof,
+    playerStart: { col: 25, row: 10 },
+    items: [
+      // Dining hall: food items
+      { itemId: 'iguana_on_stick', quantity: 2, col: 15, row: 24 },
+      { itemId: 'water_flask',     quantity: 1, col: 20, row: 26 },
+      // Residential wing: stimpak and brass knuckles
+      { itemId: 'stimpak',         quantity: 1, col: 10, row: 8  },
+      { itemId: 'brass_knuckles',  quantity: 1, col: 35, row: 8  },
+      { itemId: 'leather_jacket',  quantity: 1, col: 38, row: 12 },
+    ],
+  };
 }
 
 /** Level 2 — Engineering */
@@ -255,7 +293,22 @@ function buildLevel2(): LevelData {
     carveDoor(floor, object, T_FLOOR, { row: 26, col: c });
   }
 
-  return { name: 'Level 2 — Engineering', floor, object, roof, playerStart: { col: 25, row: 30 } };
+  return {
+    name: 'Level 2 — Engineering', floor, object, roof,
+    playerStart: { col: 25, row: 30 },
+    items: [
+      // Water chip room: key item area
+      { itemId: 'super_stimpak',  quantity: 2, col: 27, row: 11 },
+      { itemId: 'rad_away',       quantity: 2, col: 31, row: 10 },
+      { itemId: 'metal_armor',    quantity: 1, col: 30, row: 14 },
+      // Generator room: weapon
+      { itemId: 'hunting_rifle',  quantity: 1, col: 10, row: 12 },
+      { itemId: 'ammo_10mm',      quantity: 36, col: 12, row: 14 },
+      // Lower storage: misc
+      { itemId: 'caps',           quantity: 300, col: 15, row: 30 },
+      { itemId: 'spear',          quantity: 1,   col: 35, row: 30 },
+    ],
+  };
 }
 
 // ── Public export ─────────────────────────────────────────────────────────────
