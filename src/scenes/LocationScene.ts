@@ -264,9 +264,8 @@ export class LocationScene extends Phaser.Scene {
       if (this.player.isMoving) return;
 
       const cam = this.cameras.main;
-      const wx  = cam.scrollX + ptr.x / cam.zoom;
-      const wy  = cam.scrollY + ptr.y / cam.zoom;
-      const { col, row } = worldToTile(wx, wy);
+      const wp  = cam.getWorldPoint(ptr.x, ptr.y);
+      const { col, row } = worldToTile(wp.x, wp.y);
 
       if (col < 0 || col >= MAP_W || row < 0 || row >= MAP_H) return;
 
@@ -365,9 +364,8 @@ export class LocationScene extends Phaser.Scene {
     this.hudCoord.setText(`zoom ×${cam.zoom.toFixed(2)}  (${Math.round(cam.scrollX)}, ${Math.round(cam.scrollY)})`);
 
     const ptr = this.input.activePointer;
-    const wx  = cam.scrollX + ptr.x / cam.zoom;
-    const wy  = cam.scrollY + ptr.y / cam.zoom;
-    const { col, row } = worldToTile(wx, wy);
+    const wp  = cam.getWorldPoint(ptr.x, ptr.y);
+    const { col, row } = worldToTile(wp.x, wp.y);
     const inMap = col >= 0 && col < MAP_W && row >= 0 && row < MAP_H;
     this.hudTile.setText(inMap
       ? `(${col},${row})  f:${level.floor[row][col]} o:${level.object[row][col]}`
