@@ -51,6 +51,8 @@ import type { CharacterData } from '../utils/types';
 import { findPath } from '../systems/Pathfinder';
 import { Player } from '../entities/Player';
 import { NPC, type NpcDef } from '../entities/NPC';
+import { GroundItem, type GroundItemDef } from '../entities/GroundItem';
+import { addItem } from '../systems/InventorySystem';
 
 // ── Camera pan speed (world pixels per second) ────────────────────────────────
 const PAN_SPEED  = 420;
@@ -94,7 +96,8 @@ export class LocationScene extends Phaser.Scene {
   private levelIndex = 0;
   private tiles:       Phaser.GameObjects.Image[] = [];
   private player!:     Player;
-  private _npcs:       NPC[] = [];
+  private _npcs:        NPC[] = [];
+  private _groundItems: GroundItem[] = [];
 
   // ── Input ─────────────────────────────────────────────────────────────────
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
@@ -104,11 +107,12 @@ export class LocationScene extends Phaser.Scene {
     left:  Phaser.Input.Keyboard.Key;
     right: Phaser.Input.Keyboard.Key;
   };
-  private keyLevel1!: Phaser.Input.Keyboard.Key;
-  private keyLevel2!: Phaser.Input.Keyboard.Key;
-  private keyLevel3!: Phaser.Input.Keyboard.Key;
-  private keyZoomIn!: Phaser.Input.Keyboard.Key;
-  private keyZoomOut!: Phaser.Input.Keyboard.Key;
+  private keyLevel1!:   Phaser.Input.Keyboard.Key;
+  private keyLevel2!:   Phaser.Input.Keyboard.Key;
+  private keyLevel3!:   Phaser.Input.Keyboard.Key;
+  private keyZoomIn!:   Phaser.Input.Keyboard.Key;
+  private keyZoomOut!:  Phaser.Input.Keyboard.Key;
+  private keyInventory!: Phaser.Input.Keyboard.Key;
 
   // ── HUD ───────────────────────────────────────────────────────────────────
   private hudLevel!:  Phaser.GameObjects.Text;
@@ -166,11 +170,12 @@ export class LocationScene extends Phaser.Scene {
       left:  kb.addKey(Phaser.Input.Keyboard.KeyCodes.A),
       right: kb.addKey(Phaser.Input.Keyboard.KeyCodes.D),
     };
-    this.keyLevel1  = kb.addKey(Phaser.Input.Keyboard.KeyCodes.ONE);
-    this.keyLevel2  = kb.addKey(Phaser.Input.Keyboard.KeyCodes.TWO);
-    this.keyLevel3  = kb.addKey(Phaser.Input.Keyboard.KeyCodes.THREE);
-    this.keyZoomIn  = kb.addKey(Phaser.Input.Keyboard.KeyCodes.PLUS);
-    this.keyZoomOut = kb.addKey(Phaser.Input.Keyboard.KeyCodes.MINUS);
+    this.keyLevel1    = kb.addKey(Phaser.Input.Keyboard.KeyCodes.ONE);
+    this.keyLevel2    = kb.addKey(Phaser.Input.Keyboard.KeyCodes.TWO);
+    this.keyLevel3    = kb.addKey(Phaser.Input.Keyboard.KeyCodes.THREE);
+    this.keyZoomIn    = kb.addKey(Phaser.Input.Keyboard.KeyCodes.PLUS);
+    this.keyZoomOut   = kb.addKey(Phaser.Input.Keyboard.KeyCodes.MINUS);
+    this.keyInventory = kb.addKey(Phaser.Input.Keyboard.KeyCodes.I);
   }
 
   private _setupMouseWheel(): void {
@@ -208,6 +213,74 @@ export class LocationScene extends Phaser.Scene {
       this.uiCam.ignore(npc.label);
       this._npcs.push(npc);
     }
+  }
+
+  // ── Ground items ──────────────────────────────────────────────────────────
+
+  private _spawnGroundItems(level: LevelData): void {
+    for (const spawn of level.items) {
+      const def: GroundItemDef = {
+        itemId:   spawn.itemId,
+        quantity: spawn.quantity,
+        col:      spawn.col,
+        row:      spawn.row,
+      };
+      const gi = new GroundItem(this, def, (item) => this._pickupItem(item));
+      // Exclude from uiCam so they pan/zoom with the world
+      this.uiCam.ignore(gi.dot);
+      this.uiCam.ignore(gi.label);
+      this._groundItems.push(gi);
+    }
+  }
+
+  private _pickupItem(item: GroundItem): void {
+    if (!this._charData) return;
+
+    const result = addItem(this._charData, item.itemId, item.quantity);
+
+    // Remove from world
+    const idx = this._groundItems.indexOf(item);
+    if (idx !== -1) this._groundItems.splice(idx, 1);
+    item.destroy();
+
+    this._showPickupToast(result.message, result.ok);
+    this._updateHud();
+  }
+
+  /** Spawn a dropped item near the player's current tile. */
+  private _spawnDroppedItem(itemId: string): void {
+    const def: GroundItemDef = {
+      itemId,
+      quantity: 1,
+      col: this.player.col,
+      row: this.player.row + 1,
+    };
+    const gi = new GroundItem(this, def, (item) => this._pickupItem(item));
+    this.uiCam.ignore(gi.dot);
+    this.uiCam.ignore(gi.label);
+    this._groundItems.push(gi);
+  }
+
+  private _showPickupToast(message: string, ok: boolean): void {
+    const { width, height } = this.scale;
+    const toast = this.add.text(width / 2, height - 60, message, {
+      fontFamily: 'monospace',
+      fontSize:   '12px',
+      color:       ok ? '#44ff44' : '#ff4444',
+      backgroundColor: '#00000099',
+      padding: { x: 8, y: 4 },
+    }).setOrigin(0.5, 1).setDepth(200_002).setAlpha(0);
+
+    this.cameras.main.ignore(toast);
+
+    this.tweens.add({
+      targets:  toast,
+      alpha:    { from: 0, to: 1 },
+      duration: 150,
+      yoyo:     true,
+      hold:     1200,
+      onComplete: () => toast.destroy(),
+    });
   }
 
   private _openDialogue(npc: NPC): void {
@@ -264,6 +337,10 @@ export class LocationScene extends Phaser.Scene {
     for (const npc of this._npcs) npc.destroy();
     this._npcs = [];
 
+    // Destroy previous ground items
+    for (const gi of this._groundItems) gi.destroy();
+    this._groundItems = [];
+
     this.levelIndex = index;
     const level = this.mapData.levels[index];
 
@@ -273,6 +350,9 @@ export class LocationScene extends Phaser.Scene {
 
     // Spawn NPCs for this level (must be after uiCam exists)
     this._spawnNpcs(index);
+
+    // Spawn ground items for this level
+    this._spawnGroundItems(level);
 
     // ── Camera ────────────────────────────────────────────────────────────
     const bounds = mapWorldBounds();
@@ -356,7 +436,7 @@ export class LocationScene extends Phaser.Scene {
 
     const hint = this.add.text(
       width / 2, height - 10,
-      'WASD pan  |  [1][2][3] levels  |  +/- / wheel zoom  |  click to move',
+      'WASD pan  |  [1][2][3] levels  |  +/- / wheel zoom  |  click to move  |  [I] inventory',
       { ...style, color: '#607030' },
     ).setOrigin(0.5, 1).setDepth(200_000);
 
@@ -433,7 +513,29 @@ export class LocationScene extends Phaser.Scene {
     this._handlePan(delta);
     this._handleLevelSwitch();
     this._handleZoom();
+    this._handleInventoryKey();
+    this._handlePendingDrop();
     this._updateHud();
+  }
+
+  private _handleInventoryKey(): void {
+    if (Phaser.Input.Keyboard.JustDown(this.keyInventory)) {
+      if (this.scene.isActive('InventoryScene')) {
+        this.scene.stop('InventoryScene');
+      } else if (!this.scene.isActive('DialogueScene')) {
+        this.scene.launch('InventoryScene');
+      }
+    }
+  }
+
+  /** Check if InventoryScene dropped an item and spawn it in the world. */
+  private _handlePendingDrop(): void {
+    const drop = this.registry.get('pendingDrop') as { itemId: string; qty: number } | null;
+    if (drop) {
+      this.registry.set('pendingDrop', null);
+      this._spawnDroppedItem(drop.itemId);
+      this._showPickupToast(`Dropped ${drop.itemId}.`, true);
+    }
   }
 
   private _handlePan(delta: number): void {
