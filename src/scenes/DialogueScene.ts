@@ -80,6 +80,7 @@ export class DialogueScene extends Phaser.Scene {
 
   private _sys!:        DialogueSystem;
   private _npcName = '';
+  private _npcId   = '';
 
   // Live-update refs
   private _speechText!: Phaser.GameObjects.Text;
@@ -95,6 +96,7 @@ export class DialogueScene extends Phaser.Scene {
     if (!file) throw new Error(`DialogueScene: no dialogue for npc "${data.npcId}"`);
     this._sys     = new DialogueSystem(file);
     this._npcName = data.npcName;
+    this._npcId   = data.npcId;
   }
 
   create(): void {
@@ -301,6 +303,8 @@ export class DialogueScene extends Phaser.Scene {
   // ── Close ─────────────────────────────────────────────────────────────────
 
   private _close(): void {
+    // Notify LocationScene which NPC conversation just ended
+    this.game.events.emit('dialogue:closed', { npcId: this._npcId });
     this.scene.resume('LocationScene');
     this.scene.stop();
   }

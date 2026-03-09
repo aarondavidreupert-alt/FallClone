@@ -52,6 +52,11 @@ export interface CharacterData {
     armor: string | null;
     weapon: string | null;
   };
+  // Phase 8 additions
+  quests:         Quest[];
+  questFlags:     Record<string, boolean>;
+  days:           number;
+  worldUnlocked:  boolean;
 }
 
 export interface ItemInstance {
@@ -82,4 +87,22 @@ export interface DialogueFile {
   npc_id:   string;
   npc_name: string;
   nodes:    DialogueNode[];
+}
+
+// ── Quest types ───────────────────────────────────────────────────────────────
+
+export interface QuestStage {
+  id:          number;
+  description: string;
+  completed:   boolean;
+}
+
+export interface Quest {
+  id:               string;
+  name:             string;
+  description:      string;
+  status:           'inactive' | 'active' | 'completed' | 'failed';
+  stages:           QuestStage[];
+  xp_reward:        number;
+  time_limit_days?: number;
 }
