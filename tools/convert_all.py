@@ -83,7 +83,7 @@ _FRM_ROUTES: List[Tuple[str, str]] = [
 ]
 
 
-def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod) -> Tuple[int, int]:
+def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
     art_root = raw / "art"
     if not art_root.is_dir():
@@ -108,6 +108,10 @@ def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod) -> Tuple[
             continue
         for f in files:
             rel = str(f.parent.relative_to(sub_dir))
+            out_png = (target / rel / (f.stem.lower() + ".png")) if rel and rel != "." else (target / (f.stem.lower() + ".png"))
+            if incremental and out_png.exists():
+                ok += 1   # count as success — already done
+                continue
             if frm_mod.convert_file(f, target, frm_mod.load_palette(pal_path) if pal_path.exists()
                                     else frm_mod._greyscale_palette(), rel):
                 ok += 1
@@ -129,6 +133,10 @@ def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod) -> Tuple[
         pal = frm_mod.load_palette(pal_path) if pal_path.exists() else frm_mod._greyscale_palette()
         for f in files:
             rel = str(f.parent.relative_to(d))
+            out_png = (target / rel / (f.stem.lower() + ".png")) if rel and rel != "." else (target / (f.stem.lower() + ".png"))
+            if incremental and out_png.exists():
+                ok += 1
+                continue
             if frm_mod.convert_file(f, target, pal, rel):
                 ok += 1
             else:
@@ -139,7 +147,7 @@ def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod) -> Tuple[
 
 # ── MAP routing ────────────────────────────────────────────────────────────────
 
-def _run_maps(raw: Path, out: Path, dry: bool, map_mod) -> Tuple[int, int]:
+def _run_maps(raw: Path, out: Path, dry: bool, map_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
     maps_dir = raw / "maps"
     if not maps_dir.is_dir():
@@ -156,6 +164,9 @@ def _run_maps(raw: Path, out: Path, dry: bool, map_mod) -> Tuple[int, int]:
     for f in files:
         rel    = f.parent.relative_to(maps_dir)
         out_f  = target / rel / (f.stem.lower() + ".json")
+        if incremental and out_f.exists():
+            ok += 1
+            continue
         if map_mod.convert_map(f, out_f):
             ok += 1
         else:
@@ -165,14 +176,15 @@ def _run_maps(raw: Path, out: Path, dry: bool, map_mod) -> Tuple[int, int]:
 
 # ── MSG routing ────────────────────────────────────────────────────────────────
 
-def _run_msg(raw: Path, out: Path, dry: bool, msg_mod) -> Tuple[int, int]:
+def _run_msg(raw: Path, out: Path, dry: bool, msg_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
     text_root = raw / "text"
     if not text_root.is_dir():
         print(f"  (skip) text/ not found in {raw}")
         return 0, 0
 
-    files = sorted({p for p in text_root.rglob("*") if p.suffix.upper() == ".MSG" and p.is_file()})
+    files = sorted({p for p in text_root.rglob("*") if p.suffix.lower() == ".msg"  # .msg only — explicitly excludes .map and other formats
+        and p.is_file()})
     target = out / "data" / "text"
     print(f"\n  text/  ({len(files)} MSG) → {target.relative_to(out)}/")
     if dry:
@@ -181,6 +193,9 @@ def _run_msg(raw: Path, out: Path, dry: bool, msg_mod) -> Tuple[int, int]:
     for f in files:
         rel    = f.parent.relative_to(text_root)
         out_f  = target / rel / (f.stem.lower() + ".json")
+        if incremental and out_f.exists():
+            ok += 1
+            continue
         if msg_mod.convert_file(f, out_f):
             ok += 1
         else:
@@ -190,22 +205,28 @@ def _run_msg(raw: Path, out: Path, dry: bool, msg_mod) -> Tuple[int, int]:
 
 # ── PRO routing ────────────────────────────────────────────────────────────────
 
-def _run_pro(raw: Path, out: Path, dry: bool, pro_mod) -> Tuple[int, int]:
+def _run_pro(raw: Path, out: Path, dry: bool, pro_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
-    proto_root = raw / "proto"
-    if not proto_root.is_dir():
-        print(f"  (skip) proto/ not found in {raw}")
+    # Fallout 1 ships with uppercase PROTO/; user installs may have different casing.
+    _proto_candidates = ["PROTO", "proto", "protos", "Protos"]
+    proto_root = next((raw / c for c in _proto_candidates if (raw / c).is_dir()), None)
+    if proto_root is None:
+        print(f"  (skip) proto directory not found in {raw} "
+              f"(tried: {', '.join(_proto_candidates + ['/']).rstrip('/')})")
         return 0, 0
 
     files = sorted({p for p in proto_root.rglob("*") if p.suffix.upper() == ".PRO" and p.is_file()})
     target = out / "data" / "proto"
-    print(f"\n  proto/ ({len(files)} PRO) → {target.relative_to(out)}/")
+    print(f"\n  {proto_root.name}/ ({len(files)} PRO) → {target.relative_to(out)}/")
     if dry:
         return len(files), 0
 
     for f in files:
         rel    = f.parent.relative_to(proto_root)
         out_f  = target / rel / (f.stem.lower() + ".json")
+        if incremental and out_f.exists():
+            ok += 1
+            continue
         if pro_mod.convert_file(f, out_f):
             ok += 1
         else:
@@ -216,7 +237,8 @@ def _run_pro(raw: Path, out: Path, dry: bool, pro_mod) -> Tuple[int, int]:
 # ── ACM routing ────────────────────────────────────────────────────────────────
 
 def _run_acm(
-    raw: Path, out: Path, fmt: str, quality: int, dry: bool, acm_mod
+    raw: Path, out: Path, fmt: str, quality: int, dry: bool, acm_mod,
+    incremental: bool = False,
 ) -> Tuple[int, int]:
     ok = err = 0
     sound_root = raw / "sound"
@@ -240,7 +262,12 @@ def _run_acm(
         return len(files), 0
 
     for f in files:
-        rel = str(f.parent.relative_to(sound_root))
+        rel      = str(f.parent.relative_to(sound_root))
+        out_dir2 = target / rel if rel and rel != "." else target
+        out_f    = out_dir2 / f"{f.stem.lower()}.{fmt}"
+        if incremental and out_f.exists():
+            ok += 1
+            continue
         if acm_mod.convert_acm(f, target, fmt, quality, ffmpeg, rel):
             ok += 1
         else:
@@ -286,11 +313,31 @@ def main() -> None:
     ap.add_argument("--skip-audio",   action="store_true")
     ap.add_argument("--dry-run",      action="store_true",
                     help="Show what would be converted without writing files")
+    ap.add_argument("--full",         action="store_true",
+                    help="Reconvert all files even if output already exists "
+                         "(default: skip files whose output is already present)")
     args = ap.parse_args()
 
     raw = Path(args.raw)
     out = Path(args.out)
     dry = args.dry_run
+
+    # ── Incremental mode ──────────────────────────────────────────────────────
+    # Ask the user (interactive TTY) whether to skip existing output files.
+    # Non-interactive runs (CI, pipes) default to incremental (safe & fast).
+    if args.full:
+        incremental = False
+    elif dry:
+        incremental = False   # dry-run always shows everything
+    elif sys.stdin.isatty():
+        print()
+        ans = input(
+            "Convert missing files only? [Y] or reconvert everything? [N]  "
+            "(default Y): "
+        ).strip().upper()
+        incremental = (ans != "N")
+    else:
+        incremental = True    # non-interactive: skip existing by default
 
     if not raw.is_dir():
         print(f"ERROR: raw assets directory not found: {raw}", file=sys.stderr)
@@ -328,42 +375,44 @@ def main() -> None:
     print(f"  source : {raw.resolve()}")
     print(f"  output : {out.resolve()}")
     print(f"  palette: {pal_path} {'(found)' if pal_path.exists() else '(MISSING — greyscale)'}")
-    if dry:
-        print("  mode   : DRY RUN")
+    mode_label = "DRY RUN" if dry else (
+        "incremental (skip existing output)" if incremental else "full (reconvert all)"
+    )
+    print(f"  mode   : {mode_label}")
     print("=" * 60)
 
     # ── FRM sprites & tiles ──
     if not args.skip_sprites and not args.skip_tiles:
         print("\n[1/5] FRM sprites + tiles")
-        ok, err = _run_frm(raw, out, pal_path, dry, frm_mod)
+        ok, err = _run_frm(raw, out, pal_path, dry, frm_mod, incremental)
         total_ok += ok; total_err += err
         print(f"      {ok} ok, {err} failed")
 
     # ── MAP files ──
     if not args.skip_maps:
         print("\n[2/5] MAP → JSON")
-        ok, err = _run_maps(raw, out, dry, map_mod)
+        ok, err = _run_maps(raw, out, dry, map_mod, incremental)
         total_ok += ok; total_err += err
         print(f"      {ok} ok, {err} failed")
 
     # ── MSG dialogue ──
     if not args.skip_text:
         print("\n[3/5] MSG → JSON")
-        ok, err = _run_msg(raw, out, dry, msg_mod)
+        ok, err = _run_msg(raw, out, dry, msg_mod, incremental)
         total_ok += ok; total_err += err
         print(f"      {ok} ok, {err} failed")
 
     # ── PRO prototypes ──
     if not args.skip_proto:
         print("\n[4/5] PRO → JSON")
-        ok, err = _run_pro(raw, out, dry, pro_mod)
+        ok, err = _run_pro(raw, out, dry, pro_mod, incremental)
         total_ok += ok; total_err += err
         print(f"      {ok} ok, {err} failed")
 
     # ── ACM audio ──
     if not args.skip_audio:
         print("\n[5/5] ACM → audio")
-        ok, err = _run_acm(raw, out, args.audio_format, args.audio_quality, dry, acm_mod)
+        ok, err = _run_acm(raw, out, args.audio_format, args.audio_quality, dry, acm_mod, incremental)
         total_ok += ok; total_err += err
         print(f"      {ok} ok, {err} failed")
 
