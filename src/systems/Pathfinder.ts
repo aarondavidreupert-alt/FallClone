@@ -1,19 +1,25 @@
 /**
- * Pathfinder.ts — A* pathfinding on the isometric tile grid.
+ * Pathfinder.ts — A* pathfinding on hex and square tile grids.
  *
- * Only the object layer is checked for passability.
- * OBJ_WALL (10) tiles are impassable; everything else (empty, door, floor) is
- * passable.  The floor layer and roof layer do not affect movement.
+ * Grid-based (findPath)
+ * ─────────────────────
+ * Operates on a 2D TileGrid (object layer).  OBJ_WALL tiles are impassable.
+ * Uses 6-directional hex neighbours (matching Fallout 1's staggered hex grid)
+ * instead of 4-directional cardinal movement for more natural paths.
  *
- * Returns an array of {col, row} waypoints from start (exclusive) to goal
- * (inclusive), or an empty array if no path exists.
+ * Hex-position-based (findHexPath)
+ * ─────────────────────────────────
+ * Operates on a Set of blocked Fallout 1 flat hex positions (row*200+col).
+ * Used by RealMapLoader-derived maps where collision data comes from objects
+ * rather than a 2D grid.
  *
- * Movement is 4-directional (cardinal only) to match Fallout 1's hex-grid feel
- * on an isometric square grid.  Diagonal moves could be added later.
+ * Both functions return arrays of {col, row} or hex-position waypoints from
+ * start (exclusive) to goal (inclusive), or [] if the goal is unreachable.
  */
 
-import { MAP_W, MAP_H, OBJ_WALL } from '../utils/constants';
+import { OBJ_WALL } from '../utils/constants';
 import type { TileGrid } from '../data/vaultMap';
+import { hexNeighbors, hexPosToColRow, colRowToHexPos } from './IsoRenderer';
 
 export interface TileCoord {
   col: number;
@@ -72,66 +78,70 @@ class MinHeap {
   }
 }
 
-// ── 4-directional neighbours ──────────────────────────────────────────────────
+// ── Hex neighbour offsets (staggered-row offset grid) ─────────────────────────
 
-const DIRS: readonly [number, number][] = [
-  [ 0, -1],   // north
-  [ 0,  1],   // south
-  [-1,  0],   // west
-  [ 1,  0],   // east
-];
-
-// ── Manhattan heuristic ───────────────────────────────────────────────────────
-
-function heuristic(col: number, row: number, gc: number, gr: number): number {
-  return Math.abs(col - gc) + Math.abs(row - gr);
+/**
+ * Hex neighbours for a tile at (col, row) in a 2D grid.
+ * Even rows: dcol/drow = (-1,-1),(0,-1),(1,0),(0,1),(-1,1),(-1,0)
+ * Odd  rows: dcol/drow =  (0,-1),(1,-1),(1,0),(1,1),(0,1), (-1,0)
+ */
+function hexDirs(row: number): readonly [number, number][] {
+  return (row & 1) === 0
+    ? [[-1, -1], [0, -1], [1, 0], [0, 1], [-1, 1], [-1, 0]]
+    : [[ 0, -1], [1, -1], [1, 0], [1, 1], [ 0, 1], [-1, 0]];
 }
 
-// ── Public API ────────────────────────────────────────────────────────────────
+// ── Admissible heuristic (Chebyshev — works for hex 6-dir) ───────────────────
+
+function hexH(col: number, row: number, gc: number, gr: number): number {
+  return Math.max(Math.abs(col - gc), Math.abs(row - gr));
+}
+
+// ── Grid-based A* (TileGrid, 6-directional hex) ───────────────────────────────
 
 /**
  * Find a path on the object grid from (startCol, startRow) to (goalCol, goalRow).
+ * Uses 6-directional hex movement; grid dimensions are derived from the grid itself.
  *
- * @param objectGrid  Level's object-layer grid — only OBJ_WALL blocks movement.
- * @returns Array of tile coords from start (exclusive) to goal (inclusive),
- *          or [] if unreachable.
+ * @param objectGrid  Level's object-layer grid — OBJ_WALL tiles block movement.
+ * @returns {col,row} waypoints from start (exclusive) to goal (inclusive), or [].
  */
 export function findPath(
   objectGrid: TileGrid,
   startCol: number, startRow: number,
   goalCol: number,  goalRow: number,
 ): TileCoord[] {
-  // Trivial case
   if (startCol === goalCol && startRow === goalRow) return [];
-  // Goal itself must be passable
   if (objectGrid[goalRow]?.[goalCol] === OBJ_WALL) return [];
 
-  const key = (c: number, r: number): number => r * MAP_W + c;
+  const gridH = objectGrid.length;
+  const gridW = objectGrid[0]?.length ?? 0;
+  if (gridW === 0) return [];
 
-  const gScore = new Map<number, number>();
-  const cameFrom = new Map<number, number>();   // key → parent key
-  const open = new MinHeap();
+  const key = (c: number, r: number): number => r * gridW + c;
+
+  const gScore  = new Map<number, number>();
+  const cameFrom = new Map<number, number>();
+  const open    = new MinHeap();
+  const closed  = new Set<number>();
 
   const startKey = key(startCol, startRow);
   gScore.set(startKey, 0);
-  open.push({ f: heuristic(startCol, startRow, goalCol, goalRow), col: startCol, row: startRow });
-
-  const closed = new Set<number>();
+  open.push({ f: hexH(startCol, startRow, goalCol, goalRow), col: startCol, row: startRow });
 
   while (open.size > 0) {
-    const cur = open.pop();
+    const cur    = open.pop();
     const curKey = key(cur.col, cur.row);
 
     if (closed.has(curKey)) continue;
     closed.add(curKey);
 
     if (cur.col === goalCol && cur.row === goalRow) {
-      // Reconstruct path
       const path: TileCoord[] = [];
       let k = curKey;
       while (k !== startKey) {
-        const c = k % MAP_W;
-        const r = Math.floor(k / MAP_W);
+        const c = k % gridW;
+        const r = Math.floor(k / gridW);
         path.push({ col: c, row: r });
         k = cameFrom.get(k)!;
       }
@@ -141,11 +151,11 @@ export function findPath(
 
     const curG = gScore.get(curKey) ?? Infinity;
 
-    for (const [dc, dr] of DIRS) {
+    for (const [dc, dr] of hexDirs(cur.row)) {
       const nc = cur.col + dc;
       const nr = cur.row + dr;
 
-      if (nc < 0 || nc >= MAP_W || nr < 0 || nr >= MAP_H) continue;
+      if (nc < 0 || nc >= gridW || nr < 0 || nr >= gridH) continue;
       if (objectGrid[nr][nc] === OBJ_WALL) continue;
 
       const nKey = key(nc, nr);
@@ -155,10 +165,80 @@ export function findPath(
       if (tentativeG < (gScore.get(nKey) ?? Infinity)) {
         gScore.set(nKey, tentativeG);
         cameFrom.set(nKey, curKey);
-        open.push({ f: tentativeG + heuristic(nc, nr, goalCol, goalRow), col: nc, row: nr });
+        open.push({ f: tentativeG + hexH(nc, nr, goalCol, goalRow), col: nc, row: nr });
       }
     }
   }
 
-  return [];   // unreachable
+  return [];
+}
+
+// ── Flat-hex-position A* (Set<number> blocked, 6-directional) ─────────────────
+
+/**
+ * Find a path on Fallout 1's 200×200 hex grid between two flat hex positions.
+ *
+ * @param blocked  Set of impassable hex positions (walls, scenery, etc.).
+ * @param start    Starting flat hex position (row * HEX_STRIDE + col).
+ * @param goal     Goal flat hex position.
+ * @returns Array of {col, row} waypoints from start (exclusive) to goal
+ *          (inclusive, decoded from hex positions), or [] if unreachable.
+ */
+export function findHexPath(
+  blocked: Set<number>,
+  start: number,
+  goal: number,
+): TileCoord[] {
+  if (start === goal) return [];
+  if (blocked.has(goal)) return [];
+
+  const { col: gc, row: gr } = hexPosToColRow(goal);
+
+  const heuristic = (pos: number): number => {
+    const { col, row } = hexPosToColRow(pos);
+    return Math.max(Math.abs(col - gc), Math.abs(row - gr));
+  };
+
+  const gScore   = new Map<number, number>();
+  const cameFrom = new Map<number, number>();
+  const open     = new MinHeap();
+  const closed   = new Set<number>();
+
+  const { col: sc, row: sr } = hexPosToColRow(start);
+  gScore.set(start, 0);
+  open.push({ f: heuristic(start), col: sc, row: sr });
+
+  while (open.size > 0) {
+    const cur    = open.pop();
+    const curPos = colRowToHexPos(cur.col, cur.row);
+
+    if (closed.has(curPos)) continue;
+    closed.add(curPos);
+
+    if (curPos === goal) {
+      const path: TileCoord[] = [];
+      let k = curPos;
+      while (k !== start) {
+        path.push(hexPosToColRow(k));
+        k = cameFrom.get(k)!;
+      }
+      path.reverse();
+      return path;
+    }
+
+    const curG = gScore.get(curPos) ?? Infinity;
+
+    for (const nb of hexNeighbors(curPos)) {
+      if (closed.has(nb) || blocked.has(nb)) continue;
+      const tentativeG = curG + 1;
+      if (tentativeG < (gScore.get(nb) ?? Infinity)) {
+        gScore.set(nb, tentativeG);
+        cameFrom.set(nb, curPos);
+        const { col: nc, row: nr } = hexPosToColRow(nb);
+        open.push({ f: tentativeG + heuristic(nb), col: nc, row: nr });
+      }
+    }
+  }
+
+  return [];
 }

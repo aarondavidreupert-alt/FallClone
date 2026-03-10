@@ -43,6 +43,7 @@ import {
 } from '../utils/constants';
 import { DIAMOND_POINTS, wallBoxPoints } from '../systems/IsoRenderer';
 import { buildVaultMap } from '../data/vaultMap';
+import { tryLoadRealMap } from '../loaders/RealMapLoader';
 import {
   tileUrl, critterUrl, critterMetaUrl,
   hasTiles, hasCritters,
@@ -104,10 +105,21 @@ export class PreloadScene extends Phaser.Scene {
 
   // ── Phaser preload — batch-loads real assets ─────────────────────────────────
 
+  // Cache key for the converted V13ENT MAP JSON
+  static readonly MAP_CACHE_KEY = 'map_v13ent';
+
   preload(): void {
     this._setupLoadingUI();
     this._loadRealTiles();
     this._loadRealSprites();
+    // Try to load the converted V13ENT map (assets/maps/v13ent.json).
+    // Phaser will silently skip it if the file doesn't exist (no crash).
+    this.load.json(PreloadScene.MAP_CACHE_KEY, 'assets/maps/v13ent.json');
+    this.load.on('fileerror', (file: Phaser.Loader.File) => {
+      if (file.key === PreloadScene.MAP_CACHE_KEY) {
+        console.log('[PreloadScene] v13ent.json not found — procedural map fallback');
+      }
+    });
   }
 
   // ── Loading progress UI ───────────────────────────────────────────────────────
@@ -232,7 +244,14 @@ export class PreloadScene extends Phaser.Scene {
     }
 
     // ── Map data ─────────────────────────────────────────────────────────────────
-    const map = buildVaultMap();
+    // Prefer the converted V13ENT.MAP.json; fall back to procedural vault.
+    const realMap = tryLoadRealMap(PreloadScene.MAP_CACHE_KEY, this.cache.json);
+    const map = realMap ?? buildVaultMap();
+    if (realMap) {
+      console.log(`[PreloadScene] Using real map: ${map.name} (${map.width}×${map.height})`);
+    } else {
+      console.log('[PreloadScene] Using procedural vault map (no v13ent.json found)');
+    }
     this.registry.set('mapData', map);
 
     this._statusText?.setText('VAULT 13 READY');

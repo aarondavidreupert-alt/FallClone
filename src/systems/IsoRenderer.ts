@@ -46,9 +46,9 @@ export function worldToTile(wx: number, wy: number): { col: number; row: number 
   return { col, row };
 }
 
-/** Whether (col, row) is within the map grid. */
-export function inBounds(col: number, row: number): boolean {
-  return col >= 0 && col < MAP_W && row >= 0 && row < MAP_H;
+/** Whether (col, row) is within the map grid (defaults to MAP_W × MAP_H). */
+export function inBounds(col: number, row: number, mapW = MAP_W, mapH = MAP_H): boolean {
+  return col >= 0 && col < mapW && row >= 0 && row < mapH;
 }
 
 // ── Depth / draw order ────────────────────────────────────────────────────────
@@ -76,17 +76,17 @@ export function tileDepth(col: number, row: number, layer: 0 | 1 | 2): number {
  * Used by LocationScene to clamp the camera:
  *   camera.setBounds(bounds.x, bounds.y, bounds.width, bounds.height)
  */
-export function mapWorldBounds(): {
+export function mapWorldBounds(mapW = MAP_W, mapH = MAP_H): {
   x: number; y: number; width: number; height: number;
 } {
-  // Leftmost point: tile (0, MAP_H-1) — top-left corner of the diamond
-  const leftX   = (0 - (MAP_H - 1)) * HALF_W - HALF_W;
-  // Rightmost point: tile (MAP_W-1, 0) + half tile width
-  const rightX  = (MAP_W - 1) * HALF_W + HALF_W;
-  // Topmost point: tile (0, 0) — minus a little padding
+  // Leftmost point: tile (0, mapH-1)
+  const leftX   = (0 - (mapH - 1)) * HALF_W - HALF_W;
+  // Rightmost point: tile (mapW-1, 0)
+  const rightX  = (mapW - 1) * HALF_W + HALF_W;
+  // Topmost point: tile (0, 0)
   const topY    = -HALF_H;
-  // Bottommost point: tile (MAP_W-1, MAP_H-1) + full tile height + wall height
-  const bottomY = (MAP_W - 1 + MAP_H - 1) * HALF_H + TILE_H + WALL_H;
+  // Bottommost point: tile (mapW-1, mapH-1) + tile height + wall height
+  const bottomY = (mapW - 1 + mapH - 1) * HALF_H + TILE_H + WALL_H;
 
   const pad = 64;
   return {
@@ -95,6 +95,75 @@ export function mapWorldBounds(): {
     width:  rightX - leftX  + pad * 2,
     height: bottomY - topY  + pad * 2,
   };
+}
+
+// ── Fallout 1 hex coordinate system ──────────────────────────────────────────
+
+/**
+ * Stride of Fallout 1's internal 200×200 hex grid.
+ * Every object/player position is encoded as:  pos = row * HEX_STRIDE + col
+ *
+ * The visible tile array in a MAP file is 100×100 (10 000 tiles per elevation).
+ * Tile[i] sits at hex_pos = (i / 100) * HEX_STRIDE + (i % 100).
+ */
+export const HEX_STRIDE = 200;
+
+/** Decode a flat Fallout 1 hex position → (col, row). */
+export function hexPosToColRow(pos: number): { col: number; row: number } {
+  return { col: pos % HEX_STRIDE, row: Math.floor(pos / HEX_STRIDE) };
+}
+
+/** Encode (col, row) → flat Fallout 1 hex position. */
+export function colRowToHexPos(col: number, row: number): number {
+  return row * HEX_STRIDE + col;
+}
+
+/**
+ * Fallout 1 hex position → world pixel coordinates.
+ * The tile at pos renders as an isometric diamond; the returned point is the
+ * top vertex (same convention as tileToWorld).
+ */
+export function hexToWorld(pos: number): { x: number; y: number } {
+  const { col, row } = hexPosToColRow(pos);
+  return tileToWorld(col, row);
+}
+
+/**
+ * World pixel → nearest Fallout 1 hex position.
+ * Inverse of hexToWorld; snaps to the closest tile.
+ */
+export function worldToHex(wx: number, wy: number): number {
+  const { col, row } = worldToTile(wx, wy);
+  const c = Math.max(0, Math.min(HEX_STRIDE - 1, col));
+  const r = Math.max(0, Math.min(HEX_STRIDE - 1, row));
+  return colRowToHexPos(c, r);
+}
+
+/**
+ * Return the up-to-6 valid hex neighbours of `pos` in Fallout 1's hex grid.
+ *
+ * Uses a staggered-row offset grid (even rows are left-aligned):
+ *   Even row offsets (dcol, drow): (-1,-1),(0,-1),(1,0),(0,1),(-1,1),(-1,0)
+ *   Odd  row offsets (dcol, drow):  (0,-1),(1,-1),(1,0),(1,1),(0,1), (-1,0)
+ *
+ * Neighbours that would fall outside [0, HEX_STRIDE) in either axis are
+ * omitted from the result.
+ */
+export function hexNeighbors(pos: number): number[] {
+  const { col, row } = hexPosToColRow(pos);
+  const offsets: readonly [number, number][] = (row & 1) === 0
+    ? [[-1, -1], [0, -1], [1, 0], [0, 1], [-1, 1], [-1, 0]]
+    : [[ 0, -1], [1, -1], [1, 0], [1, 1], [ 0, 1], [-1, 0]];
+
+  const result: number[] = [];
+  for (const [dc, dr] of offsets) {
+    const nc = col + dc;
+    const nr = row + dr;
+    if (nc >= 0 && nc < HEX_STRIDE && nr >= 0 && nr < HEX_STRIDE) {
+      result.push(colRowToHexPos(nc, nr));
+    }
+  }
+  return result;
 }
 
 // ── Tile geometry helpers ─────────────────────────────────────────────────────

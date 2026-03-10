@@ -23,7 +23,7 @@
 
 import Phaser from 'phaser';
 import {
-  MAP_W, MAP_H, HALF_H, TILE_W, TILE_H,
+  HALF_H, TILE_W, TILE_H,
   T_EMPTY, T_FLOOR, T_FLOOR2, T_FLOOR3,
   OBJ_WALL, OBJ_DOOR,
   ROOF_STD,
@@ -286,7 +286,7 @@ export class LocationScene extends Phaser.Scene {
       const wp  = cam.getWorldPoint(ptr.x, ptr.y);
       const { col, row } = worldToTile(wp.x, wp.y);
 
-      if (col < 0 || col >= MAP_W || row < 0 || row >= MAP_H) return;
+      if (col < 0 || col >= this.mapData.width || row < 0 || row >= this.mapData.height) return;
 
       const level = this.mapData.levels[this.levelIndex];
       if (level.object[row][col] === OBJ_WALL) return;
@@ -318,7 +318,7 @@ export class LocationScene extends Phaser.Scene {
     this._spawnEnemies(index);
     this._spawnGroundItems(level);
 
-    const bounds = mapWorldBounds();
+    const bounds = mapWorldBounds(this.mapData.width, this.mapData.height);
     const cam    = this.cameras.main;
     cam.setBounds(bounds.x, bounds.y, bounds.width, bounds.height);
     const start = tileToWorld(level.playerStart.col, level.playerStart.row);
@@ -327,8 +327,10 @@ export class LocationScene extends Phaser.Scene {
 
   private _renderLayer(level: LevelData, layer: 0 | 1 | 2): void {
     const isRoof = layer === 2;
-    for (let row = 0; row < MAP_H; row++) {
-      for (let col = 0; col < MAP_W; col++) {
+    const gridH  = level.floor.length;
+    const gridW  = level.floor[0]?.length ?? 0;
+    for (let row = 0; row < gridH; row++) {
+      for (let col = 0; col < gridW; col++) {
         let tileType: number;
         let texKey:   string | undefined;
 
@@ -385,7 +387,7 @@ export class LocationScene extends Phaser.Scene {
     const ptr = this.input.activePointer;
     const wp  = cam.getWorldPoint(ptr.x, ptr.y);
     const { col, row } = worldToTile(wp.x, wp.y);
-    const inMap = col >= 0 && col < MAP_W && row >= 0 && row < MAP_H;
+    const inMap = col >= 0 && col < this.mapData.width && row >= 0 && row < this.mapData.height;
     this.hudTile.setText(inMap
       ? `(${col},${row})  f:${level.floor[row][col]} o:${level.object[row][col]}`
       : `(${col},${row})  —`);
@@ -875,10 +877,12 @@ export class LocationScene extends Phaser.Scene {
     this._moveHighlights = [];
   }
 
-  /** BFS — tiles reachable within `maxAP` steps (walls block). */
+  /** BFS — tiles reachable within `maxAP` steps using hex 6-dir neighbours (walls block). */
   private _reachableTiles(
     grid: TileGrid, startCol: number, startRow: number, maxAP: number,
   ): { col: number; row: number }[] {
+    const gridH  = grid.length;
+    const gridW  = grid[0]?.length ?? 0;
     const visited = new Set<string>();
     const queue: { col: number; row: number; ap: number }[] = [
       { col: startCol, row: startRow, ap: maxAP },
@@ -894,9 +898,14 @@ export class LocationScene extends Phaser.Scene {
       if (col !== startCol || row !== startRow) result.push({ col, row });
       if (ap <= 0) continue;
 
-      for (const [dc, dr] of [[-1,0],[1,0],[0,-1],[0,1]] as const) {
+      // Hex 6-directional neighbours (staggered-row offset grid)
+      const dirs: readonly [number, number][] = (row & 1) === 0
+        ? [[-1, -1], [0, -1], [1, 0], [0, 1], [-1, 1], [-1, 0]]
+        : [[ 0, -1], [1, -1], [1, 0], [1, 1], [ 0, 1], [-1, 0]];
+
+      for (const [dc, dr] of dirs) {
         const nc = col + dc; const nr = row + dr;
-        if (nc < 0 || nc >= MAP_W || nr < 0 || nr >= MAP_H) continue;
+        if (nc < 0 || nc >= gridW || nr < 0 || nr >= gridH) continue;
         if (grid[nr][nc] === OBJ_WALL) continue;
         const nk = `${nc},${nr}`;
         if (!visited.has(nk)) queue.push({ col: nc, row: nr, ap: ap - 1 });
