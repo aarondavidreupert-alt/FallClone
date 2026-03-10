@@ -42,6 +42,7 @@ import { CombatSystem } from '../systems/CombatSystem';
 import { getEnemyDef }  from '../data/enemies';
 import { getItem }      from '../data/items';
 import { calcDerived }  from '../systems/StatsSystem';
+import { activateQuest, setFlag, hasFlag } from '../systems/QuestSystem';
 
 // ── Camera constants ──────────────────────────────────────────────────────────
 const PAN_SPEED = 420;
@@ -103,6 +104,8 @@ export class LocationScene extends Phaser.Scene {
   private keyZoomOut!:   Phaser.Input.Keyboard.Key;
   private keyInventory!: Phaser.Input.Keyboard.Key;
   private keyC!:         Phaser.Input.Keyboard.Key;
+  private keyQ!:         Phaser.Input.Keyboard.Key;
+  private keyM!:         Phaser.Input.Keyboard.Key;
 
   // ── HUD ────────────────────────────────────────────────────────────────────
   private hudLevel!: Phaser.GameObjects.Text;
@@ -129,6 +132,20 @@ export class LocationScene extends Phaser.Scene {
     this._buildHud();
     this._setupMouseWheel();
     this._setupClickMove();
+
+    // Phase 8: listen for dialogue close events (quest triggers)
+    this.game.events.on('dialogue:closed', this._onDialogueClosed, this);
+
+    // Phase 8: handle travel arrival banner
+    const travelTarget = this.registry.get('travelTarget') as string | null;
+    if (travelTarget) {
+      this.registry.set('travelTarget', null);
+      this._showArrivalBanner(travelTarget);
+    }
+  }
+
+  shutdown(): void {
+    this.game.events.off('dialogue:closed', this._onDialogueClosed, this);
   }
 
   // ── Camera ────────────────────────────────────────────────────────────────
@@ -157,6 +174,8 @@ export class LocationScene extends Phaser.Scene {
     this.keyZoomOut   = kb.addKey(Phaser.Input.Keyboard.KeyCodes.MINUS);
     this.keyInventory = kb.addKey(Phaser.Input.Keyboard.KeyCodes.I);
     this.keyC         = kb.addKey(Phaser.Input.Keyboard.KeyCodes.C);
+    this.keyQ         = kb.addKey(Phaser.Input.Keyboard.KeyCodes.Q);
+    this.keyM         = kb.addKey(Phaser.Input.Keyboard.KeyCodes.M);
   }
 
   private _setupMouseWheel(): void {
@@ -264,9 +283,8 @@ export class LocationScene extends Phaser.Scene {
       if (this.player.isMoving) return;
 
       const cam = this.cameras.main;
-      const wx  = cam.scrollX + ptr.x / cam.zoom;
-      const wy  = cam.scrollY + ptr.y / cam.zoom;
-      const { col, row } = worldToTile(wx, wy);
+      const wp  = cam.getWorldPoint(ptr.x, ptr.y);
+      const { col, row } = worldToTile(wp.x, wp.y);
 
       if (col < 0 || col >= MAP_W || row < 0 || row >= MAP_H) return;
 
@@ -365,9 +383,8 @@ export class LocationScene extends Phaser.Scene {
     this.hudCoord.setText(`zoom ×${cam.zoom.toFixed(2)}  (${Math.round(cam.scrollX)}, ${Math.round(cam.scrollY)})`);
 
     const ptr = this.input.activePointer;
-    const wx  = cam.scrollX + ptr.x / cam.zoom;
-    const wy  = cam.scrollY + ptr.y / cam.zoom;
-    const { col, row } = worldToTile(wx, wy);
+    const wp  = cam.getWorldPoint(ptr.x, ptr.y);
+    const { col, row } = worldToTile(wp.x, wp.y);
     const inMap = col >= 0 && col < MAP_W && row >= 0 && row < MAP_H;
     this.hudTile.setText(inMap
       ? `(${col},${row})  f:${level.floor[row][col]} o:${level.object[row][col]}`
@@ -431,6 +448,8 @@ export class LocationScene extends Phaser.Scene {
     this._handleZoom();
     this._handleInventoryKey();
     this._handleCombatKey();
+    this._handleQuestLogKey();
+    this._handleWorldMapKey();
     this._handlePendingDrop();
     this._updateHud();
   }
@@ -452,6 +471,64 @@ export class LocationScene extends Phaser.Scene {
       const liveEnemies = this._enemies.filter(e => !e.isDead);
       if (liveEnemies.length > 0) this._enterCombat();
     }
+  }
+
+  private _handleQuestLogKey(): void {
+    if (!Phaser.Input.Keyboard.JustDown(this.keyQ)) return;
+    if (this._inCombat) return;
+    if (this.scene.isActive('QuestLogScene')) {
+      this.scene.stop('QuestLogScene');
+    } else if (!this.scene.isActive('DialogueScene')) {
+      this.scene.launch('QuestLogScene');
+    }
+  }
+
+  private _handleWorldMapKey(): void {
+    if (!Phaser.Input.Keyboard.JustDown(this.keyM)) return;
+    if (this._inCombat) return;
+    if (this.scene.isActive('DialogueScene')) return;
+    if (!this._charData?.worldUnlocked) {
+      this._showPickupToast('You must leave the Vault first.', true);
+      return;
+    }
+    this.scene.start('WorldMapScene');
+  }
+
+  // ── Dialogue event ────────────────────────────────────────────────────────
+
+  private _onDialogueClosed(data: { npcId: string }): void {
+    if (!this._charData) return;
+
+    if (data.npcId === 'overseer') {
+      // Trigger main quest and unlock world map on first overseer conversation
+      if (!hasFlag(this._charData, 'overseer_spoken')) {
+        setFlag(this._charData, 'overseer_spoken');
+        const activated = activateQuest(this._charData, 'find_water_chip');
+        if (activated) {
+          this._charData.worldUnlocked = true;
+          this.registry.set('characterData', this._charData);
+          this._flashLevelBanner('QUEST ADDED: Find the Water Chip');
+          this.time.delayedCall(2200, () => {
+            this._showPickupToast('[M] to open World Map  |  [Q] for Quest Log', false);
+          });
+        }
+      }
+    }
+  }
+
+  // ── Arrival banner ────────────────────────────────────────────────────────
+
+  private _showArrivalBanner(locationId: string): void {
+    const names: Record<string, string> = {
+      vault13:      'Vault 13',
+      shady_sands:  'Shady Sands',
+      vault15:      'Vault 15',
+      raiders_camp: 'Raiders Camp',
+      the_hub:      'The Hub',
+      necropolis:   'Necropolis',
+    };
+    const name = names[locationId] ?? locationId;
+    this._flashLevelBanner(`Arrived at ${name}`);
   }
 
   private _handlePendingDrop(): void {

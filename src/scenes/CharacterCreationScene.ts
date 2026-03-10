@@ -406,6 +406,11 @@ export class CharacterCreationScene extends Phaser.Scene {
       karma:     0,
       inventory: [],
       equipped:  { armor: null, weapon: null },
+      // Phase 8
+      quests:        [],
+      questFlags:    {},
+      days:          0,
+      worldUnlocked: false,
     };
 
     this.registry.set('characterData', charData);
