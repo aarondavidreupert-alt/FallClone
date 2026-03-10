@@ -446,16 +446,39 @@ def convert_file(pro_path: Path, out_path: Path) -> bool:
         return False
 
 
+
+def find_proto_dir(base: Path) -> Optional[Path]:
+    """
+    Locate the PROTO directory under `base`, trying several casing variants.
+
+    Fallout 1 ships with uppercase PROTO/; some installs use lowercase proto/.
+    Tries (in order): PROTO/, proto/, protos/, Protos/
+    Returns the first matching Path, or None if none found.
+    """
+    for name in ("PROTO", "proto", "protos", "Protos"):
+        candidate = base / name
+        if candidate.is_dir():
+            return candidate
+    return None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(
         description="Convert Fallout 1 .PRO prototype files to JSON."
     )
-    ap.add_argument("input",  help="Input .pro file or directory")
+    ap.add_argument("input",  help="Input .pro file or directory (or parent of PROTO/)")
     ap.add_argument("output", help="Output .json file or directory")
     args = ap.parse_args()
 
     inp = Path(args.input)
     out = Path(args.output)
+
+    # If the user passed the raw_assets root instead of the proto dir, auto-detect.
+    if inp.is_dir() and not any(inp.rglob("*.PRO")):
+        detected = find_proto_dir(inp)
+        if detected:
+            print(f"  Auto-detected proto directory: {detected}")
+            inp = detected
 
     if inp.is_file():
         out_file = out if out.suffix == ".json" else out / (inp.stem.lower() + ".json")

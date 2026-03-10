@@ -128,6 +128,19 @@ def convert_acm(
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def main() -> None:
+    # ── Dependency check (before argument parsing) ────────────────────────────
+    # Fail fast with clear instructions if ffmpeg is missing.
+    try:
+        ffmpeg = check_ffmpeg()
+        print(f"ffmpeg found: {ffmpeg}")
+    except RuntimeError as exc:
+        print("=" * 60, file=sys.stderr)
+        print("ERROR: ffmpeg is required but was not found on PATH.", file=sys.stderr)
+        print("=" * 60, file=sys.stderr)
+        print(str(exc), file=sys.stderr)
+        print("=" * 60, file=sys.stderr)
+        sys.exit(1)
+
     ap = argparse.ArgumentParser(
         description="Convert Fallout 1 .ACM audio files to MP3 or OGG via ffmpeg."
     )
@@ -149,13 +162,6 @@ def main() -> None:
         help="Write all output files into a single flat directory (no subdirs)",
     )
     args = ap.parse_args()
-
-    # Verify ffmpeg availability upfront
-    try:
-        ffmpeg = check_ffmpeg()
-    except RuntimeError as exc:
-        print(f"ERROR: {exc}", file=sys.stderr)
-        sys.exit(1)
 
     inp = Path(args.input)
     out = Path(args.output)

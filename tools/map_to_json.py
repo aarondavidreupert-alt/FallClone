@@ -9,7 +9,7 @@ Fallout 1. This script extracts everything the web engine needs for Phases 2-5:
   - Script instance list (prototype links, spatial/time triggers)
   - Map metadata (player start, map ID, dimensions)
 
-MAP format reference (all values little-endian)
+MAP format reference (all values big-endian)
 -----------------------------------------------
 Header (188 bytes):
   int32    version          19 for Fallout 1
@@ -74,12 +74,12 @@ MAP_TILES  = MAP_WIDTH * MAP_HEIGHT   # 10 000 per elevation
 NUM_ELEVATIONS = 3
 
 # Header layout
-_HDR_FMT  = "<i16s10i44i"            # 4 + 16 + 40 + 176 = 236?  let's verify
+_HDR_FMT  = ">i16s10i44i"            # 4 + 16 + 40 + 176 = 236?  let's verify
 # Actually: 4 + 16 + (10×4) + (44×4) = 4+16+40+176 = 236.
 # But the Fallout 1 MAP header is 188 bytes.  Adjust: 44 ints of padding is too many.
 # Correct split: 10 named ints + padding to reach 188 bytes total.
 # 188 - 4 - 16 - 10*4 = 188 - 60 = 128 bytes = 32 ints of padding.
-_HDR_FMT  = "<i16s10i32i"
+_HDR_FMT  = ">i16s10i32i"
 _HDR_SIZE = struct.calcsize(_HDR_FMT)   # should be 188
 
 # Prototype type IDs (high byte of proto_id)
@@ -138,7 +138,7 @@ def parse_variables(data: bytes, offset: int, count: int) -> Tuple[List[int], in
     size = count * 4
     if offset + size > len(data):
         raise ValueError(f"File truncated reading {count} variables at offset {offset}")
-    values = list(struct.unpack_from(f"<{count}i", data, offset))
+    values = list(struct.unpack_from(f">{count}i", data, offset))
     return values, offset + size
 
 
@@ -172,7 +172,7 @@ def parse_tiles(data: bytes, offset: int) -> Tuple[List[dict], int]:
     for elev in range(NUM_ELEVATIONS):
         tiles: List[dict] = []
         for i in range(MAP_TILES):
-            raw = struct.unpack_from("<I", data, offset)[0]
+            raw = struct.unpack_from(">I", data, offset)[0]
             offset += 4
             floor_id = raw & 0xFFFF
             roof_id  = (raw >> 16) & 0xFFFF
@@ -190,7 +190,7 @@ def parse_tiles(data: bytes, offset: int) -> Tuple[List[dict], int]:
 
 # Script instance record sizes vary by type.  Each record starts with a
 # common 4-word (16-byte) prefix; extra words follow depending on type.
-_SCRIPT_COMMON_FMT = "<iiii"    # pid, next, type-data, num_procs
+_SCRIPT_COMMON_FMT = ">iiii"    # pid, next, type-data, num_procs
 _SCRIPT_COMMON_SIZE = struct.calcsize(_SCRIPT_COMMON_FMT)   # 16
 
 # Extra words per script type after the 16-byte common header
@@ -212,7 +212,7 @@ def parse_scripts(data: bytes, offset: int) -> Tuple[List[dict], int]:
     if offset + 4 > len(data):
         return [], offset
 
-    script_count = struct.unpack_from("<i", data, offset)[0]
+    script_count = struct.unpack_from(">i", data, offset)[0]
     offset += 4
 
     scripts: List[dict] = []
@@ -232,7 +232,7 @@ def parse_scripts(data: bytes, offset: int) -> Tuple[List[dict], int]:
         for _ in range(extra_n):
             if offset + 4 > len(data):
                 break
-            extra.append(struct.unpack_from("<i", data, offset)[0])
+            extra.append(struct.unpack_from(">i", data, offset)[0])
             offset += 4
 
         scripts.append({
@@ -248,8 +248,8 @@ def parse_scripts(data: bytes, offset: int) -> Tuple[List[dict], int]:
 
 # ── Objects section ───────────────────────────────────────────────────────────
 
-# Common object header (72 bytes = 18 × int32, all little-endian)
-_OBJ_HDR_FMT  = "<18i"
+# Common object header (72 bytes = 18 × int32, all big-endian)
+_OBJ_HDR_FMT  = ">18i"
 _OBJ_HDR_SIZE = struct.calcsize(_OBJ_HDR_FMT)   # 72
 
 
@@ -340,7 +340,7 @@ def parse_object(data: bytes, offset: int) -> Tuple[Optional[dict], int]:
         # The sub-record starts with an int32 count of inventory items,
         # each 8 bytes.  We skip all of it.
         if offset + 4 <= len(data):
-            inv_size = struct.unpack_from("<i", data, offset)[0]
+            inv_size = struct.unpack_from(">i", data, offset)[0]
             offset += 4
             # Additional critter-specific words before inventory
             # (AI packet, team, stats, etc.) — 36 bytes empirically
@@ -362,7 +362,7 @@ def parse_objects(data: bytes, offset: int) -> Tuple[List[dict], int]:
     for elev in range(NUM_ELEVATIONS):
         if offset + 4 > len(data):
             break
-        count = struct.unpack_from("<i", data, offset)[0]
+        count = struct.unpack_from(">i", data, offset)[0]
         offset += 4
 
         for _ in range(count):
