@@ -44,12 +44,7 @@ import {
 import { DIAMOND_POINTS, wallBoxPoints } from '../systems/IsoRenderer';
 import { buildVaultMap } from '../data/vaultMap';
 import { tryLoadRealMap } from '../loaders/RealMapLoader';
-import {
-  tileUrl, critterUrl, critterMetaUrl,
-  hasTiles, hasCritters,
-  SORTED_TILE_ENTRIES,
-  type TileRole,
-} from '../loaders/AssetRegistry';
+import { EMPTY_LST, type LstData } from '../loaders/AssetRegistry';
 
 // ── Placeholder colour palette ────────────────────────────────────────────────
 const C = {
@@ -79,44 +74,23 @@ const C = {
   roof_outline: 0x6a6a88,
 };
 
-// ── Internal loader keys for raw sprite assets ─────────────────────────────────
-const RAW_PLAYER     = 'raw_player_sheet';
-const RAW_NPC        = 'raw_npc_sheet';
-const META_PLAYER    = 'meta_player_json';
-const META_NPC       = 'meta_npc_json';
-
-// ── Sprite cell metadata from frm_to_png.py JSON ─────────────────────────────
-interface FrmMeta {
-  fps:          number;
-  frames_per_dir: number;
-  cell_width:   number;
-  cell_height:  number;
-  sheet_width:  number;
-  sheet_height: number;
-}
-
 export class PreloadScene extends Phaser.Scene {
 
-  // Track which tile keys are loaded via real assets (not generated)
-  private _realLoads = new Set<string>();
+  static readonly MAP_CACHE_KEY = 'map_v13ent';
 
   constructor() {
     super({ key: 'PreloadScene' });
   }
 
-  // ── Phaser preload — batch-loads real assets ─────────────────────────────────
-
-  // Cache key for the converted V13ENT MAP JSON
-  static readonly MAP_CACHE_KEY = 'map_v13ent';
+  // ── Phaser preload ────────────────────────────────────────────────────────────
 
   preload(): void {
-    this._setupLoadingUI();
-    this._loadRealTiles();
-    this._loadRealSprites();
-    this._loadIndexedTiles();
-    // Try to load the converted V13ENT map (assets/maps/v13ent.json).
-    // Phaser will silently skip it if the file doesn't exist (no crash).
-    this.load.json(PreloadScene.MAP_CACHE_KEY, 'assets/maps/v13ent.json');
+    const lst: LstData = this.registry.get('lstData') ?? EMPTY_LST;
+    this._setupLoadingUI(lst);
+    this._loadTilesFromLst(lst);
+
+    // Map served from public/assets/maps/ (available at /assets/maps/v13ent.json)
+    this.load.json(PreloadScene.MAP_CACHE_KEY, '/assets/maps/v13ent.json');
     this.load.on('fileerror', (file: Phaser.Loader.File) => {
       if (file.key === PreloadScene.MAP_CACHE_KEY) {
         console.log('[PreloadScene] v13ent.json not found — procedural map fallback');
@@ -124,98 +98,49 @@ export class PreloadScene extends Phaser.Scene {
     });
   }
 
-  // ── Per-tile index loading (for real MAP tile IDs) ────────────────────────────
-
-  /**
-   * Load every tile PNG with a numeric key `tile_idx_N` where N matches the
-   * tile's position in alphabetical (= TILES.LST) order.
-   * LocationScene uses `tile_idx_<rawId>` to render per-tile textures on real maps.
-   */
-  private _loadIndexedTiles(): void {
-    for (let i = 0; i < SORTED_TILE_ENTRIES.length; i++) {
-      const [, url] = SORTED_TILE_ENTRIES[i];
-      this.load.image(`tile_idx_${i}`, url);
-    }
-    if (SORTED_TILE_ENTRIES.length > 0) {
-      console.log(`[PreloadScene] Loading ${SORTED_TILE_ENTRIES.length} indexed tiles (tile_idx_0 … tile_idx_${SORTED_TILE_ENTRIES.length - 1})`);
-    }
-  }
-
   // ── Loading progress UI ───────────────────────────────────────────────────────
 
   private _statusText!: Phaser.GameObjects.Text;
 
-  private _setupLoadingUI(): void {
+  private _setupLoadingUI(lst: LstData): void {
     const { width, height } = this.scale;
-
     this.add.rectangle(width / 2, height / 2, width, height, 0x000000);
 
     this._statusText = this.add.text(width / 2, height / 2 - 20, 'LOADING ASSETS…', {
-      fontFamily: 'monospace',
-      fontSize:   '14px',
-      color:      '#c8a000',
+      fontFamily: 'monospace', fontSize: '14px', color: '#c8a000',
     }).setOrigin(0.5);
 
-    const sub = this.add.text(width / 2, height / 2 + 16, '', {
-      fontFamily: 'monospace',
-      fontSize:   '11px',
-      color:      '#607030',
-    }).setOrigin(0.5);
+    const sub = this.add.text(width / 2, height / 2 + 16,
+      lst.tiles.length > 0
+        ? `${lst.tiles.length} tiles from LST — loading…`
+        : 'No real assets — using procedural placeholders',
+      { fontFamily: 'monospace', fontSize: '11px', color: '#607030' },
+    ).setOrigin(0.5);
 
-    // Progress bar background
-    const barX = width / 2 - 150;
-    const barY = height / 2 + 44;
+    const barX = width / 2 - 150, barY = height / 2 + 44;
     this.add.rectangle(barX + 150, barY, 300, 8, 0x222211);
     const bar = this.add.rectangle(barX, barY, 0, 6, 0xc8a000).setOrigin(0, 0.5);
 
-    this.load.on('progress', (value: number) => {
-      bar.width = 300 * value;
-    });
-    this.load.on('fileprogress', (file: Phaser.Loader.File) => {
-      sub.setText(file.key.replace(/^(raw_|meta_)/, ''));
-    });
-
-    if (hasTiles() || hasCritters()) {
-      sub.setText('Fallout 1 assets found — loading…');
-    } else {
-      sub.setText('No converted assets found — using placeholders');
-    }
+    this.load.on('progress',     (v: number)                => { bar.width = 300 * v; });
+    this.load.on('fileprogress', (file: Phaser.Loader.File) => { sub.setText(file.key); });
   }
 
-  // ── Real tile loading ─────────────────────────────────────────────────────────
+  // ── Tile loading from LST ─────────────────────────────────────────────────────
 
-  private _loadRealTiles(): void {
-    const roles: TileRole[] = ['floor', 'floor2', 'floor3', 'wall', 'door', 'roof'];
-    const keys: Record<TileRole, string> = {
-      floor: TX_FLOOR, floor2: TX_FLOOR2, floor3: TX_FLOOR3,
-      wall: TX_WALL, door: TX_DOOR, roof: TX_ROOF,
-    };
-
-    for (const role of roles) {
-      const url = tileUrl(role);
-      if (!url) continue;
-      this.load.image(keys[role], url);
-      this._realLoads.add(keys[role]);
+  /**
+   * Register every tile from tiles_lst.json as 'tile_idx_<N>' where N is the
+   * array index (= raw MAP floor ID).  LocationScene renders real-map floors
+   * using `tile_idx_<rawId>` so the index matches the MAP value directly.
+   */
+  private _loadTilesFromLst(lst: LstData): void {
+    for (let i = 0; i < lst.tiles.length; i++) {
+      this.load.image(`tile_idx_${i}`, `/assets/tiles/${lst.tiles[i]}.png`);
     }
-  }
-
-  // ── Real sprite loading ───────────────────────────────────────────────────────
-
-  private _loadRealSprites(): void {
-    const playerUrl = critterUrl('player');
-    if (playerUrl) {
-      this.load.image(RAW_PLAYER, playerUrl);
-      const metaUrl = critterMetaUrl('player');
-      if (metaUrl) this.load.json(META_PLAYER, metaUrl);
-      this._realLoads.add(TX_PLAYER);
-    }
-
-    const npcUrl = critterUrl('npc');
-    if (npcUrl) {
-      this.load.image(RAW_NPC, npcUrl);
-      const metaUrl = critterMetaUrl('npc');
-      if (metaUrl) this.load.json(META_NPC, metaUrl);
-      this._realLoads.add(TX_NPC);
+    if (lst.tiles.length > 0) {
+      console.log(
+        `[PreloadScene] Queuing ${lst.tiles.length} tiles from LST ` +
+        `(tile_idx_0 … tile_idx_${lst.tiles.length - 1})`,
+      );
     }
   }
 
@@ -224,103 +149,41 @@ export class PreloadScene extends Phaser.Scene {
   create(): void {
     this._statusText?.setText('BUILDING VAULT 13…');
 
-    // ── Tile textures ───────────────────────────────────────────────────────────
+    // Procedural tile textures (placeholders when LST is empty)
     if (!this.textures.exists(TX_FLOOR))  this._genFloor();
-    if (!this.textures.exists(TX_FLOOR2)) this._genFloor();  // 2nd colour variant
     if (!this.textures.exists(TX_FLOOR3)) this._genFloor3();
     if (!this.textures.exists(TX_WALL))   this._genWall();
     if (!this.textures.exists(TX_DOOR))   this._genDoor();
     if (!this.textures.exists(TX_ROOF))   this._genRoof();
-
-    // Floor2: if a real floor was loaded but not floor2, tint it differently
-    if (this.textures.exists(TX_FLOOR) && !this.textures.exists(TX_FLOOR2)) {
+    if (!this.textures.exists(TX_FLOOR2)) {
       this._genDiamond(TX_FLOOR2, C.floor2_fill, C.floor2_shade, C.floor2_outline);
     }
 
-    // ── Sprite textures ─────────────────────────────────────────────────────────
-    if (this._realLoads.has(TX_PLAYER) && this.textures.exists(RAW_PLAYER)) {
-      this._extractSpriteFrame(RAW_PLAYER, META_PLAYER, TX_PLAYER);
-    } else if (!this.textures.exists(TX_PLAYER)) {
+    // Procedural sprite textures
+    if (!this.textures.exists(TX_PLAYER)) {
       this._genCircleSprite(TX_PLAYER, 0xc8a000, 0x7a6000, 0xffe066);
     }
-
-    if (this._realLoads.has(TX_NPC) && this.textures.exists(RAW_NPC)) {
-      this._extractSpriteFrame(RAW_NPC, META_NPC, TX_NPC);
-    } else if (!this.textures.exists(TX_NPC)) {
+    if (!this.textures.exists(TX_NPC)) {
       this._genCircleSprite(TX_NPC, 0x2a5080, 0x163050, 0x66aadd);
     }
 
-    // ── Log results ─────────────────────────────────────────────────────────────
-    const realTileCount = [TX_FLOOR, TX_FLOOR2, TX_FLOOR3, TX_WALL, TX_DOOR, TX_ROOF]
-      .filter(k => this._realLoads.has(k) && this.textures.exists(k)).length;
-    const realSpriteCount = [TX_PLAYER, TX_NPC]
-      .filter(k => this._realLoads.has(k) && this.textures.exists(k)).length;
-
-    if (realTileCount > 0 || realSpriteCount > 0) {
-      console.log(`[PreloadScene] Loaded real assets: ${realTileCount} tiles, ${realSpriteCount} sprites`);
-    } else {
-      console.log('[PreloadScene] No real assets found — using procedural placeholders.');
-    }
-
-    // ── Map data ─────────────────────────────────────────────────────────────────
-    // Prefer the converted V13ENT.MAP.json; fall back to procedural vault.
+    // Map data — real V13ENT map (elevation 0 = entrance), or procedural vault
     const realMap = tryLoadRealMap(PreloadScene.MAP_CACHE_KEY, this.cache.json);
     const map = realMap ?? buildVaultMap();
+
     if (realMap) {
-      console.log(`[PreloadScene] Using real map: ${map.name} (${map.width}×${map.height})`);
+      const lst: LstData = this.registry.get('lstData') ?? EMPTY_LST;
+      console.log(
+        `[PreloadScene] Real map loaded: ${map.name} ` +
+        `(${map.width}×${map.height}, ${lst.tiles.length} tiles in LST)`,
+      );
     } else {
       console.log('[PreloadScene] Using procedural vault map (no v13ent.json found)');
     }
-    this.registry.set('mapData', map);
 
+    this.registry.set('mapData', map);
     this._statusText?.setText('VAULT 13 READY');
     this.time.delayedCall(400, () => this.scene.start('CharacterCreationScene'));
-  }
-
-  // ── Sprite frame extractor ────────────────────────────────────────────────────
-
-  /**
-   * Extract the south-facing (direction 3, row index 3) first frame from a
-   * multi-direction spritesheet produced by frm_to_png.py and save it as a
-   * new texture under `targetKey`.
-   *
-   * Spritesheet layout: rows = directions (N NE SE S SW NW), cols = frames.
-   * South = row 3.  We draw that row-slice into a RenderTexture the size of
-   * one cell, so the rest of the engine can use it as a plain image.
-   *
-   * If no JSON metadata is available (cell size unknown), falls back to using
-   * the full spritesheet texture scaled to 28×36 (player placeholder size).
-   */
-  private _extractSpriteFrame(
-    sheetKey:  string,
-    metaKey:   string,
-    targetKey: string,
-  ): void {
-    const meta = this.cache.json.has(metaKey)
-      ? this.cache.json.get(metaKey) as FrmMeta
-      : null;
-
-    const cellW = meta?.cell_width  ?? 28;
-    const cellH = meta?.cell_height ?? 36;
-
-    // South-facing direction = index 3 → y offset in spritesheet
-    const southRow = 3;
-    const srcY     = southRow * cellH;
-
-    // Check the spritesheet is tall enough to have a south row
-    const tex = this.textures.get(sheetKey);
-    const src = tex.getSourceImage() as HTMLImageElement | HTMLCanvasElement;
-    const sheetH = src.height ?? cellH;
-    const effectiveSrcY = srcY < sheetH ? srcY : 0;  // fallback to row 0
-
-    // Render just that cell into a new texture
-    const rt = this.add.renderTexture(0, 0, cellW, cellH);
-    rt.draw(sheetKey, -0, -effectiveSrcY);  // offset so the target row lands at y=0
-    rt.saveTexture(targetKey);
-    rt.setVisible(false);
-    // Don't destroy — RT backing the saved texture must persist
-
-    console.log(`[PreloadScene] Extracted sprite frame: ${sheetKey} row ${southRow} → ${targetKey} (${cellW}×${cellH})`);
   }
 
   // ── Procedural tile generators ────────────────────────────────────────────────
@@ -344,8 +207,7 @@ export class PreloadScene extends Phaser.Scene {
   }
 
   private _genFloor(): void {
-    this._genDiamond(TX_FLOOR,  C.floor_fill,  C.floor_shade,  C.floor_outline);
-    // floor2 and floor3 get their own colours if not handled by caller
+    this._genDiamond(TX_FLOOR, C.floor_fill, C.floor_shade, C.floor_outline);
   }
 
   private _genFloor3(): void {
