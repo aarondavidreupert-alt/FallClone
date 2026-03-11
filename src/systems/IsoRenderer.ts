@@ -119,23 +119,94 @@ export function colRowToHexPos(col: number, row: number): number {
 }
 
 /**
+ * Exact Fallout 1 oblique-hex tile formula.
+ *
+ * Returns the bounding-box upper-left corner of the 80×36 tile image in world
+ * space.  Use with `add.image(x, y, key).setOrigin(0, 0)` for real-map tiles.
+ *
+ * col / row are positions in the 100×100 tile array (tile_col = i%100, tile_row = i/100).
+ *
+ * Constants come from the Fallout 1 engine source (reciprocal of TILES.LST order):
+ *   x = -48 − col×48 + row×32
+ *   y =  −3 + col×12 + row×24
+ */
+export function fallout1TileToWorld(col: number, row: number): { x: number; y: number } {
+  return {
+    x: -48 - col * 48 + row * 32,
+    y:  -3 + col * 12 + row * 24,
+  };
+}
+
+/**
+ * Inverse of fallout1TileToWorld — world pixel → nearest tile (col, row).
+ * Uses the matrix inverse of the 2×2 projection.
+ *
+ * det(A) = (−48)(24) − (32)(12) = −1536
+ * col = (−3·wx + 4·wy − 132) / 192
+ * row = ( 1·wx + 4·wy +  60) / 128
+ */
+export function worldToTileCoord(wx: number, wy: number): { col: number; row: number } {
+  return {
+    col: Math.round((-3 * wx + 4 * wy - 132) / 192),
+    row: Math.round((     wx + 4 * wy +  60) / 128),
+  };
+}
+
+/**
+ * Camera bounds for the Fallout 1 oblique projection over a 100×100 tile map.
+ * Derived from the extremes of fallout1TileToWorld across the tile grid.
+ */
+export function fallout1MapWorldBounds(mapW = 100, mapH = 100): {
+  x: number; y: number; width: number; height: number;
+} {
+  // Leftmost x:  col = mapW-1, row = 0 → x = -48 − (mapW−1)×48
+  const xMin = -48 - (mapW - 1) * 48;
+  // Rightmost x: col = 0,      row = mapH-1 → x = -48 + (mapH−1)×32 + TILE_W (sprite extent)
+  const xMax = -48 + (mapH - 1) * 32 + TILE_W;
+  // Topmost y:   col = 0,      row = 0 → y = -3
+  const yMin = -3;
+  // Bottommost y: col = mapW-1, row = mapH-1 → y = -3 + (mapW-1)×12 + (mapH-1)×24 + TILE_H
+  const yMax = -3 + (mapW - 1) * 12 + (mapH - 1) * 24 + TILE_H;
+  const pad  = 64;
+  return {
+    x:      xMin - pad,
+    y:      yMin - pad,
+    width:  xMax - xMin + pad * 2,
+    height: yMax - yMin + pad * 2,
+  };
+}
+
+/**
  * Fallout 1 hex position → world pixel coordinates.
- * The tile at pos renders as an isometric diamond; the returned point is the
- * top vertex (same convention as tileToWorld).
+ *
+ * Uses the exact Fallout 1 oblique-hex formula — a 2:1 finer-resolution
+ * version of fallout1TileToWorld (two hex steps = one tile step):
+ *   x = −48 − hexCol×24 + hexRow×16
+ *   y =  −3 + hexCol× 6 + hexRow×12
+ *
+ * Returns the bounding-box upper-left of the hex cell in world space.
  */
 export function hexToWorld(pos: number): { x: number; y: number } {
-  const { col, row } = hexPosToColRow(pos);
-  return tileToWorld(col, row);
+  const hexCol = pos % HEX_STRIDE;
+  const hexRow = Math.floor(pos / HEX_STRIDE);
+  return {
+    x: -48 - hexCol * 24 + hexRow * 16,
+    y:  -3 + hexCol *  6 + hexRow * 12,
+  };
 }
 
 /**
  * World pixel → nearest Fallout 1 hex position.
- * Inverse of hexToWorld; snaps to the closest tile.
+ * Matrix inverse of hexToWorld:
+ *   det = −384
+ *   hexCol = −(12·(wx+48) − 16·(wy+3)) / 384
+ *   hexRow =  ( 6·(wx+48) + 24·(wy+3)) / 384
  */
 export function worldToHex(wx: number, wy: number): number {
-  const { col, row } = worldToTile(wx, wy);
-  const c = Math.max(0, Math.min(HEX_STRIDE - 1, col));
-  const r = Math.max(0, Math.min(HEX_STRIDE - 1, row));
+  const hexCol = Math.round(-(12 * (wx + 48) - 16 * (wy + 3)) / 384);
+  const hexRow = Math.round( ( 6 * (wx + 48) + 24 * (wy + 3)) / 384);
+  const c = Math.max(0, Math.min(HEX_STRIDE - 1, hexCol));
+  const r = Math.max(0, Math.min(HEX_STRIDE - 1, hexRow));
   return colRowToHexPos(c, r);
 }
 

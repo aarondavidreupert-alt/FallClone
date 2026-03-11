@@ -47,6 +47,7 @@ import { tryLoadRealMap } from '../loaders/RealMapLoader';
 import {
   tileUrl, critterUrl, critterMetaUrl,
   hasTiles, hasCritters,
+  SORTED_TILE_ENTRIES,
   type TileRole,
 } from '../loaders/AssetRegistry';
 
@@ -112,6 +113,7 @@ export class PreloadScene extends Phaser.Scene {
     this._setupLoadingUI();
     this._loadRealTiles();
     this._loadRealSprites();
+    this._loadIndexedTiles();
     // Try to load the converted V13ENT map (assets/maps/v13ent.json).
     // Phaser will silently skip it if the file doesn't exist (no crash).
     this.load.json(PreloadScene.MAP_CACHE_KEY, 'assets/maps/v13ent.json');
@@ -120,6 +122,23 @@ export class PreloadScene extends Phaser.Scene {
         console.log('[PreloadScene] v13ent.json not found — procedural map fallback');
       }
     });
+  }
+
+  // ── Per-tile index loading (for real MAP tile IDs) ────────────────────────────
+
+  /**
+   * Load every tile PNG with a numeric key `tile_idx_N` where N matches the
+   * tile's position in alphabetical (= TILES.LST) order.
+   * LocationScene uses `tile_idx_<rawId>` to render per-tile textures on real maps.
+   */
+  private _loadIndexedTiles(): void {
+    for (let i = 0; i < SORTED_TILE_ENTRIES.length; i++) {
+      const [, url] = SORTED_TILE_ENTRIES[i];
+      this.load.image(`tile_idx_${i}`, url);
+    }
+    if (SORTED_TILE_ENTRIES.length > 0) {
+      console.log(`[PreloadScene] Loading ${SORTED_TILE_ENTRIES.length} indexed tiles (tile_idx_0 … tile_idx_${SORTED_TILE_ENTRIES.length - 1})`);
+    }
   }
 
   // ── Loading progress UI ───────────────────────────────────────────────────────

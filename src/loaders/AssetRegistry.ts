@@ -148,3 +148,22 @@ export function critterMetaUrl(role: SpriteRole): string | null {
 
 export const hasTiles     = (): boolean => TILE_MAP.size     > 0;
 export const hasCritters  = (): boolean => CRITTER_MAP.size  > 0;
+
+// ── Per-tile index lookup (for real Fallout 1 MAP tile IDs) ───────────────────
+
+/**
+ * All tile entries sorted alphabetically by stem.
+ * Alphabetical order matches TILES.LST order, so:
+ *   Fallout 1 tile ID N in a MAP file → SORTED_TILE_ENTRIES[N] → texture 'tile_idx_N'
+ */
+export const SORTED_TILE_ENTRIES: [string, string][] =
+  [...TILE_MAP.entries()].sort(([a], [b]) => a.localeCompare(b));
+
+/**
+ * Return the URL for the Nth tile in alphabetical (= TILES.LST) order, or null.
+ * Used by PreloadScene to register `tile_idx_N` texture keys.
+ */
+export function tileUrlByIndex(n: number): string | null {
+  const entry = SORTED_TILE_ENTRIES[n];
+  return entry ? entry[1] : null;
+}
