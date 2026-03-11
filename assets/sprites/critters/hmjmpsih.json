@@ -1,0 +1,292 @@
+{
+  "fps": 10,
+  "action_frame": 0,
+  "frames_per_dir": 4,
+  "num_directions": 6,
+  "cell_width": 58,
+  "cell_height": 73,
+  "sheet_width": 232,
+  "sheet_height": 438,
+  "dir_shift_x": [
+    1,
+    1,
+    2,
+    -1,
+    -6,
+    -1
+  ],
+  "dir_shift_y": [
+    -2,
+    -1,
+    0,
+    -1,
+    -1,
+    1
+  ],
+  "frames": [
+    {
+      "direction": 0,
+      "dir_name": "north",
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "width": 35,
+      "height": 63,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 0,
+      "dir_name": "north",
+      "frame": 1,
+      "x": 58,
+      "y": 0,
+      "width": 37,
+      "height": 62,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 0,
+      "dir_name": "north",
+      "frame": 2,
+      "x": 116,
+      "y": 0,
+      "width": 44,
+      "height": 62,
+      "shift_x": 2,
+      "shift_y": 0
+    },
+    {
+      "direction": 0,
+      "dir_name": "north",
+      "frame": 3,
+      "x": 174,
+      "y": 0,
+      "width": 45,
+      "height": 70,
+      "shift_x": -1,
+      "shift_y": 0
+    },
+    {
+      "direction": 1,
+      "dir_name": "northeast",
+      "frame": 0,
+      "x": 0,
+      "y": 73,
+      "width": 22,
+      "height": 65,
+      "shift_x": 4,
+      "shift_y": 0
+    },
+    {
+      "direction": 1,
+      "dir_name": "northeast",
+      "frame": 1,
+      "x": 58,
+      "y": 73,
+      "width": 28,
+      "height": 64,
+      "shift_x": 2,
+      "shift_y": 0
+    },
+    {
+      "direction": 1,
+      "dir_name": "northeast",
+      "frame": 2,
+      "x": 116,
+      "y": 73,
+      "width": 46,
+      "height": 63,
+      "shift_x": 3,
+      "shift_y": 0
+    },
+    {
+      "direction": 1,
+      "dir_name": "northeast",
+      "frame": 3,
+      "x": 174,
+      "y": 73,
+      "width": 57,
+      "height": 63,
+      "shift_x": 2,
+      "shift_y": 0
+    },
+    {
+      "direction": 2,
+      "dir_name": "southeast",
+      "frame": 0,
+      "x": 0,
+      "y": 146,
+      "width": 28,
+      "height": 64,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 2,
+      "dir_name": "southeast",
+      "frame": 1,
+      "x": 58,
+      "y": 146,
+      "width": 28,
+      "height": 64,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 2,
+      "dir_name": "southeast",
+      "frame": 2,
+      "x": 116,
+      "y": 146,
+      "width": 25,
+      "height": 67,
+      "shift_x": 1,
+      "shift_y": 4
+    },
+    {
+      "direction": 2,
+      "dir_name": "southeast",
+      "frame": 3,
+      "x": 174,
+      "y": 146,
+      "width": 28,
+      "height": 68,
+      "shift_x": 2,
+      "shift_y": 1
+    },
+    {
+      "direction": 3,
+      "dir_name": "south",
+      "frame": 0,
+      "x": 0,
+      "y": 219,
+      "width": 34,
+      "height": 63,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 3,
+      "dir_name": "south",
+      "frame": 1,
+      "x": 58,
+      "y": 219,
+      "width": 37,
+      "height": 62,
+      "shift_x": -1,
+      "shift_y": 0
+    },
+    {
+      "direction": 3,
+      "dir_name": "south",
+      "frame": 2,
+      "x": 116,
+      "y": 219,
+      "width": 43,
+      "height": 63,
+      "shift_x": -1,
+      "shift_y": 1
+    },
+    {
+      "direction": 3,
+      "dir_name": "south",
+      "frame": 3,
+      "x": 174,
+      "y": 219,
+      "width": 44,
+      "height": 66,
+      "shift_x": 1,
+      "shift_y": 3
+    },
+    {
+      "direction": 4,
+      "dir_name": "southwest",
+      "frame": 0,
+      "x": 0,
+      "y": 292,
+      "width": 22,
+      "height": 64,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 4,
+      "dir_name": "southwest",
+      "frame": 1,
+      "x": 58,
+      "y": 292,
+      "width": 28,
+      "height": 64,
+      "shift_x": -2,
+      "shift_y": 0
+    },
+    {
+      "direction": 4,
+      "dir_name": "southwest",
+      "frame": 2,
+      "x": 116,
+      "y": 292,
+      "width": 46,
+      "height": 63,
+      "shift_x": -3,
+      "shift_y": 0
+    },
+    {
+      "direction": 4,
+      "dir_name": "southwest",
+      "frame": 3,
+      "x": 174,
+      "y": 292,
+      "width": 58,
+      "height": 64,
+      "shift_x": -3,
+      "shift_y": 0
+    },
+    {
+      "direction": 5,
+      "dir_name": "northwest",
+      "frame": 0,
+      "x": 0,
+      "y": 365,
+      "width": 27,
+      "height": 63,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 5,
+      "dir_name": "northwest",
+      "frame": 1,
+      "x": 58,
+      "y": 365,
+      "width": 27,
+      "height": 62,
+      "shift_x": 0,
+      "shift_y": -1
+    },
+    {
+      "direction": 5,
+      "dir_name": "northwest",
+      "frame": 2,
+      "x": 116,
+      "y": 365,
+      "width": 25,
+      "height": 64,
+      "shift_x": -1,
+      "shift_y": 1
+    },
+    {
+      "direction": 5,
+      "dir_name": "northwest",
+      "frame": 3,
+      "x": 174,
+      "y": 365,
+      "width": 28,
+      "height": 73,
+      "shift_x": -2,
+      "shift_y": 0
+    }
+  ]
+}

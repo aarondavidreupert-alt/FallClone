@@ -1,0 +1,52 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "SKILLDEX"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "CANCEL"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "SNEAK"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "LOCKPICK"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "STEAL"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "TRAPS"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "FIRST AID"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "DOCTOR"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "SCIENCE"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "REPAIR"
+  }
+]

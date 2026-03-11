@@ -1,0 +1,462 @@
+[
+  {
+    "id": 0,
+    "condition": "",
+    "text": "Game Preferences"
+  },
+  {
+    "id": 1,
+    "condition": "",
+    "text": "Screen Settings"
+  },
+  {
+    "id": 3,
+    "condition": "",
+    "text": "Options"
+  },
+  {
+    "id": 50,
+    "condition": "",
+    "text": "Screen Settings"
+  },
+  {
+    "id": 51,
+    "condition": "",
+    "text": "Custom"
+  },
+  {
+    "id": 52,
+    "condition": "",
+    "text": "Width"
+  },
+  {
+    "id": 53,
+    "condition": "",
+    "text": "Height"
+  },
+  {
+    "id": 54,
+    "condition": "",
+    "text": "Done"
+  },
+  {
+    "id": 55,
+    "condition": "",
+    "text": "Cancel"
+  },
+  {
+    "id": 56,
+    "condition": "",
+    "text": "Fallout must restart to apply settings."
+  },
+  {
+    "id": 57,
+    "condition": "",
+    "text": "Would you like to restart Fallout now?"
+  },
+  {
+    "id": 58,
+    "condition": "",
+    "text": "True"
+  },
+  {
+    "id": 59,
+    "condition": "",
+    "text": "False"
+  },
+  {
+    "id": 60,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Hi-Res"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "RESOLUTION"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Colours"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "8 Bit"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "16 Bit"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "32 Bit"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "Change Side-Bar Art"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "Invert List"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "Windowed"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "Set Scroll Key"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "Scaling X2"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "Refresh Rate"
+  },
+  {
+    "id": 130,
+    "condition": "",
+    "text": "Window Key"
+  },
+  {
+    "id": 131,
+    "condition": "",
+    "text": "Select"
+  },
+  {
+    "id": 132,
+    "condition": "",
+    "text": "Name"
+  },
+  {
+    "id": 140,
+    "condition": "",
+    "text": "Graphics Mode:"
+  },
+  {
+    "id": 141,
+    "condition": "",
+    "text": "Basic"
+  },
+  {
+    "id": 142,
+    "condition": "",
+    "text": "Sfall DirectX 9 Mode:"
+  },
+  {
+    "id": 143,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 144,
+    "condition": "",
+    "text": "DirectDraw 7"
+  },
+  {
+    "id": 145,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 146,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 147,
+    "condition": "",
+    "text": "Direct3D 9"
+  },
+  {
+    "id": 148,
+    "condition": "",
+    "text": "Vertex Hardware Processing:"
+  },
+  {
+    "id": 149,
+    "condition": "",
+    "text": "Shader Version 2.0:"
+  },
+  {
+    "id": 150,
+    "condition": "",
+    "text": "Panel Scaling"
+  },
+  {
+    "id": 151,
+    "condition": "",
+    "text": "None"
+  },
+  {
+    "id": 152,
+    "condition": "",
+    "text": "Fit"
+  },
+  {
+    "id": 153,
+    "condition": "",
+    "text": "Fill"
+  },
+  {
+    "id": 154,
+    "condition": "",
+    "text": "Movies"
+  },
+  {
+    "id": 155,
+    "condition": "",
+    "text": "Splash"
+  },
+  {
+    "id": 156,
+    "condition": "",
+    "text": "Help"
+  },
+  {
+    "id": 157,
+    "condition": "",
+    "text": "Death"
+  },
+  {
+    "id": 158,
+    "condition": "",
+    "text": "End Slides"
+  },
+  {
+    "id": 159,
+    "condition": "",
+    "text": "Main Menu"
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Sfall"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "SCALE-TO: RES."
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "DX-9 MODE"
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "Off"
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "Fullscreen"
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "Window"
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "GPU Blitting"
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "This setting has no effect while in Basic Graphics Mode."
+  },
+  {
+    "id": 250,
+    "condition": "",
+    "text": "Ignore PC Scroll Limit"
+  },
+  {
+    "id": 253,
+    "condition": "",
+    "text": "Path Finding Range"
+  },
+  {
+    "id": 254,
+    "condition": "",
+    "text": "Normal"
+  },
+  {
+    "id": 255,
+    "condition": "",
+    "text": "Max"
+  },
+  {
+    "id": 256,
+    "condition": "",
+    "text": "Enable Fog Of War"
+  },
+  {
+    "id": 257,
+    "condition": "",
+    "text": "Fog Visibility"
+  },
+  {
+    "id": 258,
+    "condition": "",
+    "text": "Dark"
+  },
+  {
+    "id": 259,
+    "condition": "",
+    "text": "Brighter"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "PRESS A KEY or ESC to cancel."
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Hi-Res Patch settings."
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "Setup the Screen Resolution, Colour mode and Refresh Rate for FullScreen Mode."
+  },
+  {
+    "id": 502,
+    "condition": "",
+    "text": "Setup the Fullscreen Colour output here."
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "Setup the Fullscreen Refresh Rate here. Set this to '0' for the driver default setting."
+  },
+  {
+    "id": 504,
+    "condition": "",
+    "text": "Customize the Fullscreen Width by clicking the number box."
+  },
+  {
+    "id": 505,
+    "condition": "",
+    "text": "Customize the Fullscreen Height by clicking the number box."
+  },
+  {
+    "id": 506,
+    "condition": "",
+    "text": "Enable or Disable Window Mode."
+  },
+  {
+    "id": 507,
+    "condition": "",
+    "text": "In Window Mode, this is the key you will hold down when using the mouse to scroll the Game and World maps."
+  },
+  {
+    "id": 508,
+    "condition": "",
+    "text": "Press the red button to select a different key. Or click the number box to edit the Windows Virtual key code."
+  },
+  {
+    "id": 509,
+    "condition": "",
+    "text": "The name of the currently selected key."
+  },
+  {
+    "id": 510,
+    "condition": "",
+    "text": "Enable X2 scaling. This will also up the min res to 1280x960. With Window mode requiring more space for its frame."
+  },
+  {
+    "id": 511,
+    "condition": "",
+    "text": "Enable or Disable Fog Of War. For best results this should be enabled before entering a map for the first time."
+  },
+  {
+    "id": 512,
+    "condition": "",
+    "text": "Adjust the light level and the Mouse 'look at' visibility of floors, walls and scenery under the fog."
+  },
+  {
+    "id": 513,
+    "condition": "",
+    "text": "Floors, walls and scenery will always be visible and Mouse \"look at\" will function normally."
+  },
+  {
+    "id": 514,
+    "condition": "",
+    "text": "Floors, walls and scenery will be darkened and unresponsive to Mouse \"look at\" until discovered."
+  },
+  {
+    "id": 515,
+    "condition": "",
+    "text": "When enabled, scrolling away from the Player Character is unlimited. This works well if Fog Of War enabled."
+  },
+  {
+    "id": 516,
+    "condition": "",
+    "text": "Increase the number of search nodes to extend the path finding distance. 20 levels in 2000 node increments."
+  },
+  {
+    "id": 517,
+    "condition": "",
+    "text": "2000 path search nodes (original value). Note: Each level requires an additional 156.25 KB of memory."
+  },
+  {
+    "id": 518,
+    "condition": "",
+    "text": "40 000 path search nodes. Note: requires 3200000 bytes (3125 KB) of memory."
+  },
+  {
+    "id": 519,
+    "condition": "",
+    "text": "Adjust how certain screens are displayed."
+  },
+  {
+    "id": 520,
+    "condition": "",
+    "text": "Original size."
+  },
+  {
+    "id": 521,
+    "condition": "",
+    "text": "Stretched to fit the size of the screen while maintaining the original aspect ratio."
+  },
+  {
+    "id": 522,
+    "condition": "",
+    "text": "Stretched to fill the screen. Note: A space will remain at the bottom of the screen if subtitles are enabled."
+  },
+  {
+    "id": 523,
+    "condition": "",
+    "text": "Click below to cycle the in-game interface Side Bar options."
+  },
+  {
+    "id": 524,
+    "condition": "",
+    "text": "Apply any changes and Exit."
+  },
+  {
+    "id": 525,
+    "condition": "",
+    "text": "Exit without saving."
+  }
+]

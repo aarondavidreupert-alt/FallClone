@@ -1,0 +1,157 @@
+[
+  {
+    "id": 101,
+    "condition": "",
+    "text": "PICK A QUICK LOAD SLOT"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "SAVE GAME"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "PICK A QUICK SAVE SLOT"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "CANCEL"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "SAVE GAME"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "LOAD GAME"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "- EMPTY -"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "- CORRUPT SAVE  FILE -"
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "- OLD VERSION -"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "Empty."
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "Error!"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "Old version."
+  },
+  {
+    "id": 118,
+    "condition": "",
+    "text": "FEB"
+  },
+  {
+    "id": 119,
+    "condition": "",
+    "text": "MAR"
+  },
+  {
+    "id": 120,
+    "condition": "",
+    "text": "APR"
+  },
+  {
+    "id": 121,
+    "condition": "",
+    "text": "MAY"
+  },
+  {
+    "id": 122,
+    "condition": "",
+    "text": "JUN"
+  },
+  {
+    "id": 123,
+    "condition": "",
+    "text": "JUL"
+  },
+  {
+    "id": 124,
+    "condition": "",
+    "text": "AUG"
+  },
+  {
+    "id": 125,
+    "condition": "",
+    "text": "SEP"
+  },
+  {
+    "id": 126,
+    "condition": "",
+    "text": "OCT"
+  },
+  {
+    "id": 127,
+    "condition": "",
+    "text": "NOV"
+  },
+  {
+    "id": 128,
+    "condition": "",
+    "text": "DEC"
+  },
+  {
+    "id": 129,
+    "condition": "",
+    "text": "Level"
+  },
+  {
+    "id": 130,
+    "condition": "",
+    "text": "DESCRIPTION"
+  },
+  {
+    "id": 131,
+    "condition": "",
+    "text": "Save game already exists, overwrite?"
+  },
+  {
+    "id": 136,
+    "condition": "",
+    "text": "Save game file is an older version."
+  },
+  {
+    "id": 137,
+    "condition": "",
+    "text": "Map"
+  },
+  {
+    "id": 140,
+    "condition": "",
+    "text": "Game Saved."
+  },
+  {
+    "id": 141,
+    "condition": "",
+    "text": "Game Loaded."
+  }
+]

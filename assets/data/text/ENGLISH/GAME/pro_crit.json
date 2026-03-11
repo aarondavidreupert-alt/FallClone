@@ -1,0 +1,2157 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Vault Dweller"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Townsman"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "Human male dressed in protective leather clothing"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Townsman"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "Human male wearing heavy steel armor."
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Loser"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "A pathetic loser."
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "Vault Dweller"
+  },
+  {
+    "id": 601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": "Powered Armor"
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": "Vault Overseer"
+  },
+  {
+    "id": 900,
+    "condition": "",
+    "text": "Super Mutant"
+  },
+  {
+    "id": 901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Greater Mole Rat"
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1100,
+    "condition": "",
+    "text": "Radscorpion"
+  },
+  {
+    "id": 1101,
+    "condition": "",
+    "text": "Radscorpion"
+  },
+  {
+    "id": 1200,
+    "condition": "",
+    "text": "Person in Robes"
+  },
+  {
+    "id": 1300,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 1301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1400,
+    "condition": "",
+    "text": "Zombie Guard"
+  },
+  {
+    "id": 1401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1500,
+    "condition": "",
+    "text": "Combat Armor Female"
+  },
+  {
+    "id": 1600,
+    "condition": "",
+    "text": "Glowing One"
+  },
+  {
+    "id": 1601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1700,
+    "condition": "",
+    "text": "Leather Jacket Man"
+  },
+  {
+    "id": 1800,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 1900,
+    "condition": "",
+    "text": "Leather Jacket Woman"
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 2100,
+    "condition": "",
+    "text": "Male Combat Armor"
+  },
+  {
+    "id": 2200,
+    "condition": "",
+    "text": "Townswoman"
+  },
+  {
+    "id": 2201,
+    "condition": "",
+    "text": "Human female wearing attractive steel armor."
+  },
+  {
+    "id": 2300,
+    "condition": "",
+    "text": "Super Mutant Lieutenant"
+  },
+  {
+    "id": 2301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2400,
+    "condition": "",
+    "text": "Townswoman"
+  },
+  {
+    "id": 2401,
+    "condition": "",
+    "text": "Human female wearing protective leather armor."
+  },
+  {
+    "id": 2500,
+    "condition": "",
+    "text": "Nightkin"
+  },
+  {
+    "id": 2501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2600,
+    "condition": "",
+    "text": "Vault Dweller"
+  },
+  {
+    "id": 2601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2700,
+    "condition": "",
+    "text": "Male Guard"
+  },
+  {
+    "id": 2800,
+    "condition": "",
+    "text": "Brahma"
+  },
+  {
+    "id": 2801,
+    "condition": "",
+    "text": "A two headed, mutant cow."
+  },
+  {
+    "id": 2900,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 3100,
+    "condition": "",
+    "text": "Man in Leather Armor"
+  },
+  {
+    "id": 3200,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 3201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3300,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 3301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3400,
+    "condition": "",
+    "text": "Vault Dweller"
+  },
+  {
+    "id": 3500,
+    "condition": "",
+    "text": "Vault Dweller"
+  },
+  {
+    "id": 3501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3600,
+    "condition": "",
+    "text": "Dog"
+  },
+  {
+    "id": 3601,
+    "condition": "",
+    "text": "A canine, probably of a mixed breed."
+  },
+  {
+    "id": 3700,
+    "condition": "",
+    "text": "Woman"
+  },
+  {
+    "id": 3800,
+    "condition": "",
+    "text": "Man"
+  },
+  {
+    "id": 3900,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 3901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 4001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4100,
+    "condition": "",
+    "text": "Person In Power Armor"
+  },
+  {
+    "id": 4200,
+    "condition": "",
+    "text": "Boy"
+  },
+  {
+    "id": 4201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4300,
+    "condition": "",
+    "text": "Lesser Centaur"
+  },
+  {
+    "id": 4301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4400,
+    "condition": "",
+    "text": "Mr. Handy"
+  },
+  {
+    "id": 4500,
+    "condition": "",
+    "text": "Floater"
+  },
+  {
+    "id": 4501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4600,
+    "condition": "",
+    "text": "Scribe"
+  },
+  {
+    "id": 4700,
+    "condition": "",
+    "text": "Overseer"
+  },
+  {
+    "id": 4800,
+    "condition": "",
+    "text": "Cave Rat"
+  },
+  {
+    "id": 4801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4900,
+    "condition": "",
+    "text": "Gizmo"
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": "Master"
+  },
+  {
+    "id": 5100,
+    "condition": "",
+    "text": "Deathclaw"
+  },
+  {
+    "id": 5101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5200,
+    "condition": "",
+    "text": "Technician"
+  },
+  {
+    "id": 5201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5300,
+    "condition": "",
+    "text": "Technician"
+  },
+  {
+    "id": 5301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5400,
+    "condition": "",
+    "text": "Technician"
+  },
+  {
+    "id": 5401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5500,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 5501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5600,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 5601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5700,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 5800,
+    "condition": "",
+    "text": "Technician"
+  },
+  {
+    "id": 5801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5900,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 5901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": "Bum"
+  },
+  {
+    "id": 6001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6100,
+    "condition": "",
+    "text": "Worker"
+  },
+  {
+    "id": 6101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6200,
+    "condition": "",
+    "text": "Cathedral Student"
+  },
+  {
+    "id": 6201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6300,
+    "condition": "",
+    "text": "Tandi"
+  },
+  {
+    "id": 6400,
+    "condition": "",
+    "text": "Aradesh"
+  },
+  {
+    "id": 6500,
+    "condition": "",
+    "text": "Seth"
+  },
+  {
+    "id": 6600,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 6601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6700,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 6701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6800,
+    "condition": "",
+    "text": "Mantis"
+  },
+  {
+    "id": 6801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6900,
+    "condition": "",
+    "text": "Robobrain"
+  },
+  {
+    "id": 7000,
+    "condition": "",
+    "text": "Raider Guard"
+  },
+  {
+    "id": 7100,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 7101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7200,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 7201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7300,
+    "condition": "",
+    "text": "Garl's Advisor"
+  },
+  {
+    "id": 7400,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 7401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7500,
+    "condition": "",
+    "text": "Raider"
+  },
+  {
+    "id": 7600,
+    "condition": "",
+    "text": "Ian"
+  },
+  {
+    "id": 7700,
+    "condition": "",
+    "text": "Floating Eye"
+  },
+  {
+    "id": 7800,
+    "condition": "",
+    "text": "Pig Rat"
+  },
+  {
+    "id": 7801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7900,
+    "condition": "",
+    "text": "Killian Darkwater"
+  },
+  {
+    "id": 8000,
+    "condition": "",
+    "text": "Lars"
+  },
+  {
+    "id": 8100,
+    "condition": "",
+    "text": "Izo"
+  },
+  {
+    "id": 8200,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 8201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8300,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 8301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8400,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 8401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8500,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 8501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8600,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 8601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8700,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 8701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8800,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 8801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8900,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 8901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9000,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 9001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9100,
+    "condition": "",
+    "text": "Farmer"
+  },
+  {
+    "id": 9101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9200,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 9201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9300,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 9301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9400,
+    "condition": "",
+    "text": "Neal"
+  },
+  {
+    "id": 9500,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 9501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9600,
+    "condition": "",
+    "text": "Worker"
+  },
+  {
+    "id": 9601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9700,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 9800,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 9801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9900,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 9901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10000,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 10001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10100,
+    "condition": "",
+    "text": "Child of the Cathedral"
+  },
+  {
+    "id": 10200,
+    "condition": "",
+    "text": "Vinnie"
+  },
+  {
+    "id": 10201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10300,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 10301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10400,
+    "condition": "",
+    "text": "Set"
+  },
+  {
+    "id": 10500,
+    "condition": "",
+    "text": "Garret"
+  },
+  {
+    "id": 10600,
+    "condition": "",
+    "text": "Ghoul"
+  },
+  {
+    "id": 10601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10700,
+    "condition": "",
+    "text": "Nightkin Guard"
+  },
+  {
+    "id": 10701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10800,
+    "condition": "",
+    "text": "Tough Super Mutant"
+  },
+  {
+    "id": 10801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10900,
+    "condition": "",
+    "text": "Ghoul Guard"
+  },
+  {
+    "id": 10901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11000,
+    "condition": "",
+    "text": "Undergrounder"
+  },
+  {
+    "id": 11001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11100,
+    "condition": "",
+    "text": "Dan"
+  },
+  {
+    "id": 11200,
+    "condition": "",
+    "text": "Sheriff Greene"
+  },
+  {
+    "id": 11300,
+    "condition": "",
+    "text": "Deputy Fry"
+  },
+  {
+    "id": 11400,
+    "condition": "",
+    "text": "Kane"
+  },
+  {
+    "id": 11500,
+    "condition": "",
+    "text": "Demetre"
+  },
+  {
+    "id": 11600,
+    "condition": "",
+    "text": "Keri"
+  },
+  {
+    "id": 11700,
+    "condition": "",
+    "text": "Rutger"
+  },
+  {
+    "id": 11800,
+    "condition": "",
+    "text": "Daren Hightower"
+  },
+  {
+    "id": 11900,
+    "condition": "",
+    "text": "Martha"
+  },
+  {
+    "id": 12000,
+    "condition": "",
+    "text": "Lorenzo"
+  },
+  {
+    "id": 12100,
+    "condition": "",
+    "text": "Jacob"
+  },
+  {
+    "id": 12200,
+    "condition": "",
+    "text": "Dogmeat"
+  },
+  {
+    "id": 12300,
+    "condition": "",
+    "text": "Jasmine"
+  },
+  {
+    "id": 12400,
+    "condition": "",
+    "text": "Troy"
+  },
+  {
+    "id": 12500,
+    "condition": "",
+    "text": "Darrell"
+  },
+  {
+    "id": 12600,
+    "condition": "",
+    "text": "Talus"
+  },
+  {
+    "id": 12700,
+    "condition": "",
+    "text": "Thomas"
+  },
+  {
+    "id": 12800,
+    "condition": "",
+    "text": "Mathia"
+  },
+  {
+    "id": 12900,
+    "condition": "",
+    "text": "Razor"
+  },
+  {
+    "id": 13000,
+    "condition": "",
+    "text": "Tangler"
+  },
+  {
+    "id": 13100,
+    "condition": "",
+    "text": "Talius"
+  },
+  {
+    "id": 13200,
+    "condition": "",
+    "text": "Gabriel"
+  },
+  {
+    "id": 13300,
+    "condition": "",
+    "text": "Avellone"
+  },
+  {
+    "id": 13400,
+    "condition": "",
+    "text": "VanHagan"
+  },
+  {
+    "id": 13500,
+    "condition": "",
+    "text": "Surf"
+  },
+  {
+    "id": 13600,
+    "condition": "",
+    "text": "Lasher"
+  },
+  {
+    "id": 13700,
+    "condition": "",
+    "text": "Barracus"
+  },
+  {
+    "id": 13800,
+    "condition": "",
+    "text": "Jeremiah"
+  },
+  {
+    "id": 13900,
+    "condition": "",
+    "text": "Super Mutant Medic"
+  },
+  {
+    "id": 14000,
+    "condition": "",
+    "text": "Gideon"
+  },
+  {
+    "id": 14001,
+    "condition": "",
+    "text": "His hands are glowing with a strange energy."
+  },
+  {
+    "id": 14100,
+    "condition": "",
+    "text": "Dominic"
+  },
+  {
+    "id": 14101,
+    "condition": "",
+    "text": "A strange energy flares from his eyes."
+  },
+  {
+    "id": 14200,
+    "condition": "",
+    "text": "Lucy"
+  },
+  {
+    "id": 14201,
+    "condition": "",
+    "text": "Her head glows with a strange energy."
+  },
+  {
+    "id": 14300,
+    "condition": "",
+    "text": "Wiggup"
+  },
+  {
+    "id": 14301,
+    "condition": "",
+    "text": "Small sparks of energy flow over his body."
+  },
+  {
+    "id": 14400,
+    "condition": "",
+    "text": "Viscious"
+  },
+  {
+    "id": 14500,
+    "condition": "",
+    "text": "Super Mutant Lieutenant"
+  },
+  {
+    "id": 14600,
+    "condition": "",
+    "text": "Laura"
+  },
+  {
+    "id": 14700,
+    "condition": "",
+    "text": "Morpheus"
+  },
+  {
+    "id": 14800,
+    "condition": "",
+    "text": "Nicole"
+  },
+  {
+    "id": 14900,
+    "condition": "",
+    "text": "Vree"
+  },
+  {
+    "id": 15000,
+    "condition": "",
+    "text": "Maxson"
+  },
+  {
+    "id": 15100,
+    "condition": "",
+    "text": "Rhombus"
+  },
+  {
+    "id": 15200,
+    "condition": "",
+    "text": "Cabbot"
+  },
+  {
+    "id": 15300,
+    "condition": "",
+    "text": "Decker"
+  },
+  {
+    "id": 15400,
+    "condition": "",
+    "text": "Butch"
+  },
+  {
+    "id": 15500,
+    "condition": "",
+    "text": "Loxley"
+  },
+  {
+    "id": 15600,
+    "condition": "",
+    "text": "Jain"
+  },
+  {
+    "id": 15700,
+    "condition": "",
+    "text": "Harold"
+  },
+  {
+    "id": 15800,
+    "condition": "",
+    "text": "Harry"
+  },
+  {
+    "id": 15900,
+    "condition": "",
+    "text": "Tough Rat"
+  },
+  {
+    "id": 15901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16000,
+    "condition": "",
+    "text": "Radiated Rat"
+  },
+  {
+    "id": 16001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16100,
+    "condition": "",
+    "text": "Tough Radiated Rat"
+  },
+  {
+    "id": 16101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16200,
+    "condition": "",
+    "text": "Lesser Mole Rat"
+  },
+  {
+    "id": 16201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16300,
+    "condition": "",
+    "text": "Coyote"
+  },
+  {
+    "id": 16301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16400,
+    "condition": "",
+    "text": "Large Brahma"
+  },
+  {
+    "id": 16401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16500,
+    "condition": "",
+    "text": "Deathclaw Spawn"
+  },
+  {
+    "id": 16501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16600,
+    "condition": "",
+    "text": "Nasty Radscorpion"
+  },
+  {
+    "id": 16601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16700,
+    "condition": "",
+    "text": "Bloody Floater"
+  },
+  {
+    "id": 16701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16800,
+    "condition": "",
+    "text": "Greater Centaur"
+  },
+  {
+    "id": 16801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16900,
+    "condition": "",
+    "text": "Lowly Peasant"
+  },
+  {
+    "id": 16901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17000,
+    "condition": "",
+    "text": "Peasant"
+  },
+  {
+    "id": 17001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17100,
+    "condition": "",
+    "text": "Farmer"
+  },
+  {
+    "id": 17101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17200,
+    "condition": "",
+    "text": "Worker"
+  },
+  {
+    "id": 17201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17300,
+    "condition": "",
+    "text": "Farmer"
+  },
+  {
+    "id": 17301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17400,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 17401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17500,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 17501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17600,
+    "condition": "",
+    "text": "Great Mantis"
+  },
+  {
+    "id": 17601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17700,
+    "condition": "",
+    "text": "Mean Pig Rat"
+  },
+  {
+    "id": 17701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17800,
+    "condition": "",
+    "text": "Farmer"
+  },
+  {
+    "id": 17801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17900,
+    "condition": "",
+    "text": "Worker"
+  },
+  {
+    "id": 17901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18000,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 18001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18100,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 18101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18200,
+    "condition": "",
+    "text": "Glower"
+  },
+  {
+    "id": 18201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18300,
+    "condition": "",
+    "text": "Mad Glowing One"
+  },
+  {
+    "id": 18301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18400,
+    "condition": "",
+    "text": "Zombie"
+  },
+  {
+    "id": 18401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18500,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 18501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18600,
+    "condition": "",
+    "text": "Super Mutant Guard"
+  },
+  {
+    "id": 18601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18700,
+    "condition": "",
+    "text": "Mean Super Mutant"
+  },
+  {
+    "id": 18701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18800,
+    "condition": "",
+    "text": "Mad Super Mutant"
+  },
+  {
+    "id": 18900,
+    "condition": "",
+    "text": "Deadly Super Mutant"
+  },
+  {
+    "id": 19000,
+    "condition": "",
+    "text": "Tough Nightkin"
+  },
+  {
+    "id": 19001,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19100,
+    "condition": "",
+    "text": "Deadly Nightkin"
+  },
+  {
+    "id": 19101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19200,
+    "condition": "",
+    "text": "Super Nightkin"
+  },
+  {
+    "id": 19300,
+    "condition": "",
+    "text": "Master Nighkin"
+  },
+  {
+    "id": 19301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19400,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 19401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19500,
+    "condition": "",
+    "text": "Merchant"
+  },
+  {
+    "id": 19501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19600,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 19601,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19700,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 19701,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19800,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 19801,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19900,
+    "condition": "",
+    "text": "Girl"
+  },
+  {
+    "id": 19901,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20000,
+    "condition": "",
+    "text": "Scribe"
+  },
+  {
+    "id": 20100,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 20101,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20200,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 20201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20300,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 20301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20400,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 20401,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20500,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 20501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20600,
+    "condition": "",
+    "text": "Vault Dweller"
+  },
+  {
+    "id": 20700,
+    "condition": "",
+    "text": "Garl"
+  },
+  {
+    "id": 20800,
+    "condition": "",
+    "text": "Doc Morbid"
+  },
+  {
+    "id": 20900,
+    "condition": "",
+    "text": "Gretch"
+  },
+  {
+    "id": 21000,
+    "condition": "",
+    "text": "Tycho"
+  },
+  {
+    "id": 21100,
+    "condition": "",
+    "text": "Jonathan"
+  },
+  {
+    "id": 21200,
+    "condition": "",
+    "text": "Jacob"
+  },
+  {
+    "id": 21300,
+    "condition": "",
+    "text": "Mary"
+  },
+  {
+    "id": 21400,
+    "condition": "",
+    "text": "Rachael"
+  },
+  {
+    "id": 21500,
+    "condition": "",
+    "text": "Caleb"
+  },
+  {
+    "id": 21600,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 21700,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 21800,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 21900,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 22000,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 22100,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 22200,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 22300,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 22400,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 22500,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 22600,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 22700,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 22800,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 22900,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 23000,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 23100,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 23200,
+    "condition": "",
+    "text": "Citizen"
+  },
+  {
+    "id": 23300,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 23400,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 23500,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 23600,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 23700,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 23800,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 23900,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 24000,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 24100,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 24200,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 24300,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 24400,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 24500,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 24600,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 24700,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 24800,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 24900,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 25000,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 25100,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 25200,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 25300,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 25400,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 25500,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 25600,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 25700,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 25800,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 25900,
+    "condition": "",
+    "text": "Traveler"
+  },
+  {
+    "id": 26000,
+    "condition": "",
+    "text": "Stranger"
+  },
+  {
+    "id": 26100,
+    "condition": "",
+    "text": "Thug"
+  },
+  {
+    "id": 26200,
+    "condition": "",
+    "text": "Mercenary"
+  },
+  {
+    "id": 26300,
+    "condition": "",
+    "text": "Guard"
+  },
+  {
+    "id": 26400,
+    "condition": "",
+    "text": "Initiate Knight"
+  },
+  {
+    "id": 26500,
+    "condition": "",
+    "text": "Senior Initiate Knight"
+  },
+  {
+    "id": 26600,
+    "condition": "",
+    "text": "Apprentice Knight"
+  },
+  {
+    "id": 26700,
+    "condition": "",
+    "text": "Journeyman Knight"
+  },
+  {
+    "id": 26800,
+    "condition": "",
+    "text": "Senior Knight"
+  },
+  {
+    "id": 26900,
+    "condition": "",
+    "text": "Initiate Knight"
+  },
+  {
+    "id": 27000,
+    "condition": "",
+    "text": "Senior Initiate Knight"
+  },
+  {
+    "id": 27100,
+    "condition": "",
+    "text": "Apprentice Knight"
+  },
+  {
+    "id": 27200,
+    "condition": "",
+    "text": "Journeyman Knight"
+  },
+  {
+    "id": 27300,
+    "condition": "",
+    "text": "Senior Knight"
+  },
+  {
+    "id": 27400,
+    "condition": "",
+    "text": "Junior Paladin"
+  },
+  {
+    "id": 27500,
+    "condition": "",
+    "text": "Paladin"
+  },
+  {
+    "id": 27600,
+    "condition": "",
+    "text": "Senior Paladin"
+  },
+  {
+    "id": 27700,
+    "condition": "",
+    "text": "Junior Paladin"
+  },
+  {
+    "id": 27800,
+    "condition": "",
+    "text": "Paladin"
+  },
+  {
+    "id": 27900,
+    "condition": "",
+    "text": "Senior Paladin"
+  },
+  {
+    "id": 28000,
+    "condition": "",
+    "text": "Initiate Scribe"
+  },
+  {
+    "id": 28100,
+    "condition": "",
+    "text": "Senior Initiate Scribe"
+  },
+  {
+    "id": 28200,
+    "condition": "",
+    "text": "Apprentice Scribe"
+  },
+  {
+    "id": 28300,
+    "condition": "",
+    "text": "Journeyman Scribe"
+  },
+  {
+    "id": 28400,
+    "condition": "",
+    "text": "Senior Scribe"
+  },
+  {
+    "id": 28500,
+    "condition": "",
+    "text": "Initiate Scribe"
+  },
+  {
+    "id": 28600,
+    "condition": "",
+    "text": "Senior Initiate Scribe"
+  },
+  {
+    "id": 28700,
+    "condition": "",
+    "text": "Apprentice Scribe"
+  },
+  {
+    "id": 28800,
+    "condition": "",
+    "text": "Journeyman Scribe"
+  },
+  {
+    "id": 28900,
+    "condition": "",
+    "text": "Senior Scribe"
+  },
+  {
+    "id": 29000,
+    "condition": "",
+    "text": "Robed Man"
+  },
+  {
+    "id": 29100,
+    "condition": "",
+    "text": "Master's Child"
+  },
+  {
+    "id": 29200,
+    "condition": "",
+    "text": "Cathedral Student"
+  },
+  {
+    "id": 29300,
+    "condition": "",
+    "text": "Robed Woman"
+  },
+  {
+    "id": 29400,
+    "condition": "",
+    "text": "Master's Child"
+  },
+  {
+    "id": 29500,
+    "condition": "",
+    "text": "Master's Pet"
+  },
+  {
+    "id": 29600,
+    "condition": "",
+    "text": "Master's Thug"
+  },
+  {
+    "id": 29700,
+    "condition": "",
+    "text": "Master's Guard"
+  },
+  {
+    "id": 29800,
+    "condition": "",
+    "text": "Master's Pet"
+  },
+  {
+    "id": 29900,
+    "condition": "",
+    "text": "Master's Thug"
+  },
+  {
+    "id": 30000,
+    "condition": "",
+    "text": "Master's Guard"
+  },
+  {
+    "id": 30100,
+    "condition": "",
+    "text": "Doctor"
+  },
+  {
+    "id": 30200,
+    "condition": "",
+    "text": "Katja"
+  },
+  {
+    "id": 30300,
+    "condition": "",
+    "text": "Sasha"
+  },
+  {
+    "id": 30301,
+    "condition": "",
+    "text": "You see a Siberian Husky waiting patiently for her master."
+  },
+  {
+    "id": 30400,
+    "condition": "",
+    "text": "Mysterious Stranger"
+  },
+  {
+    "id": 30500,
+    "condition": "",
+    "text": "Mindless Ghoul"
+  },
+  {
+    "id": 30600,
+    "condition": "",
+    "text": "Eyeball, Mk II"
+  },
+  {
+    "id": 30700,
+    "condition": "",
+    "text": "Egg"
+  },
+  {
+    "id": 30701,
+    "condition": "",
+    "text": "Deathclaw Egg"
+  },
+  {
+    "id": 30800,
+    "condition": "",
+    "text": "Dugan"
+  },
+  {
+    "id": 30900,
+    "condition": "",
+    "text": "Mother Deathclaw"
+  },
+  {
+    "id": 31000,
+    "condition": "",
+    "text": "Hammer"
+  },
+  {
+    "id": 31100,
+    "condition": "",
+    "text": "Dead Traveler"
+  },
+  {
+    "id": 31200,
+    "condition": "",
+    "text": "Kenji"
+  }
+]

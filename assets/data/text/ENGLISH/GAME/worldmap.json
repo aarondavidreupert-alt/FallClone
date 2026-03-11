@@ -1,0 +1,247 @@
+[
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Cavern Entrance"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "Living Quarters"
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "Command Center"
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "Desert Entrance"
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "Caverns/Entrance"
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "Living Quarters"
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "Command Center"
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 221,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 222,
+    "condition": "",
+    "text": "Brahmin Pen"
+  },
+  {
+    "id": 230,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 231,
+    "condition": "",
+    "text": "Crash House"
+  },
+  {
+    "id": 232,
+    "condition": "",
+    "text": "Casino"
+  },
+  {
+    "id": 240,
+    "condition": "",
+    "text": "Base"
+  },
+  {
+    "id": 250,
+    "condition": "",
+    "text": "Hotel"
+  },
+  {
+    "id": 251,
+    "condition": "",
+    "text": "Hall"
+  },
+  {
+    "id": 252,
+    "condition": "",
+    "text": "Watershed"
+  },
+  {
+    "id": 260,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 261,
+    "condition": "",
+    "text": "Downtown"
+  },
+  {
+    "id": 262,
+    "condition": "",
+    "text": "Heights"
+  },
+  {
+    "id": 263,
+    "condition": "",
+    "text": "Old Town"
+  },
+  {
+    "id": 264,
+    "condition": "",
+    "text": "Merchants"
+  },
+  {
+    "id": 265,
+    "condition": "",
+    "text": "Cave"
+  },
+  {
+    "id": 270,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 271,
+    "condition": "",
+    "text": "Level 1"
+  },
+  {
+    "id": 272,
+    "condition": "",
+    "text": "Level 2"
+  },
+  {
+    "id": 273,
+    "condition": "",
+    "text": "Level 3"
+  },
+  {
+    "id": 274,
+    "condition": "",
+    "text": "Level 4"
+  },
+  {
+    "id": 280,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 281,
+    "condition": "",
+    "text": "Stronghold Level 1"
+  },
+  {
+    "id": 282,
+    "condition": "",
+    "text": "Stronghold Level 2"
+  },
+  {
+    "id": 283,
+    "condition": "",
+    "text": "Vats Level 1"
+  },
+  {
+    "id": 284,
+    "condition": "",
+    "text": "Vats Level 2"
+  },
+  {
+    "id": 290,
+    "condition": "",
+    "text": "Crater"
+  },
+  {
+    "id": 291,
+    "condition": "",
+    "text": "Level 1"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Adytum"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "Downtown"
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "Library"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "Fortress"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "Warehouse"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "Interior"
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "You gained 10,000 experience points!"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "Ruins"
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Desert"
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": "Mountains"
+  },
+  {
+    "id": 1002,
+    "condition": "",
+    "text": "City"
+  },
+  {
+    "id": 1003,
+    "condition": "",
+    "text": "Coast"
+  }
+]

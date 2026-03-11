@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "condition": "",
+    "text": "You gained %d %s."
+  },
+  {
+    "id": 2,
+    "condition": "",
+    "text": "You lost %d %s."
+  },
+  {
+    "id": 3,
+    "condition": "",
+    "text": "You feel better."
+  },
+  {
+    "id": 4,
+    "condition": "",
+    "text": "You suffer a fatal heart attack from chem overdose."
+  },
+  {
+    "id": 5,
+    "condition": "",
+    "text": "%s has no charges left."
+  },
+  {
+    "id": 6,
+    "condition": "",
+    "text": "%s is on."
+  },
+  {
+    "id": 7,
+    "condition": "",
+    "text": "%s is off."
+  },
+  {
+    "id": 8,
+    "condition": "",
+    "text": "You pass the Geiger counter over your body. The rem counter reads: %d"
+  },
+  {
+    "id": 9,
+    "condition": "",
+    "text": "This item can only be used from the interface bar."
+  },
+  {
+    "id": 10,
+    "condition": "",
+    "text": "Nothing happens."
+  }
+]

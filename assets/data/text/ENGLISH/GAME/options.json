@@ -1,0 +1,182 @@
+[
+  {
+    "id": 0,
+    "condition": "",
+    "text": "SAVE GAME"
+  },
+  {
+    "id": 1,
+    "condition": "",
+    "text": "LOAD GAME"
+  },
+  {
+    "id": 2,
+    "condition": "",
+    "text": "PREFERENCES"
+  },
+  {
+    "id": 3,
+    "condition": "",
+    "text": "EXIT GAME"
+  },
+  {
+    "id": 4,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 100,
+    "condition": "",
+    "text": "GAME PREFERENCES"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "GAME DIFFICULTY"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "COMBAT DIFFICULTY"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "VIOLENCE LEVEL"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "TARGET HIGHLIGHT"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "BURNING GUYS"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "COMBAT MESSAGES"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "COMBAT TAUNTS"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "LANGUAGE FILTER"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "RUNNING"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "SUBTITLES"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "ITEM HIGHLIGHT"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "COMBAT SPEED"
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "TEXT DELAY"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "MASTER AUDIO VOLUME"
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "MUSIC/MOVIE VOLUME"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "SOUND EFFECTS VOLUME"
+  },
+  {
+    "id": 117,
+    "condition": "",
+    "text": "SPEECH VOLUME"
+  },
+  {
+    "id": 118,
+    "condition": "",
+    "text": "BRIGHTNESS LEVEL"
+  },
+  {
+    "id": 119,
+    "condition": "",
+    "text": "MOUSE SENSITIVITY"
+  },
+  {
+    "id": 120,
+    "condition": "",
+    "text": "DEFAULT"
+  },
+  {
+    "id": 121,
+    "condition": "",
+    "text": "CANCEL"
+  },
+  {
+    "id": 122,
+    "condition": "",
+    "text": "Affect player speed"
+  },
+  {
+    "id": 123,
+    "condition": "",
+    "text": "Pipboy speech"
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "Targeting Only"
+  },
+  {
+    "id": 219,
+    "condition": "",
+    "text": "Always"
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "Lots"
+  },
+  {
+    "id": 223,
+    "condition": "",
+    "text": "Brighter"
+  },
+  {
+    "id": 224,
+    "condition": "",
+    "text": "Wide"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "PAUSED"
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "OPTIONS"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "CANCEL"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "PRINT"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "AGE"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "SEX"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "NAME"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "MALE"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "FEMALE"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "PERKS"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "KARMA"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "KILLS"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "SKILL POINTS"
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "Level:"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "Exp:"
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "Next Level:"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "CHAR POINTS"
+  },
+  {
+    "id": 117,
+    "condition": "",
+    "text": "SKILLS"
+  },
+  {
+    "id": 120,
+    "condition": "",
+    "text": "Character Points"
+  },
+  {
+    "id": 121,
+    "condition": "",
+    "text": "Amount of free character points that can be added to one of the basic stats."
+  },
+  {
+    "id": 122,
+    "condition": "",
+    "text": "Next Level"
+  },
+  {
+    "id": 123,
+    "condition": "",
+    "text": "The amount of experience points needed to move up to the next level."
+  },
+  {
+    "id": 124,
+    "condition": "",
+    "text": "Perks"
+  },
+  {
+    "id": 125,
+    "condition": "",
+    "text": "Karma"
+  },
+  {
+    "id": 126,
+    "condition": "",
+    "text": "Kills"
+  },
+  {
+    "id": 127,
+    "condition": "",
+    "text": "Perks add additional abilities. Every third experience level, you can choose one perk."
+  },
+  {
+    "id": 128,
+    "condition": "",
+    "text": "These are the effects of the choices you make during the game."
+  },
+  {
+    "id": 129,
+    "condition": "",
+    "text": "A counter that keeps track of the type and numbers of creatures you have slaughtered, or have seen killed in your presence."
+  },
+  {
+    "id": 130,
+    "condition": "",
+    "text": "Skill Points"
+  },
+  {
+    "id": 131,
+    "condition": "",
+    "text": "Use free skill points to increase the level of a skill."
+  },
+  {
+    "id": 136,
+    "condition": "",
+    "text": "No free skill points available."
+  },
+  {
+    "id": 137,
+    "condition": "",
+    "text": "Base:"
+  },
+  {
+    "id": 138,
+    "condition": "",
+    "text": "TAG SKILLS"
+  },
+  {
+    "id": 139,
+    "condition": "",
+    "text": "OPTIONAL TRAITS"
+  },
+  {
+    "id": 144,
+    "condition": "",
+    "text": "Tag Skills"
+  },
+  {
+    "id": 145,
+    "condition": "",
+    "text": "Tag skills are skills your character specializes in.  Each tag skill gains +20%, and increases twice as fast.  You must pick three tag skills."
+  },
+  {
+    "id": 146,
+    "condition": "",
+    "text": "Optional Traits"
+  },
+  {
+    "id": 147,
+    "condition": "",
+    "text": "Optional traits describe your character in more detail.  All traits will have positive and negative effects.  You may choose up to two traits during creation."
+  },
+  {
+    "id": 150,
+    "condition": "",
+    "text": "Skills"
+  },
+  {
+    "id": 151,
+    "condition": "",
+    "text": "Skills are learned knowledge.  Skills increase by experience, or during the course of the game by special events.  The higher the skill level, the better you are at that skill."
+  },
+  {
+    "id": 152,
+    "condition": "",
+    "text": "PICK A PERK"
+  },
+  {
+    "id": 153,
+    "condition": "",
+    "text": "PICK A NEW TRAIT"
+  },
+  {
+    "id": 154,
+    "condition": "",
+    "text": "LOSE A TRAIT"
+  },
+  {
+    "id": 155,
+    "condition": "",
+    "text": "PICK A NEW TAG SKILL"
+  },
+  {
+    "id": 156,
+    "condition": "",
+    "text": "TRAITS"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Hit Points"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "Action Points "
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "Armor Class"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "Unarmed Damage"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "Melee Damage"
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": "Damage Res.  "
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": "Poison Res.   "
+  },
+  {
+    "id": 307,
+    "condition": "",
+    "text": "Radiation Res."
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "Sequence"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": "Healing Rate"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "Critical Chance"
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "Carry Weight"
+  },
+  {
+    "id": 312,
+    "condition": "",
+    "text": "Poisoned"
+  },
+  {
+    "id": 313,
+    "condition": "",
+    "text": "Radiated"
+  },
+  {
+    "id": 314,
+    "condition": "",
+    "text": "Eye Damage"
+  },
+  {
+    "id": 315,
+    "condition": "",
+    "text": "Crippled Right Arm"
+  },
+  {
+    "id": 316,
+    "condition": "",
+    "text": "Crippled Left Arm"
+  },
+  {
+    "id": 317,
+    "condition": "",
+    "text": "Crippled Right Leg"
+  },
+  {
+    "id": 318,
+    "condition": "",
+    "text": "Crippled Left Leg"
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Your character has been poisoned.  Poison will do damage over a period of time, until cured or it passes from your system."
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "Your character is suffering from a significant amount of Radiation poisoning.  The more radiation damage, the more deadly the effect."
+  },
+  {
+    "id": 402,
+    "condition": "",
+    "text": "This means your character has been seriously hit in one or both of your eyes.  This affects your Perception."
+  },
+  {
+    "id": 403,
+    "condition": "",
+    "text": "The right arm has been severely hurt, and cannot function well.  If one arm has been crippled, you cannot use two-handed weapons.  If both arms have been crippled, you cannot attack with weapons."
+  },
+  {
+    "id": 404,
+    "condition": "",
+    "text": "Your character's left arm has been severely hurt, and cannot function well.  If one arm has been crippled, you cannot use two-handed weapons.  If both arms have been crippled, you cannot attack with weapons."
+  },
+  {
+    "id": 405,
+    "condition": "",
+    "text": "Your character has a crippled right leg."
+  },
+  {
+    "id": 406,
+    "condition": "",
+    "text": "Your character has a crippled left leg."
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "January"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "February"
+  },
+  {
+    "id": 502,
+    "condition": "",
+    "text": "March"
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "April"
+  },
+  {
+    "id": 504,
+    "condition": "",
+    "text": "May"
+  },
+  {
+    "id": 505,
+    "condition": "",
+    "text": "June"
+  },
+  {
+    "id": 506,
+    "condition": "",
+    "text": "July"
+  },
+  {
+    "id": 507,
+    "condition": "",
+    "text": "August"
+  },
+  {
+    "id": 508,
+    "condition": "",
+    "text": "September"
+  },
+  {
+    "id": 509,
+    "condition": "",
+    "text": "October"
+  },
+  {
+    "id": 510,
+    "condition": "",
+    "text": "November"
+  },
+  {
+    "id": 511,
+    "condition": "",
+    "text": "December"
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "SAVE"
+  },
+  {
+    "id": 601,
+    "condition": "",
+    "text": "LOAD"
+  },
+  {
+    "id": 602,
+    "condition": "",
+    "text": "PRINT TO FILE"
+  },
+  {
+    "id": 603,
+    "condition": "",
+    "text": "ERASE"
+  },
+  {
+    "id": 604,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 607,
+    "condition": "",
+    "text": " was successfully saved."
+  },
+  {
+    "id": 608,
+    "condition": "",
+    "text": " was successfully loaded."
+  },
+  {
+    "id": 609,
+    "condition": "",
+    "text": "already exists."
+  },
+  {
+    "id": 610,
+    "condition": "",
+    "text": "Do you wish to overwrite?"
+  },
+  {
+    "id": 611,
+    "condition": "",
+    "text": "Error saving "
+  },
+  {
+    "id": 612,
+    "condition": "",
+    "text": "Error loading "
+  },
+  {
+    "id": 613,
+    "condition": "",
+    "text": "Character file invalid."
+  },
+  {
+    "id": 614,
+    "condition": "",
+    "text": "Character data invalid."
+  },
+  {
+    "id": 615,
+    "condition": "",
+    "text": "Error reading file list!"
+  },
+  {
+    "id": 616,
+    "condition": "",
+    "text": "PRINT"
+  },
+  {
+    "id": 617,
+    "condition": "",
+    "text": "PLAYER"
+  },
+  {
+    "id": 618,
+    "condition": "",
+    "text": "BLANK.GCD"
+  },
+  {
+    "id": 623,
+    "condition": "",
+    "text": " ::: Statistics :::"
+  },
+  {
+    "id": 624,
+    "condition": "",
+    "text": "       Strength:"
+  },
+  {
+    "id": 625,
+    "condition": "",
+    "text": "        Hit Points:"
+  },
+  {
+    "id": 626,
+    "condition": "",
+    "text": "        Sequence:"
+  },
+  {
+    "id": 627,
+    "condition": "",
+    "text": "     Perception:"
+  },
+  {
+    "id": 628,
+    "condition": "",
+    "text": "       Armor Class:"
+  },
+  {
+    "id": 629,
+    "condition": "",
+    "text": "        Healing Rate:"
+  },
+  {
+    "id": 630,
+    "condition": "",
+    "text": "      Endurance:"
+  },
+  {
+    "id": 631,
+    "condition": "",
+    "text": "     Action Points:"
+  },
+  {
+    "id": 632,
+    "condition": "",
+    "text": "      Critical Chance:"
+  },
+  {
+    "id": 633,
+    "condition": "",
+    "text": "       Charisma:"
+  },
+  {
+    "id": 634,
+    "condition": "",
+    "text": "      Melee Damage:"
+  },
+  {
+    "id": 635,
+    "condition": "",
+    "text": "         Carry Weight:"
+  },
+  {
+    "id": 636,
+    "condition": "",
+    "text": "   Intelligence:"
+  },
+  {
+    "id": 637,
+    "condition": "",
+    "text": "       Damage Res.:"
+  },
+  {
+    "id": 638,
+    "condition": "",
+    "text": "        Agility:"
+  },
+  {
+    "id": 639,
+    "condition": "",
+    "text": "    Radiation Res.:"
+  },
+  {
+    "id": 640,
+    "condition": "",
+    "text": "           Luck:"
+  },
+  {
+    "id": 641,
+    "condition": "",
+    "text": "       Poison Res.:"
+  },
+  {
+    "id": 642,
+    "condition": "",
+    "text": "  Name:"
+  },
+  {
+    "id": 643,
+    "condition": "",
+    "text": "Age:"
+  },
+  {
+    "id": 644,
+    "condition": "",
+    "text": "               Gender:"
+  },
+  {
+    "id": 645,
+    "condition": "",
+    "text": "Male"
+  },
+  {
+    "id": 646,
+    "condition": "",
+    "text": "Female"
+  },
+  {
+    "id": 647,
+    "condition": "",
+    "text": " Level:"
+  },
+  {
+    "id": 648,
+    "condition": "",
+    "text": "                Exp:"
+  },
+  {
+    "id": 649,
+    "condition": "",
+    "text": "Next Level:"
+  },
+  {
+    "id": 650,
+    "condition": "",
+    "text": " ::: Traits :::           ::: Perks :::           ::: Karma :::"
+  },
+  {
+    "id": 651,
+    "condition": "",
+    "text": " ::: Skills :::                ::: Kills :::"
+  },
+  {
+    "id": 652,
+    "condition": "",
+    "text": " ::: Inventory :::"
+  },
+  {
+    "id": 653,
+    "condition": "",
+    "text": "                                      Total Weight:"
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Reputation (General) "
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": "Berserker"
+  },
+  {
+    "id": 1002,
+    "condition": "",
+    "text": "Champion"
+  },
+  {
+    "id": 1003,
+    "condition": "",
+    "text": "Childkiller"
+  },
+  {
+    "id": 1004,
+    "condition": "",
+    "text": "Nuka Cola Craving"
+  },
+  {
+    "id": 1005,
+    "condition": "",
+    "text": "Buffout Craving"
+  },
+  {
+    "id": 1006,
+    "condition": "",
+    "text": "Mentats Craving"
+  },
+  {
+    "id": 1007,
+    "condition": "",
+    "text": "Psycho Craving"
+  },
+  {
+    "id": 1008,
+    "condition": "",
+    "text": "RadAway Craving"
+  },
+  {
+    "id": 1009,
+    "condition": "",
+    "text": "Alcohol Craving"
+  },
+  {
+    "id": 1100,
+    "condition": "",
+    "text": "This is a ranged stat that represents your general reputation. The higher the number, the better known and respected you are. If your rep is negative, you are hated by some for your evil actions."
+  },
+  {
+    "id": 1101,
+    "condition": "",
+    "text": "You have killed a large number of people. This is generally not a good thing to get known for. People from the wrong side of the track will like you a little more, however."
+  },
+  {
+    "id": 1102,
+    "condition": "",
+    "text": "Your actions have revealed you to be a champion of the people. You war against evil and villainy is widely known. Honorable people will respect you better."
+  },
+  {
+    "id": 1103,
+    "condition": "",
+    "text": "You have killed children, the youth of the wasteland. This is considered to be a really bad thing. You evil, evil person."
+  },
+  {
+    "id": 1104,
+    "condition": "",
+    "text": "You thoroughly enjoy Nuka-Cola, the cola of the post-nuclear world."
+  },
+  {
+    "id": 1105,
+    "condition": "",
+    "text": "You crave the chem Buffout. You must take this chem on an ongoing basis or suffer the effects of downtime."
+  },
+  {
+    "id": 1106,
+    "condition": "",
+    "text": "You are suffering from Mentat craving. You must take this particular chem or suffer downtime."
+  },
+  {
+    "id": 1107,
+    "condition": "",
+    "text": "You have a chem craving. If you do not take Psycho on a regular schedule, you will suffer. If you do, others will suffer."
+  },
+  {
+    "id": 1108,
+    "condition": "",
+    "text": "Your body craves Radaway. While not life threatening, you must take it regularly."
+  },
+  {
+    "id": 1109,
+    "condition": "",
+    "text": "You have a problem with alcohol. Actually, you have many problems with your drinking habits."
+  },
+  {
+    "id": 1110,
+    "condition": "",
+    "text": "TEMPORARY - What is this?"
+  },
+  {
+    "id": 5006,
+    "condition": "",
+    "text": "CHEAT MODE"
+  },
+  {
+    "id": 5007,
+    "condition": "",
+    "text": "Not available in demo."
+  }
+]

@@ -1,0 +1,2372 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Leather Armor"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Your basic all leather apparel.  Finely crafted from tanned brahmin hide."
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Metal Armor"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "Polished metal plates, crudely forming a suit of armor."
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Powered Armor"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "A self-contained suit of advanced technology armor.  Powered by a micro-fusion reactor, with enough fuel to last a hundred years."
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Knife"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "A sharp-bladed cutting and stabbing weapon.  Min ST: 2."
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Club"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "A military or police baton.  Heavy wood.  Min ST: 3."
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "Sledgehammer"
+  },
+  {
+    "id": 601,
+    "condition": "",
+    "text": "A large hammer with big handle.  Very popular with the muscular crowd.  Min ST: 6."
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": "Spear"
+  },
+  {
+    "id": 701,
+    "condition": "",
+    "text": "A razor tipped polearm.  The shaft is wooden, and the tip is worked steel.  Min ST: 4."
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": "10mm Pistol"
+  },
+  {
+    "id": 801,
+    "condition": "",
+    "text": "A Colt 6520 10mm autoloading pistol.  Each pull of the trigger will automatically reload the firearm until the magazine is empty.  Single shot only, using the powerful 10mm round.  Min ST: 3."
+  },
+  {
+    "id": 900,
+    "condition": "",
+    "text": "10mm SMG"
+  },
+  {
+    "id": 901,
+    "condition": "",
+    "text": "H&K MP9 Submachinegun (10mm variant).  A medium-sized SMG, capable of single shot and burst mode.  Min ST: 4."
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Hunting Rifle"
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": "A Colt Rangemaster semi-automatic rifle, in .223 caliber.  Single-shot only.  Min ST: 5."
+  },
+  {
+    "id": 1100,
+    "condition": "",
+    "text": "Flamer"
+  },
+  {
+    "id": 1101,
+    "condition": "",
+    "text": "A Flambe 450 model flamethrower, varmiter variation.  Fires a short spray of extremely hot, flamable liquid.  Requires specialized fuel to work properly.  Min ST: 6."
+  },
+  {
+    "id": 1200,
+    "condition": "",
+    "text": "Minigun"
+  },
+  {
+    "id": 1201,
+    "condition": "",
+    "text": "A Rockwell CZ53 Personal Minigun.  A multi-barrelled chaingun firing 5mm ammunition at over 60,000 RPM.  Min ST: 7."
+  },
+  {
+    "id": 1300,
+    "condition": "",
+    "text": "Rocket Launcher"
+  },
+  {
+    "id": 1301,
+    "condition": "",
+    "text": "A Rockwell BigBazooka rocket launcher.  With the deluxe 3 lb. trigger.  Fires AP or Explosive Rockets.  Min ST: 6."
+  },
+  {
+    "id": 1400,
+    "condition": "",
+    "text": "Explosive Rocket"
+  },
+  {
+    "id": 1401,
+    "condition": "",
+    "text": "A rocket with a large explosive warhead."
+  },
+  {
+    "id": 1500,
+    "condition": "",
+    "text": "Plasma Rifle"
+  },
+  {
+    "id": 1501,
+    "condition": "",
+    "text": "A Winchester Model P94 Plasma Rifle.  An industrial-grade energy weapon, firing superheated bolts of plasma down a superconducting barrel.  Powered by Micro Fusion Cells.  Min ST: 6."
+  },
+  {
+    "id": 1600,
+    "condition": "",
+    "text": "Laser Pistol"
+  },
+  {
+    "id": 1601,
+    "condition": "",
+    "text": "A Wattz 1000 Laser Pistol.  Civilian model, so the wattage is lower than military or police versions.  Uses small energy cells.  Min ST: 3."
+  },
+  {
+    "id": 1700,
+    "condition": "",
+    "text": "Combat Armor"
+  },
+  {
+    "id": 1701,
+    "condition": "",
+    "text": "High tech armor, made out of advanced defensive polymers."
+  },
+  {
+    "id": 1800,
+    "condition": "",
+    "text": "Desert Eagle .44"
+  },
+  {
+    "id": 1801,
+    "condition": "",
+    "text": "An ancient Desert Eagle pistol, in .44 magnum.  Interest in late 20th century films made this one of the most popular handguns of all times.  Min ST: 4."
+  },
+  {
+    "id": 1900,
+    "condition": "",
+    "text": "Rock"
+  },
+  {
+    "id": 1901,
+    "condition": "",
+    "text": "It's a rock.  The Granite-Inc. model is an upgraded version.  Min ST: 1."
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": "Crowbar"
+  },
+  {
+    "id": 2001,
+    "condition": "",
+    "text": "A very solid and heavy piece of metal, specially designed to exert leverage.  Or pound heads.  Min ST: 5."
+  },
+  {
+    "id": 2100,
+    "condition": "",
+    "text": "Brass Knuckles"
+  },
+  {
+    "id": 2101,
+    "condition": "",
+    "text": "Hardened knuckle grip that is actually made out of steel.  They protect your hand, and do more damage, in unarmed combat.  Min ST: 1."
+  },
+  {
+    "id": 2200,
+    "condition": "",
+    "text": "14mm Pistol"
+  },
+  {
+    "id": 2201,
+    "condition": "",
+    "text": "A Sig-Sauer 14mm Auto Pistol.  Large, single shot handgun.  Excellent craftmanship.  Min ST: 4."
+  },
+  {
+    "id": 2300,
+    "condition": "",
+    "text": "Assault Rifle"
+  },
+  {
+    "id": 2301,
+    "condition": "",
+    "text": "An AK-112 5mm Assault Rifle.  An old military model, out of use around the time of the war.  Can fire single-shot or burst, using the high velocity 5mm rounds.  Min ST: 5."
+  },
+  {
+    "id": 2400,
+    "condition": "",
+    "text": "Plasma Pistol"
+  },
+  {
+    "id": 2401,
+    "condition": "",
+    "text": "Glock 86 Plasma Pistol.  Designed by the Gaston Glock AI.  Shoots a small bolt of superheated plasma.  Powered by a small energy cell.  Min ST: 4."
+  },
+  {
+    "id": 2500,
+    "condition": "",
+    "text": "Grenade (Frag)"
+  },
+  {
+    "id": 2501,
+    "condition": "",
+    "text": "A generic fragmentation grenade.  Contains a small amount of high explosives, the container itself forming most of the damaging fragments.  Explodes on contact.  Min ST: 3."
+  },
+  {
+    "id": 2600,
+    "condition": "",
+    "text": "Grenade (Plasma)"
+  },
+  {
+    "id": 2601,
+    "condition": "",
+    "text": "A magnetically sealed plasma delivery unit, with detonating explosives.  Creates a blast of superheated plasma on contact.  Min ST: 4."
+  },
+  {
+    "id": 2700,
+    "condition": "",
+    "text": "Grenade (Pulse)"
+  },
+  {
+    "id": 2701,
+    "condition": "",
+    "text": "An electromagnetic pulse grenade, generating an intense magnetic field on detonation.  Doesn't affect biological creatures.  Contact fuze.  Min ST: 4."
+  },
+  {
+    "id": 2800,
+    "condition": "",
+    "text": "Gatling Laser"
+  },
+  {
+    "id": 2801,
+    "condition": "",
+    "text": "An H&K L30 Gatling Laser.  Designed specifically for military use, these were in the prototype stage at the beginning of the War.  Multiple barrels allow longer firing before overheating.  Powered by Micro Fusion Cells.  Min ST: 6."
+  },
+  {
+    "id": 2900,
+    "condition": "",
+    "text": "10mm JHP"
+  },
+  {
+    "id": 2901,
+    "condition": "",
+    "text": "Ammunition. Caliber: 10mm, jacketed hollow-points"
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": "10mm AP"
+  },
+  {
+    "id": 3001,
+    "condition": "",
+    "text": "Ammunition.  Caliber: 10mm, armor piercing."
+  },
+  {
+    "id": 3100,
+    "condition": "",
+    "text": ".44 Magnum JHP"
+  },
+  {
+    "id": 3101,
+    "condition": "",
+    "text": "A brick of ammunition, .44 magnum caliber, hollow-points."
+  },
+  {
+    "id": 3200,
+    "condition": "",
+    "text": "Flamethrower Fuel"
+  },
+  {
+    "id": 3201,
+    "condition": "",
+    "text": "A cylinder containing an extremely flammable liquid fuel for flamethrowers."
+  },
+  {
+    "id": 3300,
+    "condition": "",
+    "text": "14mm AP"
+  },
+  {
+    "id": 3301,
+    "condition": "",
+    "text": "Large caliber ammunition.  14mm armor piercing."
+  },
+  {
+    "id": 3400,
+    "condition": "",
+    "text": ".223 FMJ"
+  },
+  {
+    "id": 3401,
+    "condition": "",
+    "text": "A case of ammunition, .223 caliber, Full Metal Jacket."
+  },
+  {
+    "id": 3500,
+    "condition": "",
+    "text": "5mm JHP"
+  },
+  {
+    "id": 3501,
+    "condition": "",
+    "text": "A brick of small, lightweight ammunition.  Caliber: 5mm, jacketed hollow-point."
+  },
+  {
+    "id": 3600,
+    "condition": "",
+    "text": "5mm AP"
+  },
+  {
+    "id": 3601,
+    "condition": "",
+    "text": "A brick of small caliber ammunition.  5mm armor piercing."
+  },
+  {
+    "id": 3700,
+    "condition": "",
+    "text": "Rocket AP"
+  },
+  {
+    "id": 3701,
+    "condition": "",
+    "text": "A rocket shell, with a smaller explosive, but designed to pierce armor plating."
+  },
+  {
+    "id": 3800,
+    "condition": "",
+    "text": "Small Energy Cell"
+  },
+  {
+    "id": 3801,
+    "condition": "",
+    "text": "A small, self-contained energy storage unit."
+  },
+  {
+    "id": 3900,
+    "condition": "",
+    "text": "Micro Fusion Cell"
+  },
+  {
+    "id": 3901,
+    "condition": "",
+    "text": "A medium sized energy production unit.  Self-contained fusion plant."
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": "Stimpak"
+  },
+  {
+    "id": 4001,
+    "condition": "",
+    "text": "A healing chem.  When injected, the chem provides immediate healing of minor wounds."
+  },
+  {
+    "id": 4100,
+    "condition": "",
+    "text": "Bottle Caps"
+  },
+  {
+    "id": 4101,
+    "condition": "",
+    "text": "This bag holds your bottle-caps."
+  },
+  {
+    "id": 4200,
+    "condition": "",
+    "text": "Fridge"
+  },
+  {
+    "id": 4201,
+    "condition": "",
+    "text": "A refrigerator.  Out of coolant."
+  },
+  {
+    "id": 4300,
+    "condition": "",
+    "text": "Ice Chest"
+  },
+  {
+    "id": 4301,
+    "condition": "",
+    "text": "On old-style ice chest.  The hinges are in good working condition."
+  },
+  {
+    "id": 4400,
+    "condition": "",
+    "text": "Ice Chest"
+  },
+  {
+    "id": 4401,
+    "condition": "",
+    "text": "On old-style ice chest.  The hinges are in good working condition."
+  },
+  {
+    "id": 4500,
+    "condition": "",
+    "text": "Throwing Knife"
+  },
+  {
+    "id": 4501,
+    "condition": "",
+    "text": "A knife, balanced specifically for throwing.  Made of titanium, and laser sharpened.  Min ST: 3."
+  },
+  {
+    "id": 4600,
+    "condition": "",
+    "text": "Bag"
+  },
+  {
+    "id": 4601,
+    "condition": "",
+    "text": "An average sized bag.  Made from weaved brahmin hairs."
+  },
+  {
+    "id": 4700,
+    "condition": "",
+    "text": "First Aid Kit"
+  },
+  {
+    "id": 4701,
+    "condition": "",
+    "text": "A small kit container basic medical equipment.  Bandages, wraps, antiseptic spray, and more."
+  },
+  {
+    "id": 4800,
+    "condition": "",
+    "text": "RadAway"
+  },
+  {
+    "id": 4801,
+    "condition": "",
+    "text": "A chemical solution that bonds with radiation particles and passes them through your system.  Takes time to work."
+  },
+  {
+    "id": 4900,
+    "condition": "",
+    "text": "Antidote"
+  },
+  {
+    "id": 4901,
+    "condition": "",
+    "text": "A bottle containing a home-brewed antidote for poison.  A milky liquid with floating pieces of radscorpion flesh."
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": "Reserved Item"
+  },
+  {
+    "id": 5001,
+    "condition": "",
+    "text": "This is a reserved item.  DO NOT USE."
+  },
+  {
+    "id": 5100,
+    "condition": "",
+    "text": "Dynamite"
+  },
+  {
+    "id": 5101,
+    "condition": "",
+    "text": "A high explosive, consisting of nitroglycerin mixed with the absorbent substance kiselguhr.  Includes a timer."
+  },
+  {
+    "id": 5200,
+    "condition": "",
+    "text": "Geiger Counter"
+  },
+  {
+    "id": 5201,
+    "condition": "",
+    "text": "A Wattz Electronics C-Radz model Geiger Counter.  Detects the presence and strength of radiation fields."
+  },
+  {
+    "id": 5300,
+    "condition": "",
+    "text": "Mentats"
+  },
+  {
+    "id": 5301,
+    "condition": "",
+    "text": "A pillbox of mind-altering chems.  Increases memory related functions, and speeds other mental processes.  Causes cravings."
+  },
+  {
+    "id": 5400,
+    "condition": "",
+    "text": "Stealth Boy"
+  },
+  {
+    "id": 5401,
+    "condition": "",
+    "text": "A RobCo Stealth Boy 3001 personal stealth device.  Generates a modulating field that transmits the reflected light from one side of an object to the other."
+  },
+  {
+    "id": 5500,
+    "condition": "",
+    "text": "Water Chip"
+  },
+  {
+    "id": 5501,
+    "condition": "",
+    "text": "A water purification control computer system chip.  Looks suprisingly like the chip that your Vault needs."
+  },
+  {
+    "id": 5600,
+    "condition": "",
+    "text": "Dog Tags"
+  },
+  {
+    "id": 5601,
+    "condition": "",
+    "text": "A set of military dog tags.  The name Darkwater is readable, but not much else is."
+  },
+  {
+    "id": 5700,
+    "condition": "",
+    "text": "Bug"
+  },
+  {
+    "id": 5701,
+    "condition": "",
+    "text": "A miniature microphone and transmitting device."
+  },
+  {
+    "id": 5800,
+    "condition": "",
+    "text": "Tape"
+  },
+  {
+    "id": 5801,
+    "condition": "",
+    "text": "A Wattz Electronics Holodisc tape.  This particular tape looks to be into very poor condition."
+  },
+  {
+    "id": 5900,
+    "condition": "",
+    "text": "Motion Sensor"
+  },
+  {
+    "id": 5901,
+    "condition": "",
+    "text": "A Wattz Electronics C-U model motion sensor.  Detects the movement of biological material over a distance of meters using a tuned radar device."
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 6001,
+    "condition": "",
+    "text": "A wooden bookcase."
+  },
+  {
+    "id": 6100,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 6101,
+    "condition": "",
+    "text": "A wooden bookcase."
+  },
+  {
+    "id": 6200,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 6201,
+    "condition": "",
+    "text": "A wooden bookcase."
+  },
+  {
+    "id": 6300,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 6301,
+    "condition": "",
+    "text": "A wooden bookcase."
+  },
+  {
+    "id": 6400,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 6401,
+    "condition": "",
+    "text": "A wooden bookcase."
+  },
+  {
+    "id": 6500,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 6501,
+    "condition": "",
+    "text": "A wooden bookcase."
+  },
+  {
+    "id": 6600,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 6601,
+    "condition": "",
+    "text": "A wooden desk."
+  },
+  {
+    "id": 6700,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 6701,
+    "condition": "",
+    "text": "A wooden desk."
+  },
+  {
+    "id": 6800,
+    "condition": "",
+    "text": "Dresser"
+  },
+  {
+    "id": 6801,
+    "condition": "",
+    "text": "A wooden dresser."
+  },
+  {
+    "id": 6900,
+    "condition": "",
+    "text": "Dresser"
+  },
+  {
+    "id": 6901,
+    "condition": "",
+    "text": "A wooden dresser."
+  },
+  {
+    "id": 7000,
+    "condition": "",
+    "text": "Dresser"
+  },
+  {
+    "id": 7001,
+    "condition": "",
+    "text": "A wooden dresser."
+  },
+  {
+    "id": 7100,
+    "condition": "",
+    "text": "Fruit"
+  },
+  {
+    "id": 7101,
+    "condition": "",
+    "text": "A strange piece of fruit.  No preservatives and no additional food coloring added."
+  },
+  {
+    "id": 7200,
+    "condition": "",
+    "text": "Briefcase"
+  },
+  {
+    "id": 7201,
+    "condition": "",
+    "text": "A briefcase, with a Made-in-the-USA label.  Leather.  Good condition, but the combination lock is broken."
+  },
+  {
+    "id": 7300,
+    "condition": "",
+    "text": "Big Book of Science"
+  },
+  {
+    "id": 7301,
+    "condition": "",
+    "text": "A set of books, containing information about different scientific fields."
+  },
+  {
+    "id": 7400,
+    "condition": "",
+    "text": "Leather Jacket"
+  },
+  {
+    "id": 7401,
+    "condition": "",
+    "text": "A black, heavy leather jacket."
+  },
+  {
+    "id": 7500,
+    "condition": "",
+    "text": "Tool"
+  },
+  {
+    "id": 7501,
+    "condition": "",
+    "text": "A super tool set, containing various useful tools."
+  },
+  {
+    "id": 7600,
+    "condition": "",
+    "text": "Deans Electronics"
+  },
+  {
+    "id": 7601,
+    "condition": "",
+    "text": "A study book on the field of electronics.  A note on the cover says that it is for the \"budding young electrician in everyone!\""
+  },
+  {
+    "id": 7700,
+    "condition": "",
+    "text": "Electronic Lock Pick"
+  },
+  {
+    "id": 7701,
+    "condition": "",
+    "text": "A Wattz Electronics Micromanipulator FingerStuff electronic lockpick.  For defeating electronic locks and security devices."
+  },
+  {
+    "id": 7800,
+    "condition": "",
+    "text": "Fuzzy Painting"
+  },
+  {
+    "id": 7801,
+    "condition": "",
+    "text": "An image of a singer.  Obviously, very old. The image has a felt coating that is still in good condition."
+  },
+  {
+    "id": 7900,
+    "condition": "",
+    "text": "Flare"
+  },
+  {
+    "id": 7901,
+    "condition": "",
+    "text": "A flare.  Creates light for a short period of time.  The paper is a little worn, but otherwise it is in good condition.  Twist the top to activate it."
+  },
+  {
+    "id": 8000,
+    "condition": "",
+    "text": "First Aid Book"
+  },
+  {
+    "id": 8001,
+    "condition": "",
+    "text": "A study book on the concepts and practical use of first aid skills."
+  },
+  {
+    "id": 8100,
+    "condition": "",
+    "text": "Iguana-on-a-stick"
+  },
+  {
+    "id": 8101,
+    "condition": "",
+    "text": "A cooked iguana, roasted in it's own skin."
+  },
+  {
+    "id": 8200,
+    "condition": "",
+    "text": "Key"
+  },
+  {
+    "id": 8201,
+    "condition": "",
+    "text": "A key.  A key will open a particular lock."
+  },
+  {
+    "id": 8300,
+    "condition": "",
+    "text": "Key Ring"
+  },
+  {
+    "id": 8301,
+    "condition": "",
+    "text": "Multiple keys."
+  },
+  {
+    "id": 8400,
+    "condition": "",
+    "text": "Lock Picks"
+  },
+  {
+    "id": 8401,
+    "condition": "",
+    "text": "A set of locksmith tools.  Includes all the necessary picks and tension wrenches to open conventional pin and tumbler locks."
+  },
+  {
+    "id": 8500,
+    "condition": "",
+    "text": "Plastic Explosives"
+  },
+  {
+    "id": 8501,
+    "condition": "",
+    "text": "A chunk of Cordex, a military brand of plastic explosives.  Highly stable, very destructive.  Includes a timer."
+  },
+  {
+    "id": 8600,
+    "condition": "",
+    "text": "Scout Handbook"
+  },
+  {
+    "id": 8601,
+    "condition": "",
+    "text": "A book on the methods and ideals of Scouting.  Very practical information regarding outdoor life."
+  },
+  {
+    "id": 8700,
+    "condition": "",
+    "text": "Buffout"
+  },
+  {
+    "id": 8701,
+    "condition": "",
+    "text": "Highly advanced steroids.  While in effect, they increase strength and reflexes.  Causes intense cravings."
+  },
+  {
+    "id": 8800,
+    "condition": "",
+    "text": "Watch"
+  },
+  {
+    "id": 8801,
+    "condition": "",
+    "text": "An expensive watch.  Not really working, but it still looks nice."
+  },
+  {
+    "id": 8900,
+    "condition": "",
+    "text": "Motor"
+  },
+  {
+    "id": 8901,
+    "condition": "",
+    "text": "A 40-hp electric motor."
+  },
+  {
+    "id": 9000,
+    "condition": "",
+    "text": "Back Pack"
+  },
+  {
+    "id": 9001,
+    "condition": "",
+    "text": "A basic backpack, with optional carrying straps."
+  },
+  {
+    "id": 9100,
+    "condition": "",
+    "text": "Doctor's Bag"
+  },
+  {
+    "id": 9101,
+    "condition": "",
+    "text": "This black bag contains instruments and chems used by doctors in the application of their trade."
+  },
+  {
+    "id": 9200,
+    "condition": "",
+    "text": "Scorpion Tail"
+  },
+  {
+    "id": 9201,
+    "condition": "",
+    "text": "The severed tail of a radscorpion."
+  },
+  {
+    "id": 9300,
+    "condition": "",
+    "text": "Bag"
+  },
+  {
+    "id": 9301,
+    "condition": "",
+    "text": "An average sized bag.  Made from weaved Brahmin hairs."
+  },
+  {
+    "id": 9400,
+    "condition": "",
+    "text": "Shotgun"
+  },
+  {
+    "id": 9401,
+    "condition": "",
+    "text": "A Winchester Widowmaker double-barreled 12-gauge shotgun.  Short barrel, with mahogany grip.  Min ST: 4."
+  },
+  {
+    "id": 9500,
+    "condition": "",
+    "text": "12 ga. Shotgun Shells"
+  },
+  {
+    "id": 9501,
+    "condition": "",
+    "text": "Shotgun ammunition.  This particular ammo is marked: \"12-gauge shells, not for use by children under the age of 3.\""
+  },
+  {
+    "id": 9600,
+    "condition": "",
+    "text": "Red Pass Key"
+  },
+  {
+    "id": 9601,
+    "condition": "",
+    "text": "A electronic security key, color coded red."
+  },
+  {
+    "id": 9700,
+    "condition": "",
+    "text": "Blue Pass Key"
+  },
+  {
+    "id": 9701,
+    "condition": "",
+    "text": "A electronic security key, color coded blue."
+  },
+  {
+    "id": 9800,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 9801,
+    "condition": "",
+    "text": "A pile of junk parts.  A little bit of everything."
+  },
+  {
+    "id": 9900,
+    "condition": "",
+    "text": "Gold Locket"
+  },
+  {
+    "id": 9901,
+    "condition": "",
+    "text": "A valuable gold locket."
+  },
+  {
+    "id": 10000,
+    "condition": "",
+    "text": "Radio"
+  },
+  {
+    "id": 10001,
+    "condition": "",
+    "text": "A model 2043B Radio Communicator, from the fine people at Wattz Electronics.  Dependable, rugged, and camouflaged.  With the optional RS-121 interface."
+  },
+  {
+    "id": 10100,
+    "condition": "",
+    "text": "Lighter"
+  },
+  {
+    "id": 10101,
+    "condition": "",
+    "text": "A silver butane lighter, in good condition."
+  },
+  {
+    "id": 10200,
+    "condition": "",
+    "text": "Guns and Bullets"
+  },
+  {
+    "id": 10201,
+    "condition": "",
+    "text": "A gun rag.  A magazine devoted to the practical use of firearms, and the occasional biased review."
+  },
+  {
+    "id": 10300,
+    "condition": "",
+    "text": "Iguana-on-a-stick"
+  },
+  {
+    "id": 10301,
+    "condition": "",
+    "text": "Some charred meat and vegetables on a cooking stick."
+  },
+  {
+    "id": 10400,
+    "condition": "",
+    "text": "Tape Recorder"
+  },
+  {
+    "id": 10401,
+    "condition": "",
+    "text": "A Wattz Electronics Play-It-For-Me tape recorder.  Plays and records the standard 30 minute high density Record-It-Once tapes."
+  },
+  {
+    "id": 10500,
+    "condition": "",
+    "text": "Key"
+  },
+  {
+    "id": 10501,
+    "condition": "",
+    "text": "A special key of some sort."
+  },
+  {
+    "id": 10600,
+    "condition": "",
+    "text": "Nuka-Cola"
+  },
+  {
+    "id": 10601,
+    "condition": "",
+    "text": "A bottle of Nuka-Cola, the flavored softdrink of the post-nuclear world.  Warm and flat."
+  },
+  {
+    "id": 10700,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 10701,
+    "condition": "",
+    "text": "A collection of strange bones."
+  },
+  {
+    "id": 10800,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 10801,
+    "condition": "",
+    "text": "A collection of strange bones."
+  },
+  {
+    "id": 10900,
+    "condition": "",
+    "text": "Rad-X"
+  },
+  {
+    "id": 10901,
+    "condition": "",
+    "text": "Anti-radiation chems to be taken before exposure.  No known side effects."
+  },
+  {
+    "id": 11000,
+    "condition": "",
+    "text": "Psycho"
+  },
+  {
+    "id": 11001,
+    "condition": "",
+    "text": "An unique delivery system filled with strange and unknown chemicals of probably military origin.  It is supposed to increase the combat potential of a soldier."
+  },
+  {
+    "id": 11100,
+    "condition": "",
+    "text": ".44 magnum FMJ"
+  },
+  {
+    "id": 11101,
+    "condition": "",
+    "text": "A brick of ammunition, .44 magnum caliber, full metal jacket."
+  },
+  {
+    "id": 11200,
+    "condition": "",
+    "text": "Urn"
+  },
+  {
+    "id": 11201,
+    "condition": "",
+    "text": "A beautiful golden urn, with the name \"Harriet\" inscribed on the front and ashes inside."
+  },
+  {
+    "id": 11300,
+    "condition": "",
+    "text": "Robes"
+  },
+  {
+    "id": 11301,
+    "condition": "",
+    "text": "Robes from the Children of the Cathedral."
+  },
+  {
+    "id": 11400,
+    "condition": "",
+    "text": "Tangler's Hand"
+  },
+  {
+    "id": 11401,
+    "condition": "",
+    "text": "A cybernetic manipulator, in the shape and form of a hand.  Damaged due to the sloppy nature of the removal process."
+  },
+  {
+    "id": 11500,
+    "condition": "",
+    "text": "Super Sledge"
+  },
+  {
+    "id": 11501,
+    "condition": "",
+    "text": "A Super Sledgehammer, manufactured by the Brotherhood of Steel, using the finest weapons technology available.  Includes a kinetic energy storage device, to increase knockback.  Min ST: 5."
+  },
+  {
+    "id": 11600,
+    "condition": "",
+    "text": "Ripper"
+  },
+  {
+    "id": 11601,
+    "condition": "",
+    "text": "A Ripper(tm) vibroblade.  Powered by a small energy cell, the chainblade rips and tears into it's target.  Min ST: 4."
+  },
+  {
+    "id": 11700,
+    "condition": "",
+    "text": "Flower"
+  },
+  {
+    "id": 11701,
+    "condition": "",
+    "text": "A beautiful flower."
+  },
+  {
+    "id": 11800,
+    "condition": "",
+    "text": "Laser Rifle"
+  },
+  {
+    "id": 11801,
+    "condition": "",
+    "text": "A Wattz 2000 Laser Rifle.  Uses micro fusion cells for more powerful lasers, and an extended barrel for additional range.  Min ST: 6."
+  },
+  {
+    "id": 11900,
+    "condition": "",
+    "text": "Necklace"
+  },
+  {
+    "id": 11901,
+    "condition": "",
+    "text": "An expensive looking necklace, made from silver, gold and pressed diamonds."
+  },
+  {
+    "id": 12000,
+    "condition": "",
+    "text": "Alien Blaster"
+  },
+  {
+    "id": 12001,
+    "condition": "",
+    "text": "A strange gun of obviously alien origin.  Looks like it can support small energy cells, however.  Min ST: 2."
+  },
+  {
+    "id": 12100,
+    "condition": "",
+    "text": "9mm ball"
+  },
+  {
+    "id": 12101,
+    "condition": "",
+    "text": "A collection of ancient 9x19mm rounds.  Heavy grease to preserve them from the environment.  Standard bullets."
+  },
+  {
+    "id": 12200,
+    "condition": "",
+    "text": "9mm Mauser"
+  },
+  {
+    "id": 12201,
+    "condition": "",
+    "text": "A Mauser M/96, in 9x19mm Parabellum.  In excellent condition.  Extremely accurate.  Min ST: 3."
+  },
+  {
+    "id": 12300,
+    "condition": "",
+    "text": "Psychic Nullifier"
+  },
+  {
+    "id": 12301,
+    "condition": "",
+    "text": "A strange device, constructed from an odd technology."
+  },
+  {
+    "id": 12400,
+    "condition": "",
+    "text": "Beer"
+  },
+  {
+    "id": 12401,
+    "condition": "",
+    "text": "Some type of home brewed beer."
+  },
+  {
+    "id": 12500,
+    "condition": "",
+    "text": "Booze"
+  },
+  {
+    "id": 12501,
+    "condition": "",
+    "text": "An ancient liquor, from the pre-War era."
+  },
+  {
+    "id": 12600,
+    "condition": "",
+    "text": "Water Flask"
+  },
+  {
+    "id": 12601,
+    "condition": "",
+    "text": "A container for the holding and preservation of water or other liquids."
+  },
+  {
+    "id": 12700,
+    "condition": "",
+    "text": "Rope"
+  },
+  {
+    "id": 12701,
+    "condition": "",
+    "text": "A strong, thick line.  About 45 feet in length."
+  },
+  {
+    "id": 12800,
+    "condition": "",
+    "text": "Footlocker"
+  },
+  {
+    "id": 12801,
+    "condition": "",
+    "text": "Your basic footlocker.  Holds stuff, sits at foot of bed, can be locked."
+  },
+  {
+    "id": 12900,
+    "condition": "",
+    "text": "Footlocker"
+  },
+  {
+    "id": 12901,
+    "condition": "",
+    "text": "Your basic footlocker.  Holds stuff, sits at foot of bed, can be locked."
+  },
+  {
+    "id": 13000,
+    "condition": "",
+    "text": "Footlocker"
+  },
+  {
+    "id": 13001,
+    "condition": "",
+    "text": "Your basic footlocker.  Holds stuff, sits at foot of bed, can be locked."
+  },
+  {
+    "id": 13100,
+    "condition": "",
+    "text": "Footlocker"
+  },
+  {
+    "id": 13101,
+    "condition": "",
+    "text": "Your basic footlocker.  Holds stuff, sits at foot of bed, can be locked."
+  },
+  {
+    "id": 13200,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13201,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13300,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13301,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13400,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13401,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13500,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13501,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13600,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13601,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13700,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13701,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13800,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13801,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 13900,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 13901,
+    "condition": "",
+    "text": "A storage container."
+  },
+  {
+    "id": 14000,
+    "condition": "",
+    "text": "Access Card"
+  },
+  {
+    "id": 14001,
+    "condition": "",
+    "text": "A security access card.  Still in working condition."
+  },
+  {
+    "id": 14100,
+    "condition": "",
+    "text": "COC Badge"
+  },
+  {
+    "id": 14101,
+    "condition": "",
+    "text": "A badge in the shape of the Children of the Cathedral symbol.  On one side you notice bumps and indentations, almost reminding you of a key."
+  },
+  {
+    "id": 14200,
+    "condition": "",
+    "text": "COC Badge"
+  },
+  {
+    "id": 14201,
+    "condition": "",
+    "text": "A badge in the shape of the Children of the Cathedral symbol.  On one side you notice bumps and indentations, almost reminding you of a key."
+  },
+  {
+    "id": 14300,
+    "condition": "",
+    "text": "Sniper Rifle"
+  },
+  {
+    "id": 14301,
+    "condition": "",
+    "text": "A DKS-501 Sniper Rifle.  Excellent long range projectile weapon.  Originally .308, this one is chambered in the more common .223 caliber.  Min ST: 5."
+  },
+  {
+    "id": 14400,
+    "condition": "",
+    "text": "Super Stimpak"
+  },
+  {
+    "id": 14401,
+    "condition": "",
+    "text": "An advanced healing chem.  Very powerful.  Superstims will cause a small amount of damage after a period of time due to powerful nature of the chemicals used."
+  },
+  {
+    "id": 14500,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 14501,
+    "condition": "",
+    "text": "A wooden bookshelf."
+  },
+  {
+    "id": 14600,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 14601,
+    "condition": "",
+    "text": "A wooden bookshelf."
+  },
+  {
+    "id": 14700,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 14701,
+    "condition": "",
+    "text": "A wooden bookshelf."
+  },
+  {
+    "id": 14800,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 14801,
+    "condition": "",
+    "text": "A wooden bookshelf."
+  },
+  {
+    "id": 14900,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 14901,
+    "condition": "",
+    "text": "A wooden bookshelf."
+  },
+  {
+    "id": 15000,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 15001,
+    "condition": "",
+    "text": "A wooden bookshelf."
+  },
+  {
+    "id": 15100,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 15101,
+    "condition": "",
+    "text": "A set of wooden shelves."
+  },
+  {
+    "id": 15200,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 15201,
+    "condition": "",
+    "text": "A set of wooden shelves."
+  },
+  {
+    "id": 15300,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 15301,
+    "condition": "",
+    "text": "A set of wooden shelves."
+  },
+  {
+    "id": 15400,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 15401,
+    "condition": "",
+    "text": "A set of wooden shelves."
+  },
+  {
+    "id": 15500,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 15501,
+    "condition": "",
+    "text": "A set of wooden shelves."
+  },
+  {
+    "id": 15600,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 15601,
+    "condition": "",
+    "text": "A set of wooden shelves."
+  },
+  {
+    "id": 15700,
+    "condition": "",
+    "text": "Workbench"
+  },
+  {
+    "id": 15701,
+    "condition": "",
+    "text": "A workbench.  Yep, your standard old, run of the mill, workbench.  Looks nice sitting there, too."
+  },
+  {
+    "id": 15800,
+    "condition": "",
+    "text": "Tool Board"
+  },
+  {
+    "id": 15801,
+    "condition": "",
+    "text": "This board holds a variety of tools above the popular workbench."
+  },
+  {
+    "id": 15900,
+    "condition": "",
+    "text": "Molotov Cocktail"
+  },
+  {
+    "id": 15901,
+    "condition": "",
+    "text": "A home-made flammable grenade.  Min ST: 3."
+  },
+  {
+    "id": 16000,
+    "condition": "",
+    "text": "Cattle Prod"
+  },
+  {
+    "id": 16001,
+    "condition": "",
+    "text": "A Farmer's Best Friend model cattle prod from Wattz Electronics.  Uses small energy cells for power.  Min ST: 4."
+  },
+  {
+    "id": 16100,
+    "condition": "",
+    "text": "Red Ryder BB Gun"
+  },
+  {
+    "id": 16101,
+    "condition": "",
+    "text": "A Red Ryder BB gun.  The classic.  Min ST: 3."
+  },
+  {
+    "id": 16200,
+    "condition": "",
+    "text": "Red Ryder LE BB Gun"
+  },
+  {
+    "id": 16201,
+    "condition": "",
+    "text": "A limited edition version of the Red Ryder BB gun.  A true classic.  Min ST: 3."
+  },
+  {
+    "id": 16300,
+    "condition": "",
+    "text": "BB's"
+  },
+  {
+    "id": 16301,
+    "condition": "",
+    "text": "A package of BB's from before the war.  In excellent condition.  Stainless steel."
+  },
+  {
+    "id": 16400,
+    "condition": "",
+    "text": "Brotherhood Tape"
+  },
+  {
+    "id": 16401,
+    "condition": "",
+    "text": "A holodisc from regarding the Brotherhood of Steel."
+  },
+  {
+    "id": 16500,
+    "condition": "",
+    "text": "Iguana Stand"
+  },
+  {
+    "id": 16501,
+    "condition": "",
+    "text": "The home of Bob's Iguana Bits.  What's not to love about fresh-roasted iguana?"
+  },
+  {
+    "id": 16600,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 16601,
+    "condition": "",
+    "text": "A generic table.  Holds stuff off the ground."
+  },
+  {
+    "id": 16700,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 16701,
+    "condition": "",
+    "text": "A generic table.  Holds stuff off the ground."
+  },
+  {
+    "id": 16800,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 16801,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 16900,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 16901,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17000,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17001,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17100,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17101,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17200,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17201,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17300,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17301,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17400,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17401,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17500,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17501,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17600,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17601,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17700,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17701,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17800,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17801,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 17900,
+    "condition": "",
+    "text": "Stuff"
+  },
+  {
+    "id": 17901,
+    "condition": "",
+    "text": "These are miscellaneous items, also known as \"stuff\"."
+  },
+  {
+    "id": 18000,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 18001,
+    "condition": "",
+    "text": "A wooden crate filled with generic stuff."
+  },
+  {
+    "id": 18100,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18101,
+    "condition": "",
+    "text": "A generic desk.  Seen one desk, you've seen them all."
+  },
+  {
+    "id": 18200,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18201,
+    "condition": "",
+    "text": "A generic desk."
+  },
+  {
+    "id": 18300,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18301,
+    "condition": "",
+    "text": "A generic desk."
+  },
+  {
+    "id": 18400,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18401,
+    "condition": "",
+    "text": "A generic desk."
+  },
+  {
+    "id": 18500,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18501,
+    "condition": "",
+    "text": "A generic desk."
+  },
+  {
+    "id": 18600,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18601,
+    "condition": "",
+    "text": "A generic desk."
+  },
+  {
+    "id": 18700,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 18701,
+    "condition": "",
+    "text": "A generic desk."
+  },
+  {
+    "id": 18800,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 18801,
+    "condition": "",
+    "text": "A locker."
+  },
+  {
+    "id": 18900,
+    "condition": "",
+    "text": "Locker"
+  },
+  {
+    "id": 18901,
+    "condition": "",
+    "text": "A locker."
+  },
+  {
+    "id": 19000,
+    "condition": "",
+    "text": "FEV Disk"
+  },
+  {
+    "id": 19001,
+    "condition": "",
+    "text": "A holotape containing medical information.  Can be used to enter information into your PIPBoy."
+  },
+  {
+    "id": 19100,
+    "condition": "",
+    "text": "Security Disk"
+  },
+  {
+    "id": 19101,
+    "condition": "",
+    "text": "A holotape with the writing \"Security Log\" on the label.  You can use it to transfer the data it contains to your PIPBoy."
+  },
+  {
+    "id": 19200,
+    "condition": "",
+    "text": "Alpha Experiment Disk"
+  },
+  {
+    "id": 19201,
+    "condition": "",
+    "text": "The label on this holotape reads: \"Alpha Experiment Log\""
+  },
+  {
+    "id": 19300,
+    "condition": "",
+    "text": "Delta Experiment Disk"
+  },
+  {
+    "id": 19301,
+    "condition": "",
+    "text": "The label on this holotape reads: \"Delta Experiment Log\""
+  },
+  {
+    "id": 19400,
+    "condition": "",
+    "text": "Vree's Experiment Disk"
+  },
+  {
+    "id": 19401,
+    "condition": "",
+    "text": "This holotape has been updated with medical evidence from Vree of the BoS.  It can be used to transfer the data to your PIPBoy."
+  },
+  {
+    "id": 19500,
+    "condition": "",
+    "text": "Brotherhood Honor Code"
+  },
+  {
+    "id": 19501,
+    "condition": "",
+    "text": "A holotape, with a rough symbol of the Brotherhood of Steel inscribed on it.  Use the tape to transfer the data to your PIPBoy."
+  },
+  {
+    "id": 19600,
+    "condition": "",
+    "text": "Mutant Transmissions"
+  },
+  {
+    "id": 19601,
+    "condition": "",
+    "text": "This holotape looks like it was set to record audio data from a radio.  Use the tape to transfer the information to your PIPBoy."
+  },
+  {
+    "id": 19700,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 19800,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 19900,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 20000,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 20100,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 20200,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 20300,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 20400,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 20500,
+    "condition": "",
+    "text": "Flare"
+  },
+  {
+    "id": 20501,
+    "condition": "",
+    "text": "A flare.  Creates light for a short period of time.  The paper is a little worn, but otherwise it is in good condition.  It is lit."
+  },
+  {
+    "id": 20600,
+    "condition": "",
+    "text": "Dynamite"
+  },
+  {
+    "id": 20601,
+    "condition": "",
+    "text": "A high explosive, consisting of nitroglycerin mixed with the absorbent substance kiselguhr.  Includes a timer, which is ticking."
+  },
+  {
+    "id": 20700,
+    "condition": "",
+    "text": "Geiger Counter"
+  },
+  {
+    "id": 20701,
+    "condition": "",
+    "text": "A Wattz Electronics C-Radz model Geiger Counter.  Detects the presence and strength of radiation fields.  It is on."
+  },
+  {
+    "id": 20800,
+    "condition": "",
+    "text": "Motion Sensor"
+  },
+  {
+    "id": 20801,
+    "condition": "",
+    "text": "A Wattz Electronics C-U model motion sensor.  Detects the movement of biological material over a distance of meters using a tuned radar device.  It is on."
+  },
+  {
+    "id": 20900,
+    "condition": "",
+    "text": "Plastic Explosives"
+  },
+  {
+    "id": 20901,
+    "condition": "",
+    "text": "A chunk of Cordex, a military brand of plastic explosives.  Highly stable, very destructive.  Includes a timer, which is ticking."
+  },
+  {
+    "id": 21000,
+    "condition": "",
+    "text": "Stealth Boy"
+  },
+  {
+    "id": 21001,
+    "condition": "",
+    "text": "A RobCo Stealth Boy 3001 personal stealth device.  Generates a modulating field that transmits the reflected light from one side of an object to the other."
+  },
+  {
+    "id": 21100,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 21101,
+    "condition": "",
+    "text": "You see Ed.  Ed's dead."
+  },
+  {
+    "id": 21200,
+    "condition": "",
+    "text": "Tandi"
+  },
+  {
+    "id": 21201,
+    "condition": "",
+    "text": "You are bartering for Tandi's release."
+  },
+  {
+    "id": 21300,
+    "condition": "",
+    "text": "Remains of Gizmo"
+  },
+  {
+    "id": 21301,
+    "condition": "",
+    "text": "Gizmo, former crime boss of Junktown, is dead.  And pretty stinky, too."
+  },
+  {
+    "id": 21400,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 21401,
+    "condition": "",
+    "text": "A desk.  After further observation, you decide that it is still a desk."
+  },
+  {
+    "id": 21500,
+    "condition": "",
+    "text": "Brotherhood History"
+  },
+  {
+    "id": 21501,
+    "condition": "",
+    "text": "A holotape containing information relating to the Brotherhood of Steel.  Can be used to enter information into your PIPBoy 2000."
+  },
+  {
+    "id": 21600,
+    "condition": "",
+    "text": "Maxson's History"
+  },
+  {
+    "id": 21700,
+    "condition": "",
+    "text": "Maxson's Journal"
+  },
+  {
+    "id": 21800,
+    "condition": "",
+    "text": "Light Healing"
+  },
+  {
+    "id": 21801,
+    "condition": "",
+    "text": "Barter for this option if you want light healing."
+  },
+  {
+    "id": 21900,
+    "condition": "",
+    "text": "Medium Healing"
+  },
+  {
+    "id": 21901,
+    "condition": "",
+    "text": "Barter for this option if you want medium healing."
+  },
+  {
+    "id": 22000,
+    "condition": "",
+    "text": "Heavy Healing"
+  },
+  {
+    "id": 22001,
+    "condition": "",
+    "text": "Barter for this option if you want lots of care and heavy healing."
+  },
+  {
+    "id": 22100,
+    "condition": "",
+    "text": "Security Card"
+  },
+  {
+    "id": 22101,
+    "condition": "",
+    "text": "A keycard with a security level encoded within it's very simple electronics."
+  },
+  {
+    "id": 22200,
+    "condition": "",
+    "text": "Field Switch"
+  },
+  {
+    "id": 22201,
+    "condition": "",
+    "text": "An electronic transmission device, with a very simple, and large, toggle button.  It looks like it was recently made and designed for very large hands."
+  },
+  {
+    "id": 22300,
+    "condition": "",
+    "text": "Yellow Pass Key"
+  },
+  {
+    "id": 22301,
+    "condition": "",
+    "text": "An electronic security key, color coded yellow."
+  },
+  {
+    "id": 22400,
+    "condition": "",
+    "text": "Small Statuette"
+  },
+  {
+    "id": 22401,
+    "condition": "",
+    "text": "You think this might be a carving of the \"Pip Boy\" but you can't be sure."
+  },
+  {
+    "id": 22500,
+    "condition": "",
+    "text": "You Have No Idea"
+  },
+  {
+    "id": 22501,
+    "condition": "",
+    "text": "Upon further inspection, you still have no idea what this is."
+  },
+  {
+    "id": 22600,
+    "condition": "",
+    "text": "Box Of Noodles"
+  },
+  {
+    "id": 22601,
+    "condition": "",
+    "text": "You have no idea what \"Instant Spaghetti\" means."
+  },
+  {
+    "id": 22700,
+    "condition": "",
+    "text": "Small Dusty Box Of Some Sort"
+  },
+  {
+    "id": 22701,
+    "condition": "",
+    "text": "A television dinner.  You're not sure, but it's definitely not edible.  You're not quite sure if it ever was."
+  },
+  {
+    "id": 22800,
+    "condition": "",
+    "text": "Technical Manual"
+  },
+  {
+    "id": 22801,
+    "condition": "",
+    "text": "A technical repair manual on the T-51b Power Armor."
+  },
+  {
+    "id": 22900,
+    "condition": "",
+    "text": "Small Piece Of Machinery"
+  },
+  {
+    "id": 22901,
+    "condition": "",
+    "text": "You see a Systolic Motivator.  This unusual piece of machinery is very small."
+  },
+  {
+    "id": 23000,
+    "condition": "",
+    "text": "Vault Records"
+  },
+  {
+    "id": 23001,
+    "condition": "",
+    "text": "A compendium of events and important recordings from a Vault computer system.  Possibly damaged."
+  },
+  {
+    "id": 23100,
+    "condition": "",
+    "text": "Military Base Security Code"
+  },
+  {
+    "id": 23101,
+    "condition": "",
+    "text": " "
+  },
+  {
+    "id": 23200,
+    "condition": "",
+    "text": "Hardened Power Armor"
+  },
+  {
+    "id": 23201,
+    "condition": "",
+    "text": "A suit of T-51b Power Armor.  The hardening process has improved the defensive capability of this high-tech armor system."
+  },
+  {
+    "id": 23300,
+    "condition": "",
+    "text": "Turbo Plasma Rifle"
+  },
+  {
+    "id": 23301,
+    "condition": "",
+    "text": "A modified Winchester P94 plasma rifle.  The plasma bolt chamber has been hotwired to accelerate the bolt formation process.  Min ST: 6."
+  },
+  {
+    "id": 23400,
+    "condition": "",
+    "text": "Spiked Knuckles"
+  },
+  {
+    "id": 23401,
+    "condition": "",
+    "text": "An improved version of the classic Brass Knuckles.  The Spiked Knuckles do more damage, tearing into the flesh of your opponent in unarmed combat.  Min ST: 1."
+  },
+  {
+    "id": 23500,
+    "condition": "",
+    "text": "Power Fist"
+  },
+  {
+    "id": 23501,
+    "condition": "",
+    "text": "A \"Big Frigger\" Power Fist from BeatCo.  Considered by many to be the ultimate weapon to use in unarmed combat.  Others are just scared.  Powered by small energy cells.  Min ST: 1."
+  },
+  {
+    "id": 23600,
+    "condition": "",
+    "text": "Combat Knife"
+  },
+  {
+    "id": 23601,
+    "condition": "",
+    "text": "A high-quality combat knife, the Stallona is from SharpWit, Inc.  The edge of this blade is guaranteed sharp for over a decade of use!  Min ST: 2."
+  },
+  {
+    "id": 23700,
+    "condition": "",
+    "text": "Chemistry Journals"
+  },
+  {
+    "id": 23701,
+    "condition": "",
+    "text": "A random pile of literature regarding the field of Chemistry.  The papers on Molecular Chemistry are particularly interesting."
+  },
+  {
+    "id": 23800,
+    "condition": "",
+    "text": "Regulator Transmission"
+  },
+  {
+    "id": 23801,
+    "condition": "",
+    "text": "A holotape recording of an audio transmission."
+  },
+  {
+    "id": 23900,
+    "condition": "",
+    "text": "Brotherhood Armor"
+  },
+  {
+    "id": 23901,
+    "condition": "",
+    "text": "A superior version of Combat Armor.  The Brotherhood of Steel have made many improvements over the standard version."
+  },
+  {
+    "id": 24000,
+    "condition": "",
+    "text": "Tesla Armor"
+  },
+  {
+    "id": 24001,
+    "condition": "",
+    "text": "This shining armor provides superior protection against energy attacks.  The three Tesla Attraction Coil Rods disperse a large percentage of directed energy attacks."
+  },
+  {
+    "id": 24100,
+    "condition": "",
+    "text": ".223 Pistol"
+  },
+  {
+    "id": 24101,
+    "condition": "",
+    "text": "A .223 rifle modified and cut down to a pistol.  This is a one-of-a-kind firearm, obviously made with love and skill.  Min ST: 5."
+  },
+  {
+    "id": 24200,
+    "condition": "",
+    "text": "Combat Shotgun"
+  },
+  {
+    "id": 24201,
+    "condition": "",
+    "text": "A Winchester City-Killer 12-gauge combat shotgun, bullpup variant.  In excellent condition, it has the optional DesertWarfare environmental sealant modification for extra reliability.  Min ST: 5."
+  }
+]

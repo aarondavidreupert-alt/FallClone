@@ -1,0 +1,202 @@
+[
+  {
+    "id": 0,
+    "condition": "",
+    "text": "Are you sure you want to quit?"
+  },
+  {
+    "id": 1,
+    "condition": "",
+    "text": "Demo version"
+  },
+  {
+    "id": 2,
+    "condition": "",
+    "text": "Default character will be used."
+  },
+  {
+    "id": 3,
+    "condition": "",
+    "text": "Saved screenshot."
+  },
+  {
+    "id": 4,
+    "condition": "",
+    "text": "Quick load game successfully loaded."
+  },
+  {
+    "id": 5,
+    "condition": "",
+    "text": "Quick save game successfully saved."
+  },
+  {
+    "id": 6,
+    "condition": "",
+    "text": "Demo time limit exceeded."
+  },
+  {
+    "id": 7,
+    "condition": "",
+    "text": "Pipboy not available in combat!"
+  },
+  {
+    "id": 8,
+    "condition": "",
+    "text": "Error saving screenshot."
+  },
+  {
+    "id": 9,
+    "condition": "",
+    "text": "INTRO"
+  },
+  {
+    "id": 10,
+    "condition": "",
+    "text": "NEW GAME"
+  },
+  {
+    "id": 11,
+    "condition": "",
+    "text": "LOAD GAME"
+  },
+  {
+    "id": 12,
+    "condition": "",
+    "text": "CREDITS"
+  },
+  {
+    "id": 13,
+    "condition": "",
+    "text": "EXIT"
+  },
+  {
+    "id": 14,
+    "condition": "",
+    "text": "Copyright(c) 1997 Interplay Productions.  All rights reserved."
+  },
+  {
+    "id": 15,
+    "condition": "",
+    "text": "Action Points"
+  },
+  {
+    "id": 16,
+    "condition": "",
+    "text": "Hit Points"
+  },
+  {
+    "id": 17,
+    "condition": "",
+    "text": "The motion sensor option is not installed."
+  },
+  {
+    "id": 18,
+    "condition": "",
+    "text": "The motion sensor has no charges remaining."
+  },
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Error saving game config file!"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Game settings not saved."
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "You feel very nauseous."
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": "You feel very nauseous, and after some mild vomiting, slightly fatigued."
+  },
+  {
+    "id": 1002,
+    "condition": "",
+    "text": "You are very fatigued, the vomiting does not stop, and your recovery time is impaired."
+  },
+  {
+    "id": 1003,
+    "condition": "",
+    "text": "You are hemorrhaging violently. You are very sick, and your hair is falling out."
+  },
+  {
+    "id": 1004,
+    "condition": "",
+    "text": "You are hemorrhaging violently and continuously. The vomitus is stained red from your blood. Your skin is falling off of your bones."
+  },
+  {
+    "id": 1005,
+    "condition": "",
+    "text": "There is bleeding from your intestines and you have severe diarrhea. You feel bloated and are in intense agony."
+  },
+  {
+    "id": 1006,
+    "condition": "",
+    "text": "You have died from radiation sickness."
+  },
+  {
+    "id": 1007,
+    "condition": "",
+    "text": "You have received a large dose of radiation."
+  },
+  {
+    "id": 1008,
+    "condition": "",
+    "text": "The geiger counter is clicking."
+  },
+  {
+    "id": 1009,
+    "condition": "",
+    "text": "The geiger counter is clicking wildly."
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": "You cannot get there."
+  },
+  {
+    "id": 2001,
+    "condition": "",
+    "text": "The lock is jammed."
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": "You have been poisoned!"
+  },
+  {
+    "id": 3001,
+    "condition": "",
+    "text": "You take damage from poison."
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": "Due to your inept handling, the explosive detonates prematurely."
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": "uses"
+  },
+  {
+    "id": 5001,
+    "condition": "",
+    "text": "is out of ammo for the"
+  },
+  {
+    "id": 5002,
+    "condition": "",
+    "text": "reloads the"
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": "Ask about what?"
+  }
+]

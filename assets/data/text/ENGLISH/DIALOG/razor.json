@@ -1,0 +1,702 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Hello, what can I do for you?"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Who are you?"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Are you the leader of this gang?"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "Never mind."
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "A...Wha?"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "Razor's the name.  I'm the closest thing we have to a leader."
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "So you are the leader of this gang?"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "What's the story with the Fenced area to the south?"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "Good to meet you.  I'm "
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "Good to meet you.  But I must be going."
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "Gang?  We're hardly a gang. But I am the leader here."
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "If you're not a gang, then what are you?"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "Well, you look like a gang to me."
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "Goodbye"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "That's Adytum. It's a slave labor camp run by a group called the Regulators, but they tell everyone it's a \"town\". They come here and take our people to work them until they die. Then they come and take more of us."
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "Can't you go in there and free your people?"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "Then what am I talking to you for? Those are the guys I need to hook up with."
+  },
+  {
+    "id": 117,
+    "condition": "",
+    "text": "I'm going to go find out what I can about Adytum. Goodbye."
+  },
+  {
+    "id": 118,
+    "condition": "",
+    "text": "So.  What brought you to this corner of the wastes?"
+  },
+  {
+    "id": 119,
+    "condition": "",
+    "text": "I'm looking for a Water Chip.  Do you know where I can find one?"
+  },
+  {
+    "id": 120,
+    "condition": "",
+    "text": "I'm just walking the earth."
+  },
+  {
+    "id": 121,
+    "condition": "",
+    "text": "Just lookin' around.  Bye."
+  },
+  {
+    "id": 122,
+    "condition": "",
+    "text": "We are just people tryin' to survive.  Adytum put us in this position.  They keep us down  and use our friends and families like animals. We don't even have a way to defend ourselves."
+  },
+  {
+    "id": 123,
+    "condition": "",
+    "text": "Why don't you  fight them?"
+  },
+  {
+    "id": 124,
+    "condition": "",
+    "text": "Defend yourselves from who?"
+  },
+  {
+    "id": 125,
+    "condition": "",
+    "text": "Well, the people of Adytum are stronger and smarter than you, it's their right to exploit the weak."
+  },
+  {
+    "id": 126,
+    "condition": "",
+    "text": "I'm going to go look around to see what I can find out.  Bye"
+  },
+  {
+    "id": 127,
+    "condition": "",
+    "text": "I wish we were a gang.  At least then we'd have decent weapons to defend our selves with."
+  },
+  {
+    "id": 128,
+    "condition": "",
+    "text": "Defend yourselves from who?"
+  },
+  {
+    "id": 129,
+    "condition": "",
+    "text": "Well, you're not foolin' me.  You're all just a bunch of degenerates and I think you're up to no good."
+  },
+  {
+    "id": 130,
+    "condition": "",
+    "text": "You all look a lot like a gang to me."
+  },
+  {
+    "id": 131,
+    "condition": "",
+    "text": "Well, I can't help you with that."
+  },
+  {
+    "id": 132,
+    "condition": "",
+    "text": "What's the story with the Fenced area to the south?"
+  },
+  {
+    "id": 133,
+    "condition": "",
+    "text": "Are you the leader of this gang?"
+  },
+  {
+    "id": 134,
+    "condition": "",
+    "text": "We need better weapons.  The Gun Runners, a little ways from here, have weapons, but we can't get to them."
+  },
+  {
+    "id": 135,
+    "condition": "",
+    "text": "Why can't you?"
+  },
+  {
+    "id": 136,
+    "condition": "",
+    "text": "I'm going to go find out what I can about the situation."
+  },
+  {
+    "id": 137,
+    "condition": "",
+    "text": "The Regulators .  They are the ones that really run Adytum. Not Zimmerman.  They come here and drag our people back to Adytum as slaves. They kill us when we try to fight them off.  Sometimes they just come and kill a couple of us to bring to Zimmerman , so they can say we tried to break into their town, or some other ridiculous story. Those sons of bitches even killed Zimmerman's son!"
+  },
+  {
+    "id": 138,
+    "condition": "",
+    "text": "Zimmerman's son?  Why would the they want to kill him?"
+  },
+  {
+    "id": 139,
+    "condition": "",
+    "text": "You're saying that you've never done anything against Adytum?"
+  },
+  {
+    "id": 140,
+    "condition": "",
+    "text": "There's a Death Claw nest between us and them.  We have never even spoken with any of the Gun Runners.  The Regulators have the fire power to clear out the Death Claws, but they don't for some reason."
+  },
+  {
+    "id": 141,
+    "condition": "",
+    "text": "Where can I find the Gun Runners located?"
+  },
+  {
+    "id": 142,
+    "condition": "",
+    "text": "OK.  Goodbye."
+  },
+  {
+    "id": 143,
+    "condition": "",
+    "text": "Josh lived here with me... a... I...I mean us.  He knew the truth behind what was going on.  The Regulators told him if he ever tried to contact his father or return to Adytum that they would kill him."
+  },
+  {
+    "id": 144,
+    "condition": "",
+    "text": "They killed him?  What did he do?"
+  },
+  {
+    "id": 145,
+    "condition": "",
+    "text": "I'm going to Adytum to check this out."
+  },
+  {
+    "id": 146,
+    "condition": "",
+    "text": "Late one night he tried to sneak into town to tell his father what was really going on.  I was monitoring the Regulators radio transmissions the night that .. they.. he got ...caught. [She looks down and shakes her head slowly.] Here, it's all on this holodisk."
+  },
+  {
+    "id": 147,
+    "condition": "",
+    "text": "Why haven't you given this to Josh's Father?"
+  },
+  {
+    "id": 148,
+    "condition": "",
+    "text": "It's not like any of us can even get close to Adytum. We'd be shot dead before we even reached the gates."
+  },
+  {
+    "id": 149,
+    "condition": "",
+    "text": "Why don't I give him the disk?."
+  },
+  {
+    "id": 150,
+    "condition": "",
+    "text": "Why don't you get a large group together and take Adytum by force?"
+  },
+  {
+    "id": 151,
+    "condition": "",
+    "text": "You would risk your life to help us?"
+  },
+  {
+    "id": 152,
+    "condition": "",
+    "text": "Sure.  Anything to help."
+  },
+  {
+    "id": 153,
+    "condition": "",
+    "text": "I might. I need to go  check things out before I do anything."
+  },
+  {
+    "id": 154,
+    "condition": "",
+    "text": "Thank you.  This really could help us.  Good luck. [She hands you the holodisk.]"
+  },
+  {
+    "id": 155,
+    "condition": "",
+    "text": "See you later."
+  },
+  {
+    "id": 156,
+    "condition": "",
+    "text": "Very well. I hope you make the right decision."
+  },
+  {
+    "id": 157,
+    "condition": "",
+    "text": "Goodbye."
+  },
+  {
+    "id": 158,
+    "condition": "",
+    "text": "The Gun Runners are over to the east  and then north of here.  But be careful - Death Claws are not to be taken lightly.  I've seen a Death Claw tear a man in half with one swipe."
+  },
+  {
+    "id": 159,
+    "condition": "",
+    "text": "I'm going to go see what I can find out."
+  },
+  {
+    "id": 160,
+    "condition": "",
+    "text": "I'm sorry you feel that way.  I think it would be best if you leave."
+  },
+  {
+    "id": 161,
+    "condition": "",
+    "text": "Bye."
+  },
+  {
+    "id": 162,
+    "condition": "",
+    "text": "Can I help you?"
+  },
+  {
+    "id": 163,
+    "condition": "",
+    "text": "Are you the leader of this gang?"
+  },
+  {
+    "id": 164,
+    "condition": "",
+    "text": "Never mind."
+  },
+  {
+    "id": 165,
+    "condition": "",
+    "text": "A...Wha?"
+  },
+  {
+    "id": 166,
+    "condition": "",
+    "text": "Gang?  We're hardly a gang.  But I am the one they all come to for direction."
+  },
+  {
+    "id": 167,
+    "condition": "",
+    "text": "Zimmerman sent me."
+  },
+  {
+    "id": 168,
+    "condition": "",
+    "text": "Well, you look like a gang to me."
+  },
+  {
+    "id": 169,
+    "condition": "",
+    "text": "Goodbye"
+  },
+  {
+    "id": 170,
+    "condition": "",
+    "text": "(Looking a little nervous) What? Did he..."
+  },
+  {
+    "id": 171,
+    "condition": "",
+    "text": "To put a bullet in your head."
+  },
+  {
+    "id": 172,
+    "condition": "",
+    "text": "To pay you back for killing his son."
+  },
+  {
+    "id": 173,
+    "condition": "",
+    "text": "WHAT!!!  THOSE FUCKING PIECE OF SHIT BASTARDS! I\"LL KILL THEM, I\"LL SEND THEM ALL TO HELL!!"
+  },
+  {
+    "id": 174,
+    "condition": "",
+    "text": "No, you're the one that's going to hell."
+  },
+  {
+    "id": 175,
+    "condition": "",
+    "text": "Uh...who are you going to send to hell?"
+  },
+  {
+    "id": 176,
+    "condition": "",
+    "text": "... the Regulators.  They were the ones that killed Josh!  I never would do any thing to hurt Josh.  It's the Regulators who are running Adytum, not Zimmerman."
+  },
+  {
+    "id": 177,
+    "condition": "",
+    "text": "This is a pathetic attempt to talk your way out of this."
+  },
+  {
+    "id": 178,
+    "condition": "",
+    "text": "Why would the Regulators kill Zimmerman's son?"
+  },
+  {
+    "id": 179,
+    "condition": "",
+    "text": "Josh lived here with me... a... I...I mean us.  He knew the truth behind what was going on.  The Regulators told him if he ever tried to contact his father or return to Adytum that they would kill him. They laughed at him... they were so sure he couldn't get to his father...."
+  },
+  {
+    "id": 180,
+    "condition": "",
+    "text": "They killed him?  What did he do?"
+  },
+  {
+    "id": 181,
+    "condition": "",
+    "text": "How's our plan coming along?"
+  },
+  {
+    "id": 182,
+    "condition": "",
+    "text": "I'm still trying to get everything worked out."
+  },
+  {
+    "id": 183,
+    "condition": "",
+    "text": "A...Wha?"
+  },
+  {
+    "id": 184,
+    "condition": "",
+    "text": "I'm not so sure it would help without the threat of violence to back it up. What we really need are some weapons from the Gun Runners."
+  },
+  {
+    "id": 185,
+    "condition": "",
+    "text": "Well, where are these Gun Runners? Why don't you get some weapons from them?"
+  },
+  {
+    "id": 186,
+    "condition": "",
+    "text": "Oh, well, I offered. Goodbye."
+  },
+  {
+    "id": 187,
+    "condition": "",
+    "text": "They're a little to the east of here, but there's a Death Claw nest between us and them.  We have never even spoken with any of the Gun Runners. "
+  },
+  {
+    "id": 188,
+    "condition": "",
+    "text": "Okay, give me the holodisk, and I'll go talk to the Gun Runners before I approach Zimmerman."
+  },
+  {
+    "id": 189,
+    "condition": "",
+    "text": "I hope that you can find a way to help us. Goodbye."
+  },
+  {
+    "id": 190,
+    "condition": "",
+    "text": "What's wrong?"
+  },
+  {
+    "id": 191,
+    "condition": "",
+    "text": "They killed Zimmerman!"
+  },
+  {
+    "id": 192,
+    "condition": "",
+    "text": "A...Wha?"
+  },
+  {
+    "id": 193,
+    "condition": "",
+    "text": "....Now we have no choice but to get those weapons from the Gun Runners. Will you help us?"
+  },
+  {
+    "id": 194,
+    "condition": "",
+    "text": "Yes."
+  },
+  {
+    "id": 195,
+    "condition": "",
+    "text": "No."
+  },
+  {
+    "id": 196,
+    "condition": "",
+    "text": "Thank you. May the Gods be with you on your journey."
+  },
+  {
+    "id": 197,
+    "condition": "",
+    "text": "Thank you for all your help. We're going to invade Adytum, we could use someone like you on our side."
+  },
+  {
+    "id": 198,
+    "condition": "",
+    "text": "No thanks, I've seen enough action this week."
+  },
+  {
+    "id": 199,
+    "condition": "",
+    "text": "Sure, I'd be glad to take the Regulators down."
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "A...Wha?"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "I'd like to talk to Zimmerman first."
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "Well, thanks again for you help. Goodbye."
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "Great. Let's go."
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "I don't think that's a good idea, but you're welcome to try."
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "You ass! With the Gun Runners gone we will never even have the chance to arm our selves.  Get outta here your not  welcome here."
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "I'm sorry."
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "Go stuff it."
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": "I'm Going to go talk to Zimmerman give him this holodisk disk everything is going to be OK."
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": "You know what? I'm going to kill you."
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "A...Wha?"
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "Go ahead. It's your funeral.  With out those guns we have nothing to back us up."
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "Go Away!"
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "Your not welcome here."
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": "Get Lost."
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "Thank you."
+  },
+  {
+    "id": 216,
+    "condition": "",
+    "text": "My people are free."
+  },
+  {
+    "id": 217,
+    "condition": "",
+    "text": "Hello."
+  },
+  {
+    "id": 218,
+    "condition": "",
+    "text": "What happened to you did someone shoot you in the head?"
+  },
+  {
+    "id": 219,
+    "condition": "",
+    "text": "Hunh?"
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "You see Razor, leader of the Blades."
+  },
+  {
+    "id": 221,
+    "condition": "",
+    "text": "You see a very beautiful woman with a sad look in her eyes."
+  },
+  {
+    "id": 222,
+    "condition": "",
+    "text": "Please go away. I'm very busy."
+  },
+  {
+    "id": 223,
+    "condition": "",
+    "text": "Thank you for helping us with the Regulators. Please feel free to stay as long as you want. You might want to check in with Miles and Smitty, they may be able to help you with your further travels."
+  },
+  {
+    "id": 224,
+    "condition": "",
+    "text": "Hi, can I help you?"
+  },
+  {
+    "id": 225,
+    "condition": "",
+    "text": "Who are you?"
+  },
+  {
+    "id": 226,
+    "condition": "",
+    "text": "Hootzpah!"
+  },
+  {
+    "id": 227,
+    "condition": "",
+    "text": "The name is Razor, I am the leader of the people you see here.   We live here at the whim of the Regulators of Adytum."
+  },
+  {
+    "id": 228,
+    "condition": "",
+    "text": "Regulators? I've taken care of all of them.  Is that a problem?"
+  },
+  {
+    "id": 229,
+    "condition": "",
+    "text": "You've killed them all?  That's not a problem at all.  My people can now live free lives with the people of Adytum"
+  },
+  {
+    "id": 230,
+    "condition": "",
+    "text": "I can't believe it.  You were able to kill them all.  The Blades and I thank you."
+  },
+  {
+    "id": 231,
+    "condition": "",
+    "text": "I have heard that the Regulators still control Adytum.  Are you not able to kill them all like you had hoped."
+  },
+  {
+    "id": 232,
+    "condition": "",
+    "text": "Don't worry, I'll take care of it."
+  },
+  {
+    "id": 233,
+    "condition": "",
+    "text": "I don't think I am going to be able to do it."
+  },
+  {
+    "id": 234,
+    "condition": "",
+    "text": "We would go with you, but without weapons the Regulators would kill us all.  There might be another possibility [Razor ponders a moment]  If you could get the Gun Runners to supply us weapons then a number of us could go with you."
+  },
+  {
+    "id": 235,
+    "condition": "",
+    "text": "Sounds good.  I'll go talk to them."
+  },
+  {
+    "id": 236,
+    "condition": "",
+    "text": "I'll try to take the Regulators out myself again."
+  },
+  {
+    "id": 237,
+    "condition": "",
+    "text": "Hello again,  I've heard that you have been playing with the Regulators.  I wanted to thank you for getting rid of them.  My people will be able to live with the people of Adytum in freedom now."
+  },
+  {
+    "id": 238,
+    "condition": "",
+    "text": "I'll just take care of Regulators myself"
+  },
+  {
+    "id": 239,
+    "condition": "",
+    "text": "You will?  Well if you need help or have done it come back and talk to me."
+  }
+]

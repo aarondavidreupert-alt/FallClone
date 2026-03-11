@@ -1,0 +1,94 @@
+{
+  "fps": 10,
+  "action_frame": 0,
+  "frames_per_dir": 1,
+  "num_directions": 6,
+  "cell_width": 51,
+  "cell_height": 24,
+  "sheet_width": 51,
+  "sheet_height": 144,
+  "dir_shift_x": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "dir_shift_y": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "frames": [
+    {
+      "direction": 0,
+      "dir_name": "north",
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "width": 51,
+      "height": 18,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 1,
+      "dir_name": "northeast",
+      "frame": 0,
+      "x": 0,
+      "y": 24,
+      "width": 38,
+      "height": 24,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 2,
+      "dir_name": "southeast",
+      "frame": 0,
+      "x": 0,
+      "y": 48,
+      "width": 40,
+      "height": 20,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 3,
+      "dir_name": "south",
+      "frame": 0,
+      "x": 0,
+      "y": 72,
+      "width": 50,
+      "height": 20,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 4,
+      "dir_name": "southwest",
+      "frame": 0,
+      "x": 0,
+      "y": 96,
+      "width": 38,
+      "height": 21,
+      "shift_x": 0,
+      "shift_y": 0
+    },
+    {
+      "direction": 5,
+      "dir_name": "northwest",
+      "frame": 0,
+      "x": 0,
+      "y": 120,
+      "width": 40,
+      "height": 21,
+      "shift_x": 0,
+      "shift_y": 0
+    }
+  ]
+}

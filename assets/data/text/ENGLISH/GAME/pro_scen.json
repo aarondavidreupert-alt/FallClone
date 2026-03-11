@@ -1,0 +1,8577 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Burning Metal Barrel"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "The barrel contains burning paper and other flaming refuse."
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Wooden Door"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "A door, made from wood."
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Wooden Table"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "A table, made from wood."
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Wooden Table"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "A table, made from wood."
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Metal Barrel"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "An old barrel, made from steel."
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "Metal Barrel"
+  },
+  {
+    "id": 601,
+    "condition": "",
+    "text": "An old barrel, made from steel."
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": "Stack of Tires"
+  },
+  {
+    "id": 701,
+    "condition": "",
+    "text": "A stack of ancient rubber tires. They have vulcanized and hardened, probably due to the heat."
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": "Security Door"
+  },
+  {
+    "id": 801,
+    "condition": "",
+    "text": "This door looks very secure. It provides protection from the outside world elements and dangerous creatures."
+  },
+  {
+    "id": 900,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 901,
+    "condition": "",
+    "text": "A Vault computer terminal, hooked into the main Vault computer."
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Column"
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": "A support column, providing stress relief for the entire complex."
+  },
+  {
+    "id": 1100,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 1101,
+    "condition": "",
+    "text": "A Vault computer terminal, hooked into the main Vault computer."
+  },
+  {
+    "id": 1200,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 1201,
+    "condition": "",
+    "text": "A Vault computer terminal, hooked into the main Vault computer."
+  },
+  {
+    "id": 1300,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 1301,
+    "condition": "",
+    "text": "A green-screen display monitor, showing various bits of data. A few bytes occasionally show up."
+  },
+  {
+    "id": 1400,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 1401,
+    "condition": "",
+    "text": "A green-screen display monitor, showing various bits of data."
+  },
+  {
+    "id": 1500,
+    "condition": "",
+    "text": "Holo Generator"
+  },
+  {
+    "id": 1501,
+    "condition": "",
+    "text": "A large-scale THT entertainment tape player. No new movies have been made in 80 years."
+  },
+  {
+    "id": 1600,
+    "condition": "",
+    "text": "Screens"
+  },
+  {
+    "id": 1601,
+    "condition": "",
+    "text": "A series of three display monitors, showing various bits of data."
+  },
+  {
+    "id": 1700,
+    "condition": "",
+    "text": "Screens"
+  },
+  {
+    "id": 1701,
+    "condition": "",
+    "text": "A set of three display monitors, showing various bits of data from around the Vault."
+  },
+  {
+    "id": 1800,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 1801,
+    "condition": "",
+    "text": "It's still a door after closer examination."
+  },
+  {
+    "id": 1900,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 1901,
+    "condition": "",
+    "text": "It's still a door after closer examination."
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 2001,
+    "condition": "",
+    "text": "An air vent, supplying processed and cleaned air to the entire vault complex."
+  },
+  {
+    "id": 2100,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 2101,
+    "condition": "",
+    "text": "An air vent, supplying processed and cleaned air to the entire vault complex."
+  },
+  {
+    "id": 2200,
+    "condition": "",
+    "text": "Vault13 Door"
+  },
+  {
+    "id": 2201,
+    "condition": "",
+    "text": "A heavy door, constructed to survive all sorts of damage and trauma."
+  },
+  {
+    "id": 2300,
+    "condition": "",
+    "text": "Vault13 Door"
+  },
+  {
+    "id": 2301,
+    "condition": "",
+    "text": "A heavy door, constructed to survive all sorts of damage and trauma."
+  },
+  {
+    "id": 2400,
+    "condition": "",
+    "text": "Pedestal"
+  },
+  {
+    "id": 2401,
+    "condition": "",
+    "text": "An hydraulic life, designed to help provide support, power and communication lines to the Overseer's platform."
+  },
+  {
+    "id": 2500,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 2501,
+    "condition": "",
+    "text": "If you've seen one monitor, you've seen them all."
+  },
+  {
+    "id": 2600,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 2601,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 2700,
+    "condition": "",
+    "text": "Grating"
+  },
+  {
+    "id": 2701,
+    "condition": "",
+    "text": "Standard Vault-Tec grating, providing a base for the Overseer's pedestal."
+  },
+  {
+    "id": 2800,
+    "condition": "",
+    "text": "Pipes"
+  },
+  {
+    "id": 2801,
+    "condition": "",
+    "text": "Some pipes. After closer examination, they are still pipes."
+  },
+  {
+    "id": 2900,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 2901,
+    "condition": "",
+    "text": "Standard Vault-Tec ventilation system."
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": "Column"
+  },
+  {
+    "id": 3001,
+    "condition": "",
+    "text": "A standard Vault-Tec column support system."
+  },
+  {
+    "id": 3100,
+    "condition": "",
+    "text": "Column"
+  },
+  {
+    "id": 3101,
+    "condition": "",
+    "text": "A standard Vault-Tec column support system."
+  },
+  {
+    "id": 3200,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 3201,
+    "condition": "",
+    "text": "Standard Vault-Tec ventilation system."
+  },
+  {
+    "id": 3300,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 3301,
+    "condition": "",
+    "text": "Standard Vault-Tec ventilation system."
+  },
+  {
+    "id": 3400,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 3401,
+    "condition": "",
+    "text": "A bed, it looks pretty comfortable after what you have been sleeping on."
+  },
+  {
+    "id": 3500,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 3501,
+    "condition": "",
+    "text": "A standard bed. Looks comfy."
+  },
+  {
+    "id": 3600,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 3601,
+    "condition": "",
+    "text": "A standard bed. Looks comfy."
+  },
+  {
+    "id": 3700,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 3701,
+    "condition": "",
+    "text": "A standard bed. Looks comfy."
+  },
+  {
+    "id": 3800,
+    "condition": "",
+    "text": "Vault Elevator"
+  },
+  {
+    "id": 3801,
+    "condition": "",
+    "text": "This is an elevator. It goes up and down levels in the vault complex."
+  },
+  {
+    "id": 3900,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 3901,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 4001,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 4100,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 4101,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 4200,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 4201,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 4300,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 4301,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 4400,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 4401,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 4500,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 4501,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 4600,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 4601,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 4700,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 4701,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 4800,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 4801,
+    "condition": "",
+    "text": "A computer monitor, displaying various bits of data."
+  },
+  {
+    "id": 4900,
+    "condition": "",
+    "text": "Exit Grid Map Marker"
+  },
+  {
+    "id": 4901,
+    "condition": "",
+    "text": "Exit Grid Map Marker"
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": "Air Processing Unit"
+  },
+  {
+    "id": 5001,
+    "condition": "",
+    "text": "An APU cleans the old air to provide new air for the complex. This one is broken."
+  },
+  {
+    "id": 5100,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5101,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 5200,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5201,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 5300,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5301,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 5400,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5401,
+    "condition": "",
+    "text": "It's a chair. Too bad you don't have time to sit down and relax."
+  },
+  {
+    "id": 5500,
+    "condition": "",
+    "text": "VDU"
+  },
+  {
+    "id": 5501,
+    "condition": "",
+    "text": "This Video Display Unit has a variety of computer monitors and other screens. It looks very, very busy."
+  },
+  {
+    "id": 5600,
+    "condition": "",
+    "text": "VDU"
+  },
+  {
+    "id": 5601,
+    "condition": "",
+    "text": "This Video Display Unit has a variety of computer monitors and other screens. It looks very, very busy."
+  },
+  {
+    "id": 5700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5701,
+    "condition": "",
+    "text": "It's a chair. It looks mighty comfortable."
+  },
+  {
+    "id": 5800,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5801,
+    "condition": "",
+    "text": "It's a chair. It looks mighty comfortable."
+  },
+  {
+    "id": 5900,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 5901,
+    "condition": "",
+    "text": "It's a chair. It looks mighty comfortable."
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 6001,
+    "condition": "",
+    "text": "It's a chair. It looks mighty comfortable."
+  },
+  {
+    "id": 6100,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 6101,
+    "condition": "",
+    "text": "It's a table. Before tables, people had to keep their stuff on the floor."
+  },
+  {
+    "id": 6200,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 6201,
+    "condition": "",
+    "text": "It's definitely a table."
+  },
+  {
+    "id": 6300,
+    "condition": "",
+    "text": "Tumbleweed"
+  },
+  {
+    "id": 6301,
+    "condition": "",
+    "text": "It's a tumbleweed. Of course, you've never seen a real live tumbleweed before. You'd better keep a close eye on it."
+  },
+  {
+    "id": 6400,
+    "condition": "",
+    "text": "Cactus"
+  },
+  {
+    "id": 6401,
+    "condition": "",
+    "text": "You see nothing special about this cactus."
+  },
+  {
+    "id": 6500,
+    "condition": "",
+    "text": "Cactus"
+  },
+  {
+    "id": 6501,
+    "condition": "",
+    "text": "You see nothing important about this cactus."
+  },
+  {
+    "id": 6600,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 6601,
+    "condition": "",
+    "text": "A dead tree. Nothing grows well here."
+  },
+  {
+    "id": 6700,
+    "condition": "",
+    "text": "Secret Blocking Hex"
+  },
+  {
+    "id": 6701,
+    "condition": "",
+    "text": "If you can see this, blame the technical designer."
+  },
+  {
+    "id": 6800,
+    "condition": "",
+    "text": "Vault Stairs"
+  },
+  {
+    "id": 6801,
+    "condition": "",
+    "text": "A set of stairs."
+  },
+  {
+    "id": 6900,
+    "condition": "",
+    "text": "Stalagmite"
+  },
+  {
+    "id": 6901,
+    "condition": "",
+    "text": "A natural extension of the rock floor."
+  },
+  {
+    "id": 7000,
+    "condition": "",
+    "text": "Stalagmite"
+  },
+  {
+    "id": 7001,
+    "condition": "",
+    "text": "A natural extension of the rock floor."
+  },
+  {
+    "id": 7100,
+    "condition": "",
+    "text": "Blood Stain"
+  },
+  {
+    "id": 7101,
+    "condition": "",
+    "text": "There is nothing out of the ordinary with this bloody stain. Except, of course, that someone or something died here."
+  },
+  {
+    "id": 7200,
+    "condition": "",
+    "text": "Rock Column"
+  },
+  {
+    "id": 7201,
+    "condition": "",
+    "text": "This thick column of rock extends from floor to ceiling."
+  },
+  {
+    "id": 7300,
+    "condition": "",
+    "text": "Rock Column"
+  },
+  {
+    "id": 7301,
+    "condition": "",
+    "text": "This thin column of rock extends from floor to ceiling."
+  },
+  {
+    "id": 7400,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 7401,
+    "condition": "",
+    "text": "You study the rocks for a while, but they never move."
+  },
+  {
+    "id": 7500,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 7501,
+    "condition": "",
+    "text": "You keep a close eye on these rocks, in case they move to attack you."
+  },
+  {
+    "id": 7600,
+    "condition": "",
+    "text": "Car Wall Floor"
+  },
+  {
+    "id": 7601,
+    "condition": "",
+    "text": "REMOVED"
+  },
+  {
+    "id": 7700,
+    "condition": "",
+    "text": "Car Wall Roof"
+  },
+  {
+    "id": 7701,
+    "condition": "",
+    "text": "REMOVED"
+  },
+  {
+    "id": 7800,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 7801,
+    "condition": "",
+    "text": "A large pile of rocks. They look indigenous to this region."
+  },
+  {
+    "id": 7900,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 7901,
+    "condition": "",
+    "text": "A small pile of rocks."
+  },
+  {
+    "id": 8000,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 8001,
+    "condition": "",
+    "text": "A small pile of rocks."
+  },
+  {
+    "id": 8100,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 8101,
+    "condition": "",
+    "text": "A large pile of rocks."
+  },
+  {
+    "id": 8200,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 8201,
+    "condition": "",
+    "text": "A large pile of bleached animal bones. At least, you think all the bones are animal..."
+  },
+  {
+    "id": 8300,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 8301,
+    "condition": "",
+    "text": "A large pile of bleached animal bones. At least, you think all the bones are animal..."
+  },
+  {
+    "id": 8400,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 8401,
+    "condition": "",
+    "text": "A very large pile of bleached bones. You cannot determine the species of the dead critters."
+  },
+  {
+    "id": 8500,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 8501,
+    "condition": "",
+    "text": "You think these might be Horned Kangaroo bones, but you cannot be sure. They are too weathered to make a final determination."
+  },
+  {
+    "id": 8600,
+    "condition": "",
+    "text": "Bones"
+  },
+  {
+    "id": 8601,
+    "condition": "",
+    "text": "You see the bones of a large, two-headed cow."
+  },
+  {
+    "id": 8700,
+    "condition": "",
+    "text": "Gate"
+  },
+  {
+    "id": 8701,
+    "condition": "",
+    "text": "A wooden gate. It opens, and closes, and opens, and closes, and..."
+  },
+  {
+    "id": 8800,
+    "condition": "",
+    "text": "Metal Ice Chest"
+  },
+  {
+    "id": 8801,
+    "condition": "",
+    "text": "REMOVED"
+  },
+  {
+    "id": 8900,
+    "condition": "",
+    "text": "Metal Ice Chest"
+  },
+  {
+    "id": 8901,
+    "condition": "",
+    "text": "REMOVED"
+  },
+  {
+    "id": 9000,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 9001,
+    "condition": "",
+    "text": "A very large pile of rocks. They look dangerous just sitting there."
+  },
+  {
+    "id": 9100,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 9101,
+    "condition": "",
+    "text": "A large pile of rocks. If you look closely, you can see the faces of little old men in the sides of the stones."
+  },
+  {
+    "id": 9200,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 9201,
+    "condition": "",
+    "text": "Rocks, rocks, rocks! Everywhere you look, rocks!"
+  },
+  {
+    "id": 9300,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 9301,
+    "condition": "",
+    "text": "A small pile of rocks."
+  },
+  {
+    "id": 9400,
+    "condition": "",
+    "text": "Bar"
+  },
+  {
+    "id": 9401,
+    "condition": "",
+    "text": "This modern version of an alcohol still could generously be called a micro-brewery."
+  },
+  {
+    "id": 9500,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 9501,
+    "condition": "",
+    "text": "A rotting old chair made out of an ancient car seat."
+  },
+  {
+    "id": 9600,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 9601,
+    "condition": "",
+    "text": "A smelly old chair that used be to a car seat. The springs have lost their spring."
+  },
+  {
+    "id": 9700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 9701,
+    "condition": "",
+    "text": "A rotting, smelly old chair sitting on bricks for support. Looks pretty uncomfortable."
+  },
+  {
+    "id": 9800,
+    "condition": "",
+    "text": "Couch"
+  },
+  {
+    "id": 9801,
+    "condition": "",
+    "text": "A rotting, smelly old chair sitting on bricks for support. Looks pretty uncomfortable."
+  },
+  {
+    "id": 9900,
+    "condition": "",
+    "text": "Couch"
+  },
+  {
+    "id": 9901,
+    "condition": "",
+    "text": "A very uncomfortable looking sitting device, sometimes known as a couch."
+  },
+  {
+    "id": 10000,
+    "condition": "",
+    "text": "Couch"
+  },
+  {
+    "id": 10001,
+    "condition": "",
+    "text": "A very uncomfortable looking sitting device, sometimes known as a couch."
+  },
+  {
+    "id": 10100,
+    "condition": "",
+    "text": "Tire"
+  },
+  {
+    "id": 10101,
+    "condition": "",
+    "text": "An old rubber tire sitting in the middle of some weeds."
+  },
+  {
+    "id": 10200,
+    "condition": "",
+    "text": "Scrub"
+  },
+  {
+    "id": 10201,
+    "condition": "",
+    "text": "Some sort of desert weed."
+  },
+  {
+    "id": 10300,
+    "condition": "",
+    "text": "Scrub"
+  },
+  {
+    "id": 10301,
+    "condition": "",
+    "text": "Some sort of desert weed."
+  },
+  {
+    "id": 10400,
+    "condition": "",
+    "text": "Scrub"
+  },
+  {
+    "id": 10401,
+    "condition": "",
+    "text": "Some sort of desert weed."
+  },
+  {
+    "id": 10500,
+    "condition": "",
+    "text": "Scrub"
+  },
+  {
+    "id": 10501,
+    "condition": "",
+    "text": "Some sort of desert weed."
+  },
+  {
+    "id": 10600,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 10601,
+    "condition": "",
+    "text": "It's a rusted car door leaning on a rusted metal barrel. A whole lot of rust is going on."
+  },
+  {
+    "id": 10700,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 10701,
+    "condition": "",
+    "text": "A broken toilet, half-buried in the sand. Life's a pisser, then you die."
+  },
+  {
+    "id": 10800,
+    "condition": "",
+    "text": "Weeds"
+  },
+  {
+    "id": 10801,
+    "condition": "",
+    "text": "Some sort of desert scrub. If it was growing in the recent past, it isn't now."
+  },
+  {
+    "id": 10900,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 10901,
+    "condition": "",
+    "text": "A car tire, buried in the sand. Some small pieces of wood are piled up around it."
+  },
+  {
+    "id": 11000,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 11001,
+    "condition": "",
+    "text": "On closer examination, you think these might actually be pieces of petrified wood."
+  },
+  {
+    "id": 11100,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 11101,
+    "condition": "",
+    "text": "A small pile of dirt, with a dead weed sticking out of it."
+  },
+  {
+    "id": 11200,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 11201,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 11300,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 11301,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 11400,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 11401,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 11500,
+    "condition": "",
+    "text": "Weed"
+  },
+  {
+    "id": 11501,
+    "condition": "",
+    "text": "A small pile of dirt, with a dry weed sticking out of it."
+  },
+  {
+    "id": 11600,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 11601,
+    "condition": "",
+    "text": "A twisted piece of rusted metal."
+  },
+  {
+    "id": 11700,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 11701,
+    "condition": "",
+    "text": "Some broken pieces of wood."
+  },
+  {
+    "id": 11800,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 11801,
+    "condition": "",
+    "text": "A small pile of random junk."
+  },
+  {
+    "id": 11900,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 11901,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 12000,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 12001,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 12100,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 12101,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 12200,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 12201,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 12300,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 12301,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 12400,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 12401,
+    "condition": "",
+    "text": "A small pile of dirt."
+  },
+  {
+    "id": 12500,
+    "condition": "",
+    "text": "Weed"
+  },
+  {
+    "id": 12501,
+    "condition": "",
+    "text": "A generic desert weed."
+  },
+  {
+    "id": 12600,
+    "condition": "",
+    "text": "Weed"
+  },
+  {
+    "id": 12601,
+    "condition": "",
+    "text": "A generic desert weed."
+  },
+  {
+    "id": 12700,
+    "condition": "",
+    "text": "Weed"
+  },
+  {
+    "id": 12701,
+    "condition": "",
+    "text": "A generic desert weed."
+  },
+  {
+    "id": 12800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12900,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 13000,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 13100,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 13200,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 13300,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 13400,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 13500,
+    "condition": "",
+    "text": "Drain"
+  },
+  {
+    "id": 13501,
+    "condition": "",
+    "text": "There is some sort of rank, disgusting smell coming from this sewer drain. After a few moments, it doesn't smell as bad."
+  },
+  {
+    "id": 13600,
+    "condition": "",
+    "text": "Drain"
+  },
+  {
+    "id": 13601,
+    "condition": "",
+    "text": "You can barely make out some movement behind the grate covering this drain. You can see small red eyes peering back at you. Rat eyes."
+  },
+  {
+    "id": 13700,
+    "condition": "",
+    "text": "Drain"
+  },
+  {
+    "id": 13701,
+    "condition": "",
+    "text": "Gurgling water sounds come from this drain. So does a really vile stench."
+  },
+  {
+    "id": 13800,
+    "condition": "",
+    "text": "Drain"
+  },
+  {
+    "id": 13801,
+    "condition": "",
+    "text": "Gurgling water sounds come from beyond this drain. So does a really vile smell."
+  },
+  {
+    "id": 13900,
+    "condition": "",
+    "text": "Ladder"
+  },
+  {
+    "id": 13901,
+    "condition": "",
+    "text": "It's an old, fairly rickety ladder. It looks like it will barely support your weight."
+  },
+  {
+    "id": 14000,
+    "condition": "",
+    "text": "Sewer Hole"
+  },
+  {
+    "id": 14001,
+    "condition": "",
+    "text": "It looks like an access hole for the sewer system."
+  },
+  {
+    "id": 14100,
+    "condition": "",
+    "text": "Light Source"
+  },
+  {
+    "id": 14200,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 14201,
+    "condition": "",
+    "text": "This looks like a standard Vault door that has been damaged, perhaps burned. It is still functional, however."
+  },
+  {
+    "id": 14300,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 14301,
+    "condition": "",
+    "text": "This looks like a standard Vault door that has been damaged, perhaps burned. It is still functional, however."
+  },
+  {
+    "id": 14400,
+    "condition": "",
+    "text": "Cover"
+  },
+  {
+    "id": 14401,
+    "condition": "",
+    "text": "A heavy man-hole cover. It looks like it is in good shape, and that it was recently moved."
+  },
+  {
+    "id": 14500,
+    "condition": "",
+    "text": "Hole"
+  },
+  {
+    "id": 14501,
+    "condition": "",
+    "text": "A large hole has been blasted through this door."
+  },
+  {
+    "id": 14600,
+    "condition": "",
+    "text": "Hole"
+  },
+  {
+    "id": 14601,
+    "condition": "",
+    "text": "A large hole has been blasted through this door."
+  },
+  {
+    "id": 14700,
+    "condition": "",
+    "text": "Bullet Proof Glass"
+  },
+  {
+    "id": 14701,
+    "condition": "",
+    "text": "Completely unbreakable glass. Don't even try."
+  },
+  {
+    "id": 14800,
+    "condition": "",
+    "text": "Bullet Proof Glass"
+  },
+  {
+    "id": 14801,
+    "condition": "",
+    "text": "Completely unbreakable glass. Don't even try."
+  },
+  {
+    "id": 14900,
+    "condition": "",
+    "text": "Bullet Proof Glass"
+  },
+  {
+    "id": 14901,
+    "condition": "",
+    "text": "Completely unbreakable glass. Don't even try."
+  },
+  {
+    "id": 15000,
+    "condition": "",
+    "text": "Bullet Proof Glass"
+  },
+  {
+    "id": 15001,
+    "condition": "",
+    "text": "Completely unbreakable glass. Don't even try."
+  },
+  {
+    "id": 15100,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 15101,
+    "condition": "",
+    "text": "This door is a piece of high-technology construction. It opens by dilating as it rotates the three pieces that make up the door."
+  },
+  {
+    "id": 15200,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 15201,
+    "condition": "",
+    "text": "This door is a piece of high-technology construction. It opens by dilating as it rotates the three pieces that make up the door."
+  },
+  {
+    "id": 15300,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 15301,
+    "condition": "",
+    "text": "This door is emblazoned with the Brotherhood of Steel symbol."
+  },
+  {
+    "id": 15400,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 15401,
+    "condition": "",
+    "text": "This door is emblazoned with the Brotherhood of Steel symbol."
+  },
+  {
+    "id": 15500,
+    "condition": "",
+    "text": "Elevator"
+  },
+  {
+    "id": 15501,
+    "condition": "",
+    "text": "This is the interior of a Brotherhood elevator. It is squeaky clean!"
+  },
+  {
+    "id": 15600,
+    "condition": "",
+    "text": "Elevator"
+  },
+  {
+    "id": 15601,
+    "condition": "",
+    "text": "This is the interior of a Brotherhood elevator. It is squeaky clean!"
+  },
+  {
+    "id": 15700,
+    "condition": "",
+    "text": "Marker"
+  },
+  {
+    "id": 15701,
+    "condition": "",
+    "text": "This is the symbol of the Brotherhood of Steel. This marker tells the wasteland that this is their area, and to leave immediately."
+  },
+  {
+    "id": 15800,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 15801,
+    "condition": "",
+    "text": "You see a computer monitor. It is made from Brotherhood technology."
+  },
+  {
+    "id": 15900,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 15901,
+    "condition": "",
+    "text": "You see a computer monitor. It is made from Brotherhood technology."
+  },
+  {
+    "id": 16000,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 16001,
+    "condition": "",
+    "text": "This is a computer memory databank. It is obviously Brotherhood technology."
+  },
+  {
+    "id": 16100,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 16101,
+    "condition": "",
+    "text": "This is a computer memory databank. It is obviously Brotherhood technology."
+  },
+  {
+    "id": 16200,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 16201,
+    "condition": "",
+    "text": "A high-tech computer, using modern reel-to-reel storage devices instead of the antiquated punch cards."
+  },
+  {
+    "id": 16300,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 16301,
+    "condition": "",
+    "text": "A high-tech computer, using modern reel-to-reel storage devices instead of the antiquated punch cards."
+  },
+  {
+    "id": 16400,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 16401,
+    "condition": "",
+    "text": "You see a computer monitor. It is made from Brotherhood technology."
+  },
+  {
+    "id": 16500,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 16501,
+    "condition": "",
+    "text": "You see a computer monitor. It is made from Brotherhood technology."
+  },
+  {
+    "id": 16600,
+    "condition": "",
+    "text": "Wire"
+  },
+  {
+    "id": 16601,
+    "condition": "",
+    "text": "Some sort of computer wiring."
+  },
+  {
+    "id": 16700,
+    "condition": "",
+    "text": "Wire"
+  },
+  {
+    "id": 16701,
+    "condition": "",
+    "text": "Some sort of computer wiring."
+  },
+  {
+    "id": 16800,
+    "condition": "",
+    "text": "Wire"
+  },
+  {
+    "id": 16801,
+    "condition": "",
+    "text": "Some sort of computer wiring."
+  },
+  {
+    "id": 16900,
+    "condition": "",
+    "text": "Column"
+  },
+  {
+    "id": 16901,
+    "condition": "",
+    "text": "A support column."
+  },
+  {
+    "id": 17000,
+    "condition": "",
+    "text": "Column"
+  },
+  {
+    "id": 17001,
+    "condition": "",
+    "text": "A support column."
+  },
+  {
+    "id": 17100,
+    "condition": "",
+    "text": "Door Entry Computer"
+  },
+  {
+    "id": 17101,
+    "condition": "",
+    "text": "This computer controls the large vault door. You have to enter a specific access code for the computer to work."
+  },
+  {
+    "id": 17200,
+    "condition": "",
+    "text": "Casino Sign"
+  },
+  {
+    "id": 17201,
+    "condition": "",
+    "text": "It looks like an advertisement for Gizmo's Casino."
+  },
+  {
+    "id": 17300,
+    "condition": "",
+    "text": "Vault 13 Outer Door"
+  },
+  {
+    "id": 17301,
+    "condition": "",
+    "text": "This large door is the link between the vault and the outside world."
+  },
+  {
+    "id": 17400,
+    "condition": "",
+    "text": "Vault 13 Outer Door"
+  },
+  {
+    "id": 17401,
+    "condition": "",
+    "text": "This large door is the link between the vault and the outside world."
+  },
+  {
+    "id": 17500,
+    "condition": "",
+    "text": "Casino Sign"
+  },
+  {
+    "id": 17501,
+    "condition": "",
+    "text": "This part of the sign contains an electric motor that is slowly spinning the attached neon sign."
+  },
+  {
+    "id": 17600,
+    "condition": "",
+    "text": "Down Arrow"
+  },
+  {
+    "id": 17700,
+    "condition": "",
+    "text": "Up Arrow"
+  },
+  {
+    "id": 17800,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 17900,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 18000,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 18100,
+    "condition": "",
+    "text": "Elevator Top"
+  },
+  {
+    "id": 18101,
+    "condition": "",
+    "text": "You are looking at a portion of an elevator."
+  },
+  {
+    "id": 18200,
+    "condition": "",
+    "text": "Computer Console"
+  },
+  {
+    "id": 18201,
+    "condition": "",
+    "text": "This is a dumb terminal, hooked up by cable to a large computer. It is Brotherhood technology."
+  },
+  {
+    "id": 18300,
+    "condition": "",
+    "text": "Computer Console"
+  },
+  {
+    "id": 18301,
+    "condition": "",
+    "text": "This is a dumb terminal, hooked up by cable to a large computer. It is Brotherhood technology."
+  },
+  {
+    "id": 18400,
+    "condition": "",
+    "text": "Emblem"
+  },
+  {
+    "id": 18401,
+    "condition": "",
+    "text": "The symbol of the Brotherhood. The gears represent their engineering knowledge, the sword is their will to defend themselves and the wings are the uplifting hope."
+  },
+  {
+    "id": 18500,
+    "condition": "",
+    "text": "Emblem"
+  },
+  {
+    "id": 18501,
+    "condition": "",
+    "text": "The symbol of the Brotherhood. The gears represent their engineering knowledge, the sword is their will to defend themselves and the wings are the uplifting hope."
+  },
+  {
+    "id": 18600,
+    "condition": "",
+    "text": "Level 'One' Sign"
+  },
+  {
+    "id": 18601,
+    "condition": "",
+    "text": "You think this could mean that you are on level one of the Brotherhood."
+  },
+  {
+    "id": 18700,
+    "condition": "",
+    "text": "Level 'Two' Sign"
+  },
+  {
+    "id": 18701,
+    "condition": "",
+    "text": "You are on level two of the Brotherhood."
+  },
+  {
+    "id": 18800,
+    "condition": "",
+    "text": "Level 'Three' Sign"
+  },
+  {
+    "id": 18801,
+    "condition": "",
+    "text": "This must mean that you are on level three of the Brotherhood."
+  },
+  {
+    "id": 18900,
+    "condition": "",
+    "text": "Level 'Four' Sign"
+  },
+  {
+    "id": 18901,
+    "condition": "",
+    "text": "You must be on level four of the Brotherhood."
+  },
+  {
+    "id": 19000,
+    "condition": "",
+    "text": "Bunk Bed"
+  },
+  {
+    "id": 19001,
+    "condition": "",
+    "text": "A military-style bunk bed. Looks very uncomfortable. Also looks like you could bounce a quarter off of these sheets."
+  },
+  {
+    "id": 19100,
+    "condition": "",
+    "text": "Bunk Bed"
+  },
+  {
+    "id": 19101,
+    "condition": "",
+    "text": "A military-style bunk bed. Looks very uncomfortable. Also looks like you could bounce a quarter off of these sheets."
+  },
+  {
+    "id": 19200,
+    "condition": "",
+    "text": "Bunk Bed"
+  },
+  {
+    "id": 19201,
+    "condition": "",
+    "text": "A military-style bunk bed. Looks very uncomfortable. Also looks like you could bounce a quarter off of these sheets."
+  },
+  {
+    "id": 19300,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 19400,
+    "condition": "",
+    "text": "Nuka-Cola Machine"
+  },
+  {
+    "id": 19401,
+    "condition": "",
+    "text": "The advertising on the side of this machine promotes their popular soda."
+  },
+  {
+    "id": 19500,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 19600,
+    "condition": "",
+    "text": "Trapdoor"
+  },
+  {
+    "id": 19601,
+    "condition": "",
+    "text": "It looks like a perfectly good trapdoor."
+  },
+  {
+    "id": 19700,
+    "condition": "",
+    "text": "Manhole"
+  },
+  {
+    "id": 19701,
+    "condition": "",
+    "text": "The ladder in this manhole leads down into the darkness below. Ohhh, scary."
+  },
+  {
+    "id": 19800,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 19801,
+    "condition": "",
+    "text": "This is an altar."
+  },
+  {
+    "id": 19900,
+    "condition": "",
+    "text": "Pulpit"
+  },
+  {
+    "id": 19901,
+    "condition": "",
+    "text": "People stand behind this and talk. It looks like it has a little place to hold a prepared speech."
+  },
+  {
+    "id": 20000,
+    "condition": "",
+    "text": "Pew"
+  },
+  {
+    "id": 20001,
+    "condition": "",
+    "text": "This looks just like you would expect it to. Nothing special about this pew."
+  },
+  {
+    "id": 20100,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 20101,
+    "condition": "",
+    "text": "The sign on this post looks a little rusty."
+  },
+  {
+    "id": 20200,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 20201,
+    "condition": "",
+    "text": "The sign on this post looks a little rusty."
+  },
+  {
+    "id": 20300,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 20301,
+    "condition": "",
+    "text": "The sign on this post looks a little rusty."
+  },
+  {
+    "id": 20400,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 20401,
+    "condition": "",
+    "text": "The sign on this post looks a little rusty."
+  },
+  {
+    "id": 20500,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 20501,
+    "condition": "",
+    "text": "The sign on this post looks a little rusty."
+  },
+  {
+    "id": 20600,
+    "condition": "",
+    "text": "Old Mattress"
+  },
+  {
+    "id": 20601,
+    "condition": "",
+    "text": "An old, beat-up mattress. You think you see some sort of small bug-like critter infesting it."
+  },
+  {
+    "id": 20700,
+    "condition": "",
+    "text": "Old Mattress"
+  },
+  {
+    "id": 20701,
+    "condition": "",
+    "text": "Even if you were to sleep by yourself on this thing, you would not be sleeping alone."
+  },
+  {
+    "id": 20800,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 20801,
+    "condition": "",
+    "text": "A make-shift bed. The material was scavenged from some other source."
+  },
+  {
+    "id": 20900,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 20901,
+    "condition": "",
+    "text": "A make-shift bed. The material was scavenged from some other source."
+  },
+  {
+    "id": 21000,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 21001,
+    "condition": "",
+    "text": "This bed has seen better days (and probably nights, too.)"
+  },
+  {
+    "id": 21100,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 21101,
+    "condition": "",
+    "text": "On closer examination, you determine that the sheets have not been changed in a very, very long time."
+  },
+  {
+    "id": 21200,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 21201,
+    "condition": "",
+    "text": "There are a couple stains of dubious origin on this well-worn sleeping device."
+  },
+  {
+    "id": 21300,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 21301,
+    "condition": "",
+    "text": "This bed has seen a lot of use and wear. Something must have crawled between the mattresses and died, too."
+  },
+  {
+    "id": 21400,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 21500,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 21600,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 21700,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 21800,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 21900,
+    "condition": "",
+    "text": "Bookcase"
+  },
+  {
+    "id": 22000,
+    "condition": "",
+    "text": "Boxes"
+  },
+  {
+    "id": 22001,
+    "condition": "",
+    "text": "These wooden boxes are falling apart from the weather."
+  },
+  {
+    "id": 22100,
+    "condition": "",
+    "text": "Boxes"
+  },
+  {
+    "id": 22101,
+    "condition": "",
+    "text": "You find no details worth mentioning about these wooden boxes."
+  },
+  {
+    "id": 22200,
+    "condition": "",
+    "text": "Boxes"
+  },
+  {
+    "id": 22201,
+    "condition": "",
+    "text": "You have a lot of time on your hands to be looking closely at this rotten junk."
+  },
+  {
+    "id": 22300,
+    "condition": "",
+    "text": "Boxes"
+  },
+  {
+    "id": 22301,
+    "condition": "",
+    "text": "These wooden boxes are falling apart from the weather."
+  },
+  {
+    "id": 22400,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 22401,
+    "condition": "",
+    "text": "This automobile is in terrible shape. You cannot think of a way to restore it."
+  },
+  {
+    "id": 22500,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 22501,
+    "condition": "",
+    "text": "This rusted piece of scrap-metal cannot be restored."
+  },
+  {
+    "id": 22600,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 22601,
+    "condition": "",
+    "text": "You determine that this vehicle will never drive again. Really."
+  },
+  {
+    "id": 22700,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 22701,
+    "condition": "",
+    "text": "There is no way that this junkyard wannabe will ever drive again."
+  },
+  {
+    "id": 22800,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 22801,
+    "condition": "",
+    "text": "If the Mechanic of the Year suddenly appeared next to you, both of you could not fix this rusty heap."
+  },
+  {
+    "id": 22900,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 22901,
+    "condition": "",
+    "text": "A comfy chair."
+  },
+  {
+    "id": 23000,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23001,
+    "condition": "",
+    "text": "This chair looks like it has seen better years."
+  },
+  {
+    "id": 23100,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23101,
+    "condition": "",
+    "text": "This chair is moldy and gross. As you can guess, it stinks, too."
+  },
+  {
+    "id": 23200,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23201,
+    "condition": "",
+    "text": "This chair is falling apart. Quickly."
+  },
+  {
+    "id": 23300,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23301,
+    "condition": "",
+    "text": "If someone paid you a lot of caps, and you could use steel britches, you might consider sitting in this chair."
+  },
+  {
+    "id": 23400,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23401,
+    "condition": "",
+    "text": "This looks like an old office chair, still in pretty good shape after all these years."
+  },
+  {
+    "id": 23500,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23501,
+    "condition": "",
+    "text": "This is an old office chair. It might even support the weight of a person."
+  },
+  {
+    "id": 23600,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23601,
+    "condition": "",
+    "text": "This office chair has seen better days. It's pretty much trash, now."
+  },
+  {
+    "id": 23700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 23701,
+    "condition": "",
+    "text": "This looks like a chair you would see in a mortician's office - dead."
+  },
+  {
+    "id": 23800,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 23900,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 24000,
+    "condition": "",
+    "text": "Dresser"
+  },
+  {
+    "id": 24100,
+    "condition": "",
+    "text": "Dresser"
+  },
+  {
+    "id": 24200,
+    "condition": "",
+    "text": "Dresser"
+  },
+  {
+    "id": 24300,
+    "condition": "",
+    "text": "Fire Hydrant"
+  },
+  {
+    "id": 24301,
+    "condition": "",
+    "text": "This is a fire hydrant. Without Vault ceiling sprinklers, you might need one of these to put out fires."
+  },
+  {
+    "id": 24400,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 24401,
+    "condition": "",
+    "text": "This lamp post looks like it is still in working condition. Imagine that, something that works out here."
+  },
+  {
+    "id": 24500,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 24501,
+    "condition": "",
+    "text": "This lamp post will never work again."
+  },
+  {
+    "id": 24600,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 24601,
+    "condition": "",
+    "text": "This is a working lamp post. At night, it casts a pale, gentle light that reminds you of absolutely nothing."
+  },
+  {
+    "id": 24700,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 24701,
+    "condition": "",
+    "text": "This is a broken lamp post. It cannot be fixed."
+  },
+  {
+    "id": 24800,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 24801,
+    "condition": "",
+    "text": "This light fixture is operational."
+  },
+  {
+    "id": 24900,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 24901,
+    "condition": "",
+    "text": "The light in this lamp post is shattered beyond repair."
+  },
+  {
+    "id": 25000,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 25001,
+    "condition": "",
+    "text": "This is a functional lamp post."
+  },
+  {
+    "id": 25100,
+    "condition": "",
+    "text": "Gate"
+  },
+  {
+    "id": 25101,
+    "condition": "",
+    "text": "The lock on this gate has been jammed shut and the bars look very sturdy."
+  },
+  {
+    "id": 25200,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 25201,
+    "condition": "",
+    "text": "Definitely useless junk, no doubt about it."
+  },
+  {
+    "id": 25300,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 25301,
+    "condition": "",
+    "text": "Definitely useless junk, no doubt about it."
+  },
+  {
+    "id": 25400,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 25401,
+    "condition": "",
+    "text": "Definitely useless junk, no doubt about it."
+  },
+  {
+    "id": 25500,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 25501,
+    "condition": "",
+    "text": "Definitely useless junk, no doubt about it."
+  },
+  {
+    "id": 25600,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 25601,
+    "condition": "",
+    "text": "Definitely useless junk, no doubt about it."
+  },
+  {
+    "id": 25700,
+    "condition": "",
+    "text": "Mailbox"
+  },
+  {
+    "id": 25701,
+    "condition": "",
+    "text": "The mailbox is empty. You get the feeling it's been that way for a while."
+  },
+  {
+    "id": 25800,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 25801,
+    "condition": "",
+    "text": "A nicely crafted wooden door, in good condition."
+  },
+  {
+    "id": 25900,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 25901,
+    "condition": "",
+    "text": "A nicely crafted wooden door, in good condition."
+  },
+  {
+    "id": 26000,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 26001,
+    "condition": "",
+    "text": "A nicely crafted wooden door, in good condition."
+  },
+  {
+    "id": 26100,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 26101,
+    "condition": "",
+    "text": "A nicely crafted wooden door, in good condition."
+  },
+  {
+    "id": 26200,
+    "condition": "",
+    "text": "Pew"
+  },
+  {
+    "id": 26201,
+    "condition": "",
+    "text": "This wooden pew is slowly falling apart."
+  },
+  {
+    "id": 26300,
+    "condition": "",
+    "text": "Pew"
+  },
+  {
+    "id": 26301,
+    "condition": "",
+    "text": "This pew has been neglected, and is showing signs of wear and tear."
+  },
+  {
+    "id": 26400,
+    "condition": "",
+    "text": "Pew"
+  },
+  {
+    "id": 26401,
+    "condition": "",
+    "text": "A wooden pew that has succumbed to the effects of age and abuse."
+  },
+  {
+    "id": 26500,
+    "condition": "",
+    "text": "Newspaper Machine"
+  },
+  {
+    "id": 26501,
+    "condition": "",
+    "text": "The newspaper machine is empty."
+  },
+  {
+    "id": 26600,
+    "condition": "",
+    "text": "Newspaper Machine"
+  },
+  {
+    "id": 26601,
+    "condition": "",
+    "text": "The newspaper machine is empty."
+  },
+  {
+    "id": 26700,
+    "condition": "",
+    "text": "Newspaper Machine"
+  },
+  {
+    "id": 26701,
+    "condition": "",
+    "text": "The newspaper machine is empty."
+  },
+  {
+    "id": 26800,
+    "condition": "",
+    "text": "Newspaper Machine"
+  },
+  {
+    "id": 26801,
+    "condition": "",
+    "text": "The newspaper machine is empty."
+  },
+  {
+    "id": 26900,
+    "condition": "",
+    "text": "Newspaper Machine"
+  },
+  {
+    "id": 26901,
+    "condition": "",
+    "text": "The newspaper machine is empty."
+  },
+  {
+    "id": 27000,
+    "condition": "",
+    "text": "Newspaper Machine"
+  },
+  {
+    "id": 27001,
+    "condition": "",
+    "text": "The newspaper machine is empty. It looks like it once held adult magazines."
+  },
+  {
+    "id": 27100,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 27101,
+    "condition": "",
+    "text": "A bed matters in terrible condition. Even the rats won't sleep in or on it."
+  },
+  {
+    "id": 27200,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 27201,
+    "condition": "",
+    "text": "A twin bed matters that has seen many better days than this one."
+  },
+  {
+    "id": 27300,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 27301,
+    "condition": "",
+    "text": "A pile of rotted and weathered wood. Not worth it's weight in, well, anything."
+  },
+  {
+    "id": 27400,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 27401,
+    "condition": "",
+    "text": "A pile of wood, with some rusty useless nails imbedded deeply."
+  },
+  {
+    "id": 27500,
+    "condition": "",
+    "text": "Boxes"
+  },
+  {
+    "id": 27501,
+    "condition": "",
+    "text": "A pile of old, cardboard boxes. You cannot believe that they have survived for this long."
+  },
+  {
+    "id": 27600,
+    "condition": "",
+    "text": "Boxes"
+  },
+  {
+    "id": 27601,
+    "condition": "",
+    "text": "A pile of old, cardboard boxes."
+  },
+  {
+    "id": 27700,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 27701,
+    "condition": "",
+    "text": "Some junk that you think might have been a bed matters before it was destroyed by the environment."
+  },
+  {
+    "id": 27800,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 27900,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 28000,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 28100,
+    "condition": "",
+    "text": "Rubble"
+  },
+  {
+    "id": 28101,
+    "condition": "",
+    "text": "A small pile of rubbled stones and rocks. Watch your step!"
+  },
+  {
+    "id": 28200,
+    "condition": "",
+    "text": "Sink"
+  },
+  {
+    "id": 28201,
+    "condition": "",
+    "text": "A porcelain sink that has long lost the ability to function."
+  },
+  {
+    "id": 28300,
+    "condition": "",
+    "text": "Sink"
+  },
+  {
+    "id": 28301,
+    "condition": "",
+    "text": "A broken porcelain sink. There is small puddle of brown water in the basin, with a floating dead rat."
+  },
+  {
+    "id": 28400,
+    "condition": "",
+    "text": "Sink"
+  },
+  {
+    "id": 28401,
+    "condition": "",
+    "text": "This sink is not functional. You can tell this from the large crack down the middle."
+  },
+  {
+    "id": 28500,
+    "condition": "",
+    "text": "Sink"
+  },
+  {
+    "id": 28501,
+    "condition": "",
+    "text": "A broken porcelain sink. There is small puddle of brown water in the basin, with a floating dead rat."
+  },
+  {
+    "id": 28600,
+    "condition": "",
+    "text": "Stop Sign"
+  },
+  {
+    "id": 28601,
+    "condition": "",
+    "text": "A red sign with the word STOP written in large block letters."
+  },
+  {
+    "id": 28700,
+    "condition": "",
+    "text": "Stop Sign"
+  },
+  {
+    "id": 28701,
+    "condition": "",
+    "text": "A red sign with the word STOP written in large block letters. The large bullet hole was added after manufacturing."
+  },
+  {
+    "id": 28800,
+    "condition": "",
+    "text": "Stop Light"
+  },
+  {
+    "id": 28801,
+    "condition": "",
+    "text": "This is an ancient automobile traffic control device."
+  },
+  {
+    "id": 28900,
+    "condition": "",
+    "text": "Stop Light"
+  },
+  {
+    "id": 28901,
+    "condition": "",
+    "text": "This is an ancient automobile traffic control device."
+  },
+  {
+    "id": 29000,
+    "condition": "",
+    "text": "Stop Light"
+  },
+  {
+    "id": 29001,
+    "condition": "",
+    "text": "This is an ancient automobile traffic control device."
+  },
+  {
+    "id": 29100,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29101,
+    "condition": "",
+    "text": "This street light provides illumination after night falls, or in darkened areas."
+  },
+  {
+    "id": 29200,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29201,
+    "condition": "",
+    "text": "This street light provides illumination after night falls, or in darkened areas."
+  },
+  {
+    "id": 29300,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29301,
+    "condition": "",
+    "text": "This street light provides illumination after night falls, or in darkened areas."
+  },
+  {
+    "id": 29400,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29401,
+    "condition": "",
+    "text": "This street light provides illumination after night falls, or in darkened areas."
+  },
+  {
+    "id": 29500,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29501,
+    "condition": "",
+    "text": "This street light could provide illumination in darkened areas, if it wasn't completely broken."
+  },
+  {
+    "id": 29600,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29601,
+    "condition": "",
+    "text": "This street light could provide illumination in darkened areas, if it wasn't completely broken."
+  },
+  {
+    "id": 29700,
+    "condition": "",
+    "text": "Street Light"
+  },
+  {
+    "id": 29701,
+    "condition": "",
+    "text": "This street light could provide illumination in darkened areas, if it wasn't completely broken."
+  },
+  {
+    "id": 29800,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 29801,
+    "condition": "",
+    "text": "This sign should mark what street it is on, but the letters have faded into obscurity."
+  },
+  {
+    "id": 29900,
+    "condition": "",
+    "text": "Signpost"
+  },
+  {
+    "id": 29901,
+    "condition": "",
+    "text": "This sign should mark what street it is on, but the letters have faded into obscurity."
+  },
+  {
+    "id": 30000,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30001,
+    "condition": "",
+    "text": "A wooden table, in fair to middling condition."
+  },
+  {
+    "id": 30100,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30101,
+    "condition": "",
+    "text": "A wooden table, in fair to middling condition."
+  },
+  {
+    "id": 30200,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30201,
+    "condition": "",
+    "text": "A wooden table, in middling to poor condition."
+  },
+  {
+    "id": 30300,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30301,
+    "condition": "",
+    "text": "A wooden table, with plastic surface, that has been broken for a while."
+  },
+  {
+    "id": 30400,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30401,
+    "condition": "",
+    "text": "A wooden table, painted a puke green color, that is beyond repair."
+  },
+  {
+    "id": 30500,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30501,
+    "condition": "",
+    "text": "This looks like an old coffee table, low to the ground for those really short mutants."
+  },
+  {
+    "id": 30600,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 30601,
+    "condition": "",
+    "text": "This looks like an old coffee table, low to the ground for those really short mutants."
+  },
+  {
+    "id": 30700,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 30701,
+    "condition": "",
+    "text": "The sharpened edges around the seat make this a very uncomfortable place to sit."
+  },
+  {
+    "id": 30800,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 30801,
+    "condition": "",
+    "text": "This toilet is broken."
+  },
+  {
+    "id": 30900,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 30901,
+    "condition": "",
+    "text": "Yuck! Whoever used this last did not flush!"
+  },
+  {
+    "id": 31000,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 31001,
+    "condition": "",
+    "text": "This toilet is broken and definitely not useable if you're a woman."
+  },
+  {
+    "id": 31100,
+    "condition": "",
+    "text": "Trash"
+  },
+  {
+    "id": 31101,
+    "condition": "",
+    "text": "Some busted pipes half-buried in the dirt. Nothing important to see here. Move along."
+  },
+  {
+    "id": 31200,
+    "condition": "",
+    "text": "Trash"
+  },
+  {
+    "id": 31201,
+    "condition": "",
+    "text": "Some broken pieces of glass and other ruined pieces of junk."
+  },
+  {
+    "id": 31300,
+    "condition": "",
+    "text": "Trash"
+  },
+  {
+    "id": 31301,
+    "condition": "",
+    "text": "Some broken pieces of glass and other ruined pieces of junk."
+  },
+  {
+    "id": 31400,
+    "condition": "",
+    "text": "Trash"
+  },
+  {
+    "id": 31401,
+    "condition": "",
+    "text": "A pipe that has been snapped in half. It looks like it rusted until it collapsed under it's own weight."
+  },
+  {
+    "id": 31500,
+    "condition": "",
+    "text": "Trash Can"
+  },
+  {
+    "id": 31501,
+    "condition": "",
+    "text": "A trash can. You can barely read the label: Keep your city streets clean!"
+  },
+  {
+    "id": 31600,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 31601,
+    "condition": "",
+    "text": "It's a dead tree."
+  },
+  {
+    "id": 31700,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 31701,
+    "condition": "",
+    "text": "A stump. Nothing really exciting. In fact, this might be the least exciting thing you have ever laid your eyes on."
+  },
+  {
+    "id": 31800,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 31801,
+    "condition": "",
+    "text": "It's a dead tree."
+  },
+  {
+    "id": 31900,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 32000,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 32100,
+    "condition": "",
+    "text": "Tree"
+  },
+  {
+    "id": 32200,
+    "condition": "",
+    "text": "Truck"
+  },
+  {
+    "id": 32300,
+    "condition": "",
+    "text": "Truck"
+  },
+  {
+    "id": 32301,
+    "condition": "",
+    "text": "The ruined remains of a diesel truck. This hunk of metal will never move again."
+  },
+  {
+    "id": 32400,
+    "condition": "",
+    "text": "Truck"
+  },
+  {
+    "id": 32401,
+    "condition": "",
+    "text": "This diesel truck is beyond help. Way beyond help."
+  },
+  {
+    "id": 32500,
+    "condition": "",
+    "text": "Bath Tub"
+  },
+  {
+    "id": 32501,
+    "condition": "",
+    "text": "This bath tub is broken and cracked."
+  },
+  {
+    "id": 32600,
+    "condition": "",
+    "text": "Bath Tub"
+  },
+  {
+    "id": 32601,
+    "condition": "",
+    "text": "On closer examination, you realize that you won't be taking your bath in this tub after all."
+  },
+  {
+    "id": 32700,
+    "condition": "",
+    "text": "Urinal"
+  },
+  {
+    "id": 32701,
+    "condition": "",
+    "text": "It's just a urinal."
+  },
+  {
+    "id": 32800,
+    "condition": "",
+    "text": "Urinal"
+  },
+  {
+    "id": 32801,
+    "condition": "",
+    "text": "It's just a urinal."
+  },
+  {
+    "id": 32900,
+    "condition": "",
+    "text": "Urinal"
+  },
+  {
+    "id": 32901,
+    "condition": "",
+    "text": "It's just a urinal. Nothing special."
+  },
+  {
+    "id": 33000,
+    "condition": "",
+    "text": "Urinal"
+  },
+  {
+    "id": 33001,
+    "condition": "",
+    "text": "It's just a urinal. Nothing special."
+  },
+  {
+    "id": 33100,
+    "condition": "",
+    "text": "Water Tank"
+  },
+  {
+    "id": 33101,
+    "condition": "",
+    "text": "A large tank that holds liquids. In this case, you believe that it was designed to store water."
+  },
+  {
+    "id": 33200,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 33201,
+    "condition": "",
+    "text": "A wooden door. Nothing extremely interesting about it."
+  },
+  {
+    "id": 33300,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 33301,
+    "condition": "",
+    "text": "A wooden door. It provides an entrance and egress from this building."
+  },
+  {
+    "id": 33400,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 33401,
+    "condition": "",
+    "text": "This lamp looks it is in good working condition."
+  },
+  {
+    "id": 33500,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 33501,
+    "condition": "",
+    "text": "A broken lamp. It is not surprising that it does not work."
+  },
+  {
+    "id": 33600,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 33601,
+    "condition": "",
+    "text": "This lamp looks it is in good working condition."
+  },
+  {
+    "id": 33700,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 33701,
+    "condition": "",
+    "text": "A broken lamp. It is not surprising that it does not work."
+  },
+  {
+    "id": 33800,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 33801,
+    "condition": "",
+    "text": "This lamp looks it is in good working condition."
+  },
+  {
+    "id": 33900,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 33901,
+    "condition": "",
+    "text": "A broken lamp. It is not surprising that it does not work."
+  },
+  {
+    "id": 34000,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 34001,
+    "condition": "",
+    "text": "This lamp looks it is in good working condition."
+  },
+  {
+    "id": 34100,
+    "condition": "",
+    "text": "Wall Lamp"
+  },
+  {
+    "id": 34101,
+    "condition": "",
+    "text": "A broken lamp. It is not surprising that it does not work."
+  },
+  {
+    "id": 34200,
+    "condition": "",
+    "text": "Yield Sign"
+  },
+  {
+    "id": 34201,
+    "condition": "",
+    "text": "This was a sign to control the flow of traffic."
+  },
+  {
+    "id": 34300,
+    "condition": "",
+    "text": "Yield Sign"
+  },
+  {
+    "id": 34301,
+    "condition": "",
+    "text": "The sign is faded, but you can make out the world YIELD."
+  },
+  {
+    "id": 34400,
+    "condition": "",
+    "text": "Block Hex Auto Inviso"
+  },
+  {
+    "id": 34401,
+    "condition": "",
+    "text": "If you can see this, blame the technical designer."
+  },
+  {
+    "id": 34500,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 34600,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 34601,
+    "condition": "",
+    "text": "An ornate wooden door. It is obviously made from fine workmanship."
+  },
+  {
+    "id": 34700,
+    "condition": "",
+    "text": "Pew"
+  },
+  {
+    "id": 34701,
+    "condition": "",
+    "text": "This seat is supported by large concrete bricks. That's not important, but you're the one who looked."
+  },
+  {
+    "id": 34800,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 34801,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 34900,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 34901,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35000,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35001,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35100,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35101,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35200,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35201,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35300,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35301,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35400,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35401,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35500,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35501,
+    "condition": "",
+    "text": "This staircase leads up."
+  },
+  {
+    "id": 35600,
+    "condition": "",
+    "text": "Staircase"
+  },
+  {
+    "id": 35601,
+    "condition": "",
+    "text": "This staircase leads down."
+  },
+  {
+    "id": 35700,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 35701,
+    "condition": "",
+    "text": "You are looking at the outside of the Cathedral."
+  },
+  {
+    "id": 35800,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 35801,
+    "condition": "",
+    "text": "You are looking at the outside of the Cathedral."
+  },
+  {
+    "id": 35900,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 35901,
+    "condition": "",
+    "text": "You are looking at the outside of the Cathedral."
+  },
+  {
+    "id": 36000,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 36001,
+    "condition": "",
+    "text": "You are looking at the outside of the Cathedral."
+  },
+  {
+    "id": 36100,
+    "condition": "",
+    "text": "Curtain"
+  },
+  {
+    "id": 36101,
+    "condition": "",
+    "text": "This curtain looks like it was created by primitive means, but it is very functional."
+  },
+  {
+    "id": 36200,
+    "condition": "",
+    "text": "Curtain"
+  },
+  {
+    "id": 36201,
+    "condition": "",
+    "text": "This curtain looks like it was created by primitive means, but it is very functional."
+  },
+  {
+    "id": 36300,
+    "condition": "",
+    "text": "Bowl"
+  },
+  {
+    "id": 36301,
+    "condition": "",
+    "text": "A finely crafted wooden bowl. This looks like it was designed to crush and separate grains."
+  },
+  {
+    "id": 36400,
+    "condition": "",
+    "text": "Bowl"
+  },
+  {
+    "id": 36401,
+    "condition": "",
+    "text": "A finely crafted wooden bowl."
+  },
+  {
+    "id": 36500,
+    "condition": "",
+    "text": "Pot"
+  },
+  {
+    "id": 36501,
+    "condition": "",
+    "text": "A finely crafted pot."
+  },
+  {
+    "id": 36600,
+    "condition": "",
+    "text": "Plant"
+  },
+  {
+    "id": 36601,
+    "condition": "",
+    "text": "It looks like a mutated cabbage to you. It seems to be thriving in the warm weather."
+  },
+  {
+    "id": 36700,
+    "condition": "",
+    "text": "Plant"
+  },
+  {
+    "id": 36701,
+    "condition": "",
+    "text": "It looks like a mutated cabbage to you. It seems to be thriving in the warm weather."
+  },
+  {
+    "id": 36800,
+    "condition": "",
+    "text": "Cart"
+  },
+  {
+    "id": 36801,
+    "condition": "",
+    "text": "A crude, but effective, agricultural cart."
+  },
+  {
+    "id": 36900,
+    "condition": "",
+    "text": "Plant"
+  },
+  {
+    "id": 36901,
+    "condition": "",
+    "text": "A mutated cornstalk. It seems to be thriving under these conditions."
+  },
+  {
+    "id": 37000,
+    "condition": "",
+    "text": "Plant"
+  },
+  {
+    "id": 37001,
+    "condition": "",
+    "text": "A mutated cornstalk. It seems to be thriving under these conditions."
+  },
+  {
+    "id": 37100,
+    "condition": "",
+    "text": "Plant"
+  },
+  {
+    "id": 37101,
+    "condition": "",
+    "text": "A mutated cornstalk. It seems to be thriving under these conditions."
+  },
+  {
+    "id": 37200,
+    "condition": "",
+    "text": "Pot"
+  },
+  {
+    "id": 37201,
+    "condition": "",
+    "text": "A finely crafted clay pot."
+  },
+  {
+    "id": 37300,
+    "condition": "",
+    "text": "Rake"
+  },
+  {
+    "id": 37301,
+    "condition": "",
+    "text": "This rake is the property of it's owners. You can't even conceive of a use for it."
+  },
+  {
+    "id": 37400,
+    "condition": "",
+    "text": "Rake"
+  },
+  {
+    "id": 37401,
+    "condition": "",
+    "text": "This rake is the property of it's owners. You can't even conceive of a use for it."
+  },
+  {
+    "id": 37500,
+    "condition": "",
+    "text": "Rake"
+  },
+  {
+    "id": 37501,
+    "condition": "",
+    "text": "This rake is the property of it's owners. You can't even conceive of a use for it."
+  },
+  {
+    "id": 37600,
+    "condition": "",
+    "text": "Rug"
+  },
+  {
+    "id": 37601,
+    "condition": "",
+    "text": "A simple rug. The weaver was obviously very talented."
+  },
+  {
+    "id": 37700,
+    "condition": "",
+    "text": "Rug"
+  },
+  {
+    "id": 37701,
+    "condition": "",
+    "text": "A simple rug. The weaver was obviously very talented."
+  },
+  {
+    "id": 37800,
+    "condition": "",
+    "text": "Rug"
+  },
+  {
+    "id": 37801,
+    "condition": "",
+    "text": "A simple rug. The weaver was obviously very talented."
+  },
+  {
+    "id": 37900,
+    "condition": "",
+    "text": "Shovel"
+  },
+  {
+    "id": 37901,
+    "condition": "",
+    "text": "This shovel is the property of it's owners. You can't even conceive of a use for it."
+  },
+  {
+    "id": 38000,
+    "condition": "",
+    "text": "Shovel"
+  },
+  {
+    "id": 38001,
+    "condition": "",
+    "text": "This shovel is the property of it's owners. You can't even conceive of a use for it."
+  },
+  {
+    "id": 38100,
+    "condition": "",
+    "text": "Shovel"
+  },
+  {
+    "id": 38101,
+    "condition": "",
+    "text": "This shovel is the property of it's owners. You can't even conceive of a use for it."
+  },
+  {
+    "id": 38200,
+    "condition": "",
+    "text": "Vase"
+  },
+  {
+    "id": 38201,
+    "condition": "",
+    "text": "A very pretty clay vase."
+  },
+  {
+    "id": 38300,
+    "condition": "",
+    "text": "Well"
+  },
+  {
+    "id": 38301,
+    "condition": "",
+    "text": "As much as you try, you cannot think of a way of moving this well to the vault."
+  },
+  {
+    "id": 38400,
+    "condition": "",
+    "text": "Pole"
+  },
+  {
+    "id": 38401,
+    "condition": "",
+    "text": "This pole helps to support the yurt."
+  },
+  {
+    "id": 38500,
+    "condition": "",
+    "text": "Pole"
+  },
+  {
+    "id": 38501,
+    "condition": "",
+    "text": "This pole helps to support the yurt."
+  },
+  {
+    "id": 38600,
+    "condition": "",
+    "text": "Pole"
+  },
+  {
+    "id": 38601,
+    "condition": "",
+    "text": "This pole helps to support the yurt."
+  },
+  {
+    "id": 38700,
+    "condition": "",
+    "text": "Pole"
+  },
+  {
+    "id": 38701,
+    "condition": "",
+    "text": "This pole helps to support the yurt."
+  },
+  {
+    "id": 38800,
+    "condition": "",
+    "text": "Pole"
+  },
+  {
+    "id": 38801,
+    "condition": "",
+    "text": "This pole helps to support the yurt."
+  },
+  {
+    "id": 38900,
+    "condition": "",
+    "text": "Pole"
+  },
+  {
+    "id": 38901,
+    "condition": "",
+    "text": "This pole helps to support the yurt."
+  },
+  {
+    "id": 39000,
+    "condition": "",
+    "text": "Vault Door"
+  },
+  {
+    "id": 39001,
+    "condition": "",
+    "text": "This vault door is now just a heavy piece of scrap-metal."
+  },
+  {
+    "id": 39100,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 39101,
+    "condition": "",
+    "text": "The mechanism to open and close the heavy vault door has been damaged beyond repair."
+  },
+  {
+    "id": 39200,
+    "condition": "",
+    "text": "Brace"
+  },
+  {
+    "id": 39201,
+    "condition": "",
+    "text": "This brace helps to support the defensive wall."
+  },
+  {
+    "id": 39300,
+    "condition": "",
+    "text": "Brace"
+  },
+  {
+    "id": 39301,
+    "condition": "",
+    "text": "This brace helps to support the defensive wall."
+  },
+  {
+    "id": 39400,
+    "condition": "",
+    "text": "Brace"
+  },
+  {
+    "id": 39401,
+    "condition": "",
+    "text": "This brace helps to support the defensive wall."
+  },
+  {
+    "id": 39500,
+    "condition": "",
+    "text": "Brace"
+  },
+  {
+    "id": 39501,
+    "condition": "",
+    "text": "This brace helps to support the defensive wall."
+  },
+  {
+    "id": 39600,
+    "condition": "",
+    "text": "Metal Barrel"
+  },
+  {
+    "id": 39601,
+    "condition": "",
+    "text": "A rusty metal barrel. It is empty."
+  },
+  {
+    "id": 39700,
+    "condition": "",
+    "text": "Metal Barrel"
+  },
+  {
+    "id": 39701,
+    "condition": "",
+    "text": "This barrel is probably empty from the hollow sound."
+  },
+  {
+    "id": 39800,
+    "condition": "",
+    "text": "Metal Barrels"
+  },
+  {
+    "id": 39801,
+    "condition": "",
+    "text": "These barrels are probably empty from their hollow sound."
+  },
+  {
+    "id": 39900,
+    "condition": "",
+    "text": "Metal Barrels"
+  },
+  {
+    "id": 39901,
+    "condition": "",
+    "text": "These barrels are probably empty from their hollow sound."
+  },
+  {
+    "id": 40000,
+    "condition": "",
+    "text": "Dome"
+  },
+  {
+    "id": 40001,
+    "condition": "",
+    "text": "You find a small label that reads: \"Property of Area-51. Return if found.\""
+  },
+  {
+    "id": 40100,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 40101,
+    "condition": "",
+    "text": "A wooden crate. It doesn't look in that bad of shape."
+  },
+  {
+    "id": 40200,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 40201,
+    "condition": "",
+    "text": "A simple wooden crate. In fairly good condition."
+  },
+  {
+    "id": 40300,
+    "condition": "",
+    "text": "Crate"
+  },
+  {
+    "id": 40301,
+    "condition": "",
+    "text": "This simple wooden crate has collapsed under it's own weight."
+  },
+  {
+    "id": 40400,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 40401,
+    "condition": "",
+    "text": "A simple desk with a computer."
+  },
+  {
+    "id": 40500,
+    "condition": "",
+    "text": "Desk"
+  },
+  {
+    "id": 40501,
+    "condition": "",
+    "text": "A simple desk with a computer."
+  },
+  {
+    "id": 40600,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 40601,
+    "condition": "",
+    "text": "A wooden door, in fair shape."
+  },
+  {
+    "id": 40700,
+    "condition": "",
+    "text": "Cave In"
+  },
+  {
+    "id": 40701,
+    "condition": "",
+    "text": "A large amount of rock, far more than could ever be moved easily."
+  },
+  {
+    "id": 40800,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 40801,
+    "condition": "",
+    "text": "This submerged car cannot be repaired."
+  },
+  {
+    "id": 40900,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 40901,
+    "condition": "",
+    "text": "This car is a little wet, and cannot be repaired."
+  },
+  {
+    "id": 41000,
+    "condition": "",
+    "text": "Car"
+  },
+  {
+    "id": 41001,
+    "condition": "",
+    "text": "This car has been poorly parked. Unfortunately, it is beyond repair."
+  },
+  {
+    "id": 41100,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 41101,
+    "condition": "",
+    "text": "This junk has been ruined by the contaminated seawater."
+  },
+  {
+    "id": 41200,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 41201,
+    "condition": "",
+    "text": "This junk has almost washed away."
+  },
+  {
+    "id": 41300,
+    "condition": "",
+    "text": "Junk"
+  },
+  {
+    "id": 41301,
+    "condition": "",
+    "text": "A choice selection of useless junk."
+  },
+  {
+    "id": 41400,
+    "condition": "",
+    "text": "Pipes"
+  },
+  {
+    "id": 41401,
+    "condition": "",
+    "text": "These pipes used to transfer fuel from an underground tank to the garage. They haven't been used in a long time."
+  },
+  {
+    "id": 41500,
+    "condition": "",
+    "text": "Pipe"
+  },
+  {
+    "id": 41501,
+    "condition": "",
+    "text": "These pipes used to transfer fuel from an underground tank to the garage. They haven't been used in a long time."
+  },
+  {
+    "id": 41600,
+    "condition": "",
+    "text": "Pipes"
+  },
+  {
+    "id": 41601,
+    "condition": "",
+    "text": "These pipes used to transfer fuel from an underground tank to the garage. They haven't been used in a long time."
+  },
+  {
+    "id": 41700,
+    "condition": "",
+    "text": "Elevator Shaft"
+  },
+  {
+    "id": 41701,
+    "condition": "",
+    "text": "Part of an elevator system."
+  },
+  {
+    "id": 41800,
+    "condition": "",
+    "text": "Elevator Shaft"
+  },
+  {
+    "id": 41801,
+    "condition": "",
+    "text": "An elevator shaft that stretches deep into the ground. It has been damaged."
+  },
+  {
+    "id": 41900,
+    "condition": "",
+    "text": "Elevator"
+  },
+  {
+    "id": 41901,
+    "condition": "",
+    "text": "An elevator. Use it to go up and down between levels."
+  },
+  {
+    "id": 42000,
+    "condition": "",
+    "text": "Elevator Shaft"
+  },
+  {
+    "id": 42001,
+    "condition": "",
+    "text": "An elevator shaft that stretches deep into the ground. It has been damaged."
+  },
+  {
+    "id": 42100,
+    "condition": "",
+    "text": "Elevator Door"
+  },
+  {
+    "id": 42101,
+    "condition": "",
+    "text": "This door leads to the elevator car. If you want to use the elevator, you must first open this door."
+  },
+  {
+    "id": 42200,
+    "condition": "",
+    "text": "Pipe"
+  },
+  {
+    "id": 42201,
+    "condition": "",
+    "text": "A metal pipe. Further details are not important."
+  },
+  {
+    "id": 42300,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 42400,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 42500,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 42600,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 42700,
+    "condition": "",
+    "text": "Box"
+  },
+  {
+    "id": 42800,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 42801,
+    "condition": "",
+    "text": "A pile of rocks. Not very interesting."
+  },
+  {
+    "id": 42900,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 42901,
+    "condition": "",
+    "text": "A pile of rocks. Not very interesting."
+  },
+  {
+    "id": 43000,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 43001,
+    "condition": "",
+    "text": "A small pile of rocks. Not in the least bit interesting to you."
+  },
+  {
+    "id": 43100,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 43101,
+    "condition": "",
+    "text": "A very small pile of rocks."
+  },
+  {
+    "id": 43200,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 43201,
+    "condition": "",
+    "text": "A very small pile of rocks."
+  },
+  {
+    "id": 43300,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 43301,
+    "condition": "",
+    "text": "A very small pile of rocks."
+  },
+  {
+    "id": 43400,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 43401,
+    "condition": "",
+    "text": "A very small pile of rocks."
+  },
+  {
+    "id": 43500,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 43501,
+    "condition": "",
+    "text": "A very small pile of rocks."
+  },
+  {
+    "id": 43600,
+    "condition": "",
+    "text": "Vault Door"
+  },
+  {
+    "id": 43601,
+    "condition": "",
+    "text": "This vault door is very similar to the one at Vault-13. The door mechanism has been disabled."
+  },
+  {
+    "id": 43700,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 43701,
+    "condition": "",
+    "text": "A finely constructed wooden door, reinforced with ornate metal braces of an almost hypnotic design."
+  },
+  {
+    "id": 43800,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 43801,
+    "condition": "",
+    "text": "A finely constructed wooden door, reinforced with ornate metal braces of an almost hypnotic design."
+  },
+  {
+    "id": 43900,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 43901,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44000,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44001,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44100,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44101,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44200,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44201,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44300,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44301,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44400,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44401,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44500,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44501,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44600,
+    "condition": "",
+    "text": "Vats"
+  },
+  {
+    "id": 44601,
+    "condition": "",
+    "text": "A complex of some sort. You are not sure, but you can see large vats of a greenish goo that looks vaguely important."
+  },
+  {
+    "id": 44700,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 44800,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 44801,
+    "condition": "",
+    "text": "A security door. Looks heavily armored."
+  },
+  {
+    "id": 44900,
+    "condition": "",
+    "text": "Nuclear Warhead"
+  },
+  {
+    "id": 45000,
+    "condition": "",
+    "text": "Well"
+  },
+  {
+    "id": 45001,
+    "condition": "",
+    "text": "As much as you try, you cannot think of a way of moving this well to the vault."
+  },
+  {
+    "id": 45100,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45101,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45200,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45201,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45300,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45301,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45400,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45401,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45500,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45501,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45600,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45601,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45700,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45701,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45800,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45801,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 45900,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 45901,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 46000,
+    "condition": "",
+    "text": "Craps Table"
+  },
+  {
+    "id": 46001,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 46100,
+    "condition": "",
+    "text": "Rock"
+  },
+  {
+    "id": 46101,
+    "condition": "",
+    "text": "A small rock, completely uninteresting in the context of this story."
+  },
+  {
+    "id": 46200,
+    "condition": "",
+    "text": "Rock"
+  },
+  {
+    "id": 46300,
+    "condition": "",
+    "text": "Rock"
+  },
+  {
+    "id": 46400,
+    "condition": "",
+    "text": "Rock"
+  },
+  {
+    "id": 46500,
+    "condition": "",
+    "text": "Slot Machine"
+  },
+  {
+    "id": 46501,
+    "condition": "",
+    "text": "This is a gambling machine."
+  },
+  {
+    "id": 46600,
+    "condition": "",
+    "text": "Slot Machine"
+  },
+  {
+    "id": 46601,
+    "condition": "",
+    "text": "This is a gambling machine."
+  },
+  {
+    "id": 46700,
+    "condition": "",
+    "text": "Doorway"
+  },
+  {
+    "id": 46800,
+    "condition": "",
+    "text": "Elevator"
+  },
+  {
+    "id": 46900,
+    "condition": "",
+    "text": "Elevator"
+  },
+  {
+    "id": 47000,
+    "condition": "",
+    "text": "Elevator Door"
+  },
+  {
+    "id": 47100,
+    "condition": "",
+    "text": "Window"
+  },
+  {
+    "id": 47101,
+    "condition": "",
+    "text": "Instead of glass, this window is using wax paper."
+  },
+  {
+    "id": 47200,
+    "condition": "",
+    "text": "Window"
+  },
+  {
+    "id": 47201,
+    "condition": "",
+    "text": "Instead of glass, this window is using wax paper."
+  },
+  {
+    "id": 47300,
+    "condition": "",
+    "text": "Window"
+  },
+  {
+    "id": 47301,
+    "condition": "",
+    "text": "Instead of glass, this window is using wax paper."
+  },
+  {
+    "id": 47400,
+    "condition": "",
+    "text": "Window"
+  },
+  {
+    "id": 47401,
+    "condition": "",
+    "text": "Instead of glass, this window is using wax paper."
+  },
+  {
+    "id": 47500,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 47501,
+    "condition": "",
+    "text": "This large metal roll-door has been jammed shut from the inside."
+  },
+  {
+    "id": 47600,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 47601,
+    "condition": "",
+    "text": "This large metal roll-door has been jammed shut from the inside."
+  },
+  {
+    "id": 47700,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 47701,
+    "condition": "",
+    "text": "This large metal roll-door has been jammed shut from the inside. It reads LOADING ONLY."
+  },
+  {
+    "id": 47800,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 47801,
+    "condition": "",
+    "text": "This large metal roll-door has been jammed shut from the inside."
+  },
+  {
+    "id": 47900,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 47901,
+    "condition": "",
+    "text": "This large metal roll-door has been jammed shut from the inside."
+  },
+  {
+    "id": 48000,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 48001,
+    "condition": "",
+    "text": "This large metal roll-door has been jammed shut from the inside. It reads LOADING ONLY."
+  },
+  {
+    "id": 48100,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 48101,
+    "condition": "",
+    "text": "This door looks suspiciously like the door you would find in a warehouse."
+  },
+  {
+    "id": 48200,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 48201,
+    "condition": "",
+    "text": "This door looks suspiciously like the door you would find in a warehouse."
+  },
+  {
+    "id": 48300,
+    "condition": "",
+    "text": "Weather Vane"
+  },
+  {
+    "id": 48301,
+    "condition": "",
+    "text": "This simple weather vane helps the people of Shady Sands study the weather."
+  },
+  {
+    "id": 48400,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 48401,
+    "condition": "",
+    "text": "A simple altar made from painted wood."
+  },
+  {
+    "id": 48500,
+    "condition": "",
+    "text": "Podium"
+  },
+  {
+    "id": 48501,
+    "condition": "",
+    "text": "This podium is normal, except for the Children of the Cathedral symbol engraved on the front of it."
+  },
+  {
+    "id": 48600,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 48700,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 48701,
+    "condition": "",
+    "text": "A large monitor, black and white only. The reception is pretty good for being indoors without an antenna."
+  },
+  {
+    "id": 48800,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 48801,
+    "condition": "",
+    "text": "A large monitor, black and white only. The robed figure is reciting religious dogma at a feverish pace."
+  },
+  {
+    "id": 48900,
+    "condition": "",
+    "text": "Forcefield"
+  },
+  {
+    "id": 48901,
+    "condition": "",
+    "text": "This is a powerful field of energy."
+  },
+  {
+    "id": 49000,
+    "condition": "",
+    "text": "Forcefield"
+  },
+  {
+    "id": 49001,
+    "condition": "",
+    "text": "This is a powerful field of energy."
+  },
+  {
+    "id": 49100,
+    "condition": "",
+    "text": "Forcefield"
+  },
+  {
+    "id": 49101,
+    "condition": "",
+    "text": "This is a powerful field of energy."
+  },
+  {
+    "id": 49200,
+    "condition": "",
+    "text": "Forcefield"
+  },
+  {
+    "id": 49201,
+    "condition": "",
+    "text": "This is a powerful field of energy."
+  },
+  {
+    "id": 49300,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 49301,
+    "condition": "",
+    "text": "A fairly ordinary wooden table."
+  },
+  {
+    "id": 49400,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 49401,
+    "condition": "",
+    "text": "A fairly ordinary wooden table."
+  },
+  {
+    "id": 49500,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 49501,
+    "condition": "",
+    "text": "A fairly ordinary wooden table."
+  },
+  {
+    "id": 49600,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 49601,
+    "condition": "",
+    "text": "A fairly ordinary wooden table."
+  },
+  {
+    "id": 49700,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 49701,
+    "condition": "",
+    "text": "A fairly ordinary wooden table."
+  },
+  {
+    "id": 49800,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 49801,
+    "condition": "",
+    "text": "A fairly ordinary wooden table."
+  },
+  {
+    "id": 49900,
+    "condition": "",
+    "text": "Shelf"
+  },
+  {
+    "id": 50000,
+    "condition": "",
+    "text": "Shelf"
+  },
+  {
+    "id": 50100,
+    "condition": "",
+    "text": "Shelf"
+  },
+  {
+    "id": 50200,
+    "condition": "",
+    "text": "Shelf"
+  },
+  {
+    "id": 50300,
+    "condition": "",
+    "text": "Shelf"
+  },
+  {
+    "id": 50400,
+    "condition": "",
+    "text": "Shelf"
+  },
+  {
+    "id": 50500,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 50501,
+    "condition": "",
+    "text": "A simple altar made from painted wood."
+  },
+  {
+    "id": 50600,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 50601,
+    "condition": "",
+    "text": "A simple altar made from painted wood."
+  },
+  {
+    "id": 50700,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 50701,
+    "condition": "",
+    "text": "A simple altar made from painted wood."
+  },
+  {
+    "id": 50800,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 50801,
+    "condition": "",
+    "text": "A simple altar made from painted wood."
+  },
+  {
+    "id": 50900,
+    "condition": "",
+    "text": "Rubble"
+  },
+  {
+    "id": 50901,
+    "condition": "",
+    "text": "A collapsed section of the roof has formed this pile of rubble. Your rope leads back to the surface."
+  },
+  {
+    "id": 51000,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 51100,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 51200,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 51300,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 51400,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 51500,
+    "condition": "",
+    "text": "Bookshelf"
+  },
+  {
+    "id": 51600,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 51601,
+    "condition": "",
+    "text": "This large table looks important. Perhaps they hold meetings here?"
+  },
+  {
+    "id": 51700,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 51701,
+    "condition": "",
+    "text": "This large table looks important. Perhaps they hold meetings here?"
+  },
+  {
+    "id": 51800,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 51801,
+    "condition": "",
+    "text": "This large table looks important. Perhaps they hold meetings here?"
+  },
+  {
+    "id": 51900,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 51901,
+    "condition": "",
+    "text": "This large table looks important. Perhaps they hold meetings here?"
+  },
+  {
+    "id": 52000,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 52001,
+    "condition": "",
+    "text": "This large table looks important. Perhaps they hold meetings here?"
+  },
+  {
+    "id": 52100,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 52101,
+    "condition": "",
+    "text": "This large table looks important. Perhaps they hold meetings here?"
+  },
+  {
+    "id": 52200,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 52201,
+    "condition": "",
+    "text": "An altar designed and used by the Brotherhood of Steel. Their symbol is brazenly shown."
+  },
+  {
+    "id": 52300,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 52301,
+    "condition": "",
+    "text": "An altar designed and used by the Brotherhood of Steel. Their symbol is brazenly shown."
+  },
+  {
+    "id": 52400,
+    "condition": "",
+    "text": "Altar"
+  },
+  {
+    "id": 52401,
+    "condition": "",
+    "text": "An altar designed and used by the Brotherhood of Steel. Their symbol is brazenly shown."
+  },
+  {
+    "id": 52500,
+    "condition": "",
+    "text": "Pew"
+  },
+  {
+    "id": 52501,
+    "condition": "",
+    "text": "A nicely fashioned, and mighty uncomfortable looking, pew."
+  },
+  {
+    "id": 52600,
+    "condition": "",
+    "text": "Podium"
+  },
+  {
+    "id": 52601,
+    "condition": "",
+    "text": "A nice wooden podium. There is a tele-prompter screen built into it, facing the speaker."
+  },
+  {
+    "id": 52700,
+    "condition": "",
+    "text": "Wagon"
+  },
+  {
+    "id": 52701,
+    "condition": "",
+    "text": "A caravan wagon converted from the wrecked remains of an ancient automobile."
+  },
+  {
+    "id": 52800,
+    "condition": "",
+    "text": "Wagon"
+  },
+  {
+    "id": 52801,
+    "condition": "",
+    "text": "A caravan wagon converted from the wrecked remains of an ancient automobile."
+  },
+  {
+    "id": 52900,
+    "condition": "",
+    "text": "Wagon"
+  },
+  {
+    "id": 52901,
+    "condition": "",
+    "text": "A caravan wagon converted from the wrecked remains of an ancient automobile."
+  },
+  {
+    "id": 53000,
+    "condition": "",
+    "text": "Wagon"
+  },
+  {
+    "id": 53001,
+    "condition": "",
+    "text": "A caravan wagon converted from the wrecked remains of an ancient automobile."
+  },
+  {
+    "id": 53100,
+    "condition": "",
+    "text": "Wagon"
+  },
+  {
+    "id": 53101,
+    "condition": "",
+    "text": "A caravan wagon converted from the wrecked remains of an ancient automobile."
+  },
+  {
+    "id": 53200,
+    "condition": "",
+    "text": "Wagon"
+  },
+  {
+    "id": 53201,
+    "condition": "",
+    "text": "A caravan wagon converted from the wrecked remains of an ancient automobile."
+  },
+  {
+    "id": 53300,
+    "condition": "",
+    "text": "Mat"
+  },
+  {
+    "id": 53301,
+    "condition": "",
+    "text": "A training mat."
+  },
+  {
+    "id": 53400,
+    "condition": "",
+    "text": "Mat"
+  },
+  {
+    "id": 53401,
+    "condition": "",
+    "text": "A training mat."
+  },
+  {
+    "id": 53500,
+    "condition": "",
+    "text": "Mat"
+  },
+  {
+    "id": 53501,
+    "condition": "",
+    "text": "A training mat."
+  },
+  {
+    "id": 53600,
+    "condition": "",
+    "text": "Mat"
+  },
+  {
+    "id": 53601,
+    "condition": "",
+    "text": "A training mat."
+  },
+  {
+    "id": 53700,
+    "condition": "",
+    "text": "Punching Bag"
+  },
+  {
+    "id": 53701,
+    "condition": "",
+    "text": "This is a StrongMan(tm) punching bag."
+  },
+  {
+    "id": 53800,
+    "condition": "",
+    "text": "Stair Stepper"
+  },
+  {
+    "id": 53801,
+    "condition": "",
+    "text": "An exercise machine."
+  },
+  {
+    "id": 53900,
+    "condition": "",
+    "text": "Stair Stepper"
+  },
+  {
+    "id": 54000,
+    "condition": "",
+    "text": "Treadmill"
+  },
+  {
+    "id": 54001,
+    "condition": "",
+    "text": "An exercise machine."
+  },
+  {
+    "id": 54100,
+    "condition": "",
+    "text": "Treadmill"
+  },
+  {
+    "id": 54101,
+    "condition": "",
+    "text": "An exercise machine."
+  },
+  {
+    "id": 54200,
+    "condition": "",
+    "text": "Bench Press"
+  },
+  {
+    "id": 54201,
+    "condition": "",
+    "text": "An exercise machine."
+  },
+  {
+    "id": 54300,
+    "condition": "",
+    "text": "Bench Press"
+  },
+  {
+    "id": 54301,
+    "condition": "",
+    "text": "An exercise machine."
+  },
+  {
+    "id": 54400,
+    "condition": "",
+    "text": "Bridge"
+  },
+  {
+    "id": 54401,
+    "condition": "",
+    "text": "A hastily constructed wooden bridge permits access over the moat of green glowing goo."
+  },
+  {
+    "id": 54500,
+    "condition": "",
+    "text": "Bridge"
+  },
+  {
+    "id": 54501,
+    "condition": "",
+    "text": "A hastily constructed wooden bridge permits access over the moat of green glowing goo."
+  },
+  {
+    "id": 54600,
+    "condition": "",
+    "text": "Roulette Table"
+  },
+  {
+    "id": 54601,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 54700,
+    "condition": "",
+    "text": "Roulette Table"
+  },
+  {
+    "id": 54701,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 54800,
+    "condition": "",
+    "text": "Roulette Table"
+  },
+  {
+    "id": 54801,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 54900,
+    "condition": "",
+    "text": "Roulette Table"
+  },
+  {
+    "id": 54901,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 55000,
+    "condition": "",
+    "text": "Roulette Table"
+  },
+  {
+    "id": 55001,
+    "condition": "",
+    "text": "This is a gambling table."
+  },
+  {
+    "id": 55100,
+    "condition": "",
+    "text": "Barrel"
+  },
+  {
+    "id": 55101,
+    "condition": "",
+    "text": "This empty metal barrel has the nuclear trefoil symbol painted on the side in bright yellow paint."
+  },
+  {
+    "id": 55200,
+    "condition": "",
+    "text": "Barrel"
+  },
+  {
+    "id": 55201,
+    "condition": "",
+    "text": "This barrel contains some green glowing goo. The nuclear trefoil symbol gives a clue to what the goo might be."
+  },
+  {
+    "id": 55300,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 55301,
+    "condition": "",
+    "text": "A very modern looking computer."
+  },
+  {
+    "id": 55400,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 55401,
+    "condition": "",
+    "text": "A very modern looking computer."
+  },
+  {
+    "id": 55500,
+    "condition": "",
+    "text": "Suspension Tank"
+  },
+  {
+    "id": 55501,
+    "condition": "",
+    "text": "Some sort of medical or experimental apparatus, it looks as if it could contain a human or larger sized body."
+  },
+  {
+    "id": 55600,
+    "condition": "",
+    "text": "Broken Suspension Tank"
+  },
+  {
+    "id": 55601,
+    "condition": "",
+    "text": "A broken piece of equipment. It is beyond repair."
+  },
+  {
+    "id": 55700,
+    "condition": "",
+    "text": "Mainframe"
+  },
+  {
+    "id": 55701,
+    "condition": "",
+    "text": "A large super computer. Probably the fastest looking computer you've ever seen."
+  },
+  {
+    "id": 55800,
+    "condition": "",
+    "text": "Support Platform"
+  },
+  {
+    "id": 55801,
+    "condition": "",
+    "text": "This platform supports the large super computer over the cooling tanks."
+  },
+  {
+    "id": 55900,
+    "condition": "",
+    "text": "Dont use"
+  },
+  {
+    "id": 56000,
+    "condition": "",
+    "text": "Dont use"
+  },
+  {
+    "id": 56100,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 56101,
+    "condition": "",
+    "text": "A military-style bunk bed. Looks very uncomfortable. Also looks like you could bounce a quarter off of these sheets."
+  },
+  {
+    "id": 56200,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 56201,
+    "condition": "",
+    "text": "A military-style bunk bed. Looks very uncomfortable. Also looks like you could bounce a quarter off of these sheets."
+  },
+  {
+    "id": 56300,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 56301,
+    "condition": "",
+    "text": "A military-style bunk bed. Looks very uncomfortable. Also looks like you could bounce a quarter off of these sheets."
+  },
+  {
+    "id": 56400,
+    "condition": "",
+    "text": "Wire"
+  },
+  {
+    "id": 56401,
+    "condition": "",
+    "text": "It looks like a serial cable of some sort."
+  },
+  {
+    "id": 56500,
+    "condition": "",
+    "text": "Wire"
+  },
+  {
+    "id": 56501,
+    "condition": "",
+    "text": "It looks like a serial cable of some sort."
+  },
+  {
+    "id": 56600,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 56601,
+    "condition": "",
+    "text": "The sign reads BAR. That should be pretty self-evident."
+  },
+  {
+    "id": 56700,
+    "condition": "",
+    "text": "Beam"
+  },
+  {
+    "id": 56701,
+    "condition": "",
+    "text": "This strong beam is stationed over the crater hole."
+  },
+  {
+    "id": 56800,
+    "condition": "",
+    "text": "Beam"
+  },
+  {
+    "id": 56801,
+    "condition": "",
+    "text": "There is a rope securely attached to the beam. It looks like you can climb down into the crater now."
+  },
+  {
+    "id": 56900,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 56901,
+    "condition": "",
+    "text": "You see some very empty metal shelves."
+  },
+  {
+    "id": 57000,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 57001,
+    "condition": "",
+    "text": "You see some very empty metal shelves."
+  },
+  {
+    "id": 57100,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 57101,
+    "condition": "",
+    "text": "You see some very empty metal shelves."
+  },
+  {
+    "id": 57200,
+    "condition": "",
+    "text": "Shelves"
+  },
+  {
+    "id": 57201,
+    "condition": "",
+    "text": "You see some very empty metal shelves."
+  },
+  {
+    "id": 57300,
+    "condition": "",
+    "text": "Bush"
+  },
+  {
+    "id": 57301,
+    "condition": "",
+    "text": "A desert weed of some kind. Not important to this story."
+  },
+  {
+    "id": 57400,
+    "condition": "",
+    "text": "Bush"
+  },
+  {
+    "id": 57401,
+    "condition": "",
+    "text": "A desert weed of some kind."
+  },
+  {
+    "id": 57500,
+    "condition": "",
+    "text": "Bush"
+  },
+  {
+    "id": 57501,
+    "condition": "",
+    "text": "A desert weed of some kind."
+  },
+  {
+    "id": 57600,
+    "condition": "",
+    "text": "Ground"
+  },
+  {
+    "id": 57601,
+    "condition": "",
+    "text": "A nice view of the Boneyards from this tower level. You get a good feeling of just how high up in the sky you are."
+  },
+  {
+    "id": 57700,
+    "condition": "",
+    "text": "Ground"
+  },
+  {
+    "id": 57701,
+    "condition": "",
+    "text": "A nice view of the Boneyards from this tower level."
+  },
+  {
+    "id": 57800,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 57801,
+    "condition": "",
+    "text": "A good view of the outside of the Cathedral."
+  },
+  {
+    "id": 57900,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 57901,
+    "condition": "",
+    "text": "A good view of the outside of the Cathedral."
+  },
+  {
+    "id": 58000,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 58001,
+    "condition": "",
+    "text": "A good view of the outside of the Cathedral."
+  },
+  {
+    "id": 58100,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 58101,
+    "condition": "",
+    "text": "A door that looks perfectly at home in a cell."
+  },
+  {
+    "id": 58200,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 58201,
+    "condition": "",
+    "text": "This sign says this store is called Darkwater's."
+  },
+  {
+    "id": 58300,
+    "condition": "",
+    "text": "Ladder"
+  },
+  {
+    "id": 58301,
+    "condition": "",
+    "text": "This ladder leads into the darkness below."
+  },
+  {
+    "id": 58400,
+    "condition": "",
+    "text": "Ladder"
+  },
+  {
+    "id": 58401,
+    "condition": "",
+    "text": "This ladder leads into the darkness below."
+  },
+  {
+    "id": 58500,
+    "condition": "",
+    "text": "Machinery"
+  },
+  {
+    "id": 58501,
+    "condition": "",
+    "text": "It looks like an old printing press or manufacturing doohikey."
+  },
+  {
+    "id": 58600,
+    "condition": "",
+    "text": "Machinery"
+  },
+  {
+    "id": 58601,
+    "condition": "",
+    "text": "It looks like an old printing press or manufacturing doohikey."
+  },
+  {
+    "id": 58700,
+    "condition": "",
+    "text": "Machinery"
+  },
+  {
+    "id": 58701,
+    "condition": "",
+    "text": "It looks like an old printing press or manufacturing doohikey."
+  },
+  {
+    "id": 58800,
+    "condition": "",
+    "text": "Machinery"
+  },
+  {
+    "id": 58801,
+    "condition": "",
+    "text": "It looks like an old printing press or manufacturing doohikey."
+  },
+  {
+    "id": 58900,
+    "condition": "",
+    "text": "Machinery"
+  },
+  {
+    "id": 58901,
+    "condition": "",
+    "text": "It looks like an old printing press or manufacturing doohikey."
+  },
+  {
+    "id": 59000,
+    "condition": "",
+    "text": "Machinery"
+  },
+  {
+    "id": 59001,
+    "condition": "",
+    "text": "It looks like an old printing press or manufacturing doohikey."
+  },
+  {
+    "id": 59100,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 59101,
+    "condition": "",
+    "text": "This metal table looks in good condition. There is a drain in the center of it."
+  },
+  {
+    "id": 59200,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 59201,
+    "condition": "",
+    "text": "This metal table looks in good condition. There is a drain in the center of it."
+  },
+  {
+    "id": 59300,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 59301,
+    "condition": "",
+    "text": "The metal table is covered by some kind of biomass."
+  },
+  {
+    "id": 59400,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 59401,
+    "condition": "",
+    "text": "The metal table is covered by some kind of biomass."
+  },
+  {
+    "id": 59500,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 59501,
+    "condition": "",
+    "text": "The metal table is covered by some kind of biomass."
+  },
+  {
+    "id": 59600,
+    "condition": "",
+    "text": "Bulletin Board"
+  },
+  {
+    "id": 59601,
+    "condition": "",
+    "text": "Notices for employment are stapled to the board. It looks well used."
+  },
+  {
+    "id": 59700,
+    "condition": "",
+    "text": "Guard Shack"
+  },
+  {
+    "id": 59701,
+    "condition": "",
+    "text": "This guard shack is over a hundred years old, but still in excellent condition."
+  },
+  {
+    "id": 59800,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 59801,
+    "condition": "",
+    "text": "This sign says: General Store."
+  },
+  {
+    "id": 59900,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 59901,
+    "condition": "",
+    "text": "This sign says: General Store."
+  },
+  {
+    "id": 60000,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 60001,
+    "condition": "",
+    "text": "This sign says: Market"
+  },
+  {
+    "id": 60100,
+    "condition": "",
+    "text": "Slime Pool"
+  },
+  {
+    "id": 60101,
+    "condition": "",
+    "text": "It looks very unhealthy. You might want to wear armored swim trunks before taking a dip."
+  },
+  {
+    "id": 60200,
+    "condition": "",
+    "text": "Slime Pool"
+  },
+  {
+    "id": 60201,
+    "condition": "",
+    "text": "It looks very unhealthy. You might want to wear armored swim trunks before taking a dip."
+  },
+  {
+    "id": 60300,
+    "condition": "",
+    "text": "Slime Pool"
+  },
+  {
+    "id": 60301,
+    "condition": "",
+    "text": "It looks very unhealthy. You might want to wear armored swim trunks before taking a dip."
+  },
+  {
+    "id": 60400,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 60401,
+    "condition": "",
+    "text": "A nice looking metal table."
+  },
+  {
+    "id": 60500,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 60501,
+    "condition": "",
+    "text": "A nice looking metal table."
+  },
+  {
+    "id": 60600,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 60601,
+    "condition": "",
+    "text": "A nice looking metal table."
+  },
+  {
+    "id": 60700,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 60701,
+    "condition": "",
+    "text": "A nice looking metal table."
+  },
+  {
+    "id": 60800,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 60801,
+    "condition": "",
+    "text": "This metal table has not been treated well. The rust is very pervasive."
+  },
+  {
+    "id": 60900,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 60901,
+    "condition": "",
+    "text": "A good looking metal table, except for the rust."
+  },
+  {
+    "id": 61000,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 61001,
+    "condition": "",
+    "text": "A good looking metal table, except for the rust."
+  },
+  {
+    "id": 61100,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 61101,
+    "condition": "",
+    "text": "A good looking metal table, except for the rust."
+  },
+  {
+    "id": 61200,
+    "condition": "",
+    "text": "Fire Pit"
+  },
+  {
+    "id": 61201,
+    "condition": "",
+    "text": "The fire is burning."
+  },
+  {
+    "id": 61300,
+    "condition": "",
+    "text": "Mirror"
+  },
+  {
+    "id": 61301,
+    "condition": "",
+    "text": "You look at yourself for a while."
+  },
+  {
+    "id": 61400,
+    "condition": "",
+    "text": "Mirror"
+  },
+  {
+    "id": 61401,
+    "condition": "",
+    "text": "You stare at your image in the mirror for a while."
+  },
+  {
+    "id": 61500,
+    "condition": "",
+    "text": "Sink"
+  },
+  {
+    "id": 61501,
+    "condition": "",
+    "text": "A fully functioning sink. Nice and clean, too."
+  },
+  {
+    "id": 61600,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 61601,
+    "condition": "",
+    "text": "This toilet is very clean. It works, too."
+  },
+  {
+    "id": 61700,
+    "condition": "",
+    "text": "Urinal"
+  },
+  {
+    "id": 61701,
+    "condition": "",
+    "text": "This urinal is functional."
+  },
+  {
+    "id": 61800,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 61801,
+    "condition": "",
+    "text": "If you had a toilet fetish, then this would be a nice toilet."
+  },
+  {
+    "id": 61900,
+    "condition": "",
+    "text": "Sink"
+  },
+  {
+    "id": 61901,
+    "condition": "",
+    "text": "This sink is in perfect condition."
+  },
+  {
+    "id": 62000,
+    "condition": "",
+    "text": "Urinal"
+  },
+  {
+    "id": 62001,
+    "condition": "",
+    "text": "This urinal is in perfect condition."
+  },
+  {
+    "id": 62100,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 62101,
+    "condition": "",
+    "text": "A military-style shower. Not to be used by modest people."
+  },
+  {
+    "id": 62200,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 62201,
+    "condition": "",
+    "text": "A military-style shower. Not to be used by modest people."
+  },
+  {
+    "id": 62300,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 62301,
+    "condition": "",
+    "text": "A military-style shower. Not to be used by modest people."
+  },
+  {
+    "id": 62400,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 62401,
+    "condition": "",
+    "text": "A military-style shower. Not to be used by modest people."
+  },
+  {
+    "id": 62500,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 62501,
+    "condition": "",
+    "text": "A military-style shower. Not to be used by modest people."
+  },
+  {
+    "id": 62600,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 62601,
+    "condition": "",
+    "text": "A military-style shower. Not to be used by modest people."
+  },
+  {
+    "id": 62700,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 62701,
+    "condition": "",
+    "text": "A very comfortable looking bed."
+  },
+  {
+    "id": 62800,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 62801,
+    "condition": "",
+    "text": "A very comfortable looking bed."
+  },
+  {
+    "id": 62900,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 62901,
+    "condition": "",
+    "text": "A structurally-enhanced bunk bed."
+  },
+  {
+    "id": 63000,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 63001,
+    "condition": "",
+    "text": "A structurally-enhanced bunk bed."
+  },
+  {
+    "id": 63100,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 63101,
+    "condition": "",
+    "text": "A structurally-enhanced bunk bed."
+  },
+  {
+    "id": 63200,
+    "condition": "",
+    "text": "Terminal"
+  },
+  {
+    "id": 63300,
+    "condition": "",
+    "text": "Terminal"
+  },
+  {
+    "id": 63400,
+    "condition": "",
+    "text": "Flag"
+  },
+  {
+    "id": 63401,
+    "condition": "",
+    "text": "This flag is the symbol of the Children of the Cathedral."
+  },
+  {
+    "id": 63500,
+    "condition": "",
+    "text": "Flag"
+  },
+  {
+    "id": 63501,
+    "condition": "",
+    "text": "This flag is the symbol of the Children of the Cathedral."
+  },
+  {
+    "id": 63600,
+    "condition": "",
+    "text": "Flag"
+  },
+  {
+    "id": 63601,
+    "condition": "",
+    "text": "This flag is the symbol of the Children of the Cathedral."
+  },
+  {
+    "id": 63700,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 63701,
+    "condition": "",
+    "text": "A large computer."
+  },
+  {
+    "id": 63800,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 63801,
+    "condition": "",
+    "text": "A large computer."
+  },
+  {
+    "id": 63900,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 63901,
+    "condition": "",
+    "text": "A large computer."
+  },
+  {
+    "id": 64000,
+    "condition": "",
+    "text": "Terminal"
+  },
+  {
+    "id": 64001,
+    "condition": "",
+    "text": "The terminal to a large computer."
+  },
+  {
+    "id": 64100,
+    "condition": "",
+    "text": "Dead Body"
+  },
+  {
+    "id": 64101,
+    "condition": "",
+    "text": "It looks as if this person died very painfully."
+  },
+  {
+    "id": 64200,
+    "condition": "",
+    "text": "Dead Body"
+  },
+  {
+    "id": 64201,
+    "condition": "",
+    "text": "It looks as if this person died very painfully."
+  },
+  {
+    "id": 64300,
+    "condition": "",
+    "text": "Dead Body"
+  },
+  {
+    "id": 64301,
+    "condition": "",
+    "text": "It looks as if this person died very painfully."
+  },
+  {
+    "id": 64400,
+    "condition": "",
+    "text": "Dead Body"
+  },
+  {
+    "id": 64401,
+    "condition": "",
+    "text": "It looks as if this person died very painfully."
+  },
+  {
+    "id": 64500,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 64501,
+    "condition": "",
+    "text": "This barred door works well as the door to a jail cell."
+  },
+  {
+    "id": 64600,
+    "condition": "",
+    "text": "Terminal"
+  },
+  {
+    "id": 64700,
+    "condition": "",
+    "text": "Terminal"
+  },
+  {
+    "id": 64800,
+    "condition": "",
+    "text": "Forklift"
+  },
+  {
+    "id": 64801,
+    "condition": "",
+    "text": "The forklift is inoperable."
+  },
+  {
+    "id": 64900,
+    "condition": "",
+    "text": "Forklift"
+  },
+  {
+    "id": 64901,
+    "condition": "",
+    "text": "The forklift is inoperable."
+  },
+  {
+    "id": 65000,
+    "condition": "",
+    "text": "Equipment"
+  },
+  {
+    "id": 65100,
+    "condition": "",
+    "text": "Medical Table"
+  },
+  {
+    "id": 65101,
+    "condition": "",
+    "text": "This table is very rusty. The drain in the center of the table is clogged."
+  },
+  {
+    "id": 65200,
+    "condition": "",
+    "text": "Medical Table"
+  },
+  {
+    "id": 65201,
+    "condition": "",
+    "text": "This table is very rusty."
+  },
+  {
+    "id": 65300,
+    "condition": "",
+    "text": "Gate"
+  },
+  {
+    "id": 65301,
+    "condition": "",
+    "text": "This gate has a bar that raises and lowers."
+  },
+  {
+    "id": 65400,
+    "condition": "",
+    "text": "Pipe"
+  },
+  {
+    "id": 65500,
+    "condition": "",
+    "text": "Pipe"
+  },
+  {
+    "id": 65600,
+    "condition": "",
+    "text": "Power Generator"
+  },
+  {
+    "id": 65601,
+    "condition": "",
+    "text": "A Wattz ElectroBox power generator. Fairly standard as back-up generators before the war."
+  },
+  {
+    "id": 65700,
+    "condition": "",
+    "text": "Tank"
+  },
+  {
+    "id": 65701,
+    "condition": "",
+    "text": "A large water-tank. Looks well-maintained, which is probably a good thing."
+  },
+  {
+    "id": 65800,
+    "condition": "",
+    "text": "Police Box"
+  },
+  {
+    "id": 65801,
+    "condition": "",
+    "text": "A police box from the UK, circa 1960."
+  },
+  {
+    "id": 65900,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 65901,
+    "condition": "",
+    "text": "A nicely made table. Hand-made, but it looks much nicer than any table you've seen before."
+  },
+  {
+    "id": 66000,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 66001,
+    "condition": "",
+    "text": "A nicely made table. Hand-made, but it looks much nicer than any table you've seen before."
+  },
+  {
+    "id": 66100,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 66101,
+    "condition": "",
+    "text": "A nicely made table. Hand-made, but it looks much nicer than any table you've seen before."
+  },
+  {
+    "id": 66200,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66201,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66300,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66301,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66400,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66401,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66500,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66501,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66600,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66601,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66701,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66800,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66801,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 66900,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 66901,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67000,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67001,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67100,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67101,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67200,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67201,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67300,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67301,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67400,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67401,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67500,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67501,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67600,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67601,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 67701,
+    "condition": "",
+    "text": "A very nice looking chair."
+  },
+  {
+    "id": 67800,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 67801,
+    "condition": "",
+    "text": "A very nice looking bed."
+  },
+  {
+    "id": 67900,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 67901,
+    "condition": "",
+    "text": "A very nice looking bed."
+  },
+  {
+    "id": 68000,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 68001,
+    "condition": "",
+    "text": "A very nice looking bed."
+  },
+  {
+    "id": 68100,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 68101,
+    "condition": "",
+    "text": "A very nice looking bed."
+  },
+  {
+    "id": 68200,
+    "condition": "",
+    "text": "Stove"
+  },
+  {
+    "id": 68201,
+    "condition": "",
+    "text": "A functional wood-burning stove."
+  },
+  {
+    "id": 68300,
+    "condition": "",
+    "text": "Stove"
+  },
+  {
+    "id": 68301,
+    "condition": "",
+    "text": "A functional wood-burning stove."
+  },
+  {
+    "id": 68400,
+    "condition": "",
+    "text": "Stove"
+  },
+  {
+    "id": 68401,
+    "condition": "",
+    "text": "A functional wood-burning stove."
+  },
+  {
+    "id": 68500,
+    "condition": "",
+    "text": "Stove"
+  },
+  {
+    "id": 68501,
+    "condition": "",
+    "text": "A functional wood-burning stove."
+  },
+  {
+    "id": 68600,
+    "condition": "",
+    "text": "Broken Post"
+  },
+  {
+    "id": 68700,
+    "condition": "",
+    "text": "Destroyed Entrance"
+  },
+  {
+    "id": 68800,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 68801,
+    "condition": "",
+    "text": "A large formation of rocks. This was not a natural occurrence."
+  },
+  {
+    "id": 68900,
+    "condition": "",
+    "text": "Rocks"
+  },
+  {
+    "id": 68901,
+    "condition": "",
+    "text": "A large formation of rocks. This was not a natural occurrence."
+  },
+  {
+    "id": 69000,
+    "condition": "",
+    "text": "Toilet"
+  },
+  {
+    "id": 69001,
+    "condition": "",
+    "text": "A crude, but effective, toilet. There are some leaves dropped into the hole to manage the odor."
+  },
+  {
+    "id": 69100,
+    "condition": "",
+    "text": "Mountain"
+  },
+  {
+    "id": 69101,
+    "condition": "",
+    "text": "These mountain walls look very inaccessible."
+  },
+  {
+    "id": 69200,
+    "condition": "",
+    "text": "Mountain"
+  },
+  {
+    "id": 69201,
+    "condition": "",
+    "text": "These mountain walls look very inaccessible."
+  },
+  {
+    "id": 69300,
+    "condition": "",
+    "text": "Mountain"
+  },
+  {
+    "id": 69301,
+    "condition": "",
+    "text": "These mountain walls look very inaccessible."
+  },
+  {
+    "id": 69400,
+    "condition": "",
+    "text": "Mountain"
+  },
+  {
+    "id": 69401,
+    "condition": "",
+    "text": "These mountain walls look very inaccessible."
+  },
+  {
+    "id": 69500,
+    "condition": "",
+    "text": "Mountain"
+  },
+  {
+    "id": 69501,
+    "condition": "",
+    "text": "These mountain walls look very inaccessible."
+  },
+  {
+    "id": 69600,
+    "condition": "",
+    "text": "Mountain"
+  },
+  {
+    "id": 69601,
+    "condition": "",
+    "text": "These mountain walls look very inaccessible."
+  },
+  {
+    "id": 69700,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 69701,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 69800,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 69801,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 69900,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 69901,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70000,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70001,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70100,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70101,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70200,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70201,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70300,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70301,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70400,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70401,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70500,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70501,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70600,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70601,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70700,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70701,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70800,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70801,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 70900,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 70901,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71000,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71001,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71100,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71101,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71200,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71201,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71300,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71301,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71400,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71401,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71500,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71501,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71600,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71601,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71700,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71701,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71800,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71801,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 71900,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 71901,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72000,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72001,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72100,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72101,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72200,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72201,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72300,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72301,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72400,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72401,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72500,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72501,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72600,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72601,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72700,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72701,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72800,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72801,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 72900,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 72901,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73000,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73001,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73100,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73101,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73200,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73201,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73300,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73301,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73400,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73401,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73500,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73501,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73600,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73601,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73700,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73701,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73800,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73801,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 73900,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 73901,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74000,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74001,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74100,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74101,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74200,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74201,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74300,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74301,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74400,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74401,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74500,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74501,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74600,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74601,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74700,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74701,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74800,
+    "condition": "",
+    "text": "Goo"
+  },
+  {
+    "id": 74801,
+    "condition": "",
+    "text": "You see some strange noxious biological goo."
+  },
+  {
+    "id": 74900,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 74901,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75000,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75001,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75100,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75101,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75200,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75201,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75300,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75301,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75400,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75401,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75500,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75501,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75600,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75601,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75700,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75701,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75800,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75801,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 75900,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 75901,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 76000,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 76001,
+    "condition": "",
+    "text": "The amount of goo on this computer makes it very difficult to access."
+  },
+  {
+    "id": 76100,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 76101,
+    "condition": "",
+    "text": "You cannot read anything on the monitor due to the amount of goo splashed across the screens."
+  },
+  {
+    "id": 76200,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 76201,
+    "condition": "",
+    "text": "You cannot read anything on the monitor due to the amount of goo splashed across the screens."
+  },
+  {
+    "id": 76300,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 76301,
+    "condition": "",
+    "text": "You cannot read anything on the monitor due to the amount of goo splashed across the screens."
+  },
+  {
+    "id": 76400,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 76401,
+    "condition": "",
+    "text": "You cannot read anything on the monitor due to the amount of goo splashed across the screens."
+  },
+  {
+    "id": 76500,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 76501,
+    "condition": "",
+    "text": "You would swear that there is something moving on the floor."
+  },
+  {
+    "id": 76600,
+    "condition": "",
+    "text": "Pedestal"
+  },
+  {
+    "id": 76601,
+    "condition": "",
+    "text": "The pedestal looks as if it were slowly breathing in and out."
+  },
+  {
+    "id": 76700,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 76800,
+    "condition": "",
+    "text": "Bomb"
+  },
+  {
+    "id": 76801,
+    "condition": "",
+    "text": "This is a nuclear bomb. It looks very dangerous just sitting there."
+  },
+  {
+    "id": 76900,
+    "condition": "",
+    "text": "Support Base"
+  },
+  {
+    "id": 76901,
+    "condition": "",
+    "text": "This base cradles the nuclear bomb that is sitting on it."
+  },
+  {
+    "id": 77000,
+    "condition": "",
+    "text": "Computer Console"
+  },
+  {
+    "id": 77001,
+    "condition": "",
+    "text": "This is a nuclear access computer. The computer looks very secure. There is a slot for a strangely shaped key."
+  },
+  {
+    "id": 77100,
+    "condition": "",
+    "text": "Wires"
+  },
+  {
+    "id": 77101,
+    "condition": "",
+    "text": "These wires are connecting the bomb to the computer."
+  },
+  {
+    "id": 77200,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77201,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77300,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77301,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77400,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77401,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77500,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77501,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77600,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77601,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77701,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77800,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77801,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 77900,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 77901,
+    "condition": "",
+    "text": "There is nothing unusual about this chair."
+  },
+  {
+    "id": 78000,
+    "condition": "",
+    "text": "Pillar"
+  },
+  {
+    "id": 78001,
+    "condition": "",
+    "text": "A support pillar."
+  },
+  {
+    "id": 78100,
+    "condition": "",
+    "text": "Pillar"
+  },
+  {
+    "id": 78101,
+    "condition": "",
+    "text": "A support pillar."
+  },
+  {
+    "id": 78200,
+    "condition": "",
+    "text": "Pillar"
+  },
+  {
+    "id": 78201,
+    "condition": "",
+    "text": "A support pillar."
+  },
+  {
+    "id": 78300,
+    "condition": "",
+    "text": "Pillar"
+  },
+  {
+    "id": 78301,
+    "condition": "",
+    "text": "A support pillar."
+  },
+  {
+    "id": 78400,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 78401,
+    "condition": "",
+    "text": "This bed is in wretched condition."
+  },
+  {
+    "id": 78500,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 78501,
+    "condition": "",
+    "text": "This bed is in very poor condition."
+  },
+  {
+    "id": 78600,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 78601,
+    "condition": "",
+    "text": "This bed is in poor condition."
+  },
+  {
+    "id": 78700,
+    "condition": "",
+    "text": "Bed"
+  },
+  {
+    "id": 78701,
+    "condition": "",
+    "text": "This bed is in pretty bad condition."
+  },
+  {
+    "id": 78800,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 78801,
+    "condition": "",
+    "text": "These monitors are broken and cannot function."
+  },
+  {
+    "id": 78900,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 78901,
+    "condition": "",
+    "text": "These monitors are broken and cannot function."
+  },
+  {
+    "id": 79000,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 79001,
+    "condition": "",
+    "text": "These monitors are broken and cannot function."
+  },
+  {
+    "id": 79100,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 79101,
+    "condition": "",
+    "text": "These monitors are broken and cannot function."
+  },
+  {
+    "id": 79200,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 79201,
+    "condition": "",
+    "text": "Very little fresh air is coming from this vent."
+  },
+  {
+    "id": 79300,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 79301,
+    "condition": "",
+    "text": "Almost no fresh air is coming from this vent."
+  },
+  {
+    "id": 79400,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 79401,
+    "condition": "",
+    "text": "No fresh air is coming from this vent."
+  },
+  {
+    "id": 79500,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 79501,
+    "condition": "",
+    "text": "Just a tiny amount of fresh air is coming from this vent."
+  },
+  {
+    "id": 79600,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 79601,
+    "condition": "",
+    "text": "There is nothing unusual about this table, except that it is almost destroyed."
+  },
+  {
+    "id": 79700,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 79701,
+    "condition": "",
+    "text": "This table was badly damaged."
+  },
+  {
+    "id": 79800,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 79801,
+    "condition": "",
+    "text": "This table is in very poor condition."
+  },
+  {
+    "id": 79900,
+    "condition": "",
+    "text": "Table"
+  },
+  {
+    "id": 79901,
+    "condition": "",
+    "text": "There is no reason to search this table."
+  },
+  {
+    "id": 80000,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 80001,
+    "condition": "",
+    "text": "The display screens in this bank of monitors have been destroyed."
+  },
+  {
+    "id": 80100,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 80101,
+    "condition": "",
+    "text": "The display screens in this bank of monitors have been damaged beyond repair."
+  },
+  {
+    "id": 80200,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 80201,
+    "condition": "",
+    "text": "The monitor screen is cracked and destroyed."
+  },
+  {
+    "id": 80300,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 80301,
+    "condition": "",
+    "text": "This monitor is worthless with a broken display screen."
+  },
+  {
+    "id": 80400,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 80401,
+    "condition": "",
+    "text": "This computer is broken."
+  },
+  {
+    "id": 80500,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 80501,
+    "condition": "",
+    "text": "This computer is broken."
+  },
+  {
+    "id": 80600,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 80601,
+    "condition": "",
+    "text": "This computer is broken."
+  },
+  {
+    "id": 80700,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 80701,
+    "condition": "",
+    "text": "This chair is ruined."
+  },
+  {
+    "id": 80800,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 80801,
+    "condition": "",
+    "text": "This chair is ruined."
+  },
+  {
+    "id": 80900,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 80901,
+    "condition": "",
+    "text": "This chair is ruined."
+  },
+  {
+    "id": 81000,
+    "condition": "",
+    "text": "Chair"
+  },
+  {
+    "id": 81001,
+    "condition": "",
+    "text": "This chair is ruined."
+  },
+  {
+    "id": 81100,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 81101,
+    "condition": "",
+    "text": "This vent has been damaged beyond repair."
+  },
+  {
+    "id": 81200,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 81201,
+    "condition": "",
+    "text": "This vent is very damaged, and cannot be repaired."
+  },
+  {
+    "id": 81300,
+    "condition": "",
+    "text": "Vent"
+  },
+  {
+    "id": 81301,
+    "condition": "",
+    "text": "This vent is not functioning at all."
+  },
+  {
+    "id": 81400,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 81401,
+    "condition": "",
+    "text": "This computer looks like it is barely functional."
+  },
+  {
+    "id": 81500,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 81501,
+    "condition": "",
+    "text": "This computer looks like it is barely functional."
+  },
+  {
+    "id": 81600,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 81601,
+    "condition": "",
+    "text": "The monitor is barely working."
+  },
+  {
+    "id": 81700,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 81701,
+    "condition": "",
+    "text": "The monitor is barely working."
+  },
+  {
+    "id": 81800,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 81801,
+    "condition": "",
+    "text": "The computer is not functioning."
+  },
+  {
+    "id": 81900,
+    "condition": "",
+    "text": "Computer"
+  },
+  {
+    "id": 81901,
+    "condition": "",
+    "text": "The computer is not functioning."
+  },
+  {
+    "id": 82000,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 82001,
+    "condition": "",
+    "text": "The monitor is not functioning."
+  },
+  {
+    "id": 82100,
+    "condition": "",
+    "text": "Monitor"
+  },
+  {
+    "id": 82101,
+    "condition": "",
+    "text": "The monitor is not functioning."
+  },
+  {
+    "id": 82200,
+    "condition": "",
+    "text": "Doorway"
+  },
+  {
+    "id": 82201,
+    "condition": "",
+    "text": "It looks like a very nice doorway. It does the job of holding up a door very well."
+  },
+  {
+    "id": 82300,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 82301,
+    "condition": "",
+    "text": "The monitors are in good condition."
+  },
+  {
+    "id": 82400,
+    "condition": "",
+    "text": "Monitors"
+  },
+  {
+    "id": 82401,
+    "condition": "",
+    "text": "The monitors are in good condition."
+  },
+  {
+    "id": 82500,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 82600,
+    "condition": "",
+    "text": "Bank Door"
+  },
+  {
+    "id": 82601,
+    "condition": "",
+    "text": "A very sturdy bank vault door. The door looks very secure."
+  },
+  {
+    "id": 82700,
+    "condition": "",
+    "text": "Light"
+  },
+  {
+    "id": 82701,
+    "condition": "",
+    "text": "A security light."
+  },
+  {
+    "id": 82800,
+    "condition": "",
+    "text": "Light"
+  },
+  {
+    "id": 82801,
+    "condition": "",
+    "text": "A security light."
+  },
+  {
+    "id": 82900,
+    "condition": "",
+    "text": "Pillar"
+  },
+  {
+    "id": 82901,
+    "condition": "",
+    "text": "This pillar is the show piece of the Shady Sands square. It tells stories to remind the people of hope and peace."
+  },
+  {
+    "id": 83000,
+    "condition": "",
+    "text": "Robot Receptacle"
+  },
+  {
+    "id": 83001,
+    "condition": "",
+    "text": "This is a robot recharging bay. When not in service, robots will dock here to shut down and recharge."
+  },
+  {
+    "id": 83100,
+    "condition": "",
+    "text": "Robot Receptacle"
+  },
+  {
+    "id": 83101,
+    "condition": "",
+    "text": "This is a robot recharging bay. When not in service, robots will dock here to shut down and recharge."
+  },
+  {
+    "id": 83200,
+    "condition": "",
+    "text": "Robot Receptacle"
+  },
+  {
+    "id": 83201,
+    "condition": "",
+    "text": "This is a robot recharging bay. When not in service, robots will dock here to shut down and recharge."
+  },
+  {
+    "id": 83300,
+    "condition": "",
+    "text": "Robot Receptacle"
+  },
+  {
+    "id": 83301,
+    "condition": "",
+    "text": "This is a robot recharging bay. When not in service, robots will dock here to shut down and recharge."
+  },
+  {
+    "id": 83400,
+    "condition": "",
+    "text": "Robot Receptacle"
+  },
+  {
+    "id": 83401,
+    "condition": "",
+    "text": "This is a robot recharging bay. When not in service, robots will dock here to shut down and recharge."
+  },
+  {
+    "id": 83500,
+    "condition": "",
+    "text": "Machine"
+  },
+  {
+    "id": 83501,
+    "condition": "",
+    "text": "This machine has something to do with the robot service bays. It does not look particular interesting."
+  },
+  {
+    "id": 83600,
+    "condition": "",
+    "text": "Machine"
+  },
+  {
+    "id": 83601,
+    "condition": "",
+    "text": "This machine has something to do with the robot service bays. It does not look very interesting."
+  },
+  {
+    "id": 83700,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 83800,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 83900,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84000,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84100,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84200,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84300,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84400,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84500,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84600,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84700,
+    "condition": "",
+    "text": "Stripe"
+  },
+  {
+    "id": 84800,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 84801,
+    "condition": "",
+    "text": "A very normal wooden door."
+  },
+  {
+    "id": 84900,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 84901,
+    "condition": "",
+    "text": "A very normal wooden door."
+  },
+  {
+    "id": 85000,
+    "condition": "",
+    "text": "Door"
+  },
+  {
+    "id": 85001,
+    "condition": "",
+    "text": "A very normal wooden door."
+  },
+  {
+    "id": 85100,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 85101,
+    "condition": "",
+    "text": "This sign stands for Friendly Lending Company."
+  },
+  {
+    "id": 85200,
+    "condition": "",
+    "text": "Emblem"
+  },
+  {
+    "id": 85201,
+    "condition": "",
+    "text": "This emblem is used by the Followers of the Apocalypse."
+  },
+  {
+    "id": 85300,
+    "condition": "",
+    "text": "Medical Table"
+  },
+  {
+    "id": 85301,
+    "condition": "",
+    "text": "This looks like a medical examination table."
+  },
+  {
+    "id": 85400,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 85401,
+    "condition": "",
+    "text": "This is a neon sign for the Maltese Falcon."
+  },
+  {
+    "id": 85500,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 85600,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 85700,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 85800,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 85900,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86000,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86100,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86200,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86300,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86400,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86500,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86600,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86700,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86800,
+    "condition": "",
+    "text": "Graffiti"
+  },
+  {
+    "id": 86900,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 86901,
+    "condition": "",
+    "text": "It says: GUNS. They might sell guns there."
+  },
+  {
+    "id": 87000,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87001,
+    "condition": "",
+    "text": "The sign reads: Police."
+  },
+  {
+    "id": 87100,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87101,
+    "condition": "",
+    "text": "This is the sign of the Far Go Traders."
+  },
+  {
+    "id": 87200,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87201,
+    "condition": "",
+    "text": "This sign is labeled: Gunrunners."
+  },
+  {
+    "id": 87300,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87301,
+    "condition": "",
+    "text": "This is the sign of the Crimson Caravan trading company."
+  },
+  {
+    "id": 87400,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87401,
+    "condition": "",
+    "text": "This sign reads: Hospital. This might be a good thing."
+  },
+  {
+    "id": 87500,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87501,
+    "condition": "",
+    "text": "This is the sign of the Crash House."
+  },
+  {
+    "id": 87600,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87601,
+    "condition": "",
+    "text": "This very unlikely sign reads: Bob's Pre-Owned Car Mart."
+  },
+  {
+    "id": 87700,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 87701,
+    "condition": "",
+    "text": "This is the sign of the Water Merchants, a Hub trading company."
+  },
+  {
+    "id": 87800,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 87801,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 87900,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 87901,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88000,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 88001,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88100,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 88101,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88200,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 88201,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88300,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 88301,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88400,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 88401,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88500,
+    "condition": "",
+    "text": "Egg Shell"
+  },
+  {
+    "id": 88501,
+    "condition": "",
+    "text": "Pieces of a broken egg shell."
+  },
+  {
+    "id": 88600,
+    "condition": "",
+    "text": "Lamp Post"
+  },
+  {
+    "id": 88601,
+    "condition": "",
+    "text": "A lamp post. It looks like it is in good working order."
+  },
+  {
+    "id": 88700,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 88701,
+    "condition": "",
+    "text": "The sign reads: Motel."
+  },
+  {
+    "id": 88800,
+    "condition": "",
+    "text": "Mushrooms"
+  },
+  {
+    "id": 88801,
+    "condition": "",
+    "text": "This table planter has been filled with dung, and mushrooms are happily growing in it."
+  },
+  {
+    "id": 88900,
+    "condition": "",
+    "text": "Mushrooms"
+  },
+  {
+    "id": 88901,
+    "condition": "",
+    "text": "This table planter has been filled with dung, and mushrooms are happily growing in it."
+  },
+  {
+    "id": 89000,
+    "condition": "",
+    "text": "Skeleton"
+  },
+  {
+    "id": 89100,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 89101,
+    "condition": "",
+    "text": "This sign reads: Jail."
+  },
+  {
+    "id": 89200,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 89201,
+    "condition": "",
+    "text": "This is the sign of the Skum Pitt bar and madhouse."
+  },
+  {
+    "id": 89300,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 89301,
+    "condition": "",
+    "text": "An advertisement for Blades-brand razor blades."
+  },
+  {
+    "id": 89400,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 89401,
+    "condition": "",
+    "text": "A fairly normal shower stall."
+  },
+  {
+    "id": 89500,
+    "condition": "",
+    "text": "Shower"
+  },
+  {
+    "id": 89501,
+    "condition": "",
+    "text": "A fairly normal shower stall."
+  },
+  {
+    "id": 89600,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 89601,
+    "condition": "",
+    "text": "This is the sign of the Friendly Lending Company."
+  },
+  {
+    "id": 89700,
+    "condition": "",
+    "text": "Sign"
+  },
+  {
+    "id": 89701,
+    "condition": "",
+    "text": "This is the sign of the Friendly Lending Company."
+  },
+  {
+    "id": 89800,
+    "condition": "",
+    "text": "Poster"
+  },
+  {
+    "id": 89801,
+    "condition": "",
+    "text": "This is a movie poster for a horror film from pre-War days."
+  },
+  {
+    "id": 89900,
+    "condition": "",
+    "text": "Poster"
+  },
+  {
+    "id": 89901,
+    "condition": "",
+    "text": "This is a movie poster for a horror film from pre-War days."
+  },
+  {
+    "id": 90000,
+    "condition": "",
+    "text": "Bar"
+  },
+  {
+    "id": 90001,
+    "condition": "",
+    "text": "There is an urn sitting on this bar. The urn looks a little beat up, but might be valuable."
+  },
+  {
+    "id": 90100,
+    "condition": "",
+    "text": "Elevator Shaft"
+  },
+  {
+    "id": 90101,
+    "condition": "",
+    "text": "The shaft has a rope hanging from above."
+  },
+  {
+    "id": 90200,
+    "condition": "",
+    "text": "Elevator Shaft"
+  },
+  {
+    "id": 90201,
+    "condition": "",
+    "text": "The shaft has a rope hanging down from the edge."
+  },
+  {
+    "id": 90300,
+    "condition": "",
+    "text": "Medical Bed"
+  },
+  {
+    "id": 90301,
+    "condition": "",
+    "text": "This bed has a built-in display for monitoring the patients progress."
+  },
+  {
+    "id": 90400,
+    "condition": "",
+    "text": "Water Pump"
+  },
+  {
+    "id": 90401,
+    "condition": "",
+    "text": "This is a piece of machinery that pumps water up from below."
+  },
+  {
+    "id": 90500,
+    "condition": "",
+    "text": "Medical Bed"
+  },
+  {
+    "id": 90501,
+    "condition": "",
+    "text": "This bed has a built-in display for monitoring the patients progress."
+  },
+  {
+    "id": 90600,
+    "condition": "",
+    "text": "Power Armor Parts"
+  },
+  {
+    "id": 90601,
+    "condition": "",
+    "text": "These are parts to a suit of Power Armor."
+  },
+  {
+    "id": 90700,
+    "condition": "",
+    "text": "Light"
+  },
+  {
+    "id": 90701,
+    "condition": "",
+    "text": "This security light is currently pulsating a bright red."
+  },
+  {
+    "id": 90800,
+    "condition": "",
+    "text": "Light"
+  },
+  {
+    "id": 90801,
+    "condition": "",
+    "text": "This security light is currently pulsating a bright red."
+  }
+]
