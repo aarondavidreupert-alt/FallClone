@@ -29,7 +29,10 @@ import {
   ROOF_STD,
   TX_FLOOR, TX_FLOOR2, TX_FLOOR3, TX_WALL, TX_DOOR, TX_ROOF,
 } from '../utils/constants';
-import { tileToWorld, tileDepth, mapWorldBounds, worldToTile } from '../systems/IsoRenderer';
+import {
+  tileToWorld, tileDepth, mapWorldBounds, worldToTile,
+  fallout1TileToWorld, fallout1MapWorldBounds, worldToTileCoord,
+} from '../systems/IsoRenderer';
 import type { VaultMapData, LevelData, TileGrid } from '../data/vaultMap';
 import type { CharacterData } from '../utils/types';
 import { findPath } from '../systems/Pathfinder';
@@ -284,7 +287,9 @@ export class LocationScene extends Phaser.Scene {
 
       const cam = this.cameras.main;
       const wp  = cam.getWorldPoint(ptr.x, ptr.y);
-      const { col, row } = worldToTile(wp.x, wp.y);
+      const { col, row } = this.mapData.mapType === 'fallout1'
+        ? worldToTileCoord(wp.x, wp.y)
+        : worldToTile(wp.x, wp.y);
 
       if (col < 0 || col >= this.mapData.width || row < 0 || row >= this.mapData.height) return;
 
@@ -318,17 +323,24 @@ export class LocationScene extends Phaser.Scene {
     this._spawnEnemies(index);
     this._spawnGroundItems(level);
 
-    const bounds = mapWorldBounds(this.mapData.width, this.mapData.height);
-    const cam    = this.cameras.main;
+    const isRealMap = this.mapData.mapType === 'fallout1';
+    const bounds = isRealMap
+      ? fallout1MapWorldBounds(this.mapData.width, this.mapData.height)
+      : mapWorldBounds(this.mapData.width, this.mapData.height);
+    const cam = this.cameras.main;
     cam.setBounds(bounds.x, bounds.y, bounds.width, bounds.height);
-    const start = tileToWorld(level.playerStart.col, level.playerStart.row);
-    cam.centerOn(start.x, start.y);
+    const start = isRealMap
+      ? fallout1TileToWorld(level.playerStart.col, level.playerStart.row)
+      : tileToWorld(level.playerStart.col, level.playerStart.row);
+    cam.centerOn(start.x + (isRealMap ? 40 : 0), start.y);
   }
 
   private _renderLayer(level: LevelData, layer: 0 | 1 | 2): void {
-    const isRoof = layer === 2;
-    const gridH  = level.floor.length;
-    const gridW  = level.floor[0]?.length ?? 0;
+    const isRoof    = layer === 2;
+    const isRealMap = this.mapData.mapType === 'fallout1';
+    const gridH     = level.floor.length;
+    const gridW     = level.floor[0]?.length ?? 0;
+
     for (let row = 0; row < gridH; row++) {
       for (let col = 0; col < gridW; col++) {
         let tileType: number;
@@ -338,12 +350,33 @@ export class LocationScene extends Phaser.Scene {
         else if (layer === 1) { tileType = level.object[row][col]; texKey = OBJ_TEX[tileType];   }
         else                  { tileType = level.roof[row][col];   texKey = ROOF_TEX[tileType];  }
 
+        // For real Fallout 1 maps, use the per-tile texture keyed by raw tile ID.
+        // Fall back to the generic floor texture if the indexed one hasn't loaded.
+        if (isRealMap && layer === 0 && level.tileIds) {
+          const id = level.tileIds[row][col];
+          if (id > 0) {
+            const idxKey = `tile_idx_${id}`;
+            texKey = this.textures.exists(idxKey) ? idxKey : (FLOOR_TEX[tileType] ?? TX_FLOOR);
+          }
+        }
+
         if (!texKey || tileType === T_EMPTY) continue;
 
-        const pos   = tileToWorld(col, row);
+        // Position: real maps use the Fallout 1 oblique formula (setOrigin(0,0));
+        // procedural maps use the classic iso formula (setOrigin(0.5,0)).
+        let img: Phaser.GameObjects.Image;
         const depth = tileDepth(col, row, layer);
-        const img   = this.add.image(pos.x, pos.y, texKey)
-          .setOrigin(0.5, 0).setDepth(depth);
+
+        if (isRealMap) {
+          const pos = fallout1TileToWorld(col, row);
+          img = this.add.image(pos.x, pos.y, texKey)
+            .setOrigin(0, 0).setDepth(depth);
+        } else {
+          const pos = tileToWorld(col, row);
+          img = this.add.image(pos.x, pos.y, texKey)
+            .setOrigin(0.5, 0).setDepth(depth);
+        }
+
         if (isRoof) img.setAlpha(0.55);
         this.uiCam.ignore(img);
         this.tiles.push(img);
@@ -386,7 +419,9 @@ export class LocationScene extends Phaser.Scene {
 
     const ptr = this.input.activePointer;
     const wp  = cam.getWorldPoint(ptr.x, ptr.y);
-    const { col, row } = worldToTile(wp.x, wp.y);
+    const { col, row } = this.mapData.mapType === 'fallout1'
+      ? worldToTileCoord(wp.x, wp.y)
+      : worldToTile(wp.x, wp.y);
     const inMap = col >= 0 && col < this.mapData.width && row >= 0 && row < this.mapData.height;
     this.hudTile.setText(inMap
       ? `(${col},${row})  f:${level.floor[row][col]} o:${level.object[row][col]}`

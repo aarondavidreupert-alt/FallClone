@@ -47,6 +47,8 @@ export interface LevelData {
   readonly roof:   TileGrid;   // ceiling
   readonly playerStart: { col: number; row: number };
   readonly items:  readonly GroundItemSpawn[];   // items on the ground
+  /** Raw Fallout 1 floor tile IDs per cell (0 = empty). Only set for real maps. */
+  readonly tileIds?: TileGrid;
 }
 
 export interface VaultMapData {
@@ -55,6 +57,8 @@ export interface VaultMapData {
   readonly width:  number;
   readonly height: number;
   readonly levels: readonly LevelData[];
+  /** 'fallout1' when loaded from a real MAP file; 'procedural' otherwise. */
+  readonly mapType?: 'procedural' | 'fallout1';
 }
 
 // ── Grid helpers ──────────────────────────────────────────────────────────────

@@ -139,12 +139,29 @@ export function convertMapJson(json: MapJson | null | undefined): VaultMapData |
     const roof:   TileGrid = Array.from({ length: tileH }, () => new Array<number>(tileW).fill(T_EMPTY));
 
     // ── Fill floor / roof from tile array ──────────────────────────────────
+    // tileIds preserves the raw Fallout 1 tile index so LocationScene can look
+    // up the correct per-tile PNG (tile_idx_N).
+    const tileIds: TileGrid = Array.from({ length: tileH },
+      () => new Array<number>(tileW).fill(0));
+
     for (let i = 0; i < tiles.length && i < tileW * tileH; i++) {
       const col = i % tileW;
       const row = Math.floor(i / tileW);
       const t   = tiles[i];
-      if (t.floor > 0) floor[row][col] = T_FLOOR;
-      if (t.roof  > 0) roof [row][col] = ROOF_STD;
+      if (t.floor > 0) {
+        floor[row][col]   = T_FLOOR;   // walkability / layer marker
+        tileIds[row][col] = t.floor;   // raw Fallout 1 tile ID → texture lookup
+      }
+      if (t.roof  > 0) roof[row][col] = ROOF_STD;
+    }
+
+    // Debug: log the first 20 unique floor tile IDs so we can verify mapping
+    if (elevIdx === 0) {
+      const seen = new Set<number>();
+      for (const t of tiles) { if (t.floor > 0) seen.add(t.floor); }
+      const first20 = [...seen].slice(0, 20);
+      console.log('[RealMapLoader] First 20 unique floor tile IDs:', first20);
+      console.log('[RealMapLoader] These map to texture key tile_idx_<id> (0-indexed)');
     }
 
     // ── Fill collision from objects ────────────────────────────────────────
@@ -179,7 +196,7 @@ export function convertMapJson(json: MapJson | null | undefined): VaultMapData |
 
     levels.push({
       name:        levelNames[elevIdx] ?? `Level ${elevIdx}`,
-      floor, object, roof,
+      floor, object, roof, tileIds,
       playerStart,
       items: [],
     });
@@ -203,11 +220,12 @@ export function convertMapJson(json: MapJson | null | undefined): VaultMapData |
   const tileH0 = levels[0]?.floor.length    ?? TILE_H;
 
   return {
-    mapId:  json.header.map_name.toLowerCase().replace(/[^a-z0-9]/g, '_'),
-    name:   json.header.map_name,
-    width:  tileW0,
-    height: tileH0,
+    mapId:   json.header.map_name.toLowerCase().replace(/[^a-z0-9]/g, '_'),
+    name:    json.header.map_name,
+    width:   tileW0,
+    height:  tileH0,
     levels,
+    mapType: 'fallout1',
   };
 }
 
