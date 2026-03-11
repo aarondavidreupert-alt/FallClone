@@ -1,0 +1,482 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Strength"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Perception"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Endurance"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "Charisma"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "Intelligence"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "Agility"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "Luck"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "Maximum Hit Points"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "Maximum Action Points"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "Armor Class"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "Unarmed Damage"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "Melee Damage"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "Carry Weight"
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "Sequence"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "Healing Rate"
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "Critical Chance"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "Better Criticals"
+  },
+  {
+    "id": 117,
+    "condition": "",
+    "text": "Damage Threshold"
+  },
+  {
+    "id": 118,
+    "condition": "",
+    "text": "Damage Threshold Laser"
+  },
+  {
+    "id": 119,
+    "condition": "",
+    "text": "Damage Threshold Fire"
+  },
+  {
+    "id": 120,
+    "condition": "",
+    "text": "Damage Threshold Plasma"
+  },
+  {
+    "id": 121,
+    "condition": "",
+    "text": "Damage Threshold Electrical"
+  },
+  {
+    "id": 122,
+    "condition": "",
+    "text": "Damage Threshold EMP"
+  },
+  {
+    "id": 123,
+    "condition": "",
+    "text": "Damage Threshold Explosion"
+  },
+  {
+    "id": 124,
+    "condition": "",
+    "text": "Damage Resistance"
+  },
+  {
+    "id": 125,
+    "condition": "",
+    "text": "Damage Resistance Laser"
+  },
+  {
+    "id": 126,
+    "condition": "",
+    "text": "Damage Resistance Fire"
+  },
+  {
+    "id": 127,
+    "condition": "",
+    "text": "Damage Resistance Plasma"
+  },
+  {
+    "id": 128,
+    "condition": "",
+    "text": "Damage Resistance Electrical"
+  },
+  {
+    "id": 129,
+    "condition": "",
+    "text": "Damage Resistance EMP"
+  },
+  {
+    "id": 130,
+    "condition": "",
+    "text": "Damage Resistance Explosion"
+  },
+  {
+    "id": 131,
+    "condition": "",
+    "text": "Radiation Resistance"
+  },
+  {
+    "id": 132,
+    "condition": "",
+    "text": "Poison Resistance"
+  },
+  {
+    "id": 133,
+    "condition": "",
+    "text": "Age"
+  },
+  {
+    "id": 134,
+    "condition": "",
+    "text": "Gender"
+  },
+  {
+    "id": 135,
+    "condition": "",
+    "text": "Current Hit Points"
+  },
+  {
+    "id": 136,
+    "condition": "",
+    "text": "Current Poison Level"
+  },
+  {
+    "id": 137,
+    "condition": "",
+    "text": "Current Radiation Level"
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Raw physical strength. A high Strength is good for physical characters. Modifies: Hit Points, Melee Damage, and Carry Weight."
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "The ability to see, hear, taste and notice unusual things. A high Perception is important for a sharpshooter.  Modifies: Sequence and ranged combat distance modifiers."
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "Stamina and physical toughness. A character with a high Endurance will survive where others may not. Modifies: Hit Points, Poison & Radiation Resistance, Healing Rate, and the additional hit points per level."
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "A combination of appearance and charm. A high Charisma is important for characters that want to influence people with words. Modifies: NPC reactions, and barter prices."
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "Knowledge, wisdom and the ability to think quickly. A high Intelligence is important for any character. Modifies: the number of new skill points per level, dialogue options, and many skills."
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "Coordination and the ability to move well. A high Agility is important for any active character. Modifies: Action Points, Armor Class, Sequence, and many skills."
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "Fate. Karma. An extremely high or low Luck will affect the character - somehow. Events and situations will be changed by how lucky (or unlucky) your character is."
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "How much damage your character can take before dying.  If you reach 0 HP or less, you are dead."
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": "The number of actions that the character can take during one combat turn."
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": "Modifies the chance to hit this particular character."
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "The amount of bonus damage your character does in hand-to-hand combat."
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "The amount of bonus damage your character does in hand-to-hand combat."
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "The maximum amount of equipment your character can carry, in pounds."
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "Determines how soon in a combat turn your character can react."
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": "At the end of each day, your character will heal 1 HP for each point of Healing Rate.  When you rest, you heal every six hours."
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "The chance to cause a critical hit in combat is increased by this amount."
+  },
+  {
+    "id": 216,
+    "condition": "",
+    "text": "Better Criticals"
+  },
+  {
+    "id": 217,
+    "condition": "",
+    "text": "Damage Threshold"
+  },
+  {
+    "id": 218,
+    "condition": "",
+    "text": "Damage Threshold Laser"
+  },
+  {
+    "id": 219,
+    "condition": "",
+    "text": "Damage Threshold Fire"
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "Damage Threshold Plasma"
+  },
+  {
+    "id": 221,
+    "condition": "",
+    "text": "Damage Threshold Electrical"
+  },
+  {
+    "id": 222,
+    "condition": "",
+    "text": "Damage Threshold EMP"
+  },
+  {
+    "id": 223,
+    "condition": "",
+    "text": "Damage Threshold Explosion"
+  },
+  {
+    "id": 224,
+    "condition": "",
+    "text": "Any damage taken is reduced by this amount. Damage Resistance can be increased by wearing armor."
+  },
+  {
+    "id": 225,
+    "condition": "",
+    "text": "Damage Resistance Laser"
+  },
+  {
+    "id": 226,
+    "condition": "",
+    "text": "Damage Resistance Fire"
+  },
+  {
+    "id": 227,
+    "condition": "",
+    "text": "Damage Resistance Plasma"
+  },
+  {
+    "id": 228,
+    "condition": "",
+    "text": "Damage Resistance Electrical"
+  },
+  {
+    "id": 229,
+    "condition": "",
+    "text": "Damage Resistance EMP"
+  },
+  {
+    "id": 230,
+    "condition": "",
+    "text": "Damage Resistance Explosion"
+  },
+  {
+    "id": 231,
+    "condition": "",
+    "text": "The amount of radiation you are exposed to is reduced by this percentage. Radiation Resistance can be modified by the type of armor worn, and anti-radiation chems."
+  },
+  {
+    "id": 232,
+    "condition": "",
+    "text": "Reduces poison damage by this amount."
+  },
+  {
+    "id": 233,
+    "condition": "",
+    "text": "Age"
+  },
+  {
+    "id": 234,
+    "condition": "",
+    "text": "Gender"
+  },
+  {
+    "id": 235,
+    "condition": "",
+    "text": "Current Hit Points"
+  },
+  {
+    "id": 236,
+    "condition": "",
+    "text": "Current Poison Level"
+  },
+  {
+    "id": 237,
+    "condition": "",
+    "text": "Current Radiation Level"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "V. Bad"
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "Bad"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "Poor"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "Fair"
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": "Average"
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": "Good"
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "Great"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": "Excellent"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "Heroic"
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Unspent Skill Points"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "Level"
+  },
+  {
+    "id": 402,
+    "condition": "",
+    "text": "Experience"
+  },
+  {
+    "id": 403,
+    "condition": "",
+    "text": "Reputation"
+  },
+  {
+    "id": 404,
+    "condition": "",
+    "text": "Karma"
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Points earned by going up a Level. Can be used to increase a skill by 1%, or a tag skill by 2%, per point spent."
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "The general competency of the player character. A measure of your experience and abilities."
+  },
+  {
+    "id": 502,
+    "condition": "",
+    "text": "A reward for completing specific tasks, or defeating enemies in combat. More experience points are required to attain higher Levels."
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "What the world knows of your actions and deeds. This will modify NPC reactions."
+  },
+  {
+    "id": 504,
+    "condition": "",
+    "text": "The effects of actions that you have taken.  Important information will be displayed."
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "You have gone up a level."
+  }
+]

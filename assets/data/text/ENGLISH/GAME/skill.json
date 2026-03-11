@@ -1,0 +1,412 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Small Guns"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Big Guns"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Energy Weapons"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "Unarmed"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "Melee Weapons"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "Throwing"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "First aid"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "Doctor"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "Sneak"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "Lockpick"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "Steal"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "Traps"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "Science"
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "Repair"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "Speech"
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "Barter"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "Gambling"
+  },
+  {
+    "id": 117,
+    "condition": "",
+    "text": "Outdoorsman"
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "The use, care and general knowledge of small firearms.  Pistols, SMGs and rifles."
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "The operation and maintenance of really big guns.  Miniguns, Rocket Launchers, Flamethrowers and such."
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "The care and feeding of energy-based weapons.  How to arm and operate weapons that use laser or plasma technology."
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "A combination of martial arts, boxing and other hand-to-hand martial arts.  Combat with your hands and feet."
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "Using non-ranged weapons in hand-to-hand, or melee, combat. Knives, sledgehammers, spears, clubs and so on."
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "The skill of muscle-propelled ranged weapons.  Throwing knives, spears and grenades."
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "General healing skill.  Used to heal small cuts, abrasions and other minor ills.  In game terms, the use of first aid can heal more hit points over time than just rest."
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "The healing of major wounds and crippled limbs.  Without this skill, it will take a much longer period of time to restore crippled limbs to use."
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": "Quiet movement, and the ability to remain unnoticed.  If successful, you will be much harder to locate.  You cannot run and sneak at the same time."
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": "The skill of opening locks without the proper key.  The use of lockpicks or electronic lockpicks will greatly enhance this skill."
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "The ability to make the things of others your own.  Can be used to steal from people or places."
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "The finding and removal of traps.  Also the setting of explosives for demolition purposes."
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "Covers a variety of hi-technology skills, such as computers, biology, physics and geology."
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "The practical application of the Science skill.  The fixing of broken equipment, machinery and electronics."
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": "The ability to communicate in a practical and efficient manner.  The skill of convincing others that your position is correct.  The ability to lie and not get caught."
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "Trading and trade-related tasks.  The ability to get better prices for items you sell, and lower prices for items you buy."
+  },
+  {
+    "id": 216,
+    "condition": "",
+    "text": "The knowledge and practical skills related to wagering.  The skill at cards, dice and other games."
+  },
+  {
+    "id": 217,
+    "condition": "",
+    "text": "Practical knowledge of the outdoors, and the ability to live off the land.  The knowledge of plants and animals."
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "+ AG"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "+ AG"
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "+ AG"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "+ (AG + ST)/2"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "+ (AG + ST)/2"
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": "+ AG"
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": "+ (PE + IN)"
+  },
+  {
+    "id": 307,
+    "condition": "",
+    "text": "+ (PE + IN)/2"
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "+ AG"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": "+ (PE + AG)/2"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "+ AG"
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "+ (PE + AG)/2"
+  },
+  {
+    "id": 312,
+    "condition": "",
+    "text": "+ (2 x IN)"
+  },
+  {
+    "id": 313,
+    "condition": "",
+    "text": "+ IN"
+  },
+  {
+    "id": 314,
+    "condition": "",
+    "text": "+ (2 x CH)"
+  },
+  {
+    "id": 315,
+    "condition": "",
+    "text": "+ (2 x CH)"
+  },
+  {
+    "id": 316,
+    "condition": "",
+    "text": "+ (3 x LK)"
+  },
+  {
+    "id": 317,
+    "condition": "",
+    "text": "+ (EN + IN)/2"
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "You heal %d hit points."
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "You look healthy already."
+  },
+  {
+    "id": 502,
+    "condition": "",
+    "text": "%s looks healthy already."
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "You fail to do any healing."
+  },
+  {
+    "id": 505,
+    "condition": "",
+    "text": "You earn %d XP for honing your skills."
+  },
+  {
+    "id": 510,
+    "condition": "",
+    "text": "\\nskill_use: invalid skill used."
+  },
+  {
+    "id": 512,
+    "condition": "",
+    "text": "You can't heal the dead."
+  },
+  {
+    "id": 513,
+    "condition": "",
+    "text": "Let the dead rest in peace."
+  },
+  {
+    "id": 514,
+    "condition": "",
+    "text": "It's dead, get over it."
+  },
+  {
+    "id": 520,
+    "condition": "",
+    "text": "You heal your %s."
+  },
+  {
+    "id": 521,
+    "condition": "",
+    "text": "You heal the %s."
+  },
+  {
+    "id": 525,
+    "condition": "",
+    "text": "You fail to heal your %s."
+  },
+  {
+    "id": 526,
+    "condition": "",
+    "text": "You fail to heal the %s."
+  },
+  {
+    "id": 531,
+    "condition": "",
+    "text": "crippled left arm"
+  },
+  {
+    "id": 532,
+    "condition": "",
+    "text": "crippled right arm"
+  },
+  {
+    "id": 533,
+    "condition": "",
+    "text": "crippled right leg"
+  },
+  {
+    "id": 534,
+    "condition": "",
+    "text": "crippled left leg"
+  },
+  {
+    "id": 550,
+    "condition": "",
+    "text": "You fail to pick the lock."
+  },
+  {
+    "id": 551,
+    "condition": "",
+    "text": "You fail to find any traps."
+  },
+  {
+    "id": 552,
+    "condition": "",
+    "text": "You fail to learn anything."
+  },
+  {
+    "id": 553,
+    "condition": "",
+    "text": "You cannot repair that."
+  },
+  {
+    "id": 570,
+    "condition": "",
+    "text": "You're caught stealing the %s."
+  },
+  {
+    "id": 571,
+    "condition": "",
+    "text": "You steal the %s."
+  },
+  {
+    "id": 572,
+    "condition": "",
+    "text": "You're caught planting the %s."
+  },
+  {
+    "id": 573,
+    "condition": "",
+    "text": "You plant the %s."
+  },
+  {
+    "id": 590,
+    "condition": "",
+    "text": "You've taxed your ability with that skill.  Wait a while."
+  },
+  {
+    "id": 591,
+    "condition": "",
+    "text": "You're too tired."
+  },
+  {
+    "id": 592,
+    "condition": "",
+    "text": "The strain might kill you."
+  }
+]

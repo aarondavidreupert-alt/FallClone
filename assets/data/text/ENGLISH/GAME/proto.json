@@ -1,0 +1,742 @@
+[
+  {
+    "id": 10,
+    "condition": "",
+    "text": "<None>"
+  },
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Glass"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Metal"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Plastic"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "Wood"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "Stone"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "Cement"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "Leather"
+  },
+  {
+    "id": 150,
+    "condition": "",
+    "text": "Armor"
+  },
+  {
+    "id": 151,
+    "condition": "",
+    "text": "Container"
+  },
+  {
+    "id": 152,
+    "condition": "",
+    "text": "Drug"
+  },
+  {
+    "id": 153,
+    "condition": "",
+    "text": "Weapon"
+  },
+  {
+    "id": 154,
+    "condition": "",
+    "text": "Ammo"
+  },
+  {
+    "id": 155,
+    "condition": "",
+    "text": "Misc Item"
+  },
+  {
+    "id": 156,
+    "condition": "",
+    "text": "Key"
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Portal"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "Stairs"
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "Elevator"
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "Ladder Bottom"
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "Ladder Top"
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "Generic Scenery"
+  },
+  {
+    "id": 250,
+    "condition": "",
+    "text": "normal_dam"
+  },
+  {
+    "id": 251,
+    "condition": "",
+    "text": "laser"
+  },
+  {
+    "id": 252,
+    "condition": "",
+    "text": "fire"
+  },
+  {
+    "id": 253,
+    "condition": "",
+    "text": "plasma"
+  },
+  {
+    "id": 254,
+    "condition": "",
+    "text": "electrical"
+  },
+  {
+    "id": 255,
+    "condition": "",
+    "text": "emp"
+  },
+  {
+    "id": 256,
+    "condition": "",
+    "text": "explosion"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "None"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "Rocket"
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "Flamethrower Fuel"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "C Energy Cell"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "D Energy Cell"
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": ".223"
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": "5mm"
+  },
+  {
+    "id": 307,
+    "condition": "",
+    "text": ".40 cal"
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "10mm"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": ".44 cal"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "14mm"
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "12-gauge"
+  },
+  {
+    "id": 312,
+    "condition": "",
+    "text": "9mm"
+  },
+  {
+    "id": 313,
+    "condition": "",
+    "text": "BB"
+  },
+  {
+    "id": 350,
+    "condition": "",
+    "text": "Caucasian"
+  },
+  {
+    "id": 351,
+    "condition": "",
+    "text": "African"
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Biped"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "Quadruped"
+  },
+  {
+    "id": 402,
+    "condition": "",
+    "text": "Robotic"
+  },
+  {
+    "id": 450,
+    "condition": "",
+    "text": "Men"
+  },
+  {
+    "id": 451,
+    "condition": "",
+    "text": "Women"
+  },
+  {
+    "id": 452,
+    "condition": "",
+    "text": "Children"
+  },
+  {
+    "id": 453,
+    "condition": "",
+    "text": "Super Mutants"
+  },
+  {
+    "id": 454,
+    "condition": "",
+    "text": "Ghouls"
+  },
+  {
+    "id": 455,
+    "condition": "",
+    "text": "Brahmin"
+  },
+  {
+    "id": 456,
+    "condition": "",
+    "text": "Radscorpions"
+  },
+  {
+    "id": 457,
+    "condition": "",
+    "text": "Rats"
+  },
+  {
+    "id": 458,
+    "condition": "",
+    "text": "Floaters"
+  },
+  {
+    "id": 459,
+    "condition": "",
+    "text": "Centaurs"
+  },
+  {
+    "id": 460,
+    "condition": "",
+    "text": "Robots"
+  },
+  {
+    "id": 461,
+    "condition": "",
+    "text": "Dogs"
+  },
+  {
+    "id": 462,
+    "condition": "",
+    "text": "Manti"
+  },
+  {
+    "id": 463,
+    "condition": "",
+    "text": "DeathClaws"
+  },
+  {
+    "id": 465,
+    "condition": "",
+    "text": "This line shows the number of male humans you have killed during the course of your adventures."
+  },
+  {
+    "id": 466,
+    "condition": "",
+    "text": "This line shows the number of female humans you have killed during the course of your adventures."
+  },
+  {
+    "id": 467,
+    "condition": "",
+    "text": "This line shows the number of young human children you have killed during the course of your adventures.  You cad."
+  },
+  {
+    "id": 468,
+    "condition": "",
+    "text": "The number of Super Mutants you have slain during the course of your adventures."
+  },
+  {
+    "id": 469,
+    "condition": "",
+    "text": "This line shows the number of male and female ghoul mutants you have killed during the course of your adventures."
+  },
+  {
+    "id": 470,
+    "condition": "",
+    "text": "This line shows the number of Brahmin (mutated cows) you have chopped up during your travels."
+  },
+  {
+    "id": 471,
+    "condition": "",
+    "text": "The number of mutated Radscorpions that you have put to death during your adventure."
+  },
+  {
+    "id": 472,
+    "condition": "",
+    "text": "The number of rats you have killed.  Includes all members of the rat family."
+  },
+  {
+    "id": 473,
+    "condition": "",
+    "text": "This is the number of mutant Floaters that you have put to death."
+  },
+  {
+    "id": 474,
+    "condition": "",
+    "text": "Your tally of dead mutant Centaurs."
+  },
+  {
+    "id": 475,
+    "condition": "",
+    "text": "This is the number of robots that you have destroyed or dismantled."
+  },
+  {
+    "id": 476,
+    "condition": "",
+    "text": "The total number of dogs that you have sent to the great kennel in the sky."
+  },
+  {
+    "id": 477,
+    "condition": "",
+    "text": "This line shows the total number of dead Manti, or large mutated mantis-like insects, that you have squashed so far."
+  },
+  {
+    "id": 478,
+    "condition": "",
+    "text": "This line shows that you have slain the Deathclaw, and any of his spawn."
+  },
+  {
+    "id": 479,
+    "condition": "",
+    "text": "Not Displayed.  Error!"
+  },
+  {
+    "id": 480,
+    "condition": "",
+    "text": "You see: %s."
+  },
+  {
+    "id": 485,
+    "condition": "",
+    "text": "You search the %s."
+  },
+  {
+    "id": 486,
+    "condition": "",
+    "text": "You close the %s."
+  },
+  {
+    "id": 490,
+    "condition": "",
+    "text": "You see: %s."
+  },
+  {
+    "id": 491,
+    "condition": "",
+    "text": "You see a dead: %s."
+  },
+  {
+    "id": 492,
+    "condition": "",
+    "text": "You see the remains of: %s."
+  },
+  {
+    "id": 493,
+    "condition": "",
+    "text": "You see nothing out of the ordinary."
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Dead"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "Almost Dead"
+  },
+  {
+    "id": 502,
+    "condition": "",
+    "text": "Severely Wounded"
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "Wounded"
+  },
+  {
+    "id": 504,
+    "condition": "",
+    "text": "Unhurt"
+  },
+  {
+    "id": 518,
+    "condition": "",
+    "text": "You look: %s "
+  },
+  {
+    "id": 519,
+    "condition": "",
+    "text": "%s %s "
+  },
+  {
+    "id": 520,
+    "condition": "",
+    "text": "You look: %s."
+  },
+  {
+    "id": 521,
+    "condition": "",
+    "text": "%s %s."
+  },
+  {
+    "id": 522,
+    "condition": "",
+    "text": "He looks: %s "
+  },
+  {
+    "id": 523,
+    "condition": "",
+    "text": "She looks: %s "
+  },
+  {
+    "id": 524,
+    "condition": "",
+    "text": "It looks: %s "
+  },
+  {
+    "id": 525,
+    "condition": "",
+    "text": "%s has %d/%d hps."
+  },
+  {
+    "id": 526,
+    "condition": "",
+    "text": "It has %d/%d shots of %s."
+  },
+  {
+    "id": 531,
+    "condition": "",
+    "text": "but has crippled limbs."
+  },
+  {
+    "id": 532,
+    "condition": "",
+    "text": "and have crippled limbs."
+  },
+  {
+    "id": 533,
+    "condition": "",
+    "text": "but have crippled limbs."
+  },
+  {
+    "id": 535,
+    "condition": "",
+    "text": "He has %d/%d hps"
+  },
+  {
+    "id": 536,
+    "condition": "",
+    "text": "She has %d/%d hps"
+  },
+  {
+    "id": 537,
+    "condition": "",
+    "text": "It has %d/%d hps"
+  },
+  {
+    "id": 540,
+    "condition": "",
+    "text": "It weighs %d pounds."
+  },
+  {
+    "id": 541,
+    "condition": "",
+    "text": "It weighs %d pound."
+  },
+  {
+    "id": 544,
+    "condition": "",
+    "text": ", "
+  },
+  {
+    "id": 545,
+    "condition": "",
+    "text": "."
+  },
+  {
+    "id": 546,
+    "condition": "",
+    "text": " and is wielding a %s."
+  },
+  {
+    "id": 547,
+    "condition": "",
+    "text": " and is wielding a %s with %d/%d shots of %s."
+  },
+  {
+    "id": 550,
+    "condition": "",
+    "text": "\\nError: lookup_val out of range!"
+  },
+  {
+    "id": 551,
+    "condition": "",
+    "text": "\\nError: obj_examine: proto_ptr failed!"
+  },
+  {
+    "id": 580,
+    "condition": "",
+    "text": "You use the %s."
+  },
+  {
+    "id": 581,
+    "condition": "",
+    "text": "You use the %s on %s."
+  },
+  {
+    "id": 582,
+    "condition": "",
+    "text": "That does nothing."
+  },
+  {
+    "id": 583,
+    "condition": "",
+    "text": "To your dismay, you realize that it is already dead."
+  },
+  {
+    "id": 584,
+    "condition": "",
+    "text": "As you reach down, you realize that it is already dead."
+  },
+  {
+    "id": 586,
+    "condition": "",
+    "text": "That won't work on the dead."
+  },
+  {
+    "id": 587,
+    "condition": "",
+    "text": "You light the flare."
+  },
+  {
+    "id": 588,
+    "condition": "",
+    "text": "The flare is already lit."
+  },
+  {
+    "id": 589,
+    "condition": "",
+    "text": "You set the timer."
+  },
+  {
+    "id": 590,
+    "condition": "",
+    "text": "The timer is already ticking!"
+  },
+  {
+    "id": 620,
+    "condition": "",
+    "text": "You gain %d experience points for killing: %s."
+  },
+  {
+    "id": 621,
+    "condition": "",
+    "text": "%s you earn %d exp. points."
+  },
+  {
+    "id": 623,
+    "condition": "",
+    "text": "For slaying your opponents, "
+  },
+  {
+    "id": 624,
+    "condition": "",
+    "text": "You are victorious in combat, "
+  },
+  {
+    "id": 625,
+    "condition": "",
+    "text": "For crushing your enemies, "
+  },
+  {
+    "id": 626,
+    "condition": "",
+    "text": "For destroying your enemies without taking a scratch, "
+  },
+  {
+    "id": 650,
+    "condition": "",
+    "text": "[Done]"
+  },
+  {
+    "id": 651,
+    "condition": "",
+    "text": "[More]"
+  },
+  {
+    "id": 652,
+    "condition": "",
+    "text": "More"
+  },
+  {
+    "id": 653,
+    "condition": "",
+    "text": "[Back]"
+  },
+  {
+    "id": 660,
+    "condition": "",
+    "text": "You can't see there."
+  },
+  {
+    "id": 661,
+    "condition": "",
+    "text": "Too far away."
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": "You don't have enough action points."
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": "You read the book."
+  },
+  {
+    "id": 801,
+    "condition": "",
+    "text": "You learn nothing new."
+  },
+  {
+    "id": 802,
+    "condition": "",
+    "text": "You learn new science information."
+  },
+  {
+    "id": 803,
+    "condition": "",
+    "text": "You learn a lot about repairing broken electronics."
+  },
+  {
+    "id": 804,
+    "condition": "",
+    "text": "You learn new ways to heal injury."
+  },
+  {
+    "id": 805,
+    "condition": "",
+    "text": "You learn how to handle your guns better."
+  },
+  {
+    "id": 806,
+    "condition": "",
+    "text": "You learn a lot about wilderness survival."
+  },
+  {
+    "id": 900,
+    "condition": "",
+    "text": "The supplies in the Doctor's Bag run out."
+  },
+  {
+    "id": 901,
+    "condition": "",
+    "text": "The supplies in the First Aid Kit run out."
+  },
+  {
+    "id": 902,
+    "condition": "",
+    "text": "You cannot do that in combat."
+  },
+  {
+    "id": 903,
+    "condition": "",
+    "text": "This person will not barter with you."
+  },
+  {
+    "id": 904,
+    "condition": "",
+    "text": "This person has nothing to tell you about."
+  },
+  {
+    "id": 905,
+    "condition": "",
+    "text": "You cannot pick up that item. You are at your maximum weight capacity."
+  }
+]

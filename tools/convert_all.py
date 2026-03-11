@@ -8,7 +8,7 @@ under assets/.
 
 Expected raw_assets layout (mirrors the original Fallout 1 data directory):
   raw_assets/
-    COLOR.PAL                      — global 256-colour VGA palette
+    COLOR.PAL                    — global 256-colour VGA palette
     art/
       critters/  *.FRM             → assets/sprites/critters/
       tiles/     *.FRM             → assets/tiles/
@@ -33,7 +33,7 @@ Expected raw_assets layout (mirrors the original Fallout 1 data directory):
       ambient/   *.ACM             → assets/audio/ambient/
 
 Usage
------
+----
   # Default paths (raw_assets/ → assets/)
   python tools/convert_all.py
 
@@ -56,17 +56,17 @@ from pathlib import Path
 from typing import List, Tuple
 
 
-# ── Script loader helper ───────────────────────────────────────────────────────
+# ── Script loader helper ────
 
 def _load_converter(script_path: Path):
     """Dynamically import a converter module so we can call its functions."""
     spec   = importlib.util.spec_from_file_location(script_path.stem, script_path)
     module = importlib.util.module_from_spec(spec)       # type: ignore[arg-type]
-    spec.loader.exec_module(module)                      # type: ignore[union-attr]
+    spec.loader.exec_module(module)                    # type: ignore[union-attr]
     return module
 
 
-# ── FRM routing ────────────────────────────────────────────────────────────────
+# ── FRM routing ────
 
 # Maps subdirectory names under raw_assets/art/ to output dirs under assets/
 _FRM_ROUTES: List[Tuple[str, str]] = [
@@ -113,7 +113,7 @@ def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod, increment
                 ok += 1   # count as success — already done
                 continue
             if frm_mod.convert_file(f, target, frm_mod.load_palette(pal_path) if pal_path.exists()
-                                    else frm_mod._greyscale_palette(), rel):
+                    else frm_mod._greyscale_palette(), rel):
                 ok += 1
             else:
                 err += 1
@@ -145,7 +145,7 @@ def _run_frm(raw: Path, out: Path, pal_path: Path, dry: bool, frm_mod, increment
     return ok, err
 
 
-# ── MAP routing ────────────────────────────────────────────────────────────────
+# ── MAP routing ────
 
 def _run_maps(raw: Path, out: Path, dry: bool, map_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
@@ -174,7 +174,7 @@ def _run_maps(raw: Path, out: Path, dry: bool, map_mod, incremental: bool = Fals
     return ok, err
 
 
-# ── MSG routing ────────────────────────────────────────────────────────────────
+# ── MSG routing ────
 
 def _run_msg(raw: Path, out: Path, dry: bool, msg_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
@@ -203,7 +203,7 @@ def _run_msg(raw: Path, out: Path, dry: bool, msg_mod, incremental: bool = False
     return ok, err
 
 
-# ── PRO routing ────────────────────────────────────────────────────────────────
+# ── PRO routing ────
 
 def _run_pro(raw: Path, out: Path, dry: bool, pro_mod, incremental: bool = False) -> Tuple[int, int]:
     ok = err = 0
@@ -234,7 +234,7 @@ def _run_pro(raw: Path, out: Path, dry: bool, pro_mod, incremental: bool = False
     return ok, err
 
 
-# ── ACM routing ────────────────────────────────────────────────────────────────
+# ── ACM routing ────
 
 def _run_acm(
     raw: Path, out: Path, fmt: str, quality: int, dry: bool, acm_mod,
@@ -275,7 +275,7 @@ def _run_acm(
     return ok, err
 
 
-# ── Manifest writer ────────────────────────────────────────────────────────────
+# ── Manifest writer ────
 
 def write_manifest(out: Path) -> None:
     """Write assets/manifest.json listing every converted asset."""
@@ -292,7 +292,63 @@ def write_manifest(out: Path) -> None:
     print(f"\n  Manifest: {manifest_path}  ({total} assets indexed)")
 
 
-# ── Entry point ────────────────────────────────────────────────────────────────
+# ── LST lookup generator ────
+
+def generate_lst_lookups(raw: Path, out: Path) -> None:
+    """
+    Read all .LST files from raw_assets/art/ and write JSON lookup arrays
+    to assets/data/ so the game engine can resolve art IDs to filenames.
+
+    Output files (index 0 = reserved/empty, index N = art ID N):
+      assets/data/tiles_lst.json
+      assets/data/critters_lst.json
+      assets/data/items_lst.json
+      assets/data/scenery_lst.json
+      assets/data/walls_lst.json
+      assets/data/misc_lst.json
+      assets/data/heads_lst.json
+      assets/data/intrface_lst.json
+      assets/data/skilldex_lst.json
+      assets/data/inven_lst.json
+    """
+    import json
+
+    LST_MAP = {
+        "tiles":    raw / "art" / "tiles"    / "TILES.LST",
+        "critters": raw / "art" / "critters" / "CRITTERS.LST",
+        "items":    raw / "art" / "items"    / "ITEMS.LST",
+        "scenery":  raw / "art" / "scenery"  / "SCENERY.LST",
+        "walls":    raw / "art" / "wall"     / "WALLS.LST",
+        "misc":     raw / "art" / "misc"     / "MISC.LST",
+        "heads":    raw / "art" / "heads"    / "HEADS.LST",
+        "intrface": raw / "art" / "intrface" / "INTRFACE.LST",
+        "skilldex": raw / "art" / "skilldex" / "SKILLDEX.LST",
+        "inven":    raw / "art" / "inven"    / "INVEN.LST",
+    }
+
+    data_dir = out / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    print("\n  LST lookups:")
+    for name, lst_path in LST_MAP.items():
+        if not lst_path.exists():
+            print(f"    (skip) {lst_path.name} not found")
+            continue
+
+        entries: list = [""]   # index 0 = reserved/empty
+        with open(lst_path, "r", errors="replace") as f:
+            for line in f:
+                stem = line.strip().split(";")[0].strip()   # strip comments
+                stem = stem.split(",")[0].strip()            # strip ,framecount
+                stem = Path(stem).stem.lower() if stem else ""
+                entries.append(stem)
+
+        out_path = data_dir / f"{name}_lst.json"
+        out_path.write_text(json.dumps(entries, indent=2))
+        print(f"    {lst_path.name:<16} → data/{name}_lst.json  ({len(entries)-1} entries)")
+
+
+# ── Entry point ────
 
 def main() -> None:
     ap = argparse.ArgumentParser(
@@ -315,14 +371,14 @@ def main() -> None:
                     help="Show what would be converted without writing files")
     ap.add_argument("--full",         action="store_true",
                     help="Reconvert all files even if output already exists "
-                         "(default: skip files whose output is already present)")
+                    "(default: skip files whose output is already present)")
     args = ap.parse_args()
 
     raw = Path(args.raw)
     out = Path(args.out)
     dry = args.dry_run
 
-    # ── Incremental mode ──────────────────────────────────────────────────────
+    # ── Incremental mode ────
     # Ask the user (interactive TTY) whether to skip existing output files.
     # Non-interactive runs (CI, pipes) default to incremental (safe & fast).
     if args.full:
@@ -420,6 +476,11 @@ def main() -> None:
     if not dry:
         write_manifest(out)
 
+    # ── LST lookups ──
+    if not dry:
+        print("\n[+] Generating LST lookup JSONs")
+        generate_lst_lookups(raw, out)
+
     elapsed = time.perf_counter() - t0
     print("=" * 60)
     print(f"Done in {elapsed:.1f}s — {total_ok} converted, {total_err} failed")
@@ -429,3 +490,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

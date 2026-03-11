@@ -1,0 +1,3162 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "You need %d action points."
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Out of ammo."
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Target out of range."
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "Combat cannot end with nearby hostile creatures."
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "Your aim is blocked."
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "You cannot use weapons with both arms crippled."
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "You cannot use two-handed weapons with a crippled arm."
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "You are not strong enough to use this weapon properly."
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": " and "
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "knocked out"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "knocked down"
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "crippled your left leg"
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "crippled your right leg"
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "crippled your left arm"
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "crippled your right arm"
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "blinded"
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "were killed"
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": "hit"
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": "critical"
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "on fire"
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "had your armor bypassed"
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "your weapon exploded"
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "your weapon destroyed"
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": "your weapon dropped"
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "lost your next turn"
+  },
+  {
+    "id": 216,
+    "condition": "",
+    "text": "hit yourself"
+  },
+  {
+    "id": 217,
+    "condition": "",
+    "text": "lost the rest of your ammo"
+  },
+  {
+    "id": 218,
+    "condition": "",
+    "text": "fired a dud shot"
+  },
+  {
+    "id": 219,
+    "condition": "",
+    "text": "hurt yourself"
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "hit randomly"
+  },
+  {
+    "id": 221,
+    "condition": "",
+    "text": "crippled a random limb"
+  },
+  {
+    "id": 222,
+    "condition": "",
+    "text": "peppered with fragments"
+  },
+  {
+    "id": 250,
+    "condition": "",
+    "text": "knocked out"
+  },
+  {
+    "id": 251,
+    "condition": "",
+    "text": "knocked down"
+  },
+  {
+    "id": 252,
+    "condition": "",
+    "text": "crippled your left leg"
+  },
+  {
+    "id": 253,
+    "condition": "",
+    "text": "crippled your right leg"
+  },
+  {
+    "id": 254,
+    "condition": "",
+    "text": "crippled your left arm"
+  },
+  {
+    "id": 255,
+    "condition": "",
+    "text": "crippled your right arm"
+  },
+  {
+    "id": 256,
+    "condition": "",
+    "text": "blinded"
+  },
+  {
+    "id": 257,
+    "condition": "",
+    "text": "were killed"
+  },
+  {
+    "id": 258,
+    "condition": "",
+    "text": "hit"
+  },
+  {
+    "id": 259,
+    "condition": "",
+    "text": "critical"
+  },
+  {
+    "id": 260,
+    "condition": "",
+    "text": "on fire"
+  },
+  {
+    "id": 261,
+    "condition": "",
+    "text": "had your armor bypassed"
+  },
+  {
+    "id": 262,
+    "condition": "",
+    "text": "your weapon exploded"
+  },
+  {
+    "id": 263,
+    "condition": "",
+    "text": "your weapon destroyed"
+  },
+  {
+    "id": 264,
+    "condition": "",
+    "text": "your weapon dropped"
+  },
+  {
+    "id": 265,
+    "condition": "",
+    "text": "lost your next turn"
+  },
+  {
+    "id": 266,
+    "condition": "",
+    "text": "hit yourself"
+  },
+  {
+    "id": 267,
+    "condition": "",
+    "text": "lost the rest of your ammo"
+  },
+  {
+    "id": 268,
+    "condition": "",
+    "text": "fired a dud shot"
+  },
+  {
+    "id": 269,
+    "condition": "",
+    "text": "hurt yourself"
+  },
+  {
+    "id": 270,
+    "condition": "",
+    "text": "hit randomly"
+  },
+  {
+    "id": 271,
+    "condition": "",
+    "text": "crippled a random limb"
+  },
+  {
+    "id": 272,
+    "condition": "",
+    "text": "peppered with fragments"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "knocked out"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "knocked down"
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "crippled his left leg"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "crippled his right leg"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "crippled his left arm"
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": "crippled his right arm"
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": "blinded"
+  },
+  {
+    "id": 307,
+    "condition": "",
+    "text": "was killed"
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "hit"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": "critical"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "on fire"
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "had his armor bypassed"
+  },
+  {
+    "id": 312,
+    "condition": "",
+    "text": "his weapon exploded"
+  },
+  {
+    "id": 313,
+    "condition": "",
+    "text": "his weapon destroyed"
+  },
+  {
+    "id": 314,
+    "condition": "",
+    "text": "his weapon dropped"
+  },
+  {
+    "id": 315,
+    "condition": "",
+    "text": "lost his next turn"
+  },
+  {
+    "id": 316,
+    "condition": "",
+    "text": "hit himself"
+  },
+  {
+    "id": 317,
+    "condition": "",
+    "text": "lost the rest of his ammo"
+  },
+  {
+    "id": 318,
+    "condition": "",
+    "text": "fired a dud shot"
+  },
+  {
+    "id": 319,
+    "condition": "",
+    "text": "hurt himself"
+  },
+  {
+    "id": 320,
+    "condition": "",
+    "text": "hit randomly"
+  },
+  {
+    "id": 321,
+    "condition": "",
+    "text": "crippled a random limb"
+  },
+  {
+    "id": 322,
+    "condition": "",
+    "text": "peppered with fragments"
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "knocked out"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "knocked down"
+  },
+  {
+    "id": 402,
+    "condition": "",
+    "text": "crippled her left leg"
+  },
+  {
+    "id": 403,
+    "condition": "",
+    "text": "crippled her right leg"
+  },
+  {
+    "id": 404,
+    "condition": "",
+    "text": "crippled her left arm"
+  },
+  {
+    "id": 405,
+    "condition": "",
+    "text": "crippled her right arm"
+  },
+  {
+    "id": 406,
+    "condition": "",
+    "text": "blinded"
+  },
+  {
+    "id": 407,
+    "condition": "",
+    "text": "was killed"
+  },
+  {
+    "id": 408,
+    "condition": "",
+    "text": "hit"
+  },
+  {
+    "id": 409,
+    "condition": "",
+    "text": "critical"
+  },
+  {
+    "id": 410,
+    "condition": "",
+    "text": "on fire"
+  },
+  {
+    "id": 411,
+    "condition": "",
+    "text": "had her armor bypassed"
+  },
+  {
+    "id": 412,
+    "condition": "",
+    "text": "her weapon exploded"
+  },
+  {
+    "id": 413,
+    "condition": "",
+    "text": "her weapon destroyed"
+  },
+  {
+    "id": 414,
+    "condition": "",
+    "text": "her weapon dropped"
+  },
+  {
+    "id": 415,
+    "condition": "",
+    "text": "lost her next turn"
+  },
+  {
+    "id": 416,
+    "condition": "",
+    "text": "hit herself"
+  },
+  {
+    "id": 417,
+    "condition": "",
+    "text": "lost the rest of her ammo"
+  },
+  {
+    "id": 418,
+    "condition": "",
+    "text": "fired a dud shot"
+  },
+  {
+    "id": 419,
+    "condition": "",
+    "text": "hurt herself"
+  },
+  {
+    "id": 420,
+    "condition": "",
+    "text": "hit randomly"
+  },
+  {
+    "id": 421,
+    "condition": "",
+    "text": "crippled a random limb"
+  },
+  {
+    "id": 422,
+    "condition": "",
+    "text": "peppered with fragments"
+  },
+  {
+    "id": 506,
+    "condition": "",
+    "text": "You"
+  },
+  {
+    "id": 509,
+    "condition": "",
+    "text": "Oops! %s were hit instead of %s!"
+  },
+  {
+    "id": 511,
+    "condition": "",
+    "text": "%s were critically hit in %s for %d hit points"
+  },
+  {
+    "id": 512,
+    "condition": "",
+    "text": "%s were hit in %s for %d hit points"
+  },
+  {
+    "id": 513,
+    "condition": "",
+    "text": "%s were hit for %d hit points"
+  },
+  {
+    "id": 514,
+    "condition": "",
+    "text": "%s critically missed"
+  },
+  {
+    "id": 515,
+    "condition": "",
+    "text": "%s missed"
+  },
+  {
+    "id": 520,
+    "condition": "",
+    "text": "%s were critically hit for %d hit points"
+  },
+  {
+    "id": 521,
+    "condition": "",
+    "text": "%s were critically hit in %s for 1 hit point"
+  },
+  {
+    "id": 522,
+    "condition": "",
+    "text": "%s were hit in %s for 1 hit point"
+  },
+  {
+    "id": 523,
+    "condition": "",
+    "text": "%s were hit for 1 hit point"
+  },
+  {
+    "id": 524,
+    "condition": "",
+    "text": "%s were critically hit for 1 hit point"
+  },
+  {
+    "id": 525,
+    "condition": "",
+    "text": "%s were critically hit in %s for no damage"
+  },
+  {
+    "id": 526,
+    "condition": "",
+    "text": "%s were hit in %s for no damage"
+  },
+  {
+    "id": 527,
+    "condition": "",
+    "text": "%s were hit for no damage"
+  },
+  {
+    "id": 528,
+    "condition": "",
+    "text": "%s were critically hit for no damage"
+  },
+  {
+    "id": 533,
+    "condition": "",
+    "text": "%s critically missed and took 1 hit point"
+  },
+  {
+    "id": 534,
+    "condition": "",
+    "text": "%s critically missed and took %d hit points"
+  },
+  {
+    "id": 556,
+    "condition": "",
+    "text": "You"
+  },
+  {
+    "id": 559,
+    "condition": "",
+    "text": "Oops! %s were hit instead of %s!"
+  },
+  {
+    "id": 561,
+    "condition": "",
+    "text": "%s were critically hit in %s for %d hit points"
+  },
+  {
+    "id": 562,
+    "condition": "",
+    "text": "%s were hit in %s for %d hit points"
+  },
+  {
+    "id": 563,
+    "condition": "",
+    "text": "%s were hit for %d hit points"
+  },
+  {
+    "id": 564,
+    "condition": "",
+    "text": "%s critically missed"
+  },
+  {
+    "id": 565,
+    "condition": "",
+    "text": "%s missed"
+  },
+  {
+    "id": 570,
+    "condition": "",
+    "text": "%s were critically hit for %d hit points"
+  },
+  {
+    "id": 571,
+    "condition": "",
+    "text": "%s were critically hit in %s for 1 hit point"
+  },
+  {
+    "id": 572,
+    "condition": "",
+    "text": "%s were hit in %s for 1 hit point"
+  },
+  {
+    "id": 573,
+    "condition": "",
+    "text": "%s were hit for 1 hit point"
+  },
+  {
+    "id": 574,
+    "condition": "",
+    "text": "%s were critically hit for 1 hit point"
+  },
+  {
+    "id": 575,
+    "condition": "",
+    "text": "%s were critically hit in %s for no damage"
+  },
+  {
+    "id": 576,
+    "condition": "",
+    "text": "%s were hit in %s for no damage"
+  },
+  {
+    "id": 577,
+    "condition": "",
+    "text": "%s were hit for no damage"
+  },
+  {
+    "id": 578,
+    "condition": "",
+    "text": "%s were critically hit for no damage"
+  },
+  {
+    "id": 583,
+    "condition": "",
+    "text": "%s critically missed and took 1 hit point"
+  },
+  {
+    "id": 584,
+    "condition": "",
+    "text": "%s critically missed and took %d hit points"
+  },
+  {
+    "id": 608,
+    "condition": "",
+    "text": "Oops! %s was hit instead of you!"
+  },
+  {
+    "id": 609,
+    "condition": "",
+    "text": "Oops! %s was hit instead of %s!"
+  },
+  {
+    "id": 611,
+    "condition": "",
+    "text": "%s was critically hit in %s for %d hit points"
+  },
+  {
+    "id": 612,
+    "condition": "",
+    "text": "%s was hit in %s for %d hit points"
+  },
+  {
+    "id": 613,
+    "condition": "",
+    "text": "%s was hit for %d hit points"
+  },
+  {
+    "id": 614,
+    "condition": "",
+    "text": "%s critically missed"
+  },
+  {
+    "id": 615,
+    "condition": "",
+    "text": "%s missed"
+  },
+  {
+    "id": 620,
+    "condition": "",
+    "text": "%s was critically hit for %d hit points"
+  },
+  {
+    "id": 621,
+    "condition": "",
+    "text": "%s was critically hit in %s for 1 hit point"
+  },
+  {
+    "id": 622,
+    "condition": "",
+    "text": "%s was hit in %s for 1 hit point"
+  },
+  {
+    "id": 623,
+    "condition": "",
+    "text": "%s was hit for 1 hit point"
+  },
+  {
+    "id": 624,
+    "condition": "",
+    "text": "%s was critically hit for 1 hit point"
+  },
+  {
+    "id": 625,
+    "condition": "",
+    "text": "%s was critically hit in %s for no damage"
+  },
+  {
+    "id": 626,
+    "condition": "",
+    "text": "%s was hit in %s for no damage"
+  },
+  {
+    "id": 627,
+    "condition": "",
+    "text": "%s was hit for no damage"
+  },
+  {
+    "id": 628,
+    "condition": "",
+    "text": "%s was critically hit for no damage"
+  },
+  {
+    "id": 633,
+    "condition": "",
+    "text": "%s critically missed and took 1 hit point"
+  },
+  {
+    "id": 634,
+    "condition": "",
+    "text": "%s critically missed and took %d hit points"
+  },
+  {
+    "id": 708,
+    "condition": "",
+    "text": "Oops! %s was hit instead of you!"
+  },
+  {
+    "id": 709,
+    "condition": "",
+    "text": "Oops! %s was hit instead of %s!"
+  },
+  {
+    "id": 711,
+    "condition": "",
+    "text": "%s was critically hit in %s for %d hit points"
+  },
+  {
+    "id": 712,
+    "condition": "",
+    "text": "%s was hit in %s for %d hit points"
+  },
+  {
+    "id": 713,
+    "condition": "",
+    "text": "%s was hit for %d hit points"
+  },
+  {
+    "id": 714,
+    "condition": "",
+    "text": "%s critically missed"
+  },
+  {
+    "id": 715,
+    "condition": "",
+    "text": "%s missed"
+  },
+  {
+    "id": 720,
+    "condition": "",
+    "text": "%s was critically hit for %d hit points"
+  },
+  {
+    "id": 721,
+    "condition": "",
+    "text": "%s was critically hit in %s for 1 hit point"
+  },
+  {
+    "id": 722,
+    "condition": "",
+    "text": "%s was hit in %s for 1 hit point"
+  },
+  {
+    "id": 723,
+    "condition": "",
+    "text": "%s was hit for 1 hit point"
+  },
+  {
+    "id": 724,
+    "condition": "",
+    "text": "%s was critically hit for 1 hit point"
+  },
+  {
+    "id": 725,
+    "condition": "",
+    "text": "%s was critically hit in %s for no damage"
+  },
+  {
+    "id": 726,
+    "condition": "",
+    "text": "%s was hit in %s for no damage"
+  },
+  {
+    "id": 727,
+    "condition": "",
+    "text": "%s was hit for no damage"
+  },
+  {
+    "id": 728,
+    "condition": "",
+    "text": "%s was critically hit for no damage"
+  },
+  {
+    "id": 733,
+    "condition": "",
+    "text": "%s critically missed and took 1 hit point"
+  },
+  {
+    "id": 734,
+    "condition": "",
+    "text": "%s critically missed and took %d hit points"
+  },
+  {
+    "id": 1110,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1111,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1112,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1113,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1114,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1115,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1116,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1117,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1118,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1150,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1151,
+    "condition": "",
+    "text": "the left hindleg"
+  },
+  {
+    "id": 1152,
+    "condition": "",
+    "text": "the right hindleg"
+  },
+  {
+    "id": 1153,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1154,
+    "condition": "",
+    "text": "the right foreleg"
+  },
+  {
+    "id": 1155,
+    "condition": "",
+    "text": "the left foreleg"
+  },
+  {
+    "id": 1156,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1157,
+    "condition": "",
+    "text": "the udder"
+  },
+  {
+    "id": 1158,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1160,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1161,
+    "condition": "",
+    "text": "the hindleg"
+  },
+  {
+    "id": 1162,
+    "condition": "",
+    "text": "the hindleg"
+  },
+  {
+    "id": 1163,
+    "condition": "",
+    "text": "the body"
+  },
+  {
+    "id": 1164,
+    "condition": "",
+    "text": "the foreleg"
+  },
+  {
+    "id": 1165,
+    "condition": "",
+    "text": "the foreleg"
+  },
+  {
+    "id": 1166,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1167,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1168,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1170,
+    "condition": "",
+    "text": "the CPU"
+  },
+  {
+    "id": 1171,
+    "condition": "",
+    "text": "the manipulator"
+  },
+  {
+    "id": 1172,
+    "condition": "",
+    "text": "the manipulator"
+  },
+  {
+    "id": 1173,
+    "condition": "",
+    "text": "the frame"
+  },
+  {
+    "id": 1174,
+    "condition": "",
+    "text": "the motivator"
+  },
+  {
+    "id": 1175,
+    "condition": "",
+    "text": "the motivator"
+  },
+  {
+    "id": 1176,
+    "condition": "",
+    "text": "the sensors"
+  },
+  {
+    "id": 1177,
+    "condition": "",
+    "text": "the regulator"
+  },
+  {
+    "id": 1178,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1180,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1181,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1182,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1183,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1184,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1185,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1186,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1187,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1188,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1190,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1191,
+    "condition": "",
+    "text": "the left paw"
+  },
+  {
+    "id": 1192,
+    "condition": "",
+    "text": "the right paw"
+  },
+  {
+    "id": 1193,
+    "condition": "",
+    "text": "the body"
+  },
+  {
+    "id": 1194,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1195,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1196,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1197,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1198,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1210,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1211,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1212,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1213,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1214,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1215,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1216,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1217,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1218,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1220,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1221,
+    "condition": "",
+    "text": "the tail"
+  },
+  {
+    "id": 1222,
+    "condition": "",
+    "text": "the claw"
+  },
+  {
+    "id": 1223,
+    "condition": "",
+    "text": "the carapace"
+  },
+  {
+    "id": 1224,
+    "condition": "",
+    "text": "the forelegs"
+  },
+  {
+    "id": 1225,
+    "condition": "",
+    "text": "the hindlegs"
+  },
+  {
+    "id": 1226,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1227,
+    "condition": "",
+    "text": "the brain"
+  },
+  {
+    "id": 1228,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1230,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1231,
+    "condition": "",
+    "text": "the mouth"
+  },
+  {
+    "id": 1232,
+    "condition": "",
+    "text": "the fore mouth"
+  },
+  {
+    "id": 1233,
+    "condition": "",
+    "text": "the body"
+  },
+  {
+    "id": 1234,
+    "condition": "",
+    "text": "the float sac"
+  },
+  {
+    "id": 1235,
+    "condition": "",
+    "text": "the tail"
+  },
+  {
+    "id": 1236,
+    "condition": "",
+    "text": "the ganglion"
+  },
+  {
+    "id": 1237,
+    "condition": "",
+    "text": "the ovipositor"
+  },
+  {
+    "id": 1238,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1240,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1241,
+    "condition": "",
+    "text": "the left paw"
+  },
+  {
+    "id": 1242,
+    "condition": "",
+    "text": "the right paw"
+  },
+  {
+    "id": 1243,
+    "condition": "",
+    "text": "the body"
+  },
+  {
+    "id": 1244,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1245,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1246,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1247,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1248,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1250,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1251,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1252,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1253,
+    "condition": "",
+    "text": "the body"
+  },
+  {
+    "id": 1254,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1255,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1256,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1257,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1258,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1270,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1271,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1272,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1273,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1274,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1275,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1276,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1277,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1278,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1460,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1461,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1462,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1463,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1464,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1465,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1466,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1467,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1468,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1490,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1491,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1492,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1493,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1494,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1495,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1496,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1497,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1498,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1500,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1501,
+    "condition": "",
+    "text": "???"
+  },
+  {
+    "id": 1502,
+    "condition": "",
+    "text": "???"
+  },
+  {
+    "id": 1503,
+    "condition": "",
+    "text": "the frame"
+  },
+  {
+    "id": 1504,
+    "condition": "",
+    "text": "???"
+  },
+  {
+    "id": 1505,
+    "condition": "",
+    "text": "???"
+  },
+  {
+    "id": 1506,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1507,
+    "condition": "",
+    "text": "the CPU"
+  },
+  {
+    "id": 1508,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1510,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1511,
+    "condition": "",
+    "text": "the left arm"
+  },
+  {
+    "id": 1512,
+    "condition": "",
+    "text": "the right arm"
+  },
+  {
+    "id": 1513,
+    "condition": "",
+    "text": "the torso"
+  },
+  {
+    "id": 1514,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1515,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1516,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1517,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1518,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1520,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1521,
+    "condition": "",
+    "text": "the raptorial leg"
+  },
+  {
+    "id": 1522,
+    "condition": "",
+    "text": "the raptorial leg"
+  },
+  {
+    "id": 1523,
+    "condition": "",
+    "text": "the abdomen"
+  },
+  {
+    "id": 1524,
+    "condition": "",
+    "text": "the legs"
+  },
+  {
+    "id": 1525,
+    "condition": "",
+    "text": "the wings"
+  },
+  {
+    "id": 1526,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1527,
+    "condition": "",
+    "text": "the metathorax"
+  },
+  {
+    "id": 1528,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1530,
+    "condition": "",
+    "text": "the CPU"
+  },
+  {
+    "id": 1531,
+    "condition": "",
+    "text": "the manipulator"
+  },
+  {
+    "id": 1532,
+    "condition": "",
+    "text": "the manipulator"
+  },
+  {
+    "id": 1533,
+    "condition": "",
+    "text": "the frame"
+  },
+  {
+    "id": 1534,
+    "condition": "",
+    "text": "the motivator"
+  },
+  {
+    "id": 1535,
+    "condition": "",
+    "text": "the motivator"
+  },
+  {
+    "id": 1536,
+    "condition": "",
+    "text": "the sensors"
+  },
+  {
+    "id": 1537,
+    "condition": "",
+    "text": "the regulator"
+  },
+  {
+    "id": 1538,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1540,
+    "condition": "",
+    "text": "the CPU"
+  },
+  {
+    "id": 1541,
+    "condition": "",
+    "text": "the manipulator"
+  },
+  {
+    "id": 1542,
+    "condition": "",
+    "text": "the manipulator"
+  },
+  {
+    "id": 1543,
+    "condition": "",
+    "text": "the frame"
+  },
+  {
+    "id": 1544,
+    "condition": "",
+    "text": "the motivator"
+  },
+  {
+    "id": 1545,
+    "condition": "",
+    "text": "the motivator"
+  },
+  {
+    "id": 1546,
+    "condition": "",
+    "text": "the sensors"
+  },
+  {
+    "id": 1547,
+    "condition": "",
+    "text": "the regulator"
+  },
+  {
+    "id": 1548,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1550,
+    "condition": "",
+    "text": "the head"
+  },
+  {
+    "id": 1551,
+    "condition": "",
+    "text": "the left paw"
+  },
+  {
+    "id": 1552,
+    "condition": "",
+    "text": "the right paw"
+  },
+  {
+    "id": 1553,
+    "condition": "",
+    "text": "the body"
+  },
+  {
+    "id": 1554,
+    "condition": "",
+    "text": "the right leg"
+  },
+  {
+    "id": 1555,
+    "condition": "",
+    "text": "the left leg"
+  },
+  {
+    "id": 1556,
+    "condition": "",
+    "text": "the eyes"
+  },
+  {
+    "id": 1557,
+    "condition": "",
+    "text": "the groin"
+  },
+  {
+    "id": 1558,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 1580,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1581,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1582,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1583,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1584,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1585,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1586,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1587,
+    "condition": "",
+    "text": "the shell"
+  },
+  {
+    "id": 1588,
+    "condition": "",
+    "text": "uncalled"
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": " and really hurts"
+  },
+  {
+    "id": 5001,
+    "condition": "",
+    "text": ". A serious wound is inflicted"
+  },
+  {
+    "id": 5002,
+    "condition": "",
+    "text": " with no armor defenses"
+  },
+  {
+    "id": 5003,
+    "condition": "",
+    "text": ". The damaging attack knocks him unconscious"
+  },
+  {
+    "id": 5004,
+    "condition": "",
+    "text": ". The blow knocks him to the ground"
+  },
+  {
+    "id": 5005,
+    "condition": "",
+    "text": ". The strong blow to the head knocks him out"
+  },
+  {
+    "id": 5006,
+    "condition": "",
+    "text": ". The attack crushes the temple. Good night, Gracie"
+  },
+  {
+    "id": 5007,
+    "condition": "",
+    "text": ", death is instantaneous"
+  },
+  {
+    "id": 5008,
+    "condition": "",
+    "text": ", causing severe tennis elbow"
+  },
+  {
+    "id": 5009,
+    "condition": "",
+    "text": ", pushing the arm out of the way"
+  },
+  {
+    "id": 5010,
+    "condition": "",
+    "text": ", leaving a big bruise"
+  },
+  {
+    "id": 5011,
+    "condition": "",
+    "text": ", crippling the left arm"
+  },
+  {
+    "id": 5012,
+    "condition": "",
+    "text": ", leaving the left arm dangling by the skin"
+  },
+  {
+    "id": 5013,
+    "condition": "",
+    "text": ". That arm now looks like a bloody stump"
+  },
+  {
+    "id": 5014,
+    "condition": "",
+    "text": ", leaving a crippled right arm"
+  },
+  {
+    "id": 5015,
+    "condition": "",
+    "text": ". His right arm is pulverized by this powerful blow"
+  },
+  {
+    "id": 5016,
+    "condition": "",
+    "text": " in a forceful blow"
+  },
+  {
+    "id": 5017,
+    "condition": "",
+    "text": " blowing through the armor"
+  },
+  {
+    "id": 5018,
+    "condition": "",
+    "text": ", inflicting an extra helping of damage"
+  },
+  {
+    "id": 5019,
+    "condition": "",
+    "text": " with no armor, knocking the combatant to the ground"
+  },
+  {
+    "id": 5020,
+    "condition": "",
+    "text": " knocking the air out, he slumps to the ground out of the fight"
+  },
+  {
+    "id": 5021,
+    "condition": "",
+    "text": ". Unfortunately, his spine is now clearly visible from the front"
+  },
+  {
+    "id": 5022,
+    "condition": "",
+    "text": " putting a major hurt on his leg"
+  },
+  {
+    "id": 5023,
+    "condition": "",
+    "text": ", knocking him to the ground like a bowling pin in a league game"
+  },
+  {
+    "id": 5024,
+    "condition": "",
+    "text": ", bowling him over and crippling that leg"
+  },
+  {
+    "id": 5025,
+    "condition": "",
+    "text": ", smashing the knee into the next town. He falls"
+  },
+  {
+    "id": 5026,
+    "condition": "",
+    "text": ". The intense pain of having a leg removed causes him to quit"
+  },
+  {
+    "id": 5027,
+    "condition": "",
+    "text": " inflicting some extra pain"
+  },
+  {
+    "id": 5028,
+    "condition": "",
+    "text": " causing blindness, unluckily for him"
+  },
+  {
+    "id": 5029,
+    "condition": "",
+    "text": ", and with no protection there, causing serious pain"
+  },
+  {
+    "id": 5030,
+    "condition": "",
+    "text": ", and blinding him with a stunning blow"
+  },
+  {
+    "id": 5031,
+    "condition": "",
+    "text": ". The loss of an eye is too much for him, and he falls to the ground"
+  },
+  {
+    "id": 5032,
+    "condition": "",
+    "text": ", sadly, he is too busy feeling the rush of air on the brain to notice death approaching"
+  },
+  {
+    "id": 5033,
+    "condition": "",
+    "text": ". Ouch! That had to hurt"
+  },
+  {
+    "id": 5034,
+    "condition": "",
+    "text": ", and he's not wearing a cup, either"
+  },
+  {
+    "id": 5035,
+    "condition": "",
+    "text": " and without protection, he falls over, groaning in agony"
+  },
+  {
+    "id": 5036,
+    "condition": "",
+    "text": ". The pain is too much for him and he collapses like a rag"
+  },
+  {
+    "id": 5037,
+    "condition": "",
+    "text": ". He mumbles \"Mother\", as his eyes roll into the back of his head"
+  },
+  {
+    "id": 5100,
+    "condition": "",
+    "text": " and really hurts"
+  },
+  {
+    "id": 5101,
+    "condition": "",
+    "text": ". A serious wound is inflicted"
+  },
+  {
+    "id": 5102,
+    "condition": "",
+    "text": " with no armor"
+  },
+  {
+    "id": 5103,
+    "condition": "",
+    "text": ". The damaging attack knocks her unconscious"
+  },
+  {
+    "id": 5104,
+    "condition": "",
+    "text": ". The blow knocks her to the ground"
+  },
+  {
+    "id": 5105,
+    "condition": "",
+    "text": ". The strong blow to the head knocks her out"
+  },
+  {
+    "id": 5106,
+    "condition": "",
+    "text": ". The attack crushes her temple. Good night, Gracie"
+  },
+  {
+    "id": 5107,
+    "condition": "",
+    "text": ", death is instantaneous"
+  },
+  {
+    "id": 5108,
+    "condition": "",
+    "text": ", causing severe tennis elbow"
+  },
+  {
+    "id": 5109,
+    "condition": "",
+    "text": ", pushing the arm out of the way"
+  },
+  {
+    "id": 5110,
+    "condition": "",
+    "text": ", leaving a big bruise"
+  },
+  {
+    "id": 5111,
+    "condition": "",
+    "text": ", crippling the left arm"
+  },
+  {
+    "id": 5112,
+    "condition": "",
+    "text": ". The left arm is barely attached to her shoulder"
+  },
+  {
+    "id": 5113,
+    "condition": "",
+    "text": ". That arm now looks like a bloody stump"
+  },
+  {
+    "id": 5114,
+    "condition": "",
+    "text": ", leaving a crippled right arm"
+  },
+  {
+    "id": 5115,
+    "condition": "",
+    "text": ". Her right arm is turned into hamburger by the blow"
+  },
+  {
+    "id": 5116,
+    "condition": "",
+    "text": " in a forceful blow"
+  },
+  {
+    "id": 5117,
+    "condition": "",
+    "text": " piercing through her defenses"
+  },
+  {
+    "id": 5118,
+    "condition": "",
+    "text": ", inflicting an extra helping of damage"
+  },
+  {
+    "id": 5119,
+    "condition": "",
+    "text": " with no armor, knocking the female fighter to the ground"
+  },
+  {
+    "id": 5120,
+    "condition": "",
+    "text": " knocking the air out, she slumps to the ground"
+  },
+  {
+    "id": 5121,
+    "condition": "",
+    "text": ". Unfortunately, her major organs have been exposed to the light"
+  },
+  {
+    "id": 5122,
+    "condition": "",
+    "text": " putting a major hurt on her leg"
+  },
+  {
+    "id": 5123,
+    "condition": "",
+    "text": ", knocking her over like a bad blind date"
+  },
+  {
+    "id": 5124,
+    "condition": "",
+    "text": ", knocking her down and crippling that leg"
+  },
+  {
+    "id": 5125,
+    "condition": "",
+    "text": ", smashing the knee into the next town. She takes the fast track to the ground"
+  },
+  {
+    "id": 5126,
+    "condition": "",
+    "text": ". She screams in pain from the broken leg"
+  },
+  {
+    "id": 5127,
+    "condition": "",
+    "text": " inflicting some extra pain"
+  },
+  {
+    "id": 5128,
+    "condition": "",
+    "text": " causing blindness. She grimaces"
+  },
+  {
+    "id": 5129,
+    "condition": "",
+    "text": ", and with no protection there, causing serious pain"
+  },
+  {
+    "id": 5130,
+    "condition": "",
+    "text": ". The wound causes severe blindness, as if there is any other kind"
+  },
+  {
+    "id": 5131,
+    "condition": "",
+    "text": ". She faints from the blinding attack"
+  },
+  {
+    "id": 5132,
+    "condition": "",
+    "text": ", sadly, she doesn't get to pray to her gods before she meets them"
+  },
+  {
+    "id": 5133,
+    "condition": "",
+    "text": ". She takes it like a man. That is to say, it hurts"
+  },
+  {
+    "id": 5134,
+    "condition": "",
+    "text": ", knocking her to the ground"
+  },
+  {
+    "id": 5135,
+    "condition": "",
+    "text": ". Her childbearing days are in trouble as she collapses in a limp heap"
+  },
+  {
+    "id": 5200,
+    "condition": "",
+    "text": ". The little kid starts to cry"
+  },
+  {
+    "id": 5201,
+    "condition": "",
+    "text": ". Unconscious, the small child falls over"
+  },
+  {
+    "id": 5202,
+    "condition": "",
+    "text": ". Ouchie!"
+  },
+  {
+    "id": 5203,
+    "condition": "",
+    "text": ". The blow is true, and the child is knocked unconscious"
+  },
+  {
+    "id": 5204,
+    "condition": "",
+    "text": ", smashing the small child around like a limp rag"
+  },
+  {
+    "id": 5205,
+    "condition": "",
+    "text": ". The left arm of this kid now has an owie"
+  },
+  {
+    "id": 5206,
+    "condition": "",
+    "text": ", throwing the small child off balance"
+  },
+  {
+    "id": 5207,
+    "condition": "",
+    "text": ", breaking that arm with a loud snap. Some serious tears start to flow"
+  },
+  {
+    "id": 5208,
+    "condition": "",
+    "text": ", easily snapping that arm like a small piece of candy"
+  },
+  {
+    "id": 5209,
+    "condition": "",
+    "text": ". The right arm starts to swell, like a balloon"
+  },
+  {
+    "id": 5210,
+    "condition": "",
+    "text": ", and starts to cry"
+  },
+  {
+    "id": 5211,
+    "condition": "",
+    "text": " in a sensitive spot"
+  },
+  {
+    "id": 5212,
+    "condition": "",
+    "text": ". The attack to a vital organ knocks the kid over"
+  },
+  {
+    "id": 5213,
+    "condition": "",
+    "text": ", knocking the little kid over like a toy"
+  },
+  {
+    "id": 5214,
+    "condition": "",
+    "text": ". Now this young child will never really experience life"
+  },
+  {
+    "id": 5215,
+    "condition": "",
+    "text": ", inflicting a deep cut"
+  },
+  {
+    "id": 5216,
+    "condition": "",
+    "text": ". The attack bowls the child over, and breaks the leg"
+  },
+  {
+    "id": 5217,
+    "condition": "",
+    "text": ", inflicting great harm to the small child"
+  },
+  {
+    "id": 5218,
+    "condition": "",
+    "text": ". The young child looks up and starts to cry"
+  },
+  {
+    "id": 5219,
+    "condition": "",
+    "text": ", which blinds the youth"
+  },
+  {
+    "id": 5220,
+    "condition": "",
+    "text": ", bashing in the youthful looking nose"
+  },
+  {
+    "id": 5221,
+    "condition": "",
+    "text": ". A cut appears above the eyes and the blood starts to flow freely"
+  },
+  {
+    "id": 5222,
+    "condition": "",
+    "text": ", which opens an eye like an exploding grape. The child looks bewildered"
+  },
+  {
+    "id": 5223,
+    "condition": "",
+    "text": " causing blindness. The young child drops to the ground"
+  },
+  {
+    "id": 5224,
+    "condition": "",
+    "text": ", the blow continues into the small brain"
+  },
+  {
+    "id": 5225,
+    "condition": "",
+    "text": ". The child looks confused and shaken"
+  },
+  {
+    "id": 5226,
+    "condition": "",
+    "text": ", knocking this young target to the ground"
+  },
+  {
+    "id": 5300,
+    "condition": "",
+    "text": ", hurting the mighty mutant"
+  },
+  {
+    "id": 5301,
+    "condition": "",
+    "text": ", striking a vital spot"
+  },
+  {
+    "id": 5302,
+    "condition": "",
+    "text": ", striking a vital spot and knocking the giant to the ground"
+  },
+  {
+    "id": 5303,
+    "condition": "",
+    "text": ". The giant mutant looks around for a moment, and then slumps to the ground"
+  },
+  {
+    "id": 5304,
+    "condition": "",
+    "text": ". The head explodes like a giant, bloody watermelon"
+  },
+  {
+    "id": 5305,
+    "condition": "",
+    "text": ", severely hurting the mighty mutant"
+  },
+  {
+    "id": 5306,
+    "condition": "",
+    "text": ", causing the giant to spend a moment cursing the universe"
+  },
+  {
+    "id": 5307,
+    "condition": "",
+    "text": ", striking a nerve and forcing the giant to grab his arm in pain"
+  },
+  {
+    "id": 5308,
+    "condition": "",
+    "text": ". The blow breaks the elbow and probably didn't feel too good"
+  },
+  {
+    "id": 5309,
+    "condition": "",
+    "text": ", breaking the thick arm and spewing mutant blood over the ground"
+  },
+  {
+    "id": 5310,
+    "condition": "",
+    "text": ", causing the giant to stumble for a moment and then collapse like a felled tree"
+  },
+  {
+    "id": 5311,
+    "condition": "",
+    "text": ", and gallons of viscera splurt to the ground"
+  },
+  {
+    "id": 5312,
+    "condition": "",
+    "text": ", sending the giant flying to the floor"
+  },
+  {
+    "id": 5313,
+    "condition": "",
+    "text": ". The mutant stumbles and falls, his leg barely able to support him"
+  },
+  {
+    "id": 5314,
+    "condition": "",
+    "text": ", striking a vital location. The mutant crumples under a broken leg"
+  },
+  {
+    "id": 5315,
+    "condition": "",
+    "text": ". The pain of a broken leg overwhelms the mighty giant"
+  },
+  {
+    "id": 5316,
+    "condition": "",
+    "text": ", nearly blinding the mutant"
+  },
+  {
+    "id": 5317,
+    "condition": "",
+    "text": ", blinding the now-furious mutant"
+  },
+  {
+    "id": 5318,
+    "condition": "",
+    "text": ", nearly blinding the mutant but throwing him off balance"
+  },
+  {
+    "id": 5319,
+    "condition": "",
+    "text": ". The blinded mutant stumbles back, unprepared for the next attack"
+  },
+  {
+    "id": 5320,
+    "condition": "",
+    "text": ", blinding the now-unconscious mutant"
+  },
+  {
+    "id": 5321,
+    "condition": "",
+    "text": ". The eyes of the mutant glow for a moment, and then the light fades - permanently"
+  },
+  {
+    "id": 5400,
+    "condition": "",
+    "text": ". The ghoul is surprised, and fails to defend against this attack"
+  },
+  {
+    "id": 5401,
+    "condition": "",
+    "text": ". This blow buries this ghoul"
+  },
+  {
+    "id": 5402,
+    "condition": "",
+    "text": ". The stunned ghoul's hand flies open"
+  },
+  {
+    "id": 5403,
+    "condition": "",
+    "text": ", sneaking through his armor and striking a critical joint"
+  },
+  {
+    "id": 5404,
+    "condition": "",
+    "text": ", sneaking through his armor and lopping the arm off"
+  },
+  {
+    "id": 5405,
+    "condition": "",
+    "text": ". The ghoul moves the wrong way at the wrong moment, and loses an eye"
+  },
+  {
+    "id": 5406,
+    "condition": "",
+    "text": ". The ghoul is wearing no armor there"
+  },
+  {
+    "id": 5407,
+    "condition": "",
+    "text": ", and without armor, the ghoul is blinded"
+  },
+  {
+    "id": 5408,
+    "condition": "",
+    "text": ", causing the ghoul to look bewildered in his final moments"
+  },
+  {
+    "id": 5500,
+    "condition": "",
+    "text": ", knocking the big beast to the ground"
+  },
+  {
+    "id": 5501,
+    "condition": "",
+    "text": ", stunning both brains and felling the giant animal"
+  },
+  {
+    "id": 5502,
+    "condition": "",
+    "text": ". The mutant cow gives a loud, startled cry"
+  },
+  {
+    "id": 5503,
+    "condition": "",
+    "text": ", breaking one of the Brahmin's legs"
+  },
+  {
+    "id": 5504,
+    "condition": "",
+    "text": ", seriously hurting the mutant cow"
+  },
+  {
+    "id": 5505,
+    "condition": "",
+    "text": ", easily penetrating the thick hide of the giant beast"
+  },
+  {
+    "id": 5506,
+    "condition": "",
+    "text": ", penetrating straight through both hearts of the mutant cow"
+  },
+  {
+    "id": 5507,
+    "condition": "",
+    "text": ", blinding both sets of eyes with a single blow"
+  },
+  {
+    "id": 5508,
+    "condition": "",
+    "text": ", blinding both heads and stunning the mutant cow"
+  },
+  {
+    "id": 5509,
+    "condition": "",
+    "text": ", completely blinding the Brahmin and knocking it out"
+  },
+  {
+    "id": 5510,
+    "condition": "",
+    "text": ", the large mutant bovine stumbles for a moment"
+  },
+  {
+    "id": 5511,
+    "condition": "",
+    "text": ". The Brahmin shakes with rage"
+  },
+  {
+    "id": 5512,
+    "condition": "",
+    "text": ". The Brahmin snorts with pain"
+  },
+  {
+    "id": 5513,
+    "condition": "",
+    "text": ". The Brahmin is most upset with this udderly devastating attack"
+  },
+  {
+    "id": 5600,
+    "condition": "",
+    "text": ", sending the Radscorpion flying on it's back"
+  },
+  {
+    "id": 5601,
+    "condition": "",
+    "text": ", separating the head from the carapace"
+  },
+  {
+    "id": 5602,
+    "condition": "",
+    "text": ", seriously damaging the tail"
+  },
+  {
+    "id": 5603,
+    "condition": "",
+    "text": ", putting a major hurt on it's claws"
+  },
+  {
+    "id": 5604,
+    "condition": "",
+    "text": ". The blow slips between the cracks of the Radscorpion's tough carapace"
+  },
+  {
+    "id": 5605,
+    "condition": "",
+    "text": ", striking through the tough carapace without pausing"
+  },
+  {
+    "id": 5606,
+    "condition": "",
+    "text": ", passing through the natural armor and knocking the Radscorpion over"
+  },
+  {
+    "id": 5607,
+    "condition": "",
+    "text": ". The Radscorpion cannot cope with a new sensation, like missing internal organs"
+  },
+  {
+    "id": 5608,
+    "condition": "",
+    "text": ", sending the 'scorpion flying and crippling some of it's legs"
+  },
+  {
+    "id": 5609,
+    "condition": "",
+    "text": ". The attack cuts through an unprotected joint on the leg, severing it"
+  },
+  {
+    "id": 5610,
+    "condition": "",
+    "text": ", seriously wounding and blinding the mutant creature"
+  },
+  {
+    "id": 5611,
+    "condition": "",
+    "text": ", penetrating almost to the brain. Talk about squashing a bug"
+  },
+  {
+    "id": 5612,
+    "condition": "",
+    "text": ", almost penetrating to the brain, but blinding the creature instead"
+  },
+  {
+    "id": 5613,
+    "condition": "",
+    "text": ". The attack is fiendish, and far too sophisticated for this simple creature"
+  },
+  {
+    "id": 5614,
+    "condition": "",
+    "text": ". If it was human, you would swear it's pretty pissed off"
+  },
+  {
+    "id": 5615,
+    "condition": "",
+    "text": ", knocking the poor creature senseless"
+  },
+  {
+    "id": 5616,
+    "condition": "",
+    "text": ", spiking the brain to the floor"
+  },
+  {
+    "id": 5700,
+    "condition": "",
+    "text": ". The rodent's skull makes several unhealthy sounds"
+  },
+  {
+    "id": 5701,
+    "condition": "",
+    "text": ", squashing the rodent's skull like a wet paper bag"
+  },
+  {
+    "id": 5702,
+    "condition": "",
+    "text": ", and the left paw now looks a little flat"
+  },
+  {
+    "id": 5703,
+    "condition": "",
+    "text": ". The left paw of the rat is blown off"
+  },
+  {
+    "id": 5704,
+    "condition": "",
+    "text": ". The right paw is heavily damaged"
+  },
+  {
+    "id": 5705,
+    "condition": "",
+    "text": ", blowing the right paw off"
+  },
+  {
+    "id": 5706,
+    "condition": "",
+    "text": ". The rat is seriously wounded by this attack"
+  },
+  {
+    "id": 5707,
+    "condition": "",
+    "text": ", seriously wounding the rat and knocking it around"
+  },
+  {
+    "id": 5708,
+    "condition": "",
+    "text": ", splattering the rat across the floor"
+  },
+  {
+    "id": 5709,
+    "condition": "",
+    "text": ", crippling the right leg"
+  },
+  {
+    "id": 5710,
+    "condition": "",
+    "text": ", putting a big hole in the left leg"
+  },
+  {
+    "id": 5711,
+    "condition": "",
+    "text": ", doing some extra damage due to the sensitive location"
+  },
+  {
+    "id": 5712,
+    "condition": "",
+    "text": ", summoning this creature to the great ratcatcher in the sky"
+  },
+  {
+    "id": 5800,
+    "condition": "",
+    "text": ", the floater drops to the ground"
+  },
+  {
+    "id": 5801,
+    "condition": "",
+    "text": ", the floater falls to the ground, seemingly lifeless"
+  },
+  {
+    "id": 5802,
+    "condition": "",
+    "text": ", with serious consequences to the creatures continued existance"
+  },
+  {
+    "id": 5803,
+    "condition": "",
+    "text": ", stunning the foul creature"
+  },
+  {
+    "id": 5804,
+    "condition": "",
+    "text": ", hitting a sensitive spot there and stunning the floater"
+  },
+  {
+    "id": 5805,
+    "condition": "",
+    "text": ". The blow causes the floater to shudder violently in a spray of crimson"
+  },
+  {
+    "id": 5806,
+    "condition": "",
+    "text": ", the blow causing some sort of violent reaction in the creature"
+  },
+  {
+    "id": 5807,
+    "condition": "",
+    "text": ". The floater suddenly bursts into flames"
+  },
+  {
+    "id": 5808,
+    "condition": "",
+    "text": " then it jerks wildly and quivers like a pudding surprise"
+  },
+  {
+    "id": 5809,
+    "condition": "",
+    "text": ", with the blow hitting a sensitive spot"
+  },
+  {
+    "id": 5810,
+    "condition": "",
+    "text": ". The creature is obviously agitated"
+  },
+  {
+    "id": 5900,
+    "condition": "",
+    "text": ", pushed like a bad habit, the centaur falls over and is stunned"
+  },
+  {
+    "id": 5901,
+    "condition": "",
+    "text": " as the blow strikes a critical spot"
+  },
+  {
+    "id": 5902,
+    "condition": "",
+    "text": ", causing a massive neurological failure"
+  },
+  {
+    "id": 5903,
+    "condition": "",
+    "text": ", stunning it with your violent attack"
+  },
+  {
+    "id": 5904,
+    "condition": "",
+    "text": ", crippling the arm"
+  },
+  {
+    "id": 5905,
+    "condition": "",
+    "text": " striking a critical spot, and crippling the arm"
+  },
+  {
+    "id": 5906,
+    "condition": "",
+    "text": ", knocking the creature over and crippling the leg"
+  },
+  {
+    "id": 5907,
+    "condition": "",
+    "text": ", stunning the centaur as it is knocked over with a crippled leg"
+  },
+  {
+    "id": 5908,
+    "condition": "",
+    "text": ", blinding a head"
+  },
+  {
+    "id": 5909,
+    "condition": "",
+    "text": ", surprising the centaur. It blindly stumbles for a moment"
+  },
+  {
+    "id": 5910,
+    "condition": "",
+    "text": ", surprising the centaur. It collapses in a heap"
+  },
+  {
+    "id": 5911,
+    "condition": "",
+    "text": ", surprising the centaur. It collapses in a pile of goo"
+  },
+  {
+    "id": 5912,
+    "condition": "",
+    "text": ". The attack was not as effective as it could have been"
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": ", inflicting some structural damage"
+  },
+  {
+    "id": 6001,
+    "condition": "",
+    "text": ", sparks fly and the robot goes momentarily out of control"
+  },
+  {
+    "id": 6002,
+    "condition": "",
+    "text": ", hitting a critical component and forcing the robot out of control"
+  },
+  {
+    "id": 6003,
+    "condition": "",
+    "text": ", hitting a critical component and causing a massive malfunction"
+  },
+  {
+    "id": 6004,
+    "condition": "",
+    "text": ". The robot attempts to compensate"
+  },
+  {
+    "id": 6005,
+    "condition": "",
+    "text": ". The robot strains to compensate"
+  },
+  {
+    "id": 6006,
+    "condition": "",
+    "text": ", hitting some key part and causing heavy damage"
+  },
+  {
+    "id": 6007,
+    "condition": "",
+    "text": ", inflicting heavy structural damage"
+  },
+  {
+    "id": 6008,
+    "condition": "",
+    "text": ", hitting a critical component and causing severe damage"
+  },
+  {
+    "id": 6009,
+    "condition": "",
+    "text": ". The robot shudders under this intense attack"
+  },
+  {
+    "id": 6010,
+    "condition": "",
+    "text": ", dismantling the robot"
+  },
+  {
+    "id": 6011,
+    "condition": "",
+    "text": ". The robot attempts to compensate, but fails, falling to the ground"
+  },
+  {
+    "id": 6012,
+    "condition": "",
+    "text": ". The robot strains under the pressure, falling to the ground"
+  },
+  {
+    "id": 6013,
+    "condition": "",
+    "text": ", breaking the sensor lenses"
+  },
+  {
+    "id": 6100,
+    "condition": "",
+    "text": ", knocking the pooch to the ground"
+  },
+  {
+    "id": 6101,
+    "condition": "",
+    "text": ", right across the snout"
+  },
+  {
+    "id": 6102,
+    "condition": "",
+    "text": ". The dog falls over, but it is still breathing"
+  },
+  {
+    "id": 6103,
+    "condition": "",
+    "text": ", the animal coughs up a splurt of blood"
+  },
+  {
+    "id": 6104,
+    "condition": "",
+    "text": ", crippling the leg"
+  },
+  {
+    "id": 6105,
+    "condition": "",
+    "text": ", crippling the leg. The animal tries to remain standing, but fails"
+  },
+  {
+    "id": 6106,
+    "condition": "",
+    "text": ". The blinded animal howls in pain"
+  },
+  {
+    "id": 6107,
+    "condition": "",
+    "text": ", neutering the poor animal"
+  },
+  {
+    "id": 6200,
+    "condition": "",
+    "text": ", knocking down this mutated insect"
+  },
+  {
+    "id": 6201,
+    "condition": "",
+    "text": ", which collapses"
+  },
+  {
+    "id": 6202,
+    "condition": "",
+    "text": ". The manti ponders whether to continue living"
+  },
+  {
+    "id": 6203,
+    "condition": "",
+    "text": ", crippling the limb"
+  },
+  {
+    "id": 6204,
+    "condition": "",
+    "text": ", causing the Manti to lick it's wounds. It holds the limb oddly"
+  },
+  {
+    "id": 6205,
+    "condition": "",
+    "text": ", bypassing the chitinous armor"
+  },
+  {
+    "id": 6206,
+    "condition": "",
+    "text": ". The manti shrieks and shivers must unhuman like"
+  },
+  {
+    "id": 6207,
+    "condition": "",
+    "text": ", which causes the manti to fall over. A limb is bent at an odd shape"
+  },
+  {
+    "id": 6208,
+    "condition": "",
+    "text": ", shredding the wings"
+  },
+  {
+    "id": 6209,
+    "condition": "",
+    "text": ", bypassing the chitinous armor and throwing the manti around"
+  },
+  {
+    "id": 6210,
+    "condition": "",
+    "text": ", blinding the insect with an accurate blow"
+  },
+  {
+    "id": 6300,
+    "condition": "",
+    "text": ". Even this beast seems fazed by that stunning attack"
+  },
+  {
+    "id": 6301,
+    "condition": "",
+    "text": ", slipping past the huge claws to strike the monster. The Deathclaw shakes and growls"
+  },
+  {
+    "id": 6302,
+    "condition": "",
+    "text": ". The result is massive damage to the Deathclaw's eyes"
+  },
+  {
+    "id": 6400,
+    "condition": "",
+    "text": ", breaking past the bio-organic defenses"
+  },
+  {
+    "id": 6401,
+    "condition": "",
+    "text": ", causing the Master some serious grief"
+  },
+  {
+    "id": 6402,
+    "condition": "",
+    "text": ", breaking past the bio-organic defenses and putting the pressure on the Master"
+  },
+  {
+    "id": 6403,
+    "condition": "",
+    "text": ", stunning the Master with a solid offensive plan"
+  },
+  {
+    "id": 6404,
+    "condition": "",
+    "text": ", causing an overload of cataclysmic proportions in the Master's systems"
+  },
+  {
+    "id": 6405,
+    "condition": "",
+    "text": ". The attack against the Master seems to do less damage than it should have"
+  },
+  {
+    "id": 6406,
+    "condition": "",
+    "text": ". The blow gets by the bio-organic defenses, actually blinding the Master"
+  },
+  {
+    "id": 6500,
+    "condition": "",
+    "text": ". You'll have a headache tomorrow, if you live that long"
+  },
+  {
+    "id": 6501,
+    "condition": "",
+    "text": ". Your armor provides no protection from this well-aimed blow"
+  },
+  {
+    "id": 6502,
+    "condition": "",
+    "text": ". You feel the pain for just a moment, and then darkness takes you.."
+  },
+  {
+    "id": 6503,
+    "condition": "",
+    "text": ", bypassing your armor. The blow knocks you off your feet"
+  },
+  {
+    "id": 6504,
+    "condition": "",
+    "text": ", the shock makes your vision go dark. After a moment, you notice that your vision has not returned"
+  },
+  {
+    "id": 6505,
+    "condition": "",
+    "text": ". You get a nice view of your body as your head sails through the air"
+  },
+  {
+    "id": 6506,
+    "condition": "",
+    "text": ". Surprisingly, the damage feels no worse than normal"
+  },
+  {
+    "id": 6507,
+    "condition": "",
+    "text": ", stunning you for a moment"
+  },
+  {
+    "id": 6508,
+    "condition": "",
+    "text": ". Feel the pain"
+  },
+  {
+    "id": 6509,
+    "condition": "",
+    "text": ". The attack leaves your arm useless"
+  },
+  {
+    "id": 6510,
+    "condition": "",
+    "text": ", slipping past your armor. The blow cracks the bones in your arm like deadwood"
+  },
+  {
+    "id": 6511,
+    "condition": "",
+    "text": ", bypassing your armor. Your arm now hangs limply at your side"
+  },
+  {
+    "id": 6512,
+    "condition": "",
+    "text": ". The bruise will look nice, and maybe the scars will make good party talk"
+  },
+  {
+    "id": 6513,
+    "condition": "",
+    "text": ", crushing your internal organs. All you can do is gurgle blood"
+  },
+  {
+    "id": 6514,
+    "condition": "",
+    "text": ", sending head over heels"
+  },
+  {
+    "id": 6515,
+    "condition": "",
+    "text": ", sending you flying and breaking your leg"
+  },
+  {
+    "id": 6516,
+    "condition": "",
+    "text": ", melting through your armor. The blow knocks you over and seriously hurts your knee"
+  },
+  {
+    "id": 6517,
+    "condition": "",
+    "text": ". The pain from your broken leg sends you into unconsciousness"
+  },
+  {
+    "id": 6518,
+    "condition": "",
+    "text": ". The painful blow makes you flinch, but does little else"
+  },
+  {
+    "id": 6519,
+    "condition": "",
+    "text": ". Unlucky for you, it also causes immediate vision loss"
+  },
+  {
+    "id": 6520,
+    "condition": "",
+    "text": ". It takes you a moment to wipe the blood from your eyes"
+  },
+  {
+    "id": 6521,
+    "condition": "",
+    "text": ", slipping past your armor. You stand stunned as your realize you cannot see anymore"
+  },
+  {
+    "id": 6522,
+    "condition": "",
+    "text": ". You feel a strange sensation in your head. You realize it's imminent brain-death"
+  },
+  {
+    "id": 6523,
+    "condition": "",
+    "text": ", making you cringe"
+  },
+  {
+    "id": 6524,
+    "condition": "",
+    "text": ". You cup your groin and fall to the floor in pain"
+  },
+  {
+    "id": 6525,
+    "condition": "",
+    "text": ". The pain is sufficient to knock you out. Ouch"
+  },
+  {
+    "id": 6526,
+    "condition": "",
+    "text": ". There are not enough words in the universe to describe the pain your are feeling at this moment"
+  }
+]

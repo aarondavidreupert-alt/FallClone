@@ -1,0 +1,642 @@
+[
+  {
+    "id": 101,
+    "condition": "",
+    "text": "Awareness"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "Bonus HtH Attacks"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "Bonus HtH Damage"
+  },
+  {
+    "id": 104,
+    "condition": "",
+    "text": "Bonus Move"
+  },
+  {
+    "id": 105,
+    "condition": "",
+    "text": "Bonus Ranged Damage"
+  },
+  {
+    "id": 106,
+    "condition": "",
+    "text": "Bonus Rate of Fire"
+  },
+  {
+    "id": 107,
+    "condition": "",
+    "text": "Earlier Sequence"
+  },
+  {
+    "id": 108,
+    "condition": "",
+    "text": "Faster Healing"
+  },
+  {
+    "id": 109,
+    "condition": "",
+    "text": "More Criticals"
+  },
+  {
+    "id": 110,
+    "condition": "",
+    "text": "Night Vision"
+  },
+  {
+    "id": 111,
+    "condition": "",
+    "text": "Presence"
+  },
+  {
+    "id": 112,
+    "condition": "",
+    "text": "Rad Resistance"
+  },
+  {
+    "id": 113,
+    "condition": "",
+    "text": "Toughness"
+  },
+  {
+    "id": 114,
+    "condition": "",
+    "text": "Strong Back"
+  },
+  {
+    "id": 115,
+    "condition": "",
+    "text": "Sharpshooter"
+  },
+  {
+    "id": 116,
+    "condition": "",
+    "text": "Silent Running"
+  },
+  {
+    "id": 117,
+    "condition": "",
+    "text": "Survivalist"
+  },
+  {
+    "id": 118,
+    "condition": "",
+    "text": "Master Trader"
+  },
+  {
+    "id": 119,
+    "condition": "",
+    "text": "Educated"
+  },
+  {
+    "id": 120,
+    "condition": "",
+    "text": "Healer"
+  },
+  {
+    "id": 121,
+    "condition": "",
+    "text": "Fortune Finder"
+  },
+  {
+    "id": 122,
+    "condition": "",
+    "text": "Better Criticals"
+  },
+  {
+    "id": 123,
+    "condition": "",
+    "text": "Empathy"
+  },
+  {
+    "id": 124,
+    "condition": "",
+    "text": "Slayer"
+  },
+  {
+    "id": 125,
+    "condition": "",
+    "text": "Sniper"
+  },
+  {
+    "id": 126,
+    "condition": "",
+    "text": "Silent Death"
+  },
+  {
+    "id": 127,
+    "condition": "",
+    "text": "Action Boy"
+  },
+  {
+    "id": 128,
+    "condition": "",
+    "text": "Mental Block"
+  },
+  {
+    "id": 129,
+    "condition": "",
+    "text": "Lifegiver"
+  },
+  {
+    "id": 130,
+    "condition": "",
+    "text": "Dodger"
+  },
+  {
+    "id": 131,
+    "condition": "",
+    "text": "Snakeater"
+  },
+  {
+    "id": 132,
+    "condition": "",
+    "text": "Mr. Fixit"
+  },
+  {
+    "id": 133,
+    "condition": "",
+    "text": "Medic"
+  },
+  {
+    "id": 134,
+    "condition": "",
+    "text": "Master Thief"
+  },
+  {
+    "id": 135,
+    "condition": "",
+    "text": "Speaker"
+  },
+  {
+    "id": 136,
+    "condition": "",
+    "text": "Heave Ho!"
+  },
+  {
+    "id": 137,
+    "condition": "",
+    "text": "Friendly Foe"
+  },
+  {
+    "id": 138,
+    "condition": "",
+    "text": "Pickpocket"
+  },
+  {
+    "id": 139,
+    "condition": "",
+    "text": "Ghost"
+  },
+  {
+    "id": 140,
+    "condition": "",
+    "text": "Cult of Personality"
+  },
+  {
+    "id": 141,
+    "condition": "",
+    "text": "Scrounger"
+  },
+  {
+    "id": 142,
+    "condition": "",
+    "text": "Explorer"
+  },
+  {
+    "id": 143,
+    "condition": "",
+    "text": "Flower Child"
+  },
+  {
+    "id": 144,
+    "condition": "",
+    "text": "Pathfinder"
+  },
+  {
+    "id": 145,
+    "condition": "",
+    "text": "Animal Friend"
+  },
+  {
+    "id": 146,
+    "condition": "",
+    "text": "Scout"
+  },
+  {
+    "id": 147,
+    "condition": "",
+    "text": "Mysterious Stranger"
+  },
+  {
+    "id": 148,
+    "condition": "",
+    "text": "Ranger"
+  },
+  {
+    "id": 149,
+    "condition": "",
+    "text": "Quick Pockets"
+  },
+  {
+    "id": 150,
+    "condition": "",
+    "text": "Smooth Talker"
+  },
+  {
+    "id": 151,
+    "condition": "",
+    "text": "Swift Learner"
+  },
+  {
+    "id": 152,
+    "condition": "",
+    "text": "Tag!"
+  },
+  {
+    "id": 153,
+    "condition": "",
+    "text": "Mutate!"
+  },
+  {
+    "id": 154,
+    "condition": "",
+    "text": "Nuka-Cola Craving"
+  },
+  {
+    "id": 155,
+    "condition": "",
+    "text": "Buffout Craving"
+  },
+  {
+    "id": 156,
+    "condition": "",
+    "text": "Mentats Craving"
+  },
+  {
+    "id": 157,
+    "condition": "",
+    "text": "Psycho Craving"
+  },
+  {
+    "id": 158,
+    "condition": "",
+    "text": "Radaway Craving"
+  },
+  {
+    "id": 159,
+    "condition": "",
+    "text": "Weapon Long Range"
+  },
+  {
+    "id": 160,
+    "condition": "",
+    "text": "Weapon Accurate"
+  },
+  {
+    "id": 161,
+    "condition": "",
+    "text": "Weapon Penetrate"
+  },
+  {
+    "id": 162,
+    "condition": "",
+    "text": "Weapon Knockback"
+  },
+  {
+    "id": 163,
+    "condition": "",
+    "text": "Powered Armor"
+  },
+  {
+    "id": 164,
+    "condition": "",
+    "text": "Combat Armor"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "You are more likely to notice details about people.  Awareness will give more detailed information about them when you perform an Examine."
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "You have learned the secret arts of the East, or you just punch faster.  In any case, your Hand-to-Hand attacks cost 1 AP less to perform."
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "Experience in unarmed combat has given you the edge when it comes to damage.  You cause +2 points of damage with hand-to-hand and melee attacks for each level of this Perk."
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": "For each level of Bonus Move, you get 2 free APs each turn that can only be used for movement.  In other words, you can move 2 free hexes each turn for each level of this Perk."
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "Your training in firearms and other ranged weapons has made you more deadly in ranged combat.  For each level of this Perk, you do +2 points of damage with ranged weapons."
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "This Perk allows you to pull the trigger a little more faster, and still remain as accurate as before.  Each ranged weapon attack costs 1 AP less to perform."
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "You are more likely to move before your opponents in combat, since your Sequence is +2 for each level of this Perk."
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": "With each level of this Perk, you will get a +1 bonus to your Healing Rate.  Thus you heal faster."
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": "You are more likely to cause Critical Hits in combat if you have this Perk.  Each level of More Criticals will get you a +5% chance to cause a critical hit.  This is a good thing."
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "With the Night Vision Perk, you can see in the dark better.  Each level of this Perk will reduce the overall darkness level by 10%."
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "You command attention by just walking into a room.  The initial reaction of another person is improved by 10% for each level of this Perk."
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "You are better able to avoid radiation, and the bad effects radiation causes.  Each level of this Perk will improve your Radiation Resistance by 10%."
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "When you are tough, you take less damage.  Each level of this Perk will add +10% to your general damage resistance."
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": "AKA Mule.  You can carry an additional 50 lbs. of equipment for each level of this Perk."
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "The talent of hitting things at longer distances.  You get a +2 bonus, for each level of this Perk, to Perception for the purposes of determining range modifiers.  It's easier than ever to kill at long range!"
+  },
+  {
+    "id": 216,
+    "condition": "",
+    "text": "With this Perk, you now have the ability to move quickly and still remain quiet.  You can Sneak, and run at the same time.  Without this Perk, you would automatically stop Sneaking if you ran."
+  },
+  {
+    "id": 217,
+    "condition": "",
+    "text": "You are a master of the outdoors.  This Perk confers the ability to survive in hostile environments.  You get a +20% bonus to Outdoorsman for survival purposes, for each level of this Perk."
+  },
+  {
+    "id": 218,
+    "condition": "",
+    "text": "You have mastered one aspect of bartering - the ability to buy goods far cheaper than a normal person.  With this Perk, you get a 25% discount when purchasing items from a store or another trader."
+  },
+  {
+    "id": 219,
+    "condition": "",
+    "text": "Each level of Educated will add +2 skill points when you gain a new experience level.  This Perk works best when purchased early in your adventure."
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "The healing of bodies comes easier to you with this Perk.  Each level will add 2-5 more hit points healed when using the First Aid or Doctor skills."
+  },
+  {
+    "id": 221,
+    "condition": "",
+    "text": "You have the talent of finding money.  You will find additional money in random encounters in the desert."
+  },
+  {
+    "id": 222,
+    "condition": "",
+    "text": "The critical hits you cause in combat are more devastating.  You gain a 20% bonus on the critical hit table, almost ensuring that more damage will be done.  This does not affect the chance to cause a critical hit."
+  },
+  {
+    "id": 223,
+    "condition": "",
+    "text": "You have studied other human beings, giving you the inside knowledge of their emotional reaction to you.  You will see the reaction level of the person you are talking to, when involved in an indepth conversation."
+  },
+  {
+    "id": 224,
+    "condition": "",
+    "text": "The Slayer walks the earth!  In Hand-to-Hand combat, all of your hits are upgraded to critical hits - causing destruction and mayhem."
+  },
+  {
+    "id": 225,
+    "condition": "",
+    "text": "You have mastered the firearm as a source of pain.  With this Perk, any successful hit in combat with a ranged weapon will be upgraded to a critical hit if you also make a Luck roll."
+  },
+  {
+    "id": 226,
+    "condition": "",
+    "text": "While Sneaking, if you hit a critter in the back, you will cause double damage using a HtH attack.  Silent Death is that kind of Perk."
+  },
+  {
+    "id": 227,
+    "condition": "",
+    "text": "Each level of Action Boy (insert Girl if you wish) will give you an additional AP to spend every combat turn.  You can use these generic APs on any task."
+  },
+  {
+    "id": 228,
+    "condition": "",
+    "text": "Mental Block is the ability to tune out any outside mental interference.  You must have learned this talent from a passing guru, or from a really late night at a bar."
+  },
+  {
+    "id": 229,
+    "condition": "",
+    "text": "With each level of this Perk, you gain an additional 4 Hit Points.  This may not seem like a lot, but every little bit helps."
+  },
+  {
+    "id": 230,
+    "condition": "",
+    "text": "You are less likely to be hit in combat, if you have this Perk.  Every level will add +5% to your Armor Class, in addition to the AC bonus from any worn armor."
+  },
+  {
+    "id": 231,
+    "condition": "",
+    "text": "Yum!  Tastes like chicken. You have gained an immunity to poison, resulting in a +25% to your Poison Resistance."
+  },
+  {
+    "id": 232,
+    "condition": "",
+    "text": "This Perk will give you a one-time bonus of +20% to the Repair and Science skills.  A little late night cramming never hurt anybody, especially you."
+  },
+  {
+    "id": 233,
+    "condition": "",
+    "text": "The Medic Perk will give you a one-time bonus of +20% to the First Aid and Doctor skills.  Healing skills are a good thing."
+  },
+  {
+    "id": 234,
+    "condition": "",
+    "text": "A Master Thief has a one-time bonus of +10% to the Sneak, Lockpick, Steal and Traps skills.  Rob from the rich, and give to you."
+  },
+  {
+    "id": 235,
+    "condition": "",
+    "text": "Being a Speaker means that you have a one-time bonus of +20% to the Speech and Barter skills.  From the mouth of babes and all that."
+  },
+  {
+    "id": 236,
+    "condition": "",
+    "text": "Each level of the Heave Ho! Perk will give your thrown weapons an additional +2 Strength for purposes of determining range only."
+  },
+  {
+    "id": 237,
+    "condition": "",
+    "text": "Characters that are part of your team are high-lighted green in combat instead of red, if you have this Perk.  Red high-lighted characters may still be non-hostile towards you."
+  },
+  {
+    "id": 238,
+    "condition": "",
+    "text": "You are much more adept at Stealing than the normal crook.  You can Steal with the best of them, because with this Perk, you ignore size and facing modifiers, when stealing from a person."
+  },
+  {
+    "id": 239,
+    "condition": "",
+    "text": "When the sun goes down, or you are in a poorly lit area, you move like a Ghost with this Perk.  Your Sneak skill is enhanced +20% during darkness conditions."
+  },
+  {
+    "id": 240,
+    "condition": "",
+    "text": "Your reputation is always positive to people.  Without this Perk, a large negative reputation would have a bad effect on good natured people.  Works with a good rep and bad people, too."
+  },
+  {
+    "id": 241,
+    "condition": "",
+    "text": "You can find more ammo than the normal post-holocaust survivor.  This Perk will double the amount of ammo found in random encounters."
+  },
+  {
+    "id": 242,
+    "condition": "",
+    "text": "The mark of the Explorer is to search out new and interesting locations.  With this Perk, you have a greater chance of finding special places or peoples."
+  },
+  {
+    "id": 243,
+    "condition": "",
+    "text": "With this Perk, you are much less likely to crave chems (50% less likely, actually), and you suffer half the chem downtime of a normal person."
+  },
+  {
+    "id": 244,
+    "condition": "",
+    "text": "The Pathfinder is better able to find the shortest route.  With this Perk, your travel time on the World Map is reduced by 25% for each level."
+  },
+  {
+    "id": 245,
+    "condition": "",
+    "text": "Animals will not attack one of their friends, unless the animal is threatened or attacked first.  Exactly what an animal is in this world is open to debate."
+  },
+  {
+    "id": 246,
+    "condition": "",
+    "text": "You have improved your ability to see distant locations, increasing the size of explorations on the World Map by one square in each direction."
+  },
+  {
+    "id": 247,
+    "condition": "",
+    "text": "With this Perk, you have gained the attention of a Mysterious Stranger, who will appear to help you from time to time.  If your ally is lost in combat, do not expect him or her to be replaced."
+  },
+  {
+    "id": 248,
+    "condition": "",
+    "text": "You are better able to avoid unwanted attention while traveling through the wasteland.  Your chance of a hostile random encounter is lowered by each level of this Perk."
+  },
+  {
+    "id": 249,
+    "condition": "",
+    "text": "You have learned to better store your equipment on your person.  With each level of this Perk, the AP cost to access Inventory in combat is reduced by one."
+  },
+  {
+    "id": 250,
+    "condition": "",
+    "text": "A Smooth Talker has learned to increase their options in dialogue, without understanding what they are talking about.  Each level of this Perk will increase your IN by one, for purposes of dialogue only."
+  },
+  {
+    "id": 251,
+    "condition": "",
+    "text": "You are indeed a Swift Learner with this Perk, as each level will give you an additional +5% bonus whenever you earn experience points.  Best purchased at an early level."
+  },
+  {
+    "id": 252,
+    "condition": "",
+    "text": "Your skills have improved to the point where you can pick an additional Tag Skill, increasing that skill by +20% immediately and 2% per skill point spent."
+  },
+  {
+    "id": 253,
+    "condition": "",
+    "text": "The radiation of the wasteland has changed you!  One of your Traits has mutated into something else..."
+  },
+  {
+    "id": 254,
+    "condition": "",
+    "text": "You crave another Nuka-Cola."
+  },
+  {
+    "id": 255,
+    "condition": "",
+    "text": "You've got the shakes."
+  },
+  {
+    "id": 256,
+    "condition": "",
+    "text": "You feel groggy."
+  },
+  {
+    "id": 257,
+    "condition": "",
+    "text": "You feel light-headed."
+  },
+  {
+    "id": 258,
+    "condition": "",
+    "text": "You feel nauseous."
+  },
+  {
+    "id": 259,
+    "condition": "",
+    "text": "Weapon Long Range"
+  },
+  {
+    "id": 260,
+    "condition": "",
+    "text": "Weapon Accurate"
+  },
+  {
+    "id": 261,
+    "condition": "",
+    "text": "Weapon Penetrate"
+  },
+  {
+    "id": 262,
+    "condition": "",
+    "text": "Weapon Knockback"
+  },
+  {
+    "id": 263,
+    "condition": "",
+    "text": "Powered Armor"
+  },
+  {
+    "id": 264,
+    "condition": "",
+    "text": "Combat Armor"
+  }
+]

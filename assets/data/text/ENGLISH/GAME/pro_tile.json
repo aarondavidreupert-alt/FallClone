@@ -1,0 +1,4062 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 1900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 2900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 3900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 4900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 5900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 6900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 7900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 8900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 9900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 10900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 11900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 12900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 13900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 14900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 15900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 16900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 17900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 18900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 19900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 20900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 21900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 22900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 23600,
+    "condition": "",
+    "text": "Curb"
+  },
+  {
+    "id": 23700,
+    "condition": "",
+    "text": "Curb"
+  },
+  {
+    "id": 23800,
+    "condition": "",
+    "text": "Curb"
+  },
+  {
+    "id": 23900,
+    "condition": "",
+    "text": "Curb"
+  },
+  {
+    "id": 24000,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24100,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24200,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24300,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24400,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24500,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24600,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24700,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24800,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 24900,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 25000,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 25100,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 25200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 25900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 26900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 27900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 28900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 29900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 30900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 31900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 32900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 33900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 34900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 35900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 36900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37000,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 37100,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 37200,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 37300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 37900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 38900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 39800,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 39900,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40000,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40100,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40200,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40300,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40400,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40500,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40600,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40700,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40800,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 40900,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41000,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41100,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41200,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41300,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41400,
+    "condition": "",
+    "text": "Grate"
+  },
+  {
+    "id": 41500,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41600,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 41700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 41800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 41900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 42900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 43900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 44000,
+    "condition": "",
+    "text": "Ack! Missing!"
+  },
+  {
+    "id": 44100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 44900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 45900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 46900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 47000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 47100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 47200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 47300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 47400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 47500,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 47600,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 47700,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 47800,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 47900,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48000,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48100,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48200,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48300,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48400,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48500,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48600,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48700,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48800,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 48900,
+    "condition": "",
+    "text": "Wooden Floor"
+  },
+  {
+    "id": 49000,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 49100,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 49200,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 49300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 49400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 49500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 49600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 49700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 49800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 49900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 50800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 50900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 51900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 52900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 53900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 54900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 55900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 56900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 57900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 58900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 59900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 60900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 61900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 62900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 63900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 64900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 65900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66100,
+    "condition": "",
+    "text": "Floor"
+  },
+  {
+    "id": 66200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 66900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 67900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 68000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68500,
+    "condition": "",
+    "text": "Wall"
+  },
+  {
+    "id": 68600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 68900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 69900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 70900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 71600,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 71700,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 71800,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 71900,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 72000,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 72100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 72900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 73900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 74900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75000,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75100,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75200,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 75800,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 75900,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76000,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76100,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76200,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76300,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76400,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76500,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76600,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76700,
+    "condition": "",
+    "text": "Dirt"
+  },
+  {
+    "id": 76800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 76900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 77900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 78900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79400,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79500,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79600,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79700,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79800,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 79900,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 80000,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 80100,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 80200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 80300,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 81300,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 81400,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 81500,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 81600,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 81700,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 81800,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 81900,
+    "condition": "",
+    "text": "Roof"
+  },
+  {
+    "id": 105400,
+    "condition": "",
+    "text": "Slime"
+  },
+  {
+    "id": 150400,
+    "condition": "",
+    "text": ""
+  }
+]

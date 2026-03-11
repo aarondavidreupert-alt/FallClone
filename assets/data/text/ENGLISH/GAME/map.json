@@ -1,0 +1,1412 @@
+[
+  {
+    "id": 0,
+    "condition": "",
+    "text": "DESERT1.MAP"
+  },
+  {
+    "id": 1,
+    "condition": "",
+    "text": "DESERT2.MAP"
+  },
+  {
+    "id": 2,
+    "condition": "",
+    "text": "DESERT3.MAP"
+  },
+  {
+    "id": 3,
+    "condition": "",
+    "text": "HALLDED.MAP"
+  },
+  {
+    "id": 4,
+    "condition": "",
+    "text": "HOTEL.MAP"
+  },
+  {
+    "id": 5,
+    "condition": "",
+    "text": "WATRSHD.MAP"
+  },
+  {
+    "id": 6,
+    "condition": "",
+    "text": "VAULT13.MAP"
+  },
+  {
+    "id": 7,
+    "condition": "",
+    "text": "VAULTENT.MAP"
+  },
+  {
+    "id": 8,
+    "condition": "",
+    "text": "VAULTBUR.MAP"
+  },
+  {
+    "id": 9,
+    "condition": "",
+    "text": "VAULTNEC.MAP"
+  },
+  {
+    "id": 10,
+    "condition": "",
+    "text": "JUNKENT.MAP"
+  },
+  {
+    "id": 11,
+    "condition": "",
+    "text": "JUNKCSNO.MAP"
+  },
+  {
+    "id": 12,
+    "condition": "",
+    "text": "JUNKKILL.MAP"
+  },
+  {
+    "id": 13,
+    "condition": "",
+    "text": "BROHDENT.MAP"
+  },
+  {
+    "id": 14,
+    "condition": "",
+    "text": "BROHD12.MAP"
+  },
+  {
+    "id": 15,
+    "condition": "",
+    "text": "BROHD34.MAP"
+  },
+  {
+    "id": 16,
+    "condition": "",
+    "text": "CAVES.MAP"
+  },
+  {
+    "id": 17,
+    "condition": "",
+    "text": "CHILDRN1.MAP"
+  },
+  {
+    "id": 18,
+    "condition": "",
+    "text": "CHILDRN2.MAP"
+  },
+  {
+    "id": 19,
+    "condition": "",
+    "text": "CITY1.MAP"
+  },
+  {
+    "id": 20,
+    "condition": "",
+    "text": "COAST1.MAP"
+  },
+  {
+    "id": 21,
+    "condition": "",
+    "text": "COAST2.MAP"
+  },
+  {
+    "id": 22,
+    "condition": "",
+    "text": "COLATRUK.MAP"
+  },
+  {
+    "id": 23,
+    "condition": "",
+    "text": "FSAUSER.MAP"
+  },
+  {
+    "id": 24,
+    "condition": "",
+    "text": "RAIDERS.MAP"
+  },
+  {
+    "id": 25,
+    "condition": "",
+    "text": "SHADYE.MAP"
+  },
+  {
+    "id": 26,
+    "condition": "",
+    "text": "SHADYW.MAP"
+  },
+  {
+    "id": 27,
+    "condition": "",
+    "text": "GLOWENT.MAP"
+  },
+  {
+    "id": 28,
+    "condition": "",
+    "text": "LAADYTUM.MAP"
+  },
+  {
+    "id": 29,
+    "condition": "",
+    "text": "LAFOLLWR.MAP"
+  },
+  {
+    "id": 30,
+    "condition": "",
+    "text": "MBENT.MAP"
+  },
+  {
+    "id": 31,
+    "condition": "",
+    "text": "MBSTRG12.MAP"
+  },
+  {
+    "id": 32,
+    "condition": "",
+    "text": "MBVATS12.MAP"
+  },
+  {
+    "id": 33,
+    "condition": "",
+    "text": "MSTRLR12.MAP"
+  },
+  {
+    "id": 34,
+    "condition": "",
+    "text": "MSTRLR34.MAP"
+  },
+  {
+    "id": 35,
+    "condition": "",
+    "text": "V13ENT.MAP"
+  },
+  {
+    "id": 36,
+    "condition": "",
+    "text": "HUBENT.MAP"
+  },
+  {
+    "id": 37,
+    "condition": "",
+    "text": "DETHCLAW.MAP"
+  },
+  {
+    "id": 38,
+    "condition": "",
+    "text": "HUBDWNTN.MAP"
+  },
+  {
+    "id": 39,
+    "condition": "",
+    "text": "HUBHEIGT.MAP"
+  },
+  {
+    "id": 40,
+    "condition": "",
+    "text": "HUBOLDTN.MAP"
+  },
+  {
+    "id": 41,
+    "condition": "",
+    "text": "HUBWATER.MAP"
+  },
+  {
+    "id": 42,
+    "condition": "",
+    "text": "GLOW1.MAP"
+  },
+  {
+    "id": 43,
+    "condition": "",
+    "text": "GLOW2.MAP"
+  },
+  {
+    "id": 44,
+    "condition": "",
+    "text": "LABLADES.MAP"
+  },
+  {
+    "id": 45,
+    "condition": "",
+    "text": "LARIPPER.MAP"
+  },
+  {
+    "id": 46,
+    "condition": "",
+    "text": "LAGUNRUN.MAP"
+  },
+  {
+    "id": 47,
+    "condition": "",
+    "text": "CHILDEAD.MAP"
+  },
+  {
+    "id": 48,
+    "condition": "",
+    "text": "MBDEAD.MAP"
+  },
+  {
+    "id": 49,
+    "condition": "",
+    "text": "MOUNTN1.MAP"
+  },
+  {
+    "id": 50,
+    "condition": "",
+    "text": "MOUNTN2.MAP"
+  },
+  {
+    "id": 51,
+    "condition": "",
+    "text": "FOOT.MAP"
+  },
+  {
+    "id": 52,
+    "condition": "",
+    "text": "TARDIS.MAP"
+  },
+  {
+    "id": 53,
+    "condition": "",
+    "text": "TALKCOW.MAP"
+  },
+  {
+    "id": 54,
+    "condition": "",
+    "text": "USEDCAR.MAP"
+  },
+  {
+    "id": 55,
+    "condition": "",
+    "text": "BRODEAD.MAP"
+  },
+  {
+    "id": 56,
+    "condition": "",
+    "text": "DESCRVN1.MAP"
+  },
+  {
+    "id": 57,
+    "condition": "",
+    "text": "DESCRVN2.MAP"
+  },
+  {
+    "id": 58,
+    "condition": "",
+    "text": "MNTCRVN1.MAP"
+  },
+  {
+    "id": 59,
+    "condition": "",
+    "text": "MNTCRVN2.MAP"
+  },
+  {
+    "id": 60,
+    "condition": "",
+    "text": "VIPERS.MAP"
+  },
+  {
+    "id": 61,
+    "condition": "",
+    "text": "DESCRVN3.MAP"
+  },
+  {
+    "id": 62,
+    "condition": "",
+    "text": "MNTCRVN3.MAP"
+  },
+  {
+    "id": 63,
+    "condition": "",
+    "text": "DESCRVN4.MAP"
+  },
+  {
+    "id": 64,
+    "condition": "",
+    "text": "MNTCRVN4.MAP"
+  },
+  {
+    "id": 65,
+    "condition": "",
+    "text": "HUBMIS1.MAP"
+  },
+  {
+    "id": 160,
+    "condition": "",
+    "text": "Viper Camp"
+  },
+  {
+    "id": 161,
+    "condition": "",
+    "text": "Desert"
+  },
+  {
+    "id": 162,
+    "condition": "",
+    "text": "Mountains"
+  },
+  {
+    "id": 163,
+    "condition": "",
+    "text": "Desert"
+  },
+  {
+    "id": 164,
+    "condition": "",
+    "text": "Mountains"
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 204,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": "Sewers"
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "Hall"
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "Sewers"
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "Hotel"
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "Sewers"
+  },
+  {
+    "id": 216,
+    "condition": "",
+    "text": "Watershed"
+  },
+  {
+    "id": 217,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 218,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 219,
+    "condition": "",
+    "text": "Living Quarters"
+  },
+  {
+    "id": 220,
+    "condition": "",
+    "text": "Command Center"
+  },
+  {
+    "id": 221,
+    "condition": "",
+    "text": "Cave Entrance"
+  },
+  {
+    "id": 222,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 223,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 224,
+    "condition": "",
+    "text": "Caverns"
+  },
+  {
+    "id": 225,
+    "condition": "",
+    "text": "Living Quarters"
+  },
+  {
+    "id": 226,
+    "condition": "",
+    "text": "Command Center"
+  },
+  {
+    "id": 227,
+    "condition": "",
+    "text": "Sewers"
+  },
+  {
+    "id": 228,
+    "condition": "",
+    "text": "Living Quarters"
+  },
+  {
+    "id": 229,
+    "condition": "",
+    "text": "Command Center"
+  },
+  {
+    "id": 230,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 231,
+    "condition": "",
+    "text": "Lab"
+  },
+  {
+    "id": 232,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 233,
+    "condition": "",
+    "text": "Casino"
+  },
+  {
+    "id": 234,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 235,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 236,
+    "condition": "",
+    "text": "Crash House"
+  },
+  {
+    "id": 237,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 238,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 239,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 240,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 241,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 242,
+    "condition": "",
+    "text": "Level 1"
+  },
+  {
+    "id": 243,
+    "condition": "",
+    "text": "Level 2"
+  },
+  {
+    "id": 244,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 245,
+    "condition": "",
+    "text": "Level 3"
+  },
+  {
+    "id": 246,
+    "condition": "",
+    "text": "Level 4"
+  },
+  {
+    "id": 247,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 248,
+    "condition": "",
+    "text": "Caves"
+  },
+  {
+    "id": 249,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 250,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 251,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 252,
+    "condition": "",
+    "text": "Tower Level 1"
+  },
+  {
+    "id": 253,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 254,
+    "condition": "",
+    "text": "Tower Level 2"
+  },
+  {
+    "id": 255,
+    "condition": "",
+    "text": "Tower Level 3"
+  },
+  {
+    "id": 256,
+    "condition": "",
+    "text": "Tower Level 4"
+  },
+  {
+    "id": 257,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 258,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 259,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 260,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 261,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 262,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 263,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 264,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 265,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 266,
+    "condition": "",
+    "text": "Special"
+  },
+  {
+    "id": 267,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 268,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 269,
+    "condition": "",
+    "text": "Special"
+  },
+  {
+    "id": 270,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 271,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 272,
+    "condition": "",
+    "text": "Base"
+  },
+  {
+    "id": 273,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 274,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 275,
+    "condition": "",
+    "text": "Garden"
+  },
+  {
+    "id": 276,
+    "condition": "",
+    "text": "Brahmin Pen"
+  },
+  {
+    "id": 277,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 278,
+    "condition": "",
+    "text": "Town Hall"
+  },
+  {
+    "id": 279,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 280,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 281,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 282,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 283,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 284,
+    "condition": "",
+    "text": "Adytum"
+  },
+  {
+    "id": 285,
+    "condition": "",
+    "text": "Underground"
+  },
+  {
+    "id": 286,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 287,
+    "condition": "",
+    "text": "Library"
+  },
+  {
+    "id": 288,
+    "condition": "",
+    "text": "Underground"
+  },
+  {
+    "id": 289,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 290,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 291,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 292,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 293,
+    "condition": "",
+    "text": "Stronghold Level 1"
+  },
+  {
+    "id": 294,
+    "condition": "",
+    "text": "Stronghold Level 2"
+  },
+  {
+    "id": 295,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 296,
+    "condition": "",
+    "text": "Vats Level 1"
+  },
+  {
+    "id": 297,
+    "condition": "",
+    "text": "Vats Level 2"
+  },
+  {
+    "id": 298,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 299,
+    "condition": "",
+    "text": "Lair Level 1"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Lair Level 2"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "Lair Level 3"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "Lair Level 4"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": "Cave Entrance"
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 307,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "Entrance"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "Lair"
+  },
+  {
+    "id": 312,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 313,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 314,
+    "condition": "",
+    "text": "Downtown"
+  },
+  {
+    "id": 315,
+    "condition": "",
+    "text": "Decker's Hideout"
+  },
+  {
+    "id": 316,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 317,
+    "condition": "",
+    "text": "Heights"
+  },
+  {
+    "id": 318,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 319,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 320,
+    "condition": "",
+    "text": "Old Town"
+  },
+  {
+    "id": 321,
+    "condition": "",
+    "text": "Thieves Circle"
+  },
+  {
+    "id": 322,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 323,
+    "condition": "",
+    "text": "Merchants"
+  },
+  {
+    "id": 324,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 325,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 326,
+    "condition": "",
+    "text": "Level 1"
+  },
+  {
+    "id": 327,
+    "condition": "",
+    "text": "Level 2"
+  },
+  {
+    "id": 328,
+    "condition": "",
+    "text": "Level 3"
+  },
+  {
+    "id": 329,
+    "condition": "",
+    "text": "Level 4"
+  },
+  {
+    "id": 330,
+    "condition": "",
+    "text": "Level 5"
+  },
+  {
+    "id": 331,
+    "condition": "",
+    "text": "Level 6"
+  },
+  {
+    "id": 332,
+    "condition": "",
+    "text": "Downtown"
+  },
+  {
+    "id": 333,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 334,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 335,
+    "condition": "",
+    "text": "Warehouse"
+  },
+  {
+    "id": 336,
+    "condition": "",
+    "text": "Underground"
+  },
+  {
+    "id": 337,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 338,
+    "condition": "",
+    "text": "Fortress"
+  },
+  {
+    "id": 339,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 340,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 341,
+    "condition": "",
+    "text": "Crater"
+  },
+  {
+    "id": 342,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 343,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 344,
+    "condition": "",
+    "text": "Ruins"
+  },
+  {
+    "id": 345,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 346,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 347,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 348,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 349,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 350,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 351,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 352,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 353,
+    "condition": "",
+    "text": "Special"
+  },
+  {
+    "id": 354,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 355,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 356,
+    "condition": "",
+    "text": "Special"
+  },
+  {
+    "id": 357,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 358,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 359,
+    "condition": "",
+    "text": "Special"
+  },
+  {
+    "id": 360,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 361,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 362,
+    "condition": "",
+    "text": "Special"
+  },
+  {
+    "id": 363,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 364,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 365,
+    "condition": "",
+    "text": "Ruins"
+  },
+  {
+    "id": 366,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 367,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 368,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 369,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 370,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 371,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 372,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 373,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 374,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 375,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 376,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 377,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 378,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 379,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 380,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 381,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 382,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 383,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 384,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 385,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 386,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 387,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 388,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 389,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 390,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 391,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 392,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 393,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 394,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 395,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 396,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 397,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "Vault 13"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": "Vault 15"
+  },
+  {
+    "id": 502,
+    "condition": "",
+    "text": "Shady Sands"
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "Junktown"
+  },
+  {
+    "id": 504,
+    "condition": "",
+    "text": "Raiders"
+  },
+  {
+    "id": 505,
+    "condition": "",
+    "text": "Necropolis"
+  },
+  {
+    "id": 506,
+    "condition": "",
+    "text": "Hub"
+  },
+  {
+    "id": 507,
+    "condition": "",
+    "text": "Brotherhood"
+  },
+  {
+    "id": 508,
+    "condition": "",
+    "text": "Military Base"
+  },
+  {
+    "id": 509,
+    "condition": "",
+    "text": "Glow"
+  },
+  {
+    "id": 510,
+    "condition": "",
+    "text": "Boneyard"
+  },
+  {
+    "id": 511,
+    "condition": "",
+    "text": "Cathedral"
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Error: Not enough disk space to save map!"
+  }
+]

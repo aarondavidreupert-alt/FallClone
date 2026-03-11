@@ -1,0 +1,22 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 101,
+    "condition": "",
+    "text": "YES"
+  },
+  {
+    "id": 102,
+    "condition": "",
+    "text": "NO"
+  },
+  {
+    "id": 103,
+    "condition": "",
+    "text": "CANCEL"
+  }
+]

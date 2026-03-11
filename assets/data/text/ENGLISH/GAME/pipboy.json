@@ -1,0 +1,5187 @@
+[
+  {
+    "id": 200,
+    "condition": "",
+    "text": "MORE"
+  },
+  {
+    "id": 201,
+    "condition": "",
+    "text": "BACK"
+  },
+  {
+    "id": 202,
+    "condition": "",
+    "text": "STATUS"
+  },
+  {
+    "id": 203,
+    "condition": "",
+    "text": "No current tasks."
+  },
+  {
+    "id": 205,
+    "condition": "",
+    "text": "AUTOMAPS"
+  },
+  {
+    "id": 206,
+    "condition": "",
+    "text": "VIDEO ARCHIVES"
+  },
+  {
+    "id": 207,
+    "condition": "",
+    "text": "DATA"
+  },
+  {
+    "id": 208,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 209,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 210,
+    "condition": "",
+    "text": "Status"
+  },
+  {
+    "id": 211,
+    "condition": "",
+    "text": "DATA"
+  },
+  {
+    "id": 212,
+    "condition": "",
+    "text": "of"
+  },
+  {
+    "id": 213,
+    "condition": "",
+    "text": "Page"
+  },
+  {
+    "id": 214,
+    "condition": "",
+    "text": "DONE"
+  },
+  {
+    "id": 215,
+    "condition": "",
+    "text": "You can not rest at this location!"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "ALARM CLOCK"
+  },
+  {
+    "id": 301,
+    "condition": "",
+    "text": "Hit Points"
+  },
+  {
+    "id": 302,
+    "condition": "",
+    "text": "Rest for ten minutes"
+  },
+  {
+    "id": 303,
+    "condition": "",
+    "text": "Rest for thirty minutes"
+  },
+  {
+    "id": 304,
+    "condition": "",
+    "text": "Rest for an hour"
+  },
+  {
+    "id": 305,
+    "condition": "",
+    "text": "Rest for two hours"
+  },
+  {
+    "id": 306,
+    "condition": "",
+    "text": "Rest for three hours"
+  },
+  {
+    "id": 307,
+    "condition": "",
+    "text": "Rest for four hours"
+  },
+  {
+    "id": 308,
+    "condition": "",
+    "text": "Rest for five hours"
+  },
+  {
+    "id": 309,
+    "condition": "",
+    "text": "Rest for six hours"
+  },
+  {
+    "id": 310,
+    "condition": "",
+    "text": "Rest until morning (0600)"
+  },
+  {
+    "id": 311,
+    "condition": "",
+    "text": "Rest until noon (1200)"
+  },
+  {
+    "id": 312,
+    "condition": "",
+    "text": "Rest until evening (1800)"
+  },
+  {
+    "id": 313,
+    "condition": "",
+    "text": "Rest until midnight (0000)"
+  },
+  {
+    "id": 314,
+    "condition": "",
+    "text": "Rest until healed"
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "FEV Experiment Tape"
+  },
+  {
+    "id": 401,
+    "condition": "",
+    "text": "Security Tape"
+  },
+  {
+    "id": 402,
+    "condition": "",
+    "text": "Ancient Brotherhood Tape"
+  },
+  {
+    "id": 403,
+    "condition": "",
+    "text": "Alpha Experiment Tape"
+  },
+  {
+    "id": 404,
+    "condition": "",
+    "text": "Delta Experiment Tape"
+  },
+  {
+    "id": 405,
+    "condition": "",
+    "text": "Vree's Experiment Tape"
+  },
+  {
+    "id": 406,
+    "condition": "",
+    "text": "Brotherhood Code"
+  },
+  {
+    "id": 407,
+    "condition": "",
+    "text": "Mutant Transmissions"
+  },
+  {
+    "id": 408,
+    "condition": "",
+    "text": "Brotherhood Tape"
+  },
+  {
+    "id": 409,
+    "condition": "",
+    "text": "Sophia Tape"
+  },
+  {
+    "id": 410,
+    "condition": "",
+    "text": "Maxson Log"
+  },
+  {
+    "id": 411,
+    "condition": "",
+    "text": "Richard Grey Audio Diary"
+  },
+  {
+    "id": 412,
+    "condition": "",
+    "text": "Captain Maxson's Diary"
+  },
+  {
+    "id": 413,
+    "condition": "",
+    "text": "FEV Research"
+  },
+  {
+    "id": 414,
+    "condition": "",
+    "text": "Power Armor Specs"
+  },
+  {
+    "id": 415,
+    "condition": "",
+    "text": "West Tech Records"
+  },
+  {
+    "id": 416,
+    "condition": "",
+    "text": "Vault Locations v34.129"
+  },
+  {
+    "id": 417,
+    "condition": "",
+    "text": "Regulator Transmission"
+  },
+  {
+    "id": 503,
+    "condition": "",
+    "text": "Vat Destruction"
+  },
+  {
+    "id": 504,
+    "condition": "",
+    "text": "Cathedral Destruction"
+  },
+  {
+    "id": 505,
+    "condition": "",
+    "text": "Overseer Briefing"
+  },
+  {
+    "id": 511,
+    "condition": "",
+    "text": "Vault 13 Water"
+  },
+  {
+    "id": 512,
+    "condition": "",
+    "text": "Vault 13 Water Running Low"
+  },
+  {
+    "id": 513,
+    "condition": "",
+    "text": "Rae Kills the Master"
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "Status"
+  },
+  {
+    "id": 602,
+    "condition": "",
+    "text": "Automaps"
+  },
+  {
+    "id": 603,
+    "condition": "",
+    "text": "Archives"
+  },
+  {
+    "id": 604,
+    "condition": "",
+    "text": "Alarm Clock"
+  },
+  {
+    "id": 605,
+    "condition": "",
+    "text": "Doo da doo da dum dee dee doodly doo dum dum dum doo da doo da doo da doo da doo da doo da doo"
+  },
+  {
+    "id": 606,
+    "condition": "",
+    "text": "Welcome to the Rob Co Pipboy 2000."
+  },
+  {
+    "id": 607,
+    "condition": "",
+    "text": "So long."
+  },
+  {
+    "id": 608,
+    "condition": "",
+    "text": "Wake up."
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": "Vault 13"
+  },
+  {
+    "id": 701,
+    "condition": "",
+    "text": "Calm rebel faction."
+  },
+  {
+    "id": 702,
+    "condition": "",
+    "text": "Destroy the Mutant leader."
+  },
+  {
+    "id": 703,
+    "condition": "",
+    "text": "Destroy the source of the Mutants."
+  },
+  {
+    "id": 704,
+    "condition": "",
+    "text": "Find the Water Chip."
+  },
+  {
+    "id": 705,
+    "condition": "",
+    "text": "Find the Water Thief."
+  },
+  {
+    "id": 710,
+    "condition": "",
+    "text": "Buried Vault"
+  },
+  {
+    "id": 720,
+    "condition": "",
+    "text": "Shady Sands"
+  },
+  {
+    "id": 721,
+    "condition": "",
+    "text": "Cure Jarvis of Radscorpion Poison."
+  },
+  {
+    "id": 722,
+    "condition": "",
+    "text": "Make Poison Antidote."
+  },
+  {
+    "id": 723,
+    "condition": "",
+    "text": "Rescue Tandi from the Raiders."
+  },
+  {
+    "id": 724,
+    "condition": "",
+    "text": "Stop the Radscorpions."
+  },
+  {
+    "id": 730,
+    "condition": "",
+    "text": "Junktown"
+  },
+  {
+    "id": 731,
+    "condition": "",
+    "text": "Help Saul."
+  },
+  {
+    "id": 732,
+    "condition": "",
+    "text": "Kill Killian."
+  },
+  {
+    "id": 733,
+    "condition": "",
+    "text": "Rescue Sinthia."
+  },
+  {
+    "id": 734,
+    "condition": "",
+    "text": "Save Trish."
+  },
+  {
+    "id": 735,
+    "condition": "",
+    "text": "Stop Gizmo."
+  },
+  {
+    "id": 736,
+    "condition": "",
+    "text": "Bust the Skulz gang."
+  },
+  {
+    "id": 740,
+    "condition": "",
+    "text": "Raiders"
+  },
+  {
+    "id": 750,
+    "condition": "",
+    "text": "Necropolis"
+  },
+  {
+    "id": 751,
+    "condition": "",
+    "text": "Destroy the Super Mutants at the Watershed."
+  },
+  {
+    "id": 752,
+    "condition": "",
+    "text": "Fix the Necropolis water pump."
+  },
+  {
+    "id": 760,
+    "condition": "",
+    "text": "Hub"
+  },
+  {
+    "id": 761,
+    "condition": "",
+    "text": "Destroy Deathclaw."
+  },
+  {
+    "id": 762,
+    "condition": "",
+    "text": "Dispose of Jain."
+  },
+  {
+    "id": 763,
+    "condition": "",
+    "text": "Dispose of merchant."
+  },
+  {
+    "id": 764,
+    "condition": "",
+    "text": "Find the missing caravans."
+  },
+  {
+    "id": 765,
+    "condition": "",
+    "text": "Steal necklace from the Merchants."
+  },
+  {
+    "id": 770,
+    "condition": "",
+    "text": "Brotherhood"
+  },
+  {
+    "id": 771,
+    "condition": "",
+    "text": "Become an Initiate."
+  },
+  {
+    "id": 772,
+    "condition": "",
+    "text": "Rescue Initiate from the Hub."
+  },
+  {
+    "id": 780,
+    "condition": "",
+    "text": "Military Base"
+  },
+  {
+    "id": 790,
+    "condition": "",
+    "text": "Glow"
+  },
+  {
+    "id": 791,
+    "condition": "",
+    "text": "Disarm Traps for the Facility."
+  },
+  {
+    "id": 792,
+    "condition": "",
+    "text": "Turn on power for the Glow."
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": "Boneyard"
+  },
+  {
+    "id": 801,
+    "condition": "",
+    "text": "Become a Blade."
+  },
+  {
+    "id": 802,
+    "condition": "",
+    "text": "Deliver Locket for Romero."
+  },
+  {
+    "id": 803,
+    "condition": "",
+    "text": "Deliver package from the Gun Runners."
+  },
+  {
+    "id": 804,
+    "condition": "",
+    "text": "Find Children spy in the Followers."
+  },
+  {
+    "id": 805,
+    "condition": "",
+    "text": "Fix hydroponic farms in Adytum."
+  },
+  {
+    "id": 806,
+    "condition": "",
+    "text": "Rescue Jason Zimmerman."
+  },
+  {
+    "id": 807,
+    "condition": "",
+    "text": "Stop the Gangs from attacking Adytum."
+  },
+  {
+    "id": 810,
+    "condition": "",
+    "text": "Cathedral"
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "• Log Date March 21, 2075:"
+  },
+  {
+    "id": 1001,
+    "condition": "",
+    "text": "Major Barnett has ordered experiments with batch"
+  },
+  {
+    "id": 1002,
+    "condition": "",
+    "text": "10-011 of  panimmunity virion, which has been "
+  },
+  {
+    "id": 1003,
+    "condition": "",
+    "text": "renamed FEV, for Forced Evolutionary Virus. His"
+  },
+  {
+    "id": 1004,
+    "condition": "",
+    "text": "main concern is with the side effects of the "
+  },
+  {
+    "id": 1005,
+    "condition": "",
+    "text": "quad-helix structure rather than its main effect"
+  },
+  {
+    "id": 1006,
+    "condition": "",
+    "text": "of replicative stability. He believes the new "
+  },
+  {
+    "id": 1007,
+    "condition": "",
+    "text": "structure is the next logical step for mammalian"
+  },
+  {
+    "id": 1008,
+    "condition": "",
+    "text": "nuclei. Experiments with single-celled organisms"
+  },
+  {
+    "id": 1009,
+    "condition": "",
+    "text": "is a great success. While their basal metabolism"
+  },
+  {
+    "id": 1010,
+    "condition": "",
+    "text": "appears unchanged, their immunity to infection "
+  },
+  {
+    "id": 1011,
+    "condition": "",
+    "text": "and radiation is exceeding all earlier expectations."
+  },
+  {
+    "id": 1012,
+    "condition": "",
+    "text": "Addendum: choroplasts seem unaffected by the virion."
+  },
+  {
+    "id": 1013,
+    "condition": "",
+    "text": "Further experiments on plant cells have been "
+  },
+  {
+    "id": 1014,
+    "condition": "",
+    "text": "canceled by order of Major Barnett."
+  },
+  {
+    "id": 1015,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1016,
+    "condition": "",
+    "text": "• Log Date May 9, 2075"
+  },
+  {
+    "id": 1017,
+    "condition": "",
+    "text": "We infected several species of flatworm with FEV. "
+  },
+  {
+    "id": 1018,
+    "condition": "",
+    "text": "Within hours the worms had increased in size by "
+  },
+  {
+    "id": 1019,
+    "condition": "",
+    "text": "28%, and 39 separate viral contagions were resisted"
+  },
+  {
+    "id": 1020,
+    "condition": "",
+    "text": "by the population. Each sample was allowed to "
+  },
+  {
+    "id": 1021,
+    "condition": "",
+    "text": "continue for several generations, and the new DNA "
+  },
+  {
+    "id": 1022,
+    "condition": "",
+    "text": "structure was successfully passed on to worm's "
+  },
+  {
+    "id": 1023,
+    "condition": "",
+    "text": "progeny, although only asexual reproduction was "
+  },
+  {
+    "id": 1024,
+    "condition": "",
+    "text": "noticed in the samples. Experiments with insects "
+  },
+  {
+    "id": 1025,
+    "condition": "",
+    "text": "have had less success. Major Barnett has postponed "
+  },
+  {
+    "id": 1026,
+    "condition": "",
+    "text": "these experiments until further notice."
+  },
+  {
+    "id": 1027,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1028,
+    "condition": "",
+    "text": "• Log Date June 30, 2075"
+  },
+  {
+    "id": 1029,
+    "condition": "",
+    "text": "Several lab strains of white mice have been infected"
+  },
+  {
+    "id": 1030,
+    "condition": "",
+    "text": "successfully with FEV. Again, an increase in size "
+  },
+  {
+    "id": 1031,
+    "condition": "",
+    "text": "was noted within hours, and after 9 days all mice "
+  },
+  {
+    "id": 1032,
+    "condition": "",
+    "text": "had stabilized at 31% larger than the control group. "
+  },
+  {
+    "id": 1033,
+    "condition": "",
+    "text": "Dissection revealed the most increase in size in "
+  },
+  {
+    "id": 1034,
+    "condition": "",
+    "text": "striated muscle tissue and certain internal organs, "
+  },
+  {
+    "id": 1035,
+    "condition": "",
+    "text": "such as the liver, heart, and kidneys. In a "
+  },
+  {
+    "id": 1036,
+    "condition": "",
+    "text": "surprising finding, the infected mice were found to"
+  },
+  {
+    "id": 1037,
+    "condition": "",
+    "text": "run mazes in less than half of the time of the "
+  },
+  {
+    "id": 1038,
+    "condition": "",
+    "text": "control group. More testing will be needed to "
+  },
+  {
+    "id": 1039,
+    "condition": "",
+    "text": "confirm this finding as significant."
+  },
+  {
+    "id": 1040,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1041,
+    "condition": "",
+    "text": "• Log Date November 9, 2075"
+  },
+  {
+    "id": 1042,
+    "condition": "",
+    "text": "We have infected 218 rabbits with FEV. Half of "
+  },
+  {
+    "id": 1043,
+    "condition": "",
+    "text": "the subjects were implanted with electrodes to "
+  },
+  {
+    "id": 1044,
+    "condition": "",
+    "text": "monitor EEG activity before and after the "
+  },
+  {
+    "id": 1045,
+    "condition": "",
+    "text": "infection. Increased electrical activity in the "
+  },
+  {
+    "id": 1046,
+    "condition": "",
+    "text": "brain was noted in 3.2 seconds (on average) after"
+  },
+  {
+    "id": 1047,
+    "condition": "",
+    "text": "injection. Again, the typical size increase was "
+  },
+  {
+    "id": 1048,
+    "condition": "",
+    "text": "noted. However, increased aggression and posturing"
+  },
+  {
+    "id": 1049,
+    "condition": "",
+    "text": "(especially among males) was noted as well. "
+  },
+  {
+    "id": 1050,
+    "condition": "",
+    "text": "Sacrifice and profusion yielded brain tissue that"
+  },
+  {
+    "id": 1051,
+    "condition": "",
+    "text": "showed increased dendritic connection, especially "
+  },
+  {
+    "id": 1052,
+    "condition": "",
+    "text": "in the limbic system and frontal cortex."
+  },
+  {
+    "id": 1053,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1054,
+    "condition": "",
+    "text": "• Log Date January 12, 2076"
+  },
+  {
+    "id": 1055,
+    "condition": "",
+    "text": "With batch 11-011, we have improved the mitotic "
+  },
+  {
+    "id": 1056,
+    "condition": "",
+    "text": "cycle efficiency by 43%. We have infected 53 "
+  },
+  {
+    "id": 1057,
+    "condition": "",
+    "text": "raccoons with the new strain. In addition to the"
+  },
+  {
+    "id": 1058,
+    "condition": "",
+    "text": "now expected size increase, behavioral tests "
+  },
+  {
+    "id": 1059,
+    "condition": "",
+    "text": "confirmed an increase in intelligence and manual "
+  },
+  {
+    "id": 1060,
+    "condition": "",
+    "text": "dexterity by 19 points on the Schuler-Kapp index. "
+  },
+  {
+    "id": 1061,
+    "condition": "",
+    "text": "Unfortunately, several subjects escaped confinement"
+  },
+  {
+    "id": 1062,
+    "condition": "",
+    "text": "and had to be hunted down and dispatched. Major "
+  },
+  {
+    "id": 1063,
+    "condition": "",
+    "text": "Barneet ordered the remaining subjects terminated."
+  },
+  {
+    "id": 1064,
+    "condition": "",
+    "text": "Two pairs were unaccounted for."
+  },
+  {
+    "id": 1065,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1066,
+    "condition": "",
+    "text": "• Log Date May 13, 2076"
+  },
+  {
+    "id": 1067,
+    "condition": "",
+    "text": "We have spliced several new gene sequences, supplied"
+  },
+  {
+    "id": 1068,
+    "condition": "",
+    "text": "by Major Barnett's advisory team, into FEV. With "
+  },
+  {
+    "id": 1069,
+    "condition": "",
+    "text": "batch 11-101a, we infected 23 dogs of both pure and "
+  },
+  {
+    "id": 1070,
+    "condition": "",
+    "text": "mixed breed, and all experienced nearly immediate "
+  },
+  {
+    "id": 1071,
+    "condition": "",
+    "text": "growth. The larger size was accompanied with "
+  },
+  {
+    "id": 1072,
+    "condition": "",
+    "text": "increased aggressiveness, while no significant "
+  },
+  {
+    "id": 1073,
+    "condition": "",
+    "text": "intelligence increase was noted. We plan to attempt"
+  },
+  {
+    "id": 1074,
+    "condition": "",
+    "text": "crossover of 92 allele pairs with batch 11-011. All"
+  },
+  {
+    "id": 1075,
+    "condition": "",
+    "text": "subjects were terminated after 14 weeks of study."
+  },
+  {
+    "id": 1076,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1077,
+    "condition": "",
+    "text": "• Log Date October 4, 2076"
+  },
+  {
+    "id": 1078,
+    "condition": "",
+    "text": "The crossover has been completed and 15 chimpanzees"
+  },
+  {
+    "id": 1079,
+    "condition": "",
+    "text": "were infected with batch 11-111. Growth and immunity"
+  },
+  {
+    "id": 1080,
+    "condition": "",
+    "text": "levels are unprecedented. Attempts to induce cancers"
+  },
+  {
+    "id": 1081,
+    "condition": "",
+    "text": "in the subjects through radiological and chemical "
+  },
+  {
+    "id": 1082,
+    "condition": "",
+    "text": "agents were not successful. Increased aggressiveness"
+  },
+  {
+    "id": 1083,
+    "condition": "",
+    "text": "have led to isolating the subjects. Two subjects "
+  },
+  {
+    "id": 1084,
+    "condition": "",
+    "text": "suffered violent epileptic seizures and died. All "
+  },
+  {
+    "id": 1085,
+    "condition": "",
+    "text": "remaining subjects terminated."
+  },
+  {
+    "id": 1086,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 1087,
+    "condition": "",
+    "text": "• Log Date January 7, 2077"
+  },
+  {
+    "id": 1088,
+    "condition": "",
+    "text": "Major Barnett has ordered transfer of all FEV "
+  },
+  {
+    "id": 1089,
+    "condition": "",
+    "text": "research  to the Mariposa Military Base. He "
+  },
+  {
+    "id": 1090,
+    "condition": "",
+    "text": "plans to continue the project experiments on "
+  },
+  {
+    "id": 1091,
+    "condition": "",
+    "text": "volunteer subjects. I am against this, and would "
+  },
+  {
+    "id": 1092,
+    "condition": "",
+    "text": "like it noted here that research on human subjects"
+  },
+  {
+    "id": 1093,
+    "condition": "",
+    "text": "is not recommended by myself or my staff."
+  },
+  {
+    "id": 1094,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": "Security override Gamma Omicron Delta."
+  },
+  {
+    "id": 2001,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": "Capt. Maxson was right. This place is death."
+  },
+  {
+    "id": 3001,
+    "condition": "",
+    "text": "I'm writing this so that if we don't make it"
+  },
+  {
+    "id": 3002,
+    "condition": "",
+    "text": "back, someone, some day, might find out what"
+  },
+  {
+    "id": 3003,
+    "condition": "",
+    "text": "happened to us."
+  },
+  {
+    "id": 3004,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3005,
+    "condition": "",
+    "text": "We made it to West Tek Research Facility after"
+  },
+  {
+    "id": 3006,
+    "condition": "",
+    "text": "20 days of hell. But that was the easy part. The"
+  },
+  {
+    "id": 3007,
+    "condition": "",
+    "text": "radiation levels began to shoot up as soon as we"
+  },
+  {
+    "id": 3008,
+    "condition": "",
+    "text": "could see the giant crater. We checked our supplies"
+  },
+  {
+    "id": 3009,
+    "condition": "",
+    "text": "and figured with our armor and our anti-rad supplies"
+  },
+  {
+    "id": 3010,
+    "condition": "",
+    "text": "we'd be fine for a least a day of exploring. We "
+  },
+  {
+    "id": 3011,
+    "condition": "",
+    "text": "felt it was a calculated risk, but the technology "
+  },
+  {
+    "id": 3012,
+    "condition": "",
+    "text": "we had the potential of recovering was worth it."
+  },
+  {
+    "id": 3013,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3014,
+    "condition": "",
+    "text": "We climbed down the crater to the first level and "
+  },
+  {
+    "id": 3015,
+    "condition": "",
+    "text": "everything seemed to be according to plan. The power"
+  },
+  {
+    "id": 3016,
+    "condition": "",
+    "text": "was off, so we didn't need to circumvent the "
+  },
+  {
+    "id": 3017,
+    "condition": "",
+    "text": "security. Or so we thought. There wasn't much of "
+  },
+  {
+    "id": 3018,
+    "condition": "",
+    "text": "value on this level, so we pushed on."
+  },
+  {
+    "id": 3019,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3020,
+    "condition": "",
+    "text": "The second level was more of the same."
+  },
+  {
+    "id": 3021,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3022,
+    "condition": "",
+    "text": "When Jensen dropped to the third level, all hell "
+  },
+  {
+    "id": 3023,
+    "condition": "",
+    "text": "broke loose. The security sensors had been burned"
+  },
+  {
+    "id": 3024,
+    "condition": "",
+    "text": "out on the first two levels, but not on the third."
+  },
+  {
+    "id": 3025,
+    "condition": "",
+    "text": "Jensen was cut to ribbons before he knew what had "
+  },
+  {
+    "id": 3026,
+    "condition": "",
+    "text": "happened. We'd never seen weapons cut through power"
+  },
+  {
+    "id": 3027,
+    "condition": "",
+    "text": "armor like that. Men started dropping right and "
+  },
+  {
+    "id": 3028,
+    "condition": "",
+    "text": "left, and the ones who were still alive lost it. I"
+  },
+  {
+    "id": 3029,
+    "condition": "",
+    "text": "tried to regroup, but only Soto and Camarillo made"
+  },
+  {
+    "id": 3030,
+    "condition": "",
+    "text": "it back up here to the first level with me."
+  },
+  {
+    "id": 3031,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3032,
+    "condition": "",
+    "text": " The fact that I can smell Soto's burning flesh "
+  },
+  {
+    "id": 3033,
+    "condition": "",
+    "text": "where his arm was taken off means that my power "
+  },
+  {
+    "id": 3034,
+    "condition": "",
+    "text": "armor is no longer air tight, so I'm sucking up "
+  },
+  {
+    "id": 3035,
+    "condition": "",
+    "text": "a lot more rads than I had planned on. I'm leaking"
+  },
+  {
+    "id": 3036,
+    "condition": "",
+    "text": "hydraulics at an alarming rate. We need to get far"
+  },
+  {
+    "id": 3037,
+    "condition": "",
+    "text": "enough away from this place before my armor dies. "
+  },
+  {
+    "id": 3038,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3039,
+    "condition": "",
+    "text": "Camarillo seemed fine physically, but he wandered"
+  },
+  {
+    "id": 3040,
+    "condition": "",
+    "text": "off about an hour ago, mumbling something about "
+  },
+  {
+    "id": 3041,
+    "condition": "",
+    "text": "Gehenna. That bastard has all the anti-rad. "
+  },
+  {
+    "id": 3042,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3043,
+    "condition": "",
+    "text": "That leaves Soto and myself.  We can't make "
+  },
+  {
+    "id": 3044,
+    "condition": "",
+    "text": "it far enough away from here without the "
+  },
+  {
+    "id": 3045,
+    "condition": "",
+    "text": "anti-rads, so I've got to try to find Camarillo"
+  },
+  {
+    "id": 3046,
+    "condition": "",
+    "text": "before it's too late."
+  },
+  {
+    "id": 3047,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 3048,
+    "condition": "",
+    "text": "Sgt. D. Allen , United States Armed Forces."
+  },
+  {
+    "id": 3049,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": "Prototype Panimmunity Virion Project"
+  },
+  {
+    "id": 4001,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 4002,
+    "condition": "",
+    "text": "In the hopes of countering the current "
+  },
+  {
+    "id": 4003,
+    "condition": "",
+    "text": "bacteriological and viral agents employed by the"
+  },
+  {
+    "id": 4004,
+    "condition": "",
+    "text": "Chinese government, we have manufactured a virus "
+  },
+  {
+    "id": 4005,
+    "condition": "",
+    "text": "fragment consisting of ribonucleic acid (RNA) "
+  },
+  {
+    "id": 4006,
+    "condition": "",
+    "text": "encased in a protein-lipid sheath. This virion "
+  },
+  {
+    "id": 4007,
+    "condition": "",
+    "text": "contains a specially arranged sequence of radiated"
+  },
+  {
+    "id": 4008,
+    "condition": "",
+    "text": "amino acids (RAA) that are capable of attaching to"
+  },
+  {
+    "id": 4009,
+    "condition": "",
+    "text": "non-specific binding sites on deoxyribonucleic "
+  },
+  {
+    "id": 4010,
+    "condition": "",
+    "text": "acid (DNA) and force a non-replicating mitosis to"
+  },
+  {
+    "id": 4011,
+    "condition": "",
+    "text": "occur. The resulting host cell is left with a "
+  },
+  {
+    "id": 4012,
+    "condition": "",
+    "text": "quadruple-helix DNA structure."
+  },
+  {
+    "id": 4013,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 4014,
+    "condition": "",
+    "text": "Early tests are promising. The virion easily "
+  },
+  {
+    "id": 4015,
+    "condition": "",
+    "text": "penetrates the cell membrane and attaches directly"
+  },
+  {
+    "id": 4016,
+    "condition": "",
+    "text": "to the host DNA in the nucleus. Mitosis of the "
+  },
+  {
+    "id": 4017,
+    "condition": "",
+    "text": "structure begins almost immediately. Cytokinesis "
+  },
+  {
+    "id": 4018,
+    "condition": "",
+    "text": "is prevented by controlling the disposition of the"
+  },
+  {
+    "id": 4019,
+    "condition": "",
+    "text": "kinetochore fibers during anaphase. The entire "
+  },
+  {
+    "id": 4020,
+    "condition": "",
+    "text": "mitotic cycle lasts approximately 2 hours, although"
+  },
+  {
+    "id": 4021,
+    "condition": "",
+    "text": "phenotypical expression of the new structure may "
+  },
+  {
+    "id": 4022,
+    "condition": "",
+    "text": "take days or weeks to become apparent."
+  },
+  {
+    "id": 4023,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 4024,
+    "condition": "",
+    "text": "In addition to an effective immunity to bacterial "
+  },
+  {
+    "id": 4025,
+    "condition": "",
+    "text": "and viral agents, the quad-helix structure is "
+  },
+  {
+    "id": 4026,
+    "condition": "",
+    "text": "almost entirely immune to errors introduced in "
+  },
+  {
+    "id": 4027,
+    "condition": "",
+    "text": "base pairing during replication due to multiplicity"
+  },
+  {
+    "id": 4028,
+    "condition": "",
+    "text": "of the base sequence. Radiation-exposed tissue "
+  },
+  {
+    "id": 4029,
+    "condition": "",
+    "text": "showed no mutation in the base sequence and protein"
+  },
+  {
+    "id": 4030,
+    "condition": "",
+    "text": "synthesis mechanisms in the ribosomes were unimpaired."
+  },
+  {
+    "id": 4031,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 4032,
+    "condition": "",
+    "text": "Over 80% of the samples tissue contained quad-helix"
+  },
+  {
+    "id": 4033,
+    "condition": "",
+    "text": "DNA. Most affected was muscle and bone tissue, as "
+  },
+  {
+    "id": 4034,
+    "condition": "",
+    "text": "well as secretory cells, as these cells seem most "
+  },
+  {
+    "id": 4035,
+    "condition": "",
+    "text": "receptive to virion. Sensory cells are the least "
+  },
+  {
+    "id": 4036,
+    "condition": "",
+    "text": "affected. Surprisingly, even normally non-replicating"
+  },
+  {
+    "id": 4037,
+    "condition": "",
+    "text": "nerve cells and nonsomatic cell were induced to "
+  },
+  {
+    "id": 4038,
+    "condition": "",
+    "text": "begin mitosis. Further experiments will be necessary"
+  },
+  {
+    "id": 4039,
+    "condition": "",
+    "text": "to determine the results on these cells."
+  },
+  {
+    "id": 4040,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 5000,
+    "condition": "",
+    "text": "The Military has deemed it necessary for us to research"
+  },
+  {
+    "id": 5001,
+    "condition": "",
+    "text": "further in depth the effects of wave technology upon"
+  },
+  {
+    "id": 5002,
+    "condition": "",
+    "text": "living organisms.  We have taken light and sound as the"
+  },
+  {
+    "id": 5003,
+    "condition": "",
+    "text": "basis of our studies.  By manipulating the amplitude of"
+  },
+  {
+    "id": 5004,
+    "condition": "",
+    "text": "the light waves and magnifying the frequency, we have"
+  },
+  {
+    "id": 5005,
+    "condition": "",
+    "text": "been able to get lasers which will cut through a few"
+  },
+  {
+    "id": 5006,
+    "condition": "",
+    "text": "feet a steel.  Unfortunately, the power to do such a"
+  },
+  {
+    "id": 5007,
+    "condition": "",
+    "text": "task has not been fully developed.  We have other"
+  },
+  {
+    "id": 5008,
+    "condition": "",
+    "text": "scientists looking into this."
+  },
+  {
+    "id": 5009,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 6000,
+    "condition": "",
+    "text": "• Initial Observations"
+  },
+  {
+    "id": 6001,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6002,
+    "condition": "",
+    "text": "This is truly amazing. Some of the Knights on a patrolling"
+  },
+  {
+    "id": 6003,
+    "condition": "",
+    "text": "expedition came across an unusual creature. This creature"
+  },
+  {
+    "id": 6004,
+    "condition": "",
+    "text": "appears to be humanoid, and quite possibly was once of a"
+  },
+  {
+    "id": 6005,
+    "condition": "",
+    "text": "human state. However, there are many differences in the "
+  },
+  {
+    "id": 6006,
+    "condition": "",
+    "text": "structure of this creature than that of normal humans."
+  },
+  {
+    "id": 6007,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6008,
+    "condition": "",
+    "text": "In the initial investigation of this creature, it is "
+  },
+  {
+    "id": 6009,
+    "condition": "",
+    "text": "discovered to have a cellular structure akin to that of"
+  },
+  {
+    "id": 6010,
+    "condition": "",
+    "text": "humans. Before any possible decomposition can take "
+  },
+  {
+    "id": 6011,
+    "condition": "",
+    "text": "place, I am taking down the statistics of this subject."
+  },
+  {
+    "id": 6012,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6013,
+    "condition": "",
+    "text": "• Statistics of Subject A:"
+  },
+  {
+    "id": 6014,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6015,
+    "condition": "",
+    "text": "Height: 3.2 meters"
+  },
+  {
+    "id": 6016,
+    "condition": "",
+    "text": "Mass:    363.21 kg"
+  },
+  {
+    "id": 6017,
+    "condition": "",
+    "text": "Gender: Indeterminate"
+  },
+  {
+    "id": 6018,
+    "condition": "",
+    "text": "Skin Colour: Predominantly gray with tints of green "
+  },
+  {
+    "id": 6019,
+    "condition": "",
+    "text": "under the current lighting system. Uncertain if this is"
+  },
+  {
+    "id": 6020,
+    "condition": "",
+    "text": "due to decay or exposure in the wastelands. Note: The "
+  },
+  {
+    "id": 6021,
+    "condition": "",
+    "text": "skin is extremely tough with respect to scalpels."
+  },
+  {
+    "id": 6022,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6023,
+    "condition": "",
+    "text": "Mass Breakdown:"
+  },
+  {
+    "id": 6024,
+    "condition": "",
+    "text": "    Muscle Mass: 77.41% "
+  },
+  {
+    "id": 6025,
+    "condition": "",
+    "text": "    Bone Mass:   10.23%"
+  },
+  {
+    "id": 6026,
+    "condition": "",
+    "text": "    Fat Mass:     3.02%"
+  },
+  {
+    "id": 6027,
+    "condition": "",
+    "text": "    Tissue Mass:  9.34%"
+  },
+  {
+    "id": 6028,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6029,
+    "condition": "",
+    "text": "Cellular Structure:"
+  },
+  {
+    "id": 6030,
+    "condition": "",
+    "text": "    Cells undergo cellular division at an increased rate."
+  },
+  {
+    "id": 6031,
+    "condition": "",
+    "text": "    Mitosis occurs at a rate 15% quicker than that of "
+  },
+  {
+    "id": 6032,
+    "condition": "",
+    "text": "    normal humans."
+  },
+  {
+    "id": 6033,
+    "condition": "",
+    "text": "    Cellular structure appears to be highly similar to"
+  },
+  {
+    "id": 6034,
+    "condition": "",
+    "text": "    humans."
+  },
+  {
+    "id": 6035,
+    "condition": "",
+    "text": "    Genetic structure shows a strong correlation"
+  },
+  {
+    "id": 6036,
+    "condition": "",
+    "text": "    between the subject and Homo Sapiens. Possible a"
+  },
+  {
+    "id": 6037,
+    "condition": "",
+    "text": "    mutation from the nuclear and biochemical agents"
+  },
+  {
+    "id": 6038,
+    "condition": "",
+    "text": "    remnant from the war."
+  },
+  {
+    "id": 6039,
+    "condition": "",
+    "text": "    DNA strands appear to be very complete. All recessive"
+  },
+  {
+    "id": 6040,
+    "condition": "",
+    "text": "    genes for ailments appear to have been eradicated"
+  },
+  {
+    "id": 6041,
+    "condition": "",
+    "text": "    from the system."
+  },
+  {
+    "id": 6042,
+    "condition": "",
+    "text": "    The RNA strands also appear to have been manipulated"
+  },
+  {
+    "id": 6043,
+    "condition": "",
+    "text": "    to allow for a greater transmission of signals."
+  },
+  {
+    "id": 6044,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6045,
+    "condition": "",
+    "text": "• Initial Hypothesis"
+  },
+  {
+    "id": 6046,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6047,
+    "condition": "",
+    "text": "Based on the increased size of the neural transmitters"
+  },
+  {
+    "id": 6048,
+    "condition": "",
+    "text": "and synaptic receivers, I would hypothesize the"
+  },
+  {
+    "id": 6049,
+    "condition": "",
+    "text": "subject had acute reflexes and heightened senses. Based"
+  },
+  {
+    "id": 6050,
+    "condition": "",
+    "text": "on the reports the Knights gave of the area in which the"
+  },
+  {
+    "id": 6051,
+    "condition": "",
+    "text": "subject was discovered, barren, high radiation, extremely"
+  },
+  {
+    "id": 6052,
+    "condition": "",
+    "text": "high concentrations of chemical agents, it is a wonder"
+  },
+  {
+    "id": 6053,
+    "condition": "",
+    "text": "the subject survived as long as it did. Performing tests"
+  },
+  {
+    "id": 6054,
+    "condition": "",
+    "text": "to determine possible cause of death."
+  },
+  {
+    "id": 6055,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6056,
+    "condition": "",
+    "text": "• Results from tests conducted upon Subject A:"
+  },
+  {
+    "id": 6057,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6058,
+    "condition": "",
+    "text": "Visual Inspection:"
+  },
+  {
+    "id": 6059,
+    "condition": "",
+    "text": "    Black powder burns near the area suggest possible "
+  },
+  {
+    "id": 6060,
+    "condition": "",
+    "text": "    bullet."
+  },
+  {
+    "id": 6061,
+    "condition": "",
+    "text": "    1.2 cm lacerations upon the calf of the right leg "
+  },
+  {
+    "id": 6062,
+    "condition": "",
+    "text": "    appear to have been made by teeth. Will conduct"
+  },
+  {
+    "id": 6063,
+    "condition": "",
+    "text": "    test for possible Rabies."
+  },
+  {
+    "id": 6064,
+    "condition": "",
+    "text": "    Skin dried out and flaking. Possible exposure."
+  },
+  {
+    "id": 6065,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6066,
+    "condition": "",
+    "text": "Test Results:"
+  },
+  {
+    "id": 6067,
+    "condition": "",
+    "text": "    Radiation Count:  12 rads."
+  },
+  {
+    "id": 6068,
+    "condition": "",
+    "text": "    Rabies test:      Clean."
+  },
+  {
+    "id": 6069,
+    "condition": "",
+    "text": "    Hydrochloric Gas: Clean"
+  },
+  {
+    "id": 6070,
+    "condition": "",
+    "text": "    Chlorine Level:   .07%"
+  },
+  {
+    "id": 6071,
+    "condition": "",
+    "text": "    Sulfuric Content: .02%"
+  },
+  {
+    "id": 6072,
+    "condition": "",
+    "text": "    Phase Shifting Virus:    Clean"
+  },
+  {
+    "id": 6073,
+    "condition": "",
+    "text": "    Gamma Cyclotronic Virus: Clean"
+  },
+  {
+    "id": 6074,
+    "condition": "",
+    "text": "    Forced Evolutionary Virus II: Severe overdose"
+  },
+  {
+    "id": 6075,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6076,
+    "condition": "",
+    "text": "• Hypothesis"
+  },
+  {
+    "id": 6077,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6078,
+    "condition": "",
+    "text": "Based on my observations, I would hypothesize that the "
+  },
+  {
+    "id": 6079,
+    "condition": "",
+    "text": "test subject has been killed in a severe fight of at "
+  },
+  {
+    "id": 6080,
+    "condition": "",
+    "text": "least two people and three animals the size of dogs."
+  },
+  {
+    "id": 6081,
+    "condition": "",
+    "text": "What is truly astonishing is the extent of viral"
+  },
+  {
+    "id": 6082,
+    "condition": "",
+    "text": "infection in the subject. I had read once that some"
+  },
+  {
+    "id": 6083,
+    "condition": "",
+    "text": "pre-war scientists were conducting experiments with"
+  },
+  {
+    "id": 6084,
+    "condition": "",
+    "text": "such a virus, but all of the research notes were"
+  },
+  {
+    "id": 6085,
+    "condition": "",
+    "text": "destroyed."
+  },
+  {
+    "id": 6086,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6087,
+    "condition": "",
+    "text": "Research into this virus has lead to many interesting "
+  },
+  {
+    "id": 6088,
+    "condition": "",
+    "text": "discoveries. The test subject has gained many of its "
+  },
+  {
+    "id": 6089,
+    "condition": "",
+    "text": "mutations from the overdose of the virus. This would "
+  },
+  {
+    "id": 6090,
+    "condition": "",
+    "text": "account for the enhanced muscle and bone structure. "
+  },
+  {
+    "id": 6091,
+    "condition": "",
+    "text": "Additionally, the recessive genes which are commonly "
+  },
+  {
+    "id": 6092,
+    "condition": "",
+    "text": "found in humans have been manipulated in such a way as "
+  },
+  {
+    "id": 6093,
+    "condition": "",
+    "text": "to bring about the best possible combination. While"
+  },
+  {
+    "id": 6094,
+    "condition": "",
+    "text": "the process by which this happens is uncertain, it does"
+  },
+  {
+    "id": 6095,
+    "condition": "",
+    "text": "have some severe side effects. Chief among them is"
+  },
+  {
+    "id": 6096,
+    "condition": "",
+    "text": "sterility.  The test subject would have been unable to"
+  },
+  {
+    "id": 6097,
+    "condition": "",
+    "text": "reproduce with any creature, whether clean or mutated."
+  },
+  {
+    "id": 6098,
+    "condition": "",
+    "text": "Other side effects include an alteration of pigment of"
+  },
+  {
+    "id": 6099,
+    "condition": "",
+    "text": "the epidermis.  The life expectancy is increased by 10%."
+  },
+  {
+    "id": 6100,
+    "condition": "",
+    "text": "Intellect is decreased by this strain by 30%."
+  },
+  {
+    "id": 6101,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6102,
+    "condition": "",
+    "text": "• Conclusions"
+  },
+  {
+    "id": 6103,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 6104,
+    "condition": "",
+    "text": "Based on this information, I would extrapolate that we "
+  },
+  {
+    "id": 6105,
+    "condition": "",
+    "text": "could simply outlive these mutants. However, based on"
+  },
+  {
+    "id": 6106,
+    "condition": "",
+    "text": "the fact that these mutants have a super high"
+  },
+  {
+    "id": 6107,
+    "condition": "",
+    "text": "concentration of the virus, it stands to reason that"
+  },
+  {
+    "id": 6108,
+    "condition": "",
+    "text": "there could be some place which is creating them."
+  },
+  {
+    "id": 6109,
+    "condition": "",
+    "text": "As to where they could be, I cannot hazard a guess."
+  },
+  {
+    "id": 6110,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 7000,
+    "condition": "",
+    "text": "My father was a security guard at a secret military base"
+  },
+  {
+    "id": 7001,
+    "condition": "",
+    "text": "in the desert of southern California. A typical MP, I"
+  },
+  {
+    "id": 7002,
+    "condition": "",
+    "text": "remember mostly his strength.  When it came time for"
+  },
+  {
+    "id": 7003,
+    "condition": "",
+    "text": "the revolution, I respected his convictions. He stayed"
+  },
+  {
+    "id": 7004,
+    "condition": "",
+    "text": "behind, to help those who were disabled and wounded,"
+  },
+  {
+    "id": 7005,
+    "condition": "",
+    "text": "even the scis. He put the well being of myself and my"
+  },
+  {
+    "id": 7006,
+    "condition": "",
+    "text": "mother into the hands of his best friend, and ordered"
+  },
+  {
+    "id": 7007,
+    "condition": "",
+    "text": "us into the desert with the other rebels."
+  },
+  {
+    "id": 7008,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 7009,
+    "condition": "",
+    "text": "We, very few, marched into the wastes. The only thought"
+  },
+  {
+    "id": 7010,
+    "condition": "",
+    "text": "on my mind was that I would never see my father again."
+  },
+  {
+    "id": 7011,
+    "condition": "",
+    "text": "He knew that to stay behind was death. And still, he"
+  },
+  {
+    "id": 7012,
+    "condition": "",
+    "text": "stayed. He respected the flag, the CIC and the badge"
+  },
+  {
+    "id": 7013,
+    "condition": "",
+    "text": "that he wore."
+  },
+  {
+    "id": 7014,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 7015,
+    "condition": "",
+    "text": "What an idiot."
+  },
+  {
+    "id": 7016,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 7017,
+    "condition": "",
+    "text": "He died for the sins of others. That will never happen"
+  },
+  {
+    "id": 7018,
+    "condition": "",
+    "text": "again to us. We will become self-sufficient. We will"
+  },
+  {
+    "id": 7019,
+    "condition": "",
+    "text": "become keepers of knowledge and lore. We will survive"
+  },
+  {
+    "id": 7020,
+    "condition": "",
+    "text": "the end of civilization. We will take responsibility"
+  },
+  {
+    "id": 7021,
+    "condition": "",
+    "text": "for our actions, and we will hold accountable the"
+  },
+  {
+    "id": 7022,
+    "condition": "",
+    "text": "actions of others."
+  },
+  {
+    "id": 7023,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 7024,
+    "condition": "",
+    "text": "This I pledge to you, Maxson, my son. The Brotherhood"
+  },
+  {
+    "id": 7025,
+    "condition": "",
+    "text": "of Steel is justly named. We are a Brotherhood. Unlike"
+  },
+  {
+    "id": 7026,
+    "condition": "",
+    "text": "my father, we will stand back to back with those that"
+  },
+  {
+    "id": 7027,
+    "condition": "",
+    "text": "share our convictions and beliefs. We are Steel. We are"
+  },
+  {
+    "id": 7028,
+    "condition": "",
+    "text": "hard. We have been sharpened to and edge."
+  },
+  {
+    "id": 7029,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 7030,
+    "condition": "",
+    "text": "Always remember the fires that we were forged in."
+  },
+  {
+    "id": 7031,
+    "condition": "",
+    "text": "Never forget. "
+  },
+  {
+    "id": 7032,
+    "condition": "",
+    "text": "The motto from a previous time, and our motto now."
+  },
+  {
+    "id": 7033,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 8000,
+    "condition": "",
+    "text": "Message sent: Base, this is Scavenger Team two come in."
+  },
+  {
+    "id": 8001,
+    "condition": "",
+    "text": "Over."
+  },
+  {
+    "id": 8002,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 8003,
+    "condition": "",
+    "text": "Message received: We're reading you loud an clear, go"
+  },
+  {
+    "id": 8004,
+    "condition": "",
+    "text": "ahead. Over."
+  },
+  {
+    "id": 8005,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 8006,
+    "condition": "",
+    "text": "Message sent: We've collected four males, two females,"
+  },
+  {
+    "id": 8007,
+    "condition": "",
+    "text": "and their supplies from the caravan. They're not too "
+  },
+  {
+    "id": 8008,
+    "condition": "",
+    "text": "badly contaminated. Tell the Lieutenent that we're "
+  },
+  {
+    "id": 8009,
+    "condition": "",
+    "text": "sending them ahead, they might be able to survive the"
+  },
+  {
+    "id": 8010,
+    "condition": "",
+    "text": "process. We're going to wait here for a few more days"
+  },
+  {
+    "id": 8011,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 8012,
+    "condition": "",
+    "text": "Message received: Roger that.  Were any casulties "
+  },
+  {
+    "id": 8013,
+    "condition": "",
+    "text": "accrued during the acquisition? Over."
+  },
+  {
+    "id": 8014,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 8015,
+    "condition": "",
+    "text": "Message sent: Negative. Another clean sweep. Base, also"
+  },
+  {
+    "id": 8016,
+    "condition": "",
+    "text": "tell Scavenger Team one that we've run across the same"
+  },
+  {
+    "id": 8017,
+    "condition": "",
+    "text": "problem they had. One of our scouts did not return from"
+  },
+  {
+    "id": 8018,
+    "condition": "",
+    "text": "his perimeter patrol. A few of our other scouts reported"
+  },
+  {
+    "id": 8019,
+    "condition": "",
+    "text": "that there was something big and fast seen near our"
+  },
+  {
+    "id": 8020,
+    "condition": "",
+    "text": "camp last night.  I'll be checking it out personally "
+  },
+  {
+    "id": 8021,
+    "condition": "",
+    "text": "at 0600 hours tomorrow morning. Over."
+  },
+  {
+    "id": 8022,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 8023,
+    "condition": "",
+    "text": "Message received: Copy. We'll be awaiting your report."
+  },
+  {
+    "id": 8024,
+    "condition": "",
+    "text": "If possible, try to capture it.  The Master would be"
+  },
+  {
+    "id": 8025,
+    "condition": "",
+    "text": "very pleased. Over."
+  },
+  {
+    "id": 8026,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 9000,
+    "condition": "",
+    "text": "• Oct 10, 2077"
+  },
+  {
+    "id": 9001,
+    "condition": "",
+    "text": "I, Roger Maxson, Captain, serial number 072389 have"
+  },
+  {
+    "id": 9002,
+    "condition": "",
+    "text": "started this log because it doesn't look good for any of"
+  },
+  {
+    "id": 9003,
+    "condition": "",
+    "text": "us, and I'd like for people to know what really happened"
+  },
+  {
+    "id": 9004,
+    "condition": "",
+    "text": "here. "
+  },
+  {
+    "id": 9005,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9006,
+    "condition": "",
+    "text": "All hell broke loose when we finally discovered what"
+  },
+  {
+    "id": 9007,
+    "condition": "",
+    "text": "those scientist bastards were up to. The Colonel has"
+  },
+  {
+    "id": 9008,
+    "condition": "",
+    "text": "locked himself in his office and seems to be having"
+  },
+  {
+    "id": 9009,
+    "condition": "",
+    "text": "some sort of breakdown. The men are screaming for blood."
+  },
+  {
+    "id": 9010,
+    "condition": "",
+    "text": "They're looking to me for answers, and I'm not sure"
+  },
+  {
+    "id": 9011,
+    "condition": "",
+    "text": "what to do. Someone has to do something, though, before"
+  },
+  {
+    "id": 9012,
+    "condition": "",
+    "text": "this place sinks into an anarchistic bloodbath."
+  },
+  {
+    "id": 9013,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9014,
+    "condition": "",
+    "text": "• Oct. 12 2077"
+  },
+  {
+    "id": 9015,
+    "condition": "",
+    "text": "Every time we get a report from higher up things get"
+  },
+  {
+    "id": 9016,
+    "condition": "",
+    "text": "worse here. The war is going in a very bad direction and"
+  },
+  {
+    "id": 9017,
+    "condition": "",
+    "text": "this place is about to go into full mutiny, with all the"
+  },
+  {
+    "id": 9018,
+    "condition": "",
+    "text": "chaos it brings. I stopped one of the men from executing"
+  },
+  {
+    "id": 9019,
+    "condition": "",
+    "text": "a scientist today, and demanded that we interrogate"
+  },
+  {
+    "id": 9020,
+    "condition": "",
+    "text": "them to find out what their orders were."
+  },
+  {
+    "id": 9021,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9022,
+    "condition": "",
+    "text": "• Oct.13 2077 "
+  },
+  {
+    "id": 9023,
+    "condition": "",
+    "text": "I killed a man today. I was interrogating Chief"
+  },
+  {
+    "id": 9024,
+    "condition": "",
+    "text": "Scientist Anderson and he was giving me the full details"
+  },
+  {
+    "id": 9025,
+    "condition": "",
+    "text": "of their inhuman experiments. He said his orders came"
+  },
+  {
+    "id": 9026,
+    "condition": "",
+    "text": "from the government, but I didn't buy it. He started"
+  },
+  {
+    "id": 9027,
+    "condition": "",
+    "text": "screaming about how he was following orders, how he was"
+  },
+  {
+    "id": 9028,
+    "condition": "",
+    "text": "a military man, and I just shot him. I tell myself it"
+  },
+  {
+    "id": 9029,
+    "condition": "",
+    "text": "was to keep him from causing a full mutiny among the"
+  },
+  {
+    "id": 9030,
+    "condition": "",
+    "text": "men, but I'm not so sure."
+  },
+  {
+    "id": 9031,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9032,
+    "condition": "",
+    "text": "• Oct.15 2077"
+  },
+  {
+    "id": 9033,
+    "condition": "",
+    "text": "I tried again to speak to the colonel through the door, "
+  },
+  {
+    "id": 9034,
+    "condition": "",
+    "text": "but he seems to have completely lost touch with reality."
+  },
+  {
+    "id": 9035,
+    "condition": "",
+    "text": "I broke down the door with several of the men just in "
+  },
+  {
+    "id": 9036,
+    "condition": "",
+    "text": "time to watch him blow his head off. Right before he "
+  },
+  {
+    "id": 9037,
+    "condition": "",
+    "text": "pulled the trigger he said he was sorry."
+  },
+  {
+    "id": 9038,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9039,
+    "condition": "",
+    "text": "• Oct. 18 2077"
+  },
+  {
+    "id": 9040,
+    "condition": "",
+    "text": "By killing the egghead, I seem to have confirmed my "
+  },
+  {
+    "id": 9041,
+    "condition": "",
+    "text": "position as leader of the men. They follow me without "
+  },
+  {
+    "id": 9042,
+    "condition": "",
+    "text": "question now. The interrogations invariably end up being"
+  },
+  {
+    "id": 9043,
+    "condition": "",
+    "text": "executions. Shellman held out the longest, but the end "
+  },
+  {
+    "id": 9044,
+    "condition": "",
+    "text": "result was the same. Her arguments about orders were"
+  },
+  {
+    "id": 9045,
+    "condition": "",
+    "text": "a bit too specific to be completely made up. I'm getting"
+  },
+  {
+    "id": 9046,
+    "condition": "",
+    "text": "a real bad feeling in my gut about how this is all going"
+  },
+  {
+    "id": 9047,
+    "condition": "",
+    "text": "to end up. I don't even lie to myself anymore about my "
+  },
+  {
+    "id": 9048,
+    "condition": "",
+    "text": "reasons for executing the scientists."
+  },
+  {
+    "id": 9049,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9050,
+    "condition": "",
+    "text": "• Oct.20 2077"
+  },
+  {
+    "id": 9051,
+    "condition": "",
+    "text": "I finally replied to the outside world over our radio."
+  },
+  {
+    "id": 9052,
+    "condition": "",
+    "text": "I don't know why they never sent anyone here to see"
+  },
+  {
+    "id": 9053,
+    "condition": "",
+    "text": "what was happening when we stopped responding to their"
+  },
+  {
+    "id": 9054,
+    "condition": "",
+    "text": "transmissions. It doesn't make any sense. Well, they'll"
+  },
+  {
+    "id": 9055,
+    "condition": "",
+    "text": "come now. I declared ourselves seceded from the union."
+  },
+  {
+    "id": 9056,
+    "condition": "",
+    "text": "Jefferson Davis, eat your heart out."
+  },
+  {
+    "id": 9057,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9058,
+    "condition": "",
+    "text": "• Oct.22 2077"
+  },
+  {
+    "id": 9059,
+    "condition": "",
+    "text": "What the hell is going on? We declare ourselves to be in"
+  },
+  {
+    "id": 9060,
+    "condition": "",
+    "text": "full desertion from the army and no longer under the"
+  },
+  {
+    "id": 9061,
+    "condition": "",
+    "text": "Government's command and what happens? Nothing."
+  },
+  {
+    "id": 9062,
+    "condition": "",
+    "text": "Something bad is coming down."
+  },
+  {
+    "id": 9063,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9064,
+    "condition": "",
+    "text": "• Oct. 23 2077"
+  },
+  {
+    "id": 9065,
+    "condition": "",
+    "text": "I can't believe those bastards finally did it. Damn them"
+  },
+  {
+    "id": 9066,
+    "condition": "",
+    "text": "all to hell. They finally let the A-bombs fly. We were "
+  },
+  {
+    "id": 9067,
+    "condition": "",
+    "text": "right in the middle of trying to pry the real story out "
+  },
+  {
+    "id": 9068,
+    "condition": "",
+    "text": "of von Felden when we completely lost contact.  I have a "
+  },
+  {
+    "id": 9069,
+    "condition": "",
+    "text": "feeling the research center was hit hard. I don't know "
+  },
+  {
+    "id": 9070,
+    "condition": "",
+    "text": "why, just call it a gut feeling. It seems inconceivable "
+  },
+  {
+    "id": 9071,
+    "condition": "",
+    "text": "that we were not targeted. I'm sure China will make up "
+  },
+  {
+    "id": 9072,
+    "condition": "",
+    "text": "for that oversight real soon. Luckily, we had moved our "
+  },
+  {
+    "id": 9073,
+    "condition": "",
+    "text": "families from outside into the facility the day before "
+  },
+  {
+    "id": 9074,
+    "condition": "",
+    "text": "yesterday. We do not yet know if the fallout has reached "
+  },
+  {
+    "id": 9075,
+    "condition": "",
+    "text": "this area."
+  },
+  {
+    "id": 9076,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9077,
+    "condition": "",
+    "text": "• Oct. 25 2077"
+  },
+  {
+    "id": 9078,
+    "condition": "",
+    "text": "Sgt. Platner volunteered to go outside today to take "
+  },
+  {
+    "id": 9079,
+    "condition": "",
+    "text": "specific readings on the atmosphere. It seems the "
+  },
+  {
+    "id": 9080,
+    "condition": "",
+    "text": "radiation has not spread this far. Since he was wearing "
+  },
+  {
+    "id": 9081,
+    "condition": "",
+    "text": "his power armor, there was no threat to him from "
+  },
+  {
+    "id": 9082,
+    "condition": "",
+    "text": "radiation, but if he had been exposed he would have had "
+  },
+  {
+    "id": 9083,
+    "condition": "",
+    "text": "to be exiled. We don't have adequate decontamination "
+  },
+  {
+    "id": 9084,
+    "condition": "",
+    "text": "facilities here."
+  },
+  {
+    "id": 9085,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9086,
+    "condition": "",
+    "text": "• Oct. 26 2077"
+  },
+  {
+    "id": 9087,
+    "condition": "",
+    "text": "I convinced the men that we should bury the scientists. "
+  },
+  {
+    "id": 9088,
+    "condition": "",
+    "text": "I don't know why... perhaps it was to ease my conscience."
+  },
+  {
+    "id": 9089,
+    "condition": "",
+    "text": "I finally started to believe their stories when the last "
+  },
+  {
+    "id": 9090,
+    "condition": "",
+    "text": "one was dying.  "
+  },
+  {
+    "id": 9091,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9092,
+    "condition": "",
+    "text": "My God, what have I become? "
+  },
+  {
+    "id": 9093,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 9094,
+    "condition": "",
+    "text": "• Oct. 27 2077"
+  },
+  {
+    "id": 9095,
+    "condition": "",
+    "text": "We're leaving this godforsaken place today. I'm leading "
+  },
+  {
+    "id": 9096,
+    "condition": "",
+    "text": "the exodus to the old government bunker at Lost Hills. "
+  },
+  {
+    "id": 9097,
+    "condition": "",
+    "text": "I'm leaving this log behind to be buried when this place"
+  },
+  {
+    "id": 9098,
+    "condition": "",
+    "text": "goes in the next exchange. Who knows, maybe someone"
+  },
+  {
+    "id": 9099,
+    "condition": "",
+    "text": "will find it someday....."
+  },
+  {
+    "id": 9100,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 10000,
+    "condition": "",
+    "text": "The Exodus from the accursed base was a trying time for"
+  },
+  {
+    "id": 10001,
+    "condition": "",
+    "text": "the men and their families. While there was no "
+  },
+  {
+    "id": 10002,
+    "condition": "",
+    "text": "radioactive fallout to contend with, they were "
+  },
+  {
+    "id": 10003,
+    "condition": "",
+    "text": "frequently beset by the fallout of humanity. Roving "
+  },
+  {
+    "id": 10004,
+    "condition": "",
+    "text": "bands of psychotic marauders attempted several attacks "
+  },
+  {
+    "id": 10005,
+    "condition": "",
+    "text": "on that noble group. "
+  },
+  {
+    "id": 10006,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10007,
+    "condition": "",
+    "text": "The company itself was in no danger, for they wore the "
+  },
+  {
+    "id": 10008,
+    "condition": "",
+    "text": "Armor of Power. Members of their families were not so "
+  },
+  {
+    "id": 10009,
+    "condition": "",
+    "text": "lucky. Once the vermin found out they were easily "
+  },
+  {
+    "id": 10010,
+    "condition": "",
+    "text": "repelled, they began to fire on the unarmed civilians "
+  },
+  {
+    "id": 10011,
+    "condition": "",
+    "text": "from a distance. "
+  },
+  {
+    "id": 10012,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10013,
+    "condition": "",
+    "text": "They took a great many casualties, yet for every member"
+  },
+  {
+    "id": 10014,
+    "condition": "",
+    "text": "of the Exodus that was struck down in this way, our "
+  },
+  {
+    "id": 10015,
+    "condition": "",
+    "text": "noble brethren took two lives from the wasteland."
+  },
+  {
+    "id": 10016,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10017,
+    "condition": "",
+    "text": "Finally, the forefathers came to the safety of the "
+  },
+  {
+    "id": 10018,
+    "condition": "",
+    "text": "bunker. Capt. Maxson, the great deliverer, decreed this"
+  },
+  {
+    "id": 10019,
+    "condition": "",
+    "text": "to be our new home, and all was well."
+  },
+  {
+    "id": 10020,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10021,
+    "condition": "",
+    "text": "In the fullness of time the bunker became our home, our"
+  },
+  {
+    "id": 10022,
+    "condition": "",
+    "text": "temple and our salvation from the terrors of the outside"
+  },
+  {
+    "id": 10023,
+    "condition": "",
+    "text": "world. We began to build and shape our fortress into "
+  },
+  {
+    "id": 10024,
+    "condition": "",
+    "text": "something glorious, the beauty of which the "
+  },
+  {
+    "id": 10025,
+    "condition": "",
+    "text": "technologically bereft world had never seen before."
+  },
+  {
+    "id": 10026,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10027,
+    "condition": "",
+    "text": "Yet there were those who sought still more. These "
+  },
+  {
+    "id": 10028,
+    "condition": "",
+    "text": "restless souls demanded we look to the southeast for "
+  },
+  {
+    "id": 10029,
+    "condition": "",
+    "text": "the advanced technology that was supposedly housed "
+  },
+  {
+    "id": 10030,
+    "condition": "",
+    "text": "there."
+  },
+  {
+    "id": 10031,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10032,
+    "condition": "",
+    "text": "Capt. Maxson warned these impetuous youths that the"
+  },
+  {
+    "id": 10033,
+    "condition": "",
+    "text": "research facility was doubtlessly destroyed when we"
+  },
+  {
+    "id": 10034,
+    "condition": "",
+    "text": "were spared, but they would not hear his words. They"
+  },
+  {
+    "id": 10035,
+    "condition": "",
+    "text": "took their sanctified armor and headed off to find their"
+  },
+  {
+    "id": 10036,
+    "condition": "",
+    "text": "Holy Grail, but not before they spoke the Deliverer's"
+  },
+  {
+    "id": 10037,
+    "condition": "",
+    "text": "name in vain, questioning his very bravery!"
+  },
+  {
+    "id": 10038,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 10039,
+    "condition": "",
+    "text": "These men were never heard from again."
+  },
+  {
+    "id": 10040,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 11000,
+    "condition": "",
+    "text": "By my orders, as active commanding officer following"
+  },
+  {
+    "id": 11001,
+    "condition": "",
+    "text": "the untimely death of Colonel Robert Spindel during"
+  },
+  {
+    "id": 11002,
+    "condition": "",
+    "text": "this time of crisis, the full base security team has"
+  },
+  {
+    "id": 11003,
+    "condition": "",
+    "text": "been deployed to the security bunker at Lost Hill."
+  },
+  {
+    "id": 11004,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11005,
+    "condition": "",
+    "text": "This directive also includes the families of the"
+  },
+  {
+    "id": 11006,
+    "condition": "",
+    "text": "officers and enlisted men."
+  },
+  {
+    "id": 11007,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11008,
+    "condition": "",
+    "text": "Unless otherwise directed, from a proper "
+  },
+  {
+    "id": 11009,
+    "condition": "",
+    "text": "representative of the War Department, this order "
+  },
+  {
+    "id": 11010,
+    "condition": "",
+    "text": "will stand as written."
+  },
+  {
+    "id": 11011,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11012,
+    "condition": "",
+    "text": "Operative 1: All military personnel, and their "
+  },
+  {
+    "id": 11013,
+    "condition": "",
+    "text": "families, are to vacate the base by 0800, 25 Oct 2077."
+  },
+  {
+    "id": 11014,
+    "condition": "",
+    "text": "All personnel, travelling under command, will make "
+  },
+  {
+    "id": 11015,
+    "condition": "",
+    "text": "their way to Lost Hill base. No leave has been granted."
+  },
+  {
+    "id": 11016,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11017,
+    "condition": "",
+    "text": "Operative 2: All civilian personnel are directed to "
+  },
+  {
+    "id": 11018,
+    "condition": "",
+    "text": "remain at base, pending orders from their legal command"
+  },
+  {
+    "id": 11019,
+    "condition": "",
+    "text": "structure."
+  },
+  {
+    "id": 11020,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11021,
+    "condition": "",
+    "text": "Operative 3: Equipment deemed necessary to the survival"
+  },
+  {
+    "id": 11022,
+    "condition": "",
+    "text": "of base military personnel is to be immediately drawn "
+  },
+  {
+    "id": 11023,
+    "condition": "",
+    "text": "from stores. Proper authorization will follow, time "
+  },
+  {
+    "id": 11024,
+    "condition": "",
+    "text": "permitting."
+  },
+  {
+    "id": 11025,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11026,
+    "condition": "",
+    "text": "Operative 4: All codes of military justice will be "
+  },
+  {
+    "id": 11027,
+    "condition": "",
+    "text": "harsly enforced, on military personnel and civilian "
+  },
+  {
+    "id": 11028,
+    "condition": "",
+    "text": "personnel in joint military operations."
+  },
+  {
+    "id": 11029,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11030,
+    "condition": "",
+    "text": "Operative 5: Until such time as consistant and "
+  },
+  {
+    "id": 11031,
+    "condition": "",
+    "text": "authorized communication can be established with the "
+  },
+  {
+    "id": 11032,
+    "condition": "",
+    "text": "War Department, these orders will have precendence over"
+  },
+  {
+    "id": 11033,
+    "condition": "",
+    "text": "any previously established orders."
+  },
+  {
+    "id": 11034,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 11035,
+    "condition": "",
+    "text": "Captain Maxson"
+  },
+  {
+    "id": 11036,
+    "condition": "",
+    "text": "24 Oct 2077"
+  },
+  {
+    "id": 11037,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 12000,
+    "condition": "",
+    "text": "                                                    0000 - 0004"
+  },
+  {
+    "id": 12001,
+    "condition": "",
+    "text": "I'm dying. I need to get this down before the pain"
+  },
+  {
+    "id": 12002,
+    "condition": "",
+    "text": "overwhelms me."
+  },
+  {
+    "id": 12003,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12004,
+    "condition": "",
+    "text": "                                                    0005 - 0020"
+  },
+  {
+    "id": 12005,
+    "condition": "",
+    "text": "I can't believe that I was finally able to drag myself"
+  },
+  {
+    "id": 12006,
+    "condition": "",
+    "text": "out of that vat. The slime did not affect me, but I"
+  },
+  {
+    "id": 12007,
+    "condition": "",
+    "text": "nearly drowned. I don't know what happened to Harold-"
+  },
+  {
+    "id": 12008,
+    "condition": "",
+    "text": "he was standing right next to me when the crane"
+  },
+  {
+    "id": 12009,
+    "condition": "",
+    "text": "knocked me into the vat. He must have been killed or"
+  },
+  {
+    "id": 12010,
+    "condition": "",
+    "text": "he would have tried to help me. Francine is dead, killed"
+  },
+  {
+    "id": 12011,
+    "condition": "",
+    "text": "by one of those robots."
+  },
+  {
+    "id": 12012,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12013,
+    "condition": "",
+    "text": "                                                    0021 - 0027"
+  },
+  {
+    "id": 12014,
+    "condition": "",
+    "text": "I have no idea how much time has passed. I was able to"
+  },
+  {
+    "id": 12015,
+    "condition": "",
+    "text": "hack the computer to turn off the robots and record"
+  },
+  {
+    "id": 12016,
+    "condition": "",
+    "text": "this, but now my mind is slipping away."
+  },
+  {
+    "id": 12017,
+    "condition": "",
+    "text": "There is much pain..."
+  },
+  {
+    "id": 12018,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12019,
+    "condition": "",
+    "text": "                                                    0028 - 0043"
+  },
+  {
+    "id": 12020,
+    "condition": "",
+    "text": "The green slime that I was immersed in is the source"
+  },
+  {
+    "id": 12021,
+    "condition": "",
+    "text": "of all the mutations we traced to here. My skin is"
+  },
+  {
+    "id": 12022,
+    "condition": "",
+    "text": "to fester and peel. In other areas it is bubbling and"
+  },
+  {
+    "id": 12023,
+    "condition": "",
+    "text": "starting expelling a green mucus-like substance. Some"
+  },
+  {
+    "id": 12024,
+    "condition": "",
+    "text": "days the pain is almost tolerable."
+  },
+  {
+    "id": 12025,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12026,
+    "condition": "",
+    "text": "                                                    0044 - 0057"
+  },
+  {
+    "id": 12027,
+    "condition": "",
+    "text": "I can actually walk a few steps again... It seems"
+  },
+  {
+    "id": 12028,
+    "condition": "",
+    "text": "inconceivable that I dragged myself all the way up here"
+  },
+  {
+    "id": 12029,
+    "condition": "",
+    "text": "from the vat room. Strangely, I'm actually feeling"
+  },
+  {
+    "id": 12030,
+    "condition": "",
+    "text": "stronger, though I'm still in a lot of pain. Everything"
+  },
+  {
+    "id": 12031,
+    "condition": "",
+    "text": "seems to be getting smaller."
+  },
+  {
+    "id": 12032,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12033,
+    "condition": "",
+    "text": "                                                    0058 - 0096"
+  },
+  {
+    "id": 12034,
+    "condition": "",
+    "text": "I think I consumed one of the mutated things scurrying"
+  },
+  {
+    "id": 12035,
+    "condition": "",
+    "text": "around here today. Before I knew what was happening,"
+  },
+  {
+    "id": 12036,
+    "condition": "",
+    "text": "some sort of tendril had sprang from my stomach and"
+  },
+  {
+    "id": 12037,
+    "condition": "",
+    "text": "covered the poor creature. As soon as it had sucked"
+  },
+  {
+    "id": 12038,
+    "condition": "",
+    "text": "the rodent into my gut I could actually feel its mind."
+  },
+  {
+    "id": 12039,
+    "condition": "",
+    "text": "I think. There is the very real possibility that I'm"
+  },
+  {
+    "id": 12040,
+    "condition": "",
+    "text": "going slowly insane and can no longer differentiate"
+  },
+  {
+    "id": 12041,
+    "condition": "",
+    "text": "between what is real and what is a hallucination."
+  },
+  {
+    "id": 12042,
+    "condition": "",
+    "text": "Maybe I'm still slowly dying in the vat and I've"
+  },
+  {
+    "id": 12043,
+    "condition": "",
+    "text": "imagined all this."
+  },
+  {
+    "id": 12044,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12045,
+    "condition": "",
+    "text": "                                                    0097 - 0111"
+  },
+  {
+    "id": 12046,
+    "condition": "",
+    "text": "Things are becoming more clear to me every day."
+  },
+  {
+    "id": 12047,
+    "condition": "",
+    "text": "This toxin has actually improved my mind. I feel that"
+  },
+  {
+    "id": 12048,
+    "condition": "",
+    "text": "I can understand even the most complex philosophical"
+  },
+  {
+    "id": 12049,
+    "condition": "",
+    "text": "questions simply and directly. It's as if all the layers"
+  },
+  {
+    "id": 12050,
+    "condition": "",
+    "text": "of artifice have been stripped away. I wonder what"
+  },
+  {
+    "id": 12051,
+    "condition": "",
+    "text": "would happen if I submerged an animal in the vats for"
+  },
+  {
+    "id": 12052,
+    "condition": "",
+    "text": "a prolonged period of time? Would it gain awareness?"
+  },
+  {
+    "id": 12053,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12054,
+    "condition": "",
+    "text": "                                                    0112 - 0134"
+  },
+  {
+    "id": 12055,
+    "condition": "",
+    "text": "The strangest thing is happening to the animals."
+  },
+  {
+    "id": 12056,
+    "condition": "",
+    "text": "They actually become smarter and more aware of their"
+  },
+  {
+    "id": 12057,
+    "condition": "",
+    "text": "surroundings. I dipped a dog and a rat at the same"
+  },
+  {
+    "id": 12058,
+    "condition": "",
+    "text": "time today, and they were fused together. It's not"
+  },
+  {
+    "id": 12059,
+    "condition": "",
+    "text": "quite two creatures anymore, but it's more than one."
+  },
+  {
+    "id": 12060,
+    "condition": "",
+    "text": "Perhaps this is the future - a coming together of"
+  },
+  {
+    "id": 12061,
+    "condition": "",
+    "text": "different creatures in some sort of harmonious unity."
+  },
+  {
+    "id": 12062,
+    "condition": "",
+    "text": "I no longer consume the different animals I create"
+  },
+  {
+    "id": 12063,
+    "condition": "",
+    "text": "simply for sustenance - I have become the instrument"
+  },
+  {
+    "id": 12064,
+    "condition": "",
+    "text": "through which unity will be achieved. I am so much"
+  },
+  {
+    "id": 12065,
+    "condition": "",
+    "text": "more than a human being now."
+  },
+  {
+    "id": 12066,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12067,
+    "condition": "",
+    "text": "                                                    0135 - 0139"
+  },
+  {
+    "id": 12068,
+    "condition": "",
+    "text": "It is time to bring others into the glory that is the"
+  },
+  {
+    "id": 12069,
+    "condition": "",
+    "text": "Unity."
+  },
+  {
+    "id": 12070,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12071,
+    "condition": "",
+    "text": "                                                    0140 - 0153"
+  },
+  {
+    "id": 12072,
+    "condition": "",
+    "text": "A lost soul has finally strayed into my home. I was so"
+  },
+  {
+    "id": 12073,
+    "condition": "",
+    "text": "surprised I consumed him before dipping, a mistake I"
+  },
+  {
+    "id": 12074,
+    "condition": "",
+    "text": "shall not make again. His mind was so primitive as to"
+  },
+  {
+    "id": 12075,
+    "condition": "",
+    "text": "be repulsive to my refined cognitive abilities."
+  },
+  {
+    "id": 12076,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12077,
+    "condition": "",
+    "text": "                                                    0154 - 0172"
+  },
+  {
+    "id": 12078,
+    "condition": "",
+    "text": "I've begun to modify myself to be more pleasing to the"
+  },
+  {
+    "id": 12079,
+    "condition": "",
+    "text": "Unity by injecting small doses of the virus into my body."
+  },
+  {
+    "id": 12080,
+    "condition": "",
+    "text": "The slime in the vats is a man-made virus called the"
+  },
+  {
+    "id": 12081,
+    "condition": "",
+    "text": "Forced Evolutionary Virus. This information was acquired"
+  },
+  {
+    "id": 12082,
+    "condition": "",
+    "text": "from my newly grown neurolink with the base computer."
+  },
+  {
+    "id": 12083,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12084,
+    "condition": "",
+    "text": "                                                     0173 - 0198"
+  },
+  {
+    "id": 12085,
+    "condition": "",
+    "text": "The few wanderers that have found their way here have"
+  },
+  {
+    "id": 12086,
+    "condition": "",
+    "text": "been a disappointment to me. They can't seem to mutate"
+  },
+  {
+    "id": 12087,
+    "condition": "",
+    "text": "correctly. The best I've been able to create are some"
+  },
+  {
+    "id": 12088,
+    "condition": "",
+    "text": "big and dumb mutants. Most can recall nothing from"
+  },
+  {
+    "id": 12089,
+    "condition": "",
+    "text": "before I initiated them into the wondrous Unity. I only"
+  },
+  {
+    "id": 12090,
+    "condition": "",
+    "text": "feed on them for fuel, now. Their minds are nothing"
+  },
+  {
+    "id": 12091,
+    "condition": "",
+    "text": "to me."
+  },
+  {
+    "id": 12092,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12093,
+    "condition": "",
+    "text": "                                                     0199 - 0236"
+  },
+  {
+    "id": 12094,
+    "condition": "",
+    "text": "Oh glorious creator!! I have succeeded in spreading the"
+  },
+  {
+    "id": 12095,
+    "condition": "",
+    "text": "complete joy of unification to another soul! Unlike the"
+  },
+  {
+    "id": 12096,
+    "condition": "",
+    "text": "others, his total radiation count was low. I believe this"
+  },
+  {
+    "id": 12097,
+    "condition": "",
+    "text": "is the factor we have been overlooking all this time,"
+  },
+  {
+    "id": 12098,
+    "condition": "",
+    "text": "as it seems the conversion is more successful in the"
+  },
+  {
+    "id": 12099,
+    "condition": "",
+    "text": "cases with less radiation damage. I have never known"
+  },
+  {
+    "id": 12100,
+    "condition": "",
+    "text": "such glory as I felt when taking his mind into our own."
+  },
+  {
+    "id": 12101,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12102,
+    "condition": "",
+    "text": "                                                     0237 - 0281"
+  },
+  {
+    "id": 12103,
+    "condition": "",
+    "text": "We are beginning to create an army dedicated to"
+  },
+  {
+    "id": 12104,
+    "condition": "",
+    "text": "unifying the wonderful diversity of life. We have trained"
+  },
+  {
+    "id": 12105,
+    "condition": "",
+    "text": "them to continue our work here while we search out"
+  },
+  {
+    "id": 12106,
+    "condition": "",
+    "text": "more populated areas to take into ourselves. We are"
+  },
+  {
+    "id": 12107,
+    "condition": "",
+    "text": "beginning to feel the limitations of a body that is mobile."
+  },
+  {
+    "id": 12108,
+    "condition": "",
+    "text": "We must find a permanent home, with a greater store of"
+  },
+  {
+    "id": 12109,
+    "condition": "",
+    "text": "knowledge, and a steady supply of bio-mass."
+  },
+  {
+    "id": 12110,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 12111,
+    "condition": "",
+    "text": "                                                     0282 - 0303"
+  },
+  {
+    "id": 12112,
+    "condition": "",
+    "text": "We have stopped increasing ourself until we can find this"
+  },
+  {
+    "id": 12113,
+    "condition": "",
+    "text": "new unification center. When we have arrived we will"
+  },
+  {
+    "id": 12114,
+    "condition": "",
+    "text": "continue to grow and feed until we have brought peace"
+  },
+  {
+    "id": 12115,
+    "condition": "",
+    "text": "and unity to the entire world."
+  },
+  {
+    "id": 12116,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 13000,
+    "condition": "",
+    "text": "• Oct 10, 2077"
+  },
+  {
+    "id": 13001,
+    "condition": "",
+    "text": "I, Roger Maxson, Captain, serial number 072389 have"
+  },
+  {
+    "id": 13002,
+    "condition": "",
+    "text": "started this log because it doesn't look good for any"
+  },
+  {
+    "id": 13003,
+    "condition": "",
+    "text": "of us, and I'd like for people to know what really"
+  },
+  {
+    "id": 13004,
+    "condition": "",
+    "text": "happened here. All hell broke loose when we finally"
+  },
+  {
+    "id": 13005,
+    "condition": "",
+    "text": "discovered what those scientist bastards were up to."
+  },
+  {
+    "id": 13006,
+    "condition": "",
+    "text": "The Colonel has locked himself in his office and seems"
+  },
+  {
+    "id": 13007,
+    "condition": "",
+    "text": "to be having some sort of breakdown. The men are"
+  },
+  {
+    "id": 13008,
+    "condition": "",
+    "text": "screaming for blood. They're looking to me for answers,"
+  },
+  {
+    "id": 13009,
+    "condition": "",
+    "text": "and I'm not sure what to do. Someone has to do"
+  },
+  {
+    "id": 13010,
+    "condition": "",
+    "text": "something, though, before this place sinks into an"
+  },
+  {
+    "id": 13011,
+    "condition": "",
+    "text": "anarchistic bloodbath."
+  },
+  {
+    "id": 13012,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13013,
+    "condition": "",
+    "text": "• Oct. 12 2077"
+  },
+  {
+    "id": 13014,
+    "condition": "",
+    "text": "Every time we get a report from higher up things get"
+  },
+  {
+    "id": 13015,
+    "condition": "",
+    "text": "worse here. The war is going in a very bad direction"
+  },
+  {
+    "id": 13016,
+    "condition": "",
+    "text": "and this place is about to go into full mutiny, with all"
+  },
+  {
+    "id": 13017,
+    "condition": "",
+    "text": "the chaos that entails. I stopped one of the men from"
+  },
+  {
+    "id": 13018,
+    "condition": "",
+    "text": "executing a scientist today, and demanded that we"
+  },
+  {
+    "id": 13019,
+    "condition": "",
+    "text": "interrogate them to find out what their orders were."
+  },
+  {
+    "id": 13020,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13021,
+    "condition": "",
+    "text": "• Oct.13 2077"
+  },
+  {
+    "id": 13022,
+    "condition": "",
+    "text": "I killed a man today. I was interrogating  chief scientist"
+  },
+  {
+    "id": 13023,
+    "condition": "",
+    "text": "Anderson  and he was giving me the full details of their"
+  },
+  {
+    "id": 13024,
+    "condition": "",
+    "text": "inhuman experiments. He said his orders came from the"
+  },
+  {
+    "id": 13025,
+    "condition": "",
+    "text": "Gov't., but I didn't buy it. He started screaming about"
+  },
+  {
+    "id": 13026,
+    "condition": "",
+    "text": "how he was following orders, how he was a military man,"
+  },
+  {
+    "id": 13027,
+    "condition": "",
+    "text": "and I just shot him. I tell myself it was to keep him from"
+  },
+  {
+    "id": 13028,
+    "condition": "",
+    "text": "causing a full mutiny among the men, but I'm not so sure."
+  },
+  {
+    "id": 13029,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13030,
+    "condition": "",
+    "text": "• Oct.15 2077"
+  },
+  {
+    "id": 13031,
+    "condition": "",
+    "text": "I tried again to speak to the colonel through the door,"
+  },
+  {
+    "id": 13032,
+    "condition": "",
+    "text": "but he seems to have completely lost touch with reality."
+  },
+  {
+    "id": 13033,
+    "condition": "",
+    "text": "I broke down the door with several of the men just in"
+  },
+  {
+    "id": 13034,
+    "condition": "",
+    "text": "time to watch him blow his head off. Right before he"
+  },
+  {
+    "id": 13035,
+    "condition": "",
+    "text": "pulled the trigger he said he was sorry."
+  },
+  {
+    "id": 13036,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13037,
+    "condition": "",
+    "text": "• Oct. 18 2077"
+  },
+  {
+    "id": 13038,
+    "condition": "",
+    "text": "By killing the egghead, I seem to have confirmed my"
+  },
+  {
+    "id": 13039,
+    "condition": "",
+    "text": "position as leader of the men. They follow me without"
+  },
+  {
+    "id": 13040,
+    "condition": "",
+    "text": "question now. The interrogations invariably end up being"
+  },
+  {
+    "id": 13041,
+    "condition": "",
+    "text": "executions. Shellman held out the longest, but the end"
+  },
+  {
+    "id": 13042,
+    "condition": "",
+    "text": "result was the same.  Her arguments about her orders"
+  },
+  {
+    "id": 13043,
+    "condition": "",
+    "text": "were a bit to specific to be completely made up. I'm"
+  },
+  {
+    "id": 13044,
+    "condition": "",
+    "text": "getting a real bad feeling in my gut about how this is"
+  },
+  {
+    "id": 13045,
+    "condition": "",
+    "text": "all going to end up. I don't even lie to myself anymore"
+  },
+  {
+    "id": 13046,
+    "condition": "",
+    "text": "about my reasons for executing the scientists."
+  },
+  {
+    "id": 13047,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13048,
+    "condition": "",
+    "text": "• Oct.20 2077"
+  },
+  {
+    "id": 13049,
+    "condition": "",
+    "text": "I finally replied to the outside world over our radio."
+  },
+  {
+    "id": 13050,
+    "condition": "",
+    "text": "I don't know why they never sent anyone here to see"
+  },
+  {
+    "id": 13051,
+    "condition": "",
+    "text": "what was happening when we stopped responding to"
+  },
+  {
+    "id": 13052,
+    "condition": "",
+    "text": "their transmissions. It doesn't make any sense."
+  },
+  {
+    "id": 13053,
+    "condition": "",
+    "text": "Well, they'll come now. I declared ourselves seceeded"
+  },
+  {
+    "id": 13054,
+    "condition": "",
+    "text": "from the union. They remember Jefferson Davis. What"
+  },
+  {
+    "id": 13055,
+    "condition": "",
+    "text": "will history say about me?"
+  },
+  {
+    "id": 13056,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13057,
+    "condition": "",
+    "text": "• Oct.22 2077"
+  },
+  {
+    "id": 13058,
+    "condition": "",
+    "text": "What the hell is going on? We declare ourselves to be"
+  },
+  {
+    "id": 13059,
+    "condition": "",
+    "text": "in full desertion from the army and no longer under the"
+  },
+  {
+    "id": 13060,
+    "condition": "",
+    "text": "Government's command and what happens? Nothing."
+  },
+  {
+    "id": 13061,
+    "condition": "",
+    "text": "Something bad is coming down."
+  },
+  {
+    "id": 13062,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13063,
+    "condition": "",
+    "text": "• Oct. 23 2077"
+  },
+  {
+    "id": 13064,
+    "condition": "",
+    "text": "I can't believe those bastards finally did it. Damn them"
+  },
+  {
+    "id": 13065,
+    "condition": "",
+    "text": "all to hell. They finally let the A-Bombs fly. We were"
+  },
+  {
+    "id": 13066,
+    "condition": "",
+    "text": "right in the middle of trying to pry the real story out"
+  },
+  {
+    "id": 13067,
+    "condition": "",
+    "text": "of von Felden when we completely lost contact.  I have"
+  },
+  {
+    "id": 13068,
+    "condition": "",
+    "text": "a feeling the research center was hit hard. I don't know"
+  },
+  {
+    "id": 13069,
+    "condition": "",
+    "text": "why, just call it a gut feeling. It seems inconceivable"
+  },
+  {
+    "id": 13070,
+    "condition": "",
+    "text": "that we were not targeted. I'm sure China will make up"
+  },
+  {
+    "id": 13071,
+    "condition": "",
+    "text": "for that oversite real soon. Luckily, we had moved our"
+  },
+  {
+    "id": 13072,
+    "condition": "",
+    "text": "families from outside into the facility the day before"
+  },
+  {
+    "id": 13073,
+    "condition": "",
+    "text": "yesterday. We do not yet know if the fallout has"
+  },
+  {
+    "id": 13074,
+    "condition": "",
+    "text": "reached this area."
+  },
+  {
+    "id": 13075,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13076,
+    "condition": "",
+    "text": "• Oct. 25 2077"
+  },
+  {
+    "id": 13077,
+    "condition": "",
+    "text": "Sgt. Platner volunteered to go outside today to take"
+  },
+  {
+    "id": 13078,
+    "condition": "",
+    "text": "specific readings on the atmosphere. It seems the"
+  },
+  {
+    "id": 13079,
+    "condition": "",
+    "text": "radiation has not spread this far. Since he was wearing"
+  },
+  {
+    "id": 13080,
+    "condition": "",
+    "text": "his power armor, there was no threat to him from"
+  },
+  {
+    "id": 13081,
+    "condition": "",
+    "text": "radiation, but if he had been exposed he would have had"
+  },
+  {
+    "id": 13082,
+    "condition": "",
+    "text": "to be exiled. We don't have adequate decontamination"
+  },
+  {
+    "id": 13083,
+    "condition": "",
+    "text": "facilities here."
+  },
+  {
+    "id": 13084,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13085,
+    "condition": "",
+    "text": "• Oct. 26 2077"
+  },
+  {
+    "id": 13086,
+    "condition": "",
+    "text": "I convinced the men that we should bury the scientists."
+  },
+  {
+    "id": 13087,
+    "condition": "",
+    "text": "I don't know why... perhaps it was to ease my conscience."
+  },
+  {
+    "id": 13088,
+    "condition": "",
+    "text": "I finally started to believe their stories when the last"
+  },
+  {
+    "id": 13089,
+    "condition": "",
+    "text": "one was dying. My God, what have I become?"
+  },
+  {
+    "id": 13090,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 13091,
+    "condition": "",
+    "text": "• Oct. 27 2077"
+  },
+  {
+    "id": 13092,
+    "condition": "",
+    "text": "We're leaving this godforsaken place today. I'm leading"
+  },
+  {
+    "id": 13093,
+    "condition": "",
+    "text": "the exodus to the old government bunker at Lost Hills."
+  },
+  {
+    "id": 13094,
+    "condition": "",
+    "text": "I'm leaving this log behind to be buried when this place"
+  },
+  {
+    "id": 13095,
+    "condition": "",
+    "text": "goes in the next exchange. Who knows, maybe someone"
+  },
+  {
+    "id": 13096,
+    "condition": "",
+    "text": "will find it someday....."
+  },
+  {
+    "id": 13097,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 14000,
+    "condition": "",
+    "text": "FEV Summary Digest:"
+  },
+  {
+    "id": 14001,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 14002,
+    "condition": "",
+    "text": "2073. As China became increasingly aggressive with"
+  },
+  {
+    "id": 14003,
+    "condition": "",
+    "text": "their use of biological weapons, the United States"
+  },
+  {
+    "id": 14004,
+    "condition": "",
+    "text": "government felt that a countermeasure was needed. "
+  },
+  {
+    "id": 14005,
+    "condition": "",
+    "text": "The Pan-Immunity Virion Project (PVP) was officially"
+  },
+  {
+    "id": 14006,
+    "condition": "",
+    "text": "formed September 15, 2073. "
+  },
+  {
+    "id": 14007,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 14008,
+    "condition": "",
+    "text": "2075. It became clear that the best way to combat the"
+  },
+  {
+    "id": 14009,
+    "condition": "",
+    "text": "newly created biological weapons was to alter "
+  },
+  {
+    "id": 14010,
+    "condition": "",
+    "text": "uninfected DNA so that it was no longer susceptible "
+  },
+  {
+    "id": 14011,
+    "condition": "",
+    "text": "to standard viral infection."
+  },
+  {
+    "id": 14012,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 14013,
+    "condition": "",
+    "text": "2076. Unforseen side effects began surfacing in early"
+  },
+  {
+    "id": 14014,
+    "condition": "",
+    "text": "2076 with the PVP. Animal test subjects began showing"
+  },
+  {
+    "id": 14015,
+    "condition": "",
+    "text": "an abnormal growth rate accompanied by increased "
+  },
+  {
+    "id": 14016,
+    "condition": "",
+    "text": "brain activity. The U.S. government took notice of "
+  },
+  {
+    "id": 14017,
+    "condition": "",
+    "text": "these discoveries, and in the interests of national "
+  },
+  {
+    "id": 14018,
+    "condition": "",
+    "text": "security, moved a team on-site to secure and oversee "
+  },
+  {
+    "id": 14019,
+    "condition": "",
+    "text": "the project, which was now dubbed the FEV (Forced "
+  },
+  {
+    "id": 14020,
+    "condition": "",
+    "text": "Evolutionary Virus) project."
+  },
+  {
+    "id": 14021,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 14022,
+    "condition": "",
+    "text": "2077. FEV nears completion. Test on lab animals are at "
+  },
+  {
+    "id": 14023,
+    "condition": "",
+    "text": "a near 100% success rate. Size and muscle density "
+  },
+  {
+    "id": 14024,
+    "condition": "",
+    "text": "increase approximately 60%, and the protential "
+  },
+  {
+    "id": 14025,
+    "condition": "",
+    "text": "intelligence increase by 200%. Effects upon human "
+  },
+  {
+    "id": 14026,
+    "condition": "",
+    "text": "subjects remain unknown; although they are theoretically"
+  },
+  {
+    "id": 14027,
+    "condition": "",
+    "text": "promising. The military, wishing to continue further "
+  },
+  {
+    "id": 14028,
+    "condition": "",
+    "text": "testing, builds a large facility at the Mariposa "
+  },
+  {
+    "id": 14029,
+    "condition": "",
+    "text": "military installation in central California. At this "
+  },
+  {
+    "id": 14030,
+    "condition": "",
+    "text": "new facility, testing of the FEV virus continues on "
+  },
+  {
+    "id": 14031,
+    "condition": "",
+    "text": "volunteer subjects from the military."
+  },
+  {
+    "id": 14032,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 15000,
+    "condition": "",
+    "text": "The T-51b Powered Infantry Armor is designed with the"
+  },
+  {
+    "id": 15001,
+    "condition": "",
+    "text": "latest passive defense features for both civilian and"
+  },
+  {
+    "id": 15002,
+    "condition": "",
+    "text": "military disturbances. The back-mounted TX-28"
+  },
+  {
+    "id": 15003,
+    "condition": "",
+    "text": "MicroFusion Pack generates 60,000 Watts to power the"
+  },
+  {
+    "id": 15004,
+    "condition": "",
+    "text": "HiFlo hydraulic systems built into the frame of the suit."
+  },
+  {
+    "id": 15005,
+    "condition": "",
+    "text": "Made of the latest poly-laminate composite, the T-51b"
+  },
+  {
+    "id": 15006,
+    "condition": "",
+    "text": "shell is lightweight and capable of absorbing over 2500"
+  },
+  {
+    "id": 15007,
+    "condition": "",
+    "text": "Joules of kinetic impact. The 10 micron silver ablative"
+  },
+  {
+    "id": 15008,
+    "condition": "",
+    "text": "coating can reflect laser and radiation emissions without"
+  },
+  {
+    "id": 15009,
+    "condition": "",
+    "text": "damage to the composite subsurface."
+  },
+  {
+    "id": 15010,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 16000,
+    "condition": "",
+    "text": "Robert Anderson"
+  },
+  {
+    "id": 16001,
+    "condition": "",
+    "text": "Research Assistant"
+  },
+  {
+    "id": 16002,
+    "condition": "",
+    "text": "Security Clearance: Blue"
+  },
+  {
+    "id": 16003,
+    "condition": "",
+    "text": "Stationed: Mariposa Military Base"
+  },
+  {
+    "id": 16004,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16005,
+    "condition": "",
+    "text": "Nick Davis"
+  },
+  {
+    "id": 16006,
+    "condition": "",
+    "text": "Director of NBC Division of West Tech Research"
+  },
+  {
+    "id": 16007,
+    "condition": "",
+    "text": "Security Clearance: Blue"
+  },
+  {
+    "id": 16008,
+    "condition": "",
+    "text": "Stationed: West Tech Research Facility"
+  },
+  {
+    "id": 16009,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16010,
+    "condition": "",
+    "text": "John Isaac"
+  },
+  {
+    "id": 16011,
+    "condition": "",
+    "text": "Research Assistant"
+  },
+  {
+    "id": 16012,
+    "condition": "",
+    "text": "Security Clearance: Red"
+  },
+  {
+    "id": 16013,
+    "condition": "",
+    "text": "Stationed: West Tech Research Facility"
+  },
+  {
+    "id": 16014,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16015,
+    "condition": "",
+    "text": "Steve Remco"
+  },
+  {
+    "id": 16016,
+    "condition": "",
+    "text": "Research Assistant"
+  },
+  {
+    "id": 16017,
+    "condition": "",
+    "text": "Security Clearance: Blue"
+  },
+  {
+    "id": 16018,
+    "condition": "",
+    "text": "Stationed: Mariposa Military Base"
+  },
+  {
+    "id": 16019,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16020,
+    "condition": "",
+    "text": "Charles Rignhold"
+  },
+  {
+    "id": 16021,
+    "condition": "",
+    "text": "Research Head of Laser Development"
+  },
+  {
+    "id": 16022,
+    "condition": "",
+    "text": "Security Clearance: Blue"
+  },
+  {
+    "id": 16023,
+    "condition": "",
+    "text": "Stationed: West Tech Research Facility"
+  },
+  {
+    "id": 16024,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16025,
+    "condition": "",
+    "text": "Michele Santose"
+  },
+  {
+    "id": 16026,
+    "condition": "",
+    "text": "Lab Technician"
+  },
+  {
+    "id": 16027,
+    "condition": "",
+    "text": "Security Clearance: Red"
+  },
+  {
+    "id": 16028,
+    "condition": "",
+    "text": "Stationed: West Tech Research Facility"
+  },
+  {
+    "id": 16029,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16030,
+    "condition": "",
+    "text": "Erin Shellman"
+  },
+  {
+    "id": 16031,
+    "condition": "",
+    "text": "Lab Technician"
+  },
+  {
+    "id": 16032,
+    "condition": "",
+    "text": "Security Clearance: Blue"
+  },
+  {
+    "id": 16033,
+    "condition": "",
+    "text": "Stationed: Mariposa Military Base"
+  },
+  {
+    "id": 16034,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 16035,
+    "condition": "",
+    "text": "Leon VonFelden"
+  },
+  {
+    "id": 16036,
+    "condition": "",
+    "text": "Research Head of FEV"
+  },
+  {
+    "id": 16037,
+    "condition": "",
+    "text": "Security Clearance: Blue"
+  },
+  {
+    "id": 16038,
+    "condition": "",
+    "text": "Stationed: Mariposa Military Base"
+  },
+  {
+    "id": 16039,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 17000,
+    "condition": "",
+    "text": "Vault Locations v34.129 Revision C (Western USA)"
+  },
+  {
+    "id": 17001,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17002,
+    "condition": "",
+    "text": "Hello, and welcome to the latest edition of the Western"
+  },
+  {
+    "id": 17003,
+    "condition": "",
+    "text": "United States Vault Location Pamphlet.  We hope you"
+  },
+  {
+    "id": 17004,
+    "condition": "",
+    "text": "enjoy the pamphlet, and remember Vaults are not just"
+  },
+  {
+    "id": 17005,
+    "condition": "",
+    "text": "for the upwardly mobile, but for everyone."
+  },
+  {
+    "id": 17006,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17007,
+    "condition": "",
+    "text": "Vault 12"
+  },
+  {
+    "id": 17008,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17009,
+    "condition": "",
+    "text": "Under the sprawling metropolis of Bakersfield, lies the"
+  },
+  {
+    "id": 17010,
+    "condition": "",
+    "text": "technological magnificence of Vault 12.  Built with every"
+  },
+  {
+    "id": 17011,
+    "condition": "",
+    "text": "amenity in mind for the prospective Vault Dweller,"
+  },
+  {
+    "id": 17012,
+    "condition": "",
+    "text": "Vault 12 was given the \"Pressed Vault Suit\""
+  },
+  {
+    "id": 17013,
+    "condition": "",
+    "text": "award for attention to preparedness.  Buried far"
+  },
+  {
+    "id": 17014,
+    "condition": "",
+    "text": "underground, the protection that Vault Dwellers will"
+  },
+  {
+    "id": 17015,
+    "condition": "",
+    "text": "receive will be unprecedented.  Much like all other"
+  },
+  {
+    "id": 17016,
+    "condition": "",
+    "text": "Vaults, Vault 12 has been fitted with the newest in"
+  },
+  {
+    "id": 17017,
+    "condition": "",
+    "text": "Vault Water Purification Systems.  Able to take even"
+  },
+  {
+    "id": 17018,
+    "condition": "",
+    "text": "the waste located in the sewers of Bakersfield, this"
+  },
+  {
+    "id": 17019,
+    "condition": "",
+    "text": "system is able to deliver over 15,000 gallons of pure,"
+  },
+  {
+    "id": 17020,
+    "condition": "",
+    "text": "refreshing drinking water every day."
+  },
+  {
+    "id": 17021,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17022,
+    "condition": "",
+    "text": "Vault 13"
+  },
+  {
+    "id": 17023,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17024,
+    "condition": "",
+    "text": "Located in a scenic mountainous region northwest of"
+  },
+  {
+    "id": 17025,
+    "condition": "",
+    "text": "Vault 12, this Vault offers an endless supply of pure"
+  },
+  {
+    "id": 17026,
+    "condition": "",
+    "text": "water to the inhabitants.  The rumors that the water"
+  },
+  {
+    "id": 17027,
+    "condition": "",
+    "text": "table in the area could easily be contaminated in the"
+  },
+  {
+    "id": 17028,
+    "condition": "",
+    "text": "event of a Nuclear War have been found by the"
+  },
+  {
+    "id": 17029,
+    "condition": "",
+    "text": "Department of Water and Power to be completely"
+  },
+  {
+    "id": 17030,
+    "condition": "",
+    "text": "unfounded.  In the event that the water in the area"
+  },
+  {
+    "id": 17031,
+    "condition": "",
+    "text": "were to become tainted, remote even though it may be,"
+  },
+  {
+    "id": 17032,
+    "condition": "",
+    "text": "Vault 13 has been fitted with the government approved"
+  },
+  {
+    "id": 17033,
+    "condition": "",
+    "text": "Vault Water Purification System.  Rated to work without"
+  },
+  {
+    "id": 17034,
+    "condition": "",
+    "text": "significant loss of output for over 250,000 hours,"
+  },
+  {
+    "id": 17035,
+    "condition": "",
+    "text": "prospective Vault Dwellers should  have nothing to fear."
+  },
+  {
+    "id": 17036,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17037,
+    "condition": "",
+    "text": "Vault 15"
+  },
+  {
+    "id": 17038,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 17039,
+    "condition": "",
+    "text": "Due east from Vault 13, construction on this Vault has"
+  },
+  {
+    "id": 17040,
+    "condition": "",
+    "text": "gone extremely smoothly.  Much work was done to"
+  },
+  {
+    "id": 17041,
+    "condition": "",
+    "text": "reinforce the walls of the third level of this Vault, to"
+  },
+  {
+    "id": 17042,
+    "condition": "",
+    "text": "make all the future Vault Dwellers more secure in the"
+  },
+  {
+    "id": 17043,
+    "condition": "",
+    "text": "knowledge that in the event of even a major earthquake,"
+  },
+  {
+    "id": 17044,
+    "condition": "",
+    "text": "the regulatory computers of the Vault would continue"
+  },
+  {
+    "id": 17045,
+    "condition": "",
+    "text": "to function.  Recent tours of the newly constructed"
+  },
+  {
+    "id": 17046,
+    "condition": "",
+    "text": "Vault, have had many a potential Vault Dweller walking"
+  },
+  {
+    "id": 17047,
+    "condition": "",
+    "text": "away with a new found awe of the improvements done to"
+  },
+  {
+    "id": 17048,
+    "condition": "",
+    "text": "this already impressive Vault."
+  },
+  {
+    "id": 17049,
+    "condition": "",
+    "text": "**END-DISK**"
+  },
+  {
+    "id": 18000,
+    "condition": "",
+    "text": "Regulator's radio transmission log:"
+  },
+  {
+    "id": 18001,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18002,
+    "condition": "",
+    "text": "Message sent: Regulator patrol to Regulator base come"
+  },
+  {
+    "id": 18003,
+    "condition": "",
+    "text": "in. Do you copy? Over."
+  },
+  {
+    "id": 18004,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18005,
+    "condition": "",
+    "text": "Message received: This is Regulator base, Principle"
+  },
+  {
+    "id": 18006,
+    "condition": "",
+    "text": "Regulator Caleb responding. Report? Over."
+  },
+  {
+    "id": 18007,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18008,
+    "condition": "",
+    "text": "Message sent: Sir, yes sir! Regulator Second Class"
+  },
+  {
+    "id": 18009,
+    "condition": "",
+    "text": "Cravotta reporting. We've apprehended the Zimmerman"
+  },
+  {
+    "id": 18010,
+    "condition": "",
+    "text": "boy trying to infiltrate our perimeter again, sir."
+  },
+  {
+    "id": 18011,
+    "condition": "",
+    "text": "Orders? Over."
+  },
+  {
+    "id": 18012,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18013,
+    "condition": "",
+    "text": "Message received: Shit! Again! Well that's the last time"
+  },
+  {
+    "id": 18014,
+    "condition": "",
+    "text": "that's going to happen. Eliminate him and make it look"
+  },
+  {
+    "id": 18015,
+    "condition": "",
+    "text": "like the Blades did it."
+  },
+  {
+    "id": 18016,
+    "condition": "",
+    "text": "Understand? Over."
+  },
+  {
+    "id": 18017,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18018,
+    "condition": "",
+    "text": "Message sent: Sir? Uh... did I copy correctly, sir?"
+  },
+  {
+    "id": 18019,
+    "condition": "",
+    "text": "Kill him? Over."
+  },
+  {
+    "id": 18020,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18021,
+    "condition": "",
+    "text": "Message received: : That's affirmative, Regulator."
+  },
+  {
+    "id": 18022,
+    "condition": "",
+    "text": "And I want it messy. Impale him on the guard posts"
+  },
+  {
+    "id": 18023,
+    "condition": "",
+    "text": "out front- oh, and cut out his tongue so he "
+  },
+  {
+    "id": 18024,
+    "condition": "",
+    "text": "can't talk while we \"attempt\" to save his sorry ass."
+  },
+  {
+    "id": 18025,
+    "condition": "",
+    "text": "Over?"
+  },
+  {
+    "id": 18026,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18027,
+    "condition": "",
+    "text": "Message sent: It shall be done, sir, Over."
+  },
+  {
+    "id": 18028,
+    "condition": "",
+    "text": "**END-PAR**"
+  },
+  {
+    "id": 18029,
+    "condition": "",
+    "text": "End transmission."
+  },
+  {
+    "id": 18030,
+    "condition": "",
+    "text": "**END-DISK**"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "condition": "",
+    "text": "ST"
+  },
+  {
+    "id": 1,
+    "condition": "",
+    "text": "PE"
+  },
+  {
+    "id": 2,
+    "condition": "",
+    "text": "EN"
+  },
+  {
+    "id": 3,
+    "condition": "",
+    "text": "CH"
+  },
+  {
+    "id": 4,
+    "condition": "",
+    "text": "IN"
+  },
+  {
+    "id": 5,
+    "condition": "",
+    "text": "AG"
+  },
+  {
+    "id": 6,
+    "condition": "",
+    "text": "LK"
+  },
+  {
+    "id": 7,
+    "condition": "",
+    "text": "Hit Points"
+  },
+  {
+    "id": 8,
+    "condition": "",
+    "text": "Armor Class"
+  },
+  {
+    "id": 9,
+    "condition": "",
+    "text": "  Normal"
+  },
+  {
+    "id": 10,
+    "condition": "",
+    "text": "  Laser"
+  },
+  {
+    "id": 11,
+    "condition": "",
+    "text": "  Fire"
+  },
+  {
+    "id": 12,
+    "condition": "",
+    "text": "  Plasma"
+  },
+  {
+    "id": 13,
+    "condition": "",
+    "text": "  Explode"
+  },
+  {
+    "id": 14,
+    "condition": "",
+    "text": "No item"
+  },
+  {
+    "id": 15,
+    "condition": "",
+    "text": "Dmg:"
+  },
+  {
+    "id": 16,
+    "condition": "",
+    "text": "Rng:"
+  },
+  {
+    "id": 17,
+    "condition": "",
+    "text": "Ammo:"
+  },
+  {
+    "id": 18,
+    "condition": "",
+    "text": "(Not worn)"
+  },
+  {
+    "id": 19,
+    "condition": "",
+    "text": "You don't have enough action points to use inventory."
+  },
+  {
+    "id": 20,
+    "condition": "",
+    "text": "Total Wt:"
+  },
+  {
+    "id": 21,
+    "condition": "",
+    "text": "MOVE ITEMS"
+  },
+  {
+    "id": 22,
+    "condition": "",
+    "text": "ALL"
+  },
+  {
+    "id": 23,
+    "condition": "",
+    "text": "SET TIMER"
+  },
+  {
+    "id": 24,
+    "condition": "",
+    "text": "Unarmed dmg:"
+  },
+  {
+    "id": 25,
+    "condition": "",
+    "text": "You cannot pick that up. You are at your maximum weight capacity."
+  },
+  {
+    "id": 26,
+    "condition": "",
+    "text": "There is no space left for that item."
+  },
+  {
+    "id": 27,
+    "condition": "",
+    "text": "OK, that's a good trade."
+  },
+  {
+    "id": 28,
+    "condition": "",
+    "text": "No, your offer is not good enough."
+  },
+  {
+    "id": 29,
+    "condition": "",
+    "text": "You gain %d experience points for successfully using your Steal skill."
+  }
+]

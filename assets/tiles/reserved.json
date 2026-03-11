@@ -1,0 +1,39 @@
+{
+  "fps": 10,
+  "action_frame": 0,
+  "frames_per_dir": 1,
+  "num_directions": 1,
+  "cell_width": 85,
+  "cell_height": 76,
+  "sheet_width": 85,
+  "sheet_height": 76,
+  "dir_shift_x": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "dir_shift_y": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "frames": [
+    {
+      "direction": 0,
+      "dir_name": "north",
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "width": 85,
+      "height": 76,
+      "shift_x": 0,
+      "shift_y": 0
+    }
+  ]
+}

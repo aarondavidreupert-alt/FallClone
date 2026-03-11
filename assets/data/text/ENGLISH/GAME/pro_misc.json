@@ -1,0 +1,237 @@
+[
+  {
+    "id": 100,
+    "condition": "",
+    "text": "Rocket"
+  },
+  {
+    "id": 200,
+    "condition": "",
+    "text": "Plasma Ball"
+  },
+  {
+    "id": 300,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 400,
+    "condition": "",
+    "text": "Blood"
+  },
+  {
+    "id": 500,
+    "condition": "",
+    "text": "No-Trans hex"
+  },
+  {
+    "id": 501,
+    "condition": "",
+    "text": ""
+  },
+  {
+    "id": 600,
+    "condition": "",
+    "text": "knife"
+  },
+  {
+    "id": 700,
+    "condition": "",
+    "text": "spear"
+  },
+  {
+    "id": 800,
+    "condition": "",
+    "text": "EMP Explosion"
+  },
+  {
+    "id": 900,
+    "condition": "",
+    "text": "Laser Blast"
+  },
+  {
+    "id": 1000,
+    "condition": "",
+    "text": "Plasma Blast"
+  },
+  {
+    "id": 1100,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 1200,
+    "condition": "",
+    "text": "Scroll Blocker"
+  },
+  {
+    "id": 1300,
+    "condition": "",
+    "text": "Electricity Bolt"
+  },
+  {
+    "id": 1400,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 1500,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 1600,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 1700,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 1800,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 1900,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 2000,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 2100,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 2200,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 2300,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 2400,
+    "condition": "",
+    "text": "Flare"
+  },
+  {
+    "id": 2500,
+    "condition": "",
+    "text": "Grenade"
+  },
+  {
+    "id": 2600,
+    "condition": "",
+    "text": "Rock"
+  },
+  {
+    "id": 2700,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 2800,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 2900,
+    "condition": "",
+    "text": "Explosion"
+  },
+  {
+    "id": 3000,
+    "condition": "",
+    "text": "Molotov Cocktail"
+  },
+  {
+    "id": 3100,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3200,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3300,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3400,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3500,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3600,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3700,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3800,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 3900,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4000,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4100,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4200,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4300,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4400,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4500,
+    "condition": "",
+    "text": "Exit Grid"
+  },
+  {
+    "id": 4600,
+    "condition": "",
+    "text": "Exit Grid"
+  }
+]

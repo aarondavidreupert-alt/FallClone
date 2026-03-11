@@ -10,7 +10,7 @@ Fallout 1. This script extracts everything the web engine needs for Phases 2-5:
   - Map metadata (player start, map ID, dimensions)
 
 MAP format reference (all values big-endian)
------------------------------------------------
+----
 Header (188 bytes):
   int32    version          19 for Fallout 1
   char[16] map_name         null-padded ASCII filename (no extension)
@@ -53,7 +53,7 @@ Objects section (after scripts):
       [object_header — see parse_object()]
 
 Usage
------
+----
   python map_to_json.py raw_assets/maps/V13ENT.MAP  assets/maps/v13ent.json
   python map_to_json.py raw_assets/maps/            assets/maps/
 """
@@ -66,7 +66,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 
-# ── Constants ─────────────────────────────────────────────────────────────────
+# ── Constants ────
 
 MAP_WIDTH  = 100
 MAP_HEIGHT = 100
@@ -89,7 +89,7 @@ PROTO_TYPE = {0: "item", 1: "critter", 2: "scenery", 3: "wall", 4: "tile", 5: "m
 SCRIPT_TYPE = {0: "none", 1: "spatial", 2: "time", 3: "item", 4: "critter"}
 
 
-# ── Header parsing ────────────────────────────────────────────────────────────
+# ── Header parsing ────
 
 def parse_header(data: bytes) -> Tuple[dict, int]:
     """
@@ -131,7 +131,7 @@ def parse_header(data: bytes) -> Tuple[dict, int]:
     return hdr, _HDR_SIZE
 
 
-# ── Variable sections ─────────────────────────────────────────────────────────
+# ── Variable sections ────
 
 def parse_variables(data: bytes, offset: int, count: int) -> Tuple[List[int], int]:
     """Read count int32 values and return (list, new_offset)."""
@@ -142,7 +142,7 @@ def parse_variables(data: bytes, offset: int, count: int) -> Tuple[List[int], in
     return values, offset + size
 
 
-# ── Tile data ─────────────────────────────────────────────────────────────────
+# ── Tile data ────
 
 def parse_tiles(data: bytes, offset: int) -> Tuple[List[dict], int]:
     """
@@ -162,31 +162,42 @@ def parse_tiles(data: bytes, offset: int) -> Tuple[List[dict], int]:
     """
     total_tiles = NUM_ELEVATIONS * MAP_TILES
     size = total_tiles * 4
-    if offset + size > len(data):
-        raise ValueError(
-            f"File truncated in tile data at offset {offset}: "
-            f"need {size} bytes, have {len(data) - offset}"
+    available = len(data) - offset
+    truncated = False
+
+    if available < size:
+        # Pad with zeros so we can still parse whatever tiles exist
+        truncated = True
+        tile_bytes = data[offset:] + b"\x00" * (size - available)
+        print(
+            f"  WARN tile data truncated at offset {offset}: "
+            f"need {size} bytes, have {available} — padding with zeros",
+            file=sys.stderr,
         )
+    else:
+        tile_bytes = data[offset : offset + size]
 
     elevations: List[dict] = []
+    tile_offset = 0
     for elev in range(NUM_ELEVATIONS):
         tiles: List[dict] = []
         for i in range(MAP_TILES):
-            raw = struct.unpack_from(">I", data, offset)[0]
-            offset += 4
-            floor_id = raw & 0xFFFF
-            roof_id  = (raw >> 16) & 0xFFFF
+            raw = struct.unpack_from(">I", tile_bytes, tile_offset)[0]
+            tile_offset += 4
+            floor_id = (raw & 0xFFFF) & 0x0FFF
+            roof_id  = ((raw >> 16) & 0xFFFF) & 0x0FFF
             tiles.append({"floor": floor_id, "roof": roof_id})
         elevations.append({
-            "width":  MAP_WIDTH,
-            "height": MAP_HEIGHT,
-            "tiles":  tiles,
+            "width":     MAP_WIDTH,
+            "height":    MAP_HEIGHT,
+            "truncated": truncated,
+            "tiles":     tiles,
         })
 
-    return elevations, offset
+    return elevations, offset + size
 
 
-# ── Scripts section ───────────────────────────────────────────────────────────
+# ── Scripts section ────
 
 # Script instance record sizes vary by type.  Each record starts with a
 # common 4-word (16-byte) prefix; extra words follow depending on type.
@@ -246,7 +257,7 @@ def parse_scripts(data: bytes, offset: int) -> Tuple[List[dict], int]:
     return scripts, offset
 
 
-# ── Objects section ───────────────────────────────────────────────────────────
+# ── Objects section ────
 
 # Common object header (72 bytes = 18 × int32, all big-endian)
 _OBJ_HDR_FMT  = ">18i"
@@ -260,7 +271,7 @@ def _decode_fid(fid: int) -> dict:
         "type":      (fid >> 24) & 0xFF,         # object type category
         "direction": (fid >> 16) & 0x0F,         # animation direction set
         "frame_num": (fid >> 12) & 0x0F,         # (legacy/unused)
-        "art_idx":   fid & 0x00000FFF,            # index into the art directory
+        "art_idx":   fid & 0x0000FFF,            # index into the art directory
     }
 
 
@@ -270,7 +281,7 @@ def _decode_proto_id(pid: int) -> dict:
     return {
         "raw":   pid,
         "type":  PROTO_TYPE.get(ptype, str(ptype)),
-        "index": pid & 0x00FFFFFF,
+        "index": pid & 0x00FFFF,
     }
 
 
@@ -373,7 +384,7 @@ def parse_objects(data: bytes, offset: int) -> Tuple[List[dict], int]:
     return all_objects, offset
 
 
-# ── Main converter ────────────────────────────────────────────────────────────
+# ── Main converter ────
 
 def convert_map(map_path: Path, out_path: Path) -> bool:
     """Convert a single .MAP file to JSON. Returns True on success."""
@@ -422,10 +433,11 @@ def convert_map(map_path: Path, out_path: Path) -> bool:
             sum(1 for t in e["tiles"] if t["floor"] or t["roof"])
             for e in elevations
         )
+        trunc_flag = " [TRUNCATED]" if any(e.get("truncated") for e in elevations) else ""
         print(
             f"  OK   {map_path.name:<20} "
             f"objects={len(objects)} scripts={len(scripts)} "
-            f"non-empty-tiles={tile_count}"
+            f"non-empty-tiles={tile_count}{trunc_flag}"
         )
         return True
 
@@ -434,7 +446,7 @@ def convert_map(map_path: Path, out_path: Path) -> bool:
         return False
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
+# ── CLI ────
 
 def main() -> None:
     ap = argparse.ArgumentParser(
