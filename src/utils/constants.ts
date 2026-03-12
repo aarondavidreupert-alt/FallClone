@@ -12,8 +12,8 @@ export const HALF_H  = 18;   // TILE_H / 2  — used for iso Y projection
 export const WALL_H  = 36;   // height of the wall front-face in pixels
 
 // ── Map dimensions ────────────────────────────────────────────────────────────
-export const MAP_W      = 50;   // tile columns per level
-export const MAP_H      = 50;   // tile rows per level
+export const MAP_W      = 100;  // tile columns per level (Fallout standard 100×100)
+export const MAP_H      = 100;  // tile rows per level
 export const NUM_LEVELS = 3;
 
 // ── Tile type IDs — floor layer ───────────────────────────────────────────────
