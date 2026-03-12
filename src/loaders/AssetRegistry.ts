@@ -78,6 +78,9 @@ export async function loadLstTables(): Promise<LstData> {
     `tiles:${tiles.length} critters:${critters.length} ` +
     `items:${items.length} scenery:${scenery.length} walls:${walls.length}`,
   );
+  // Raw structure diagnostic: log first 5 entries of each list
+  console.log('[AssetRegistry] tiles[0..4]:', JSON.stringify(tiles.slice(0, 5)));
+  console.log('[AssetRegistry] critters[0..4]:', JSON.stringify(critters.slice(0, 5)));
   return { tiles, critters, items, scenery, walls };
 }
 

@@ -133,14 +133,19 @@ export class PreloadScene extends Phaser.Scene {
    * using `tile_idx_<rawId>` so the index matches the MAP value directly.
    */
   private _loadTilesFromLst(lst: LstData): void {
+    let queued = 0;
+    console.log(
+      `[PreloadScene] LST has ${lst.tiles.length} tile entries; ` +
+      `first 5: ${JSON.stringify(lst.tiles.slice(0, 5))}`,
+    );
     for (let i = 0; i < lst.tiles.length; i++) {
-      this.load.image(`tile_idx_${i}`, `/assets/tiles/${lst.tiles[i]}.png`);
+      const stem = lst.tiles[i];
+      if (!stem) continue;   // skip index 0 (empty) and any reserved/blank entries
+      this.load.image(`tile_idx_${i}`, `/assets/tiles/${stem}.png`);
+      queued++;
     }
-    if (lst.tiles.length > 0) {
-      console.log(
-        `[PreloadScene] Queuing ${lst.tiles.length} tiles from LST ` +
-        `(tile_idx_0 … tile_idx_${lst.tiles.length - 1})`,
-      );
+    if (queued > 0) {
+      console.log(`[PreloadScene] Queued ${queued} tile textures (tile_idx_<N>)`);
     }
   }
 

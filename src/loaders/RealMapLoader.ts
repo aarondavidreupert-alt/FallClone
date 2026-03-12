@@ -119,6 +119,18 @@ const BLOCKING_PROTO_TYPES = new Set(['wall', 'scenery']);
 export function convertMapJson(json: MapJson | null | undefined): VaultMapData | null {
   if (!json?.elevations?.length) return null;
 
+  // ── Raw structure diagnostic (elevation 0) ─────────────────────────────────
+  {
+    const elev0 = json.elevations[0];
+    const sample = elev0?.tiles?.slice(0, 5) ?? [];
+    console.log(
+      `[RealMapLoader] Raw JSON — map_name:"${json.header?.map_name}" ` +
+      `elevations:${json.elevations.length} ` +
+      `elev0: width=${elev0?.width} height=${elev0?.height} tiles=${elev0?.tiles?.length}`,
+    );
+    console.log('[RealMapLoader] elev0.tiles[0..4]:', JSON.stringify(sample));
+  }
+
   const levelNames = [
     `${json.header.map_name} — Entrance`,
     `${json.header.map_name} — Level 2`,
@@ -155,13 +167,18 @@ export function convertMapJson(json: MapJson | null | undefined): VaultMapData |
       if (t.roof  > 0) roof[row][col] = ROOF_STD;
     }
 
-    // Debug: log the first 20 unique floor tile IDs so we can verify mapping
+    // Debug: log unique floor tile IDs so we can verify texture-key mapping
     if (elevIdx === 0) {
       const seen = new Set<number>();
       for (const t of tiles) { if (t.floor > 0) seen.add(t.floor); }
       const first20 = [...seen].slice(0, 20);
+      const nonZero = tiles.filter(t => t.floor > 0).length;
+      console.log(
+        `[RealMapLoader] elev0 — ${nonZero}/${tiles.length} tiles have floor>0; ` +
+        `${seen.size} unique IDs`,
+      );
       console.log('[RealMapLoader] First 20 unique floor tile IDs:', first20);
-      console.log('[RealMapLoader] These map to texture key tile_idx_<id> (0-indexed)');
+      console.log('[RealMapLoader] → texture keys: tile_idx_<id>, e.g. tile_idx_70');
     }
 
     // ── Fill collision from objects ────────────────────────────────────────
