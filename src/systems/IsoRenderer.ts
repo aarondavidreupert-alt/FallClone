@@ -6,9 +6,9 @@
  * Grid  (col, row) : tile address, col = right-diagonal, row = left-diagonal
  * World (x, y)     : Phaser world-space pixels (Y grows downward)
  *
- * Projection (matches Fallout 1's ~2.2:1 isometric ratio):
- *   worldX = (col - row) * HALF_W          HALF_W = 40
- *   worldY = (col + row) * HALF_H          HALF_H = 18
+ * Projection (DarkFO-proven Fallout 1 formula):
+ *   worldX = (col - row) * (TILE_W / 2)    step = 40px
+ *   worldY = (col + row) * (TILE_H / 4)    step =  9px  (tiles are ~4:1 wide:tall)
  *
  * Tile sprites use setOrigin(0.5, 0), so the sprite anchor sits at the TOP
  * vertex of the isometric diamond.  All world positions returned here refer
@@ -30,19 +30,26 @@ import {
 
 // ── Forward / inverse projection ──────────────────────────────────────────────
 
+// Projection step constants (derived from tile dimensions)
+// X step = TILE_W / 2 = 40,  Y step = TILE_H / 4 = 9
+const PROJ_X = TILE_W / 2;   // 40
+const PROJ_Y = TILE_H / 4;   //  9
+
 /** Tile grid → world pixel position (top vertex of the iso diamond). */
 export function tileToWorld(col: number, row: number): { x: number; y: number } {
   return {
-    x: (col - row) * HALF_W,
-    y: (col + row) * HALF_H,
+    x: (col - row) * PROJ_X,
+    y: (col + row) * PROJ_Y,
   };
 }
 
 /** World pixel → nearest tile grid position. */
 export function worldToTile(wx: number, wy: number): { col: number; row: number } {
-  // Inverse of the projection matrix
-  const col = Math.round((wx / HALF_W + wy / HALF_H) / 2);
-  const row = Math.round((wy / HALF_H - wx / HALF_W) / 2);
+  // Inverse of: x = (col-row)*PROJ_X,  y = (col+row)*PROJ_Y
+  // col = (wx/PROJ_X + wy/PROJ_Y) / 2
+  // row = (wy/PROJ_Y - wx/PROJ_X) / 2
+  const col = Math.round((wx / PROJ_X + wy / PROJ_Y) / 2);
+  const row = Math.round((wy / PROJ_Y - wx / PROJ_X) / 2);
   return { col, row };
 }
 
@@ -80,13 +87,13 @@ export function mapWorldBounds(mapW = MAP_W, mapH = MAP_H): {
   x: number; y: number; width: number; height: number;
 } {
   // Leftmost point: tile (0, mapH-1)
-  const leftX   = (0 - (mapH - 1)) * HALF_W - HALF_W;
+  const leftX   = (0 - (mapH - 1)) * PROJ_X - PROJ_X;
   // Rightmost point: tile (mapW-1, 0)
-  const rightX  = (mapW - 1) * HALF_W + HALF_W;
+  const rightX  = (mapW - 1) * PROJ_X + PROJ_X;
   // Topmost point: tile (0, 0)
-  const topY    = -HALF_H;
+  const topY    = -PROJ_Y;
   // Bottommost point: tile (mapW-1, mapH-1) + tile height + wall height
-  const bottomY = (mapW - 1 + mapH - 1) * HALF_H + TILE_H + WALL_H;
+  const bottomY = (mapW - 1 + mapH - 1) * PROJ_Y + TILE_H + WALL_H;
 
   const pad = 64;
   return {

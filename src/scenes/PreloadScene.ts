@@ -172,6 +172,17 @@ export class PreloadScene extends Phaser.Scene {
       this._genCircleSprite(TX_NPC, 0x2a5080, 0x163050, 0x66aadd);
     }
 
+    // Log actual PNG pixel size of loaded tile textures so we can verify dimensions
+    const tileKeysLoaded = ['tile_idx_0', 'tile_idx_1', 'tile_idx_2'].filter(k => this.textures.exists(k));
+    if (tileKeysLoaded.length > 0) {
+      for (const key of tileKeysLoaded) {
+        const src = this.textures.get(key).getSourceImage() as HTMLImageElement;
+        console.log(`[PreloadScene] PNG size check — ${key}: ${src.naturalWidth}×${src.naturalHeight}px`);
+      }
+    } else {
+      console.log('[PreloadScene] PNG size check — no real tile PNGs loaded (procedural placeholders active)');
+    }
+
     // Map data — real V13ENT map (elevation 0 = entrance), or procedural vault
     const realMap = tryLoadRealMap(PreloadScene.MAP_CACHE_KEY, this.cache.json);
     const map = realMap ?? buildVaultMap();
